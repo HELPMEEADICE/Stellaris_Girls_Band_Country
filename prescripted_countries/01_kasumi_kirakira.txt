@@ -1,0 +1,69 @@
+kasumi = {
+	name = "EMPIRE_DESIGN_ksm1"
+	adjective = "PRESCRIPTED_adjective_humans1"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_ksm1"
+
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "PRESCRIPTED_species_name_humans1"
+		plural = "PRESCRIPTED_species_plural_humans1"
+		adjective = "PRESCRIPTED_species_adjective_humans1"
+		name_list = "HUMAN1"
+		trait = "trait_adaptive"
+		trait = "trait_nomadic"
+		trait = "trait_wasteful"
+	}
+
+	room = "personality_federation_builders_room"
+
+	authority = "auth_democratic"
+	civics = { "civic_beacon_of_liberty" "civic_idealistic_foundation" }
+	government = gov_federal_democracy
+
+	ethic = "ethic_materialist"
+	ethic = "ethic_fanatic_egalitarian"
+
+	origin = "origin_default"
+
+	flag = empire_human_1
+
+	planet_name = "NAME_Earth"
+	planet_class = "pc_continental"
+	initializer = "sol_system_initializer"
+	system_name = "NAME_Sol"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon= {
+			category = "human"
+			file = "flag_kasumi.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"pink"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_ksm1"
+		gender = female
+		portrait = "ksm_leader_popipa_portrait"
+		texture = 0
+		attachment = 1
+		clothes = 0
+		trait = "leader_trait_star_beat"
+		leader_class = official
+	}
+}

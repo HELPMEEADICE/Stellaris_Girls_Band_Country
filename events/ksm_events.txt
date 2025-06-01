@@ -1,0 +1,162 @@
+namespace = ksm
+
+country_event = {
+	id = ksm.0
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+	immediate = {
+		set_country_flag = ruled_by_ksm
+	}
+	after = {
+		hidden_effect = {
+			kill_leader = { type = ruler }
+			create_species = {
+				name = "BanGDream_Human"
+				class = HUM
+				portrait = "human"
+				gender = female
+				immortal = yes
+				effect = {
+					save_event_target_as = bangdream_species
+				}
+			}
+			create_leader = {
+				species = event_target:bangdream_species
+				class = official
+				background_job = executive
+				name = PRESCRIPTED_ruler_name_ksm1
+				custom_description = EMPIRE_DESIGN_ksm1_desc
+				immortal = yes
+				set_age = 18
+				hide_age = yes
+				gender = female
+				skill = 10
+				traits = {
+					trait = leader_trait_star_beat
+				}
+				event_leader = yes
+				effect = {
+					set_leader_flag = ruler_ksm
+					set_leader_flag = legendary_leader
+				}
+			}
+			last_created_leader = {
+				change_leader_portrait = "ksm_leader_popipa_portrait"
+				set_age = 17
+				change_background_job = executive
+			}
+			set_leader = last_created_leader
+			#ars
+			create_leader = {
+				species = event_target:bangdream_species
+				class = official
+				background_job = executive
+				name = PRESCRIPTED_ruler_name_arisa1
+				custom_description = PRESCRIPTED_ruler_name_arisa1_desc
+				immortal = yes
+				set_age = 18
+				hide_age = yes
+				gender = female
+				skill = 10
+				traits = {
+					trait = leader_trait_star_beat
+				}
+				event_leader = yes
+				effect = {
+					change_leader_portrait = arisa_leader_popipa_portrait
+				}
+			}
+			#saaya
+			create_leader = {
+				species = event_target:bangdream_species
+				class = official
+				background_job = executive
+				name = PRESCRIPTED_ruler_name_saaya1
+				custom_description = PRESCRIPTED_ruler_name_saaya1_desc
+				immortal = yes
+				set_age = 18
+				hide_age = yes
+				gender = female
+				skill = 10
+				traits = {
+					trait = leader_trait_star_beat
+				}
+				event_leader = yes
+				effect = {
+					change_leader_portrait = saaya_leader_popipa_portrait
+				}
+			}
+			#tae
+			create_leader = {
+				species = event_target:bangdream_species
+				class = commander
+				background_job = executive
+				name = PRESCRIPTED_ruler_name_tae1
+				custom_description = PRESCRIPTED_ruler_name_tae1_desc
+				immortal = yes
+				set_age = 18
+				hide_age = yes
+				gender = female
+				skill = 10
+				traits = {
+					trait = leader_trait_star_beat
+				}
+				event_leader = yes
+				effect = {
+					change_leader_portrait = tae_leader_popipa_portrait
+				}
+			}
+			#rimi
+			create_leader = {
+				species = event_target:bangdream_species
+				class = scientist
+				background_job = executive
+				name = PRESCRIPTED_ruler_name_rimi1
+				custom_description = PRESCRIPTED_ruler_name_rimi1_desc
+				immortal = yes
+				set_age = 18
+				hide_age = yes
+				gender = female
+				skill = 10
+				traits = {
+					trait = leader_trait_star_beat
+				}
+				event_leader = yes
+				effect = {
+					change_leader_portrait = rimi_leader_popipa_portrait
+				}
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = ksm.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+	}
+	immediate = {
+		every_owned_leader = {
+            # THIS 在这里指向当前遍历到的领导人
+            
+            # 添加限制条件：只有当领导人没有 "legendary_leader" 标记时才执行后续操作
+            limit = {
+                NOT = {
+                    has_leader_flag = legendary_leader
+                }
+                # 你也可以在这里添加其他排除条件，例如：
+                NOT = { is_ruler = yes } # 不杀死国家元首
+            }
+            
+            # 如果满足 limit 条件 (即没有 legendary_leader 标记)
+            kill_leader = THIS # 杀死当前领导人
+            # log = "[Root.GetName] is killing non-legendary leader: [This.GetName]" # 调试日志
+        }
+	}
+}

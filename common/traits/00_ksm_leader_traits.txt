@@ -1,0 +1,61 @@
+leader_trait_star_beat = {
+	cost = 0
+    icon = "gfx/interface/icons/traits/kirakira.dds"
+    initial = no	#能否在初始界面被选择
+	randomized = no	#是否可以随机生成该特质
+	leader_class = { commander scientist official }
+    modifier = {
+        empire_unity_produces_mult = 2.0                # +200% 凝聚力
+		planet_stability_add = 50                       # 所有星球稳定度 +50
+		country_resource_max_stockpile_mult = 5.0       # 资源上限 +500%
+		country_unity_produces_mult = 2.0               # 凝聚力产出 +200%
+		country_naval_cap_mult = 1.0                    # 海军容量 +100%
+        happiness = 0.5                                 # +50% 幸福度
+        planet_jobs_produces_mult = 1.0                 # +100% 岗位产出
+        planet_amenities_mult = 1.0                     # +100% 舒适度
+        army_morale = 1.0                               # +100% 军队士气
+        ship_fire_rate_mult = 1.0                       # +100% 舰船射速
+        edict_fund_add = 1000                           # +1000 法令资金
+        monthly_loyalty_gain = 5                        # +5 每月忠诚度（对附庸制帝国有效）
+        country_research_produces_mult = 2.0            # +200% 研究产出
+        country_pop_growth_speed_mult = 1.0             # +100% 人口增长速度
+        country_starbase_capacity_mult = 1.0            # +100% 星区容量
+        country_trade_value_mult = 1.0                  # +100% 贸易值
+        country_megastructure_build_speed_mult = 1.0    # +100% 巨构建造速度
+        country_ship_upkeep_mult = -0.5                 # -50% 舰船维护费
+        country_building_cost_mult = -0.5               # -50% 建筑花费
+        country_starbase_upkeep_mult = -0.5             # -50% 星区维护费
+    }
+
+	self_modifier = {	#对领袖自身生效的修正。（注意！领袖类型不同可用的修正也不同，比如这里的指挥官就无法添加科研点数+3、凝聚力+3等，可选效果请查阅特质文件。）
+		species_leader_exp_gain = 5.0	#领袖经验值获取+500%
+		leader_trait_selection_options_add = 10	#额外领袖特质选项+10
+        leader_skill_levels_add = 5                     # +5 领袖技能等级
+        leader_age_mult = -0.5                          # -50% 领袖年龄增长速度
+	}
+
+	councilor_modifier = {	#内阁特质修正，注意和modifier不要写在同一个特质里，不能同时生效，和self_modifier不冲突
+		country_produces_mult = 0.05				#每月全部资源+20%（包括：常规资源、凝聚力、科研点数）
+		empire_unity_produces_mult = 2.0            # +200% 凝聚力
+		planet_stability_add = 50                   # 所有星球稳定度 +50
+		country_resource_max_stockpile_mult = 5.0   # 资源上限 +500%
+		country_unity_produces_mult = 2.0           # 凝聚力产出 +200%
+		country_naval_cap_mult = 1.0                # 海军容量 +100%
+        happiness = 0.5                             # +50% 幸福度
+        planet_jobs_produces_mult = 1.0             # +100% 岗位产出
+        planet_amenities_mult = 1.0                 # +100% 舒适度
+        army_morale = 1.0                           # +100% 军队士气
+        ship_fire_rate_mult = 1.0                   # +100% 舰船射速
+        edict_fund_add = 1000                       # +1000 法令资金
+        monthly_loyalty_gain = 5                    # +5 每月忠诚度（对附庸制帝国有效）
+        country_research_produces_mult = 2.0        # +200% 研究产出
+        country_pop_growth_speed_mult = 1.0         # +100% 人口增长速度
+        country_starbase_capacity_mult = 1.0        # +100% 星区容量
+        country_trade_value_mult = 1.0              # +100% 贸易值
+        country_megastructure_build_speed_mult = 1.0    # +100% 巨构建造速度
+        country_ship_upkeep_mult = -0.5             # -50% 舰船维护费
+        country_building_cost_mult = -0.5           # -50% 建筑花费
+        country_starbase_upkeep_mult = -0.5         # -50% 星区维护费
+	}
+
+}

@@ -1,0 +1,6 @@
+on_game_start_country = {
+	events = {
+		ksm.1
+		ksm.0
+	}
+}

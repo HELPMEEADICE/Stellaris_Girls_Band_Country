@@ -1,0 +1,12 @@
+gov_federal_democracy = {
+	ruler_title = RT_secretary_general
+	ruler_title_female = RT_secretary_general
+
+	possible = {
+		is_democratic_authority = yes
+	}
+
+	weight = {
+		base = @gov_authority_weight
+	}
+}

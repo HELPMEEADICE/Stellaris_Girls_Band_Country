@@ -1,0 +1,17 @@
+portraits = {
+	ksm_leader_popipa_portrait ={
+		texturefile = "gfx/models/portraits/kasumi.png"
+	}
+	arisa_leader_popipa_portrait ={
+		texturefile = "gfx/models/portraits/arisa.png"
+	}
+	saaya_leader_popipa_portrait ={
+		texturefile = "gfx/models/portraits/saaya.png"
+	}
+	tae_leader_popipa_portrait ={
+		texturefile = "gfx/models/portraits/tae.png"
+	}
+	rimi_leader_popipa_portrait ={
+		texturefile = "gfx/models/portraits/rimi.png"
+	}
+}
