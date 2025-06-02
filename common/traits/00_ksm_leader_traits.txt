@@ -132,23 +132,6 @@ trait_tae_sparkling_heartbeat = {
 
 trait_rimi_sparkling_heartbeat = {
     cost = 0
-    icon = "gfx/interface/icons/traits/tae.dds"
-    initial = no	#能否在初始界面被选择
-	randomized = no	#是否可以随机生成该特质
-	leader_class = { commander scientist official }
-
-    councilor_modifier = {
-        pop_happiness = 0.25                         # +25% 人口幸福度
-        planet_jobs_produces_mult = 0.25             # +25% 所有岗位产出
-        pop_government_ethic_attraction = 0.5        # +50% 主伦理吸引力
-        country_trust_growth = 1.0                   # +1.0 外交信任增长
-        envoys_add = 2                               # +2 特使
-        army_damage_mult = 0.5                       # +50% 陆军伤害（她安静但战斗力惊人）
-    }
-}
-
-trait_rimi_sparkling_heartbeat = {
-    cost = 0
     icon = "gfx/interface/icons/traits/rimi.dds"
     initial = no	#能否在初始界面被选择
 	randomized = no	#是否可以随机生成该特质
