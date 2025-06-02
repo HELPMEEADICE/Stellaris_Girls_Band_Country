@@ -36,6 +36,8 @@ country_event = {
 				skill = 10
 				traits = {
 					trait = leader_trait_star_beat
+					trait = trait_kasumi_sparkling_heartbeat
+					trait = trait_poppin_party
 				}
 				event_leader = yes
 				effect = {
@@ -63,6 +65,8 @@ country_event = {
 				skill = 10
 				traits = {
 					trait = leader_trait_star_beat
+					trait = trait_arisa_sparkling_heartbeat
+					trait = trait_poppin_party
 				}
 				event_leader = yes
 				effect = {
@@ -83,6 +87,8 @@ country_event = {
 				skill = 10
 				traits = {
 					trait = leader_trait_star_beat
+					trait = trait_saaya_sparkling_heartbeat
+					trait = trait_poppin_party
 				}
 				event_leader = yes
 				effect = {
@@ -103,6 +109,8 @@ country_event = {
 				skill = 10
 				traits = {
 					trait = leader_trait_star_beat
+					trait = trait_tae_sparkling_heartbeat
+					trait = trait_poppin_party
 				}
 				event_leader = yes
 				effect = {
@@ -123,6 +131,8 @@ country_event = {
 				skill = 10
 				traits = {
 					trait = leader_trait_star_beat
+					trait = trait_rimi_sparkling_heartbeat
+					trait = trait_poppin_party
 				}
 				event_leader = yes
 				effect = {
