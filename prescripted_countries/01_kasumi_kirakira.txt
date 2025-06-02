@@ -20,8 +20,8 @@ kasumi = {
 
 	room = "personality_federation_builders_room"
 
-	authority = "auth_democratic"
-	civics = { "civic_beacon_of_liberty" "civic_idealistic_foundation" }
+	authority = "auth_radiant_harmony"
+	civics = { "civic_shared_burden" "civic_idealistic_foundation" }
 	government = gov_federal_democracy
 
 	ethic = "ethic_materialist"

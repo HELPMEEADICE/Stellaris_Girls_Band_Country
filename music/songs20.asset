@@ -1,0 +1,407 @@
+music = {
+    name = "1000回潤んだ空"
+    file = "1000回潤んだ空.ogg"
+    volume = 1
+}
+
+music = {
+    name = "B.O.F"
+    file = "B.O.F.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Breakthrough!"
+    file = "Breakthrough!.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Chu Chueen!"
+    file = "Chu Chueen!.ogg"
+    volume = 1
+}
+
+music = {
+    name = "CiRCLING"
+    file = "CiRCLING.ogg"
+    volume = 1
+}
+
+music = {
+    name = "DOKI DOKI SCARY"
+    file = "DOKI DOKI SCARY.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Dreamers Go!"
+    file = "Dreamers Go!.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Five Letters"
+    file = "Five Letters.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Future Place"
+    file = "Future Place.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Happy Happy Party!"
+    file = "Happy Happy Party!.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Hello! Wink!"
+    file = "Hello! Wink!.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Home Street"
+    file = "Home Street.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Jumpin'"
+    file = "Jumpin'.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Light Delight"
+    file = "Light Delight.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Live Beyond!!"
+    file = "Live Beyond!!.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Moonlight Walk"
+    file = "Moonlight Walk.ogg"
+    volume = 1
+}
+
+music = {
+    name = "NO GIRL NO CRY (Poppin'Party Ver.)"
+    file = "NO GIRL NO CRY (Poppin'Party Ver.).ogg"
+    volume = 1
+}
+
+music = {
+    name = "Photograph"
+    file = "Photograph.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Returns"
+    file = "Returns.ogg"
+    volume = 1
+}
+
+music = {
+    name = "RiNG A BELL"
+    file = "RiNG A BELL.ogg"
+    volume = 1
+}
+
+music = {
+    name = "SAKURA MEMORIES"
+    file = "SAKURA MEMORIES.ogg"
+    volume = 1
+}
+
+music = {
+    name = "STAR BEAT!～ホシノコドウ～"
+    file = "STAR BEAT!～ホシノコドウ～.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Step×Step！"
+    file = "Step×Step！.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Sweets BAN!"
+    file = "Sweets BAN!.ogg"
+    volume = 1
+}
+
+music = {
+    name = "TARINAI"
+    file = "TARINAI.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Time Lapse"
+    file = "Time Lapse.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Tomorrow's Door"
+    file = "Tomorrow's Door.ogg"
+    volume = 1
+}
+
+music = {
+    name = "What's the POPIPA!？"
+    file = "What's the POPIPA!？.ogg"
+    volume = 1
+}
+
+music = {
+    name = "White Afternoon"
+    file = "White Afternoon.ogg"
+    volume = 1
+}
+
+music = {
+    name = "Yes! BanG_Dream!"
+    file = "Yes! BanG_Dream!.ogg"
+    volume = 1
+}
+
+music = {
+    name = "ここから先は歌にならない"
+    file = "ここから先は歌にならない.ogg"
+    volume = 1
+}
+
+music = {
+    name = "ときめきエクスペリエンス！"
+    file = "ときめきエクスペリエンス！.ogg"
+    volume = 1
+}
+
+music = {
+    name = "ほな！"
+    file = "ほな！.ogg"
+    volume = 1
+}
+
+music = {
+    name = "ぽっぴん'どりーむ！"
+    file = "ぽっぴん'どりーむ！.ogg"
+    volume = 1
+}
+
+music = {
+    name = "ぽっぴん’しゃっふる"
+    file = "ぽっぴん’しゃっふる.ogg"
+    volume = 1
+}
+
+music = {
+    name = "アニバーサリー"
+    file = "アニバーサリー.ogg"
+    volume = 1
+}
+
+music = {
+    name = "イニシャル"
+    file = "イニシャル.ogg"
+    volume = 1
+}
+
+music = {
+    name = "イントロダクション"
+    file = "イントロダクション.ogg"
+    volume = 1
+}
+
+music = {
+    name = "ガールズコード"
+    file = "ガールズコード.ogg"
+    volume = 1
+}
+
+music = {
+    name = "キミが始まる！"
+    file = "キミが始まる！.ogg"
+    volume = 1
+}
+
+music = {
+    name = "キミにもらったもの"
+    file = "キミにもらったもの.ogg"
+    volume = 1
+}
+
+music = {
+    name = "キラキラだとか夢だとか ～Sing Girls～"
+    file = "キラキラだとか夢だとか ～Sing Girls～.ogg"
+    volume = 1
+}
+
+music = {
+    name = "キラキラスター！"
+    file = "キラキラスター！.ogg"
+    volume = 1
+}
+
+music = {
+    name = "クリスマスのうた"
+    file = "クリスマスのうた.ogg"
+    volume = 1
+}
+
+music = {
+    name = "ティアドロップス"
+    file = "ティアドロップス.ogg"
+    volume = 1
+}
+
+music = {
+    name = "トレモロアイズ"
+    file = "トレモロアイズ.ogg"
+    volume = 1
+}
+
+music = {
+    name = "ミライトレイン"
+    file = "ミライトレイン.ogg"
+    volume = 1
+}
+
+music = {
+    name = "二重の虹(ダブル レインボウ)"
+    file = "二重の虹(ダブル レインボウ).ogg"
+    volume = 1
+}
+
+music = {
+    name = "八月のif"
+    file = "八月のif.ogg"
+    volume = 1
+}
+
+music = {
+    name = "切ないSandglass"
+    file = "切ないSandglass.ogg"
+    volume = 1
+}
+
+music = {
+    name = "前へススメ！"
+    file = "前へススメ！.ogg"
+    volume = 1
+}
+
+music = {
+    name = "勇気Limit！"
+    file = "勇気Limit！.ogg"
+    volume = 1
+}
+
+music = {
+    name = "夏に閉じこめて"
+    file = "夏に閉じこめて.ogg"
+    volume = 1
+}
+
+music = {
+    name = "夏のドーン!"
+    file = "夏のドーン!.ogg"
+    volume = 1
+}
+
+music = {
+    name = "夏空 SUN! SUN! SEVEN!"
+    file = "夏空 SUN! SUN! SEVEN!.ogg"
+    volume = 1
+}
+
+music = {
+    name = "夢みるSunflower"
+    file = "夢みるSunflower.ogg"
+    volume = 1
+}
+
+music = {
+    name = "夢を撃ち抜く瞬間に！"
+    file = "夢を撃ち抜く瞬間に！.ogg"
+    volume = 1
+}
+
+music = {
+    name = "大好き！"
+    file = "大好き！.ogg"
+    volume = 1
+}
+
+music = {
+    name = "新しい季節に"
+    file = "新しい季節に.ogg"
+    volume = 1
+}
+
+music = {
+    name = "星の約束"
+    file = "星の約束.ogg"
+    volume = 1
+}
+
+music = {
+    name = "最強☆ソング"
+    file = "最強☆ソング.ogg"
+    volume = 1
+}
+
+music = {
+    name = "最高(さあ行こう)！"
+    file = "最高(さあ行こう)！.ogg"
+    volume = 1
+}
+
+music = {
+    name = "私の心はチョココロネ"
+    file = "私の心はチョココロネ.ogg"
+    volume = 1
+}
+
+music = {
+    name = "花咲く未来に"
+    file = "花咲く未来に.ogg"
+    volume = 1
+}
+
+music = {
+    name = "走り始めたばかりのキミに"
+    file = "走り始めたばかりのキミに.ogg"
+    volume = 1
+}
+
+music = {
+    name = "開けたらDream!"
+    file = "開けたらDream!.ogg"
+    volume = 1
+}
+
+music = {
+    name = "雨上がり、キミと"
+    file = "雨上がり、キミと.ogg"
+    volume = 1
+}
+
+music = {
+    name = "青春 To Be Continued"
+    file = "青春 To Be Continued.ogg"
+    volume = 1
+}

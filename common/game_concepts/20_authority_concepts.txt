@@ -1,0 +1,4 @@
+concept_auth_radiant_harmony = {
+	icon =  "gfx/interface/icons/governments/authorities/auth_radiant_harmony_35x35.dds"
+	tooltip_override = "authority:auth_radiant_harmony"
+}

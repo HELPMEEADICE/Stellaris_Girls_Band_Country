@@ -1,0 +1,271 @@
+song = {
+    name = "1000回潤んだ空"
+}
+
+song = {
+    name = "B.O.F"
+}
+
+song = {
+    name = "Breakthrough!"
+}
+
+song = {
+    name = "Chu Chueen!"
+}
+
+song = {
+    name = "CiRCLING"
+}
+
+song = {
+    name = "DOKI DOKI SCARY"
+}
+
+song = {
+    name = "Dreamers Go!"
+}
+
+song = {
+    name = "Five Letters"
+}
+
+song = {
+    name = "Future Place"
+}
+
+song = {
+    name = "Happy Happy Party!"
+}
+
+song = {
+    name = "Hello! Wink!"
+}
+
+song = {
+    name = "Home Street"
+}
+
+song = {
+    name = "Jumpin'"
+}
+
+song = {
+    name = "Light Delight"
+}
+
+song = {
+    name = "Live Beyond!!"
+}
+
+song = {
+    name = "Moonlight Walk"
+}
+
+song = {
+    name = "NO GIRL NO CRY (Poppin'Party Ver.)"
+}
+
+song = {
+    name = "Photograph"
+}
+
+song = {
+    name = "Returns"
+}
+
+song = {
+    name = "RiNG A BELL"
+}
+
+song = {
+    name = "SAKURA MEMORIES"
+}
+
+song = {
+    name = "STAR BEAT!～ホシノコドウ～"
+}
+
+song = {
+    name = "Step×Step！"
+}
+
+song = {
+    name = "Sweets BAN!"
+}
+
+song = {
+    name = "TARINAI"
+}
+
+song = {
+    name = "Time Lapse"
+}
+
+song = {
+    name = "Tomorrow's Door"
+}
+
+song = {
+    name = "What's the POPIPA!？"
+}
+
+song = {
+    name = "White Afternoon"
+}
+
+song = {
+    name = "Yes! BanG_Dream!"
+}
+
+song = {
+    name = "ここから先は歌にならない"
+}
+
+song = {
+    name = "ときめきエクスペリエンス！"
+}
+
+song = {
+    name = "ほな！"
+}
+
+song = {
+    name = "ぽっぴん'どりーむ！"
+}
+
+song = {
+    name = "ぽっぴん’しゃっふる"
+}
+
+song = {
+    name = "アニバーサリー"
+}
+
+song = {
+    name = "イニシャル"
+}
+
+song = {
+    name = "イントロダクション"
+}
+
+song = {
+    name = "ガールズコード"
+}
+
+song = {
+    name = "キミが始まる！"
+}
+
+song = {
+    name = "キミにもらったもの"
+}
+
+song = {
+    name = "キラキラだとか夢だとか ～Sing Girls～"
+}
+
+song = {
+    name = "キラキラスター！"
+}
+
+song = {
+    name = "クリスマスのうた"
+}
+
+song = {
+    name = "ティアドロップス"
+}
+
+song = {
+    name = "トレモロアイズ"
+}
+
+song = {
+    name = "ミライトレイン"
+}
+
+song = {
+    name = "二重の虹(ダブル レインボウ)"
+}
+
+song = {
+    name = "八月のif"
+}
+
+song = {
+    name = "切ないSandglass"
+}
+
+song = {
+    name = "前へススメ！"
+}
+
+song = {
+    name = "勇気Limit！"
+}
+
+song = {
+    name = "夏に閉じこめて"
+}
+
+song = {
+    name = "夏のドーン!"
+}
+
+song = {
+    name = "夏空 SUN! SUN! SEVEN!"
+}
+
+song = {
+    name = "夢みるSunflower"
+}
+
+song = {
+    name = "夢を撃ち抜く瞬間に！"
+}
+
+song = {
+    name = "大好き！"
+}
+
+song = {
+    name = "新しい季節に"
+}
+
+song = {
+    name = "星の約束"
+}
+
+song = {
+    name = "最強☆ソング"
+}
+
+song = {
+    name = "最高(さあ行こう)！"
+}
+
+song = {
+    name = "私の心はチョココロネ"
+}
+
+song = {
+    name = "花咲く未来に"
+}
+
+song = {
+    name = "走り始めたばかりのキミに"
+}
+
+song = {
+    name = "開けたらDream!"
+}
+
+song = {
+    name = "雨上がり、キミと"
+}
+
+song = {
+    name = "青春 To Be Continued"
+}
