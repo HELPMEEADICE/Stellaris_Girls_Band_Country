@@ -1,0 +1,15 @@
+objectTypes = {
+	pdxmesh = {
+		name = "machineage_frontend_mesh"
+		file = "gfx/models/ui/machineage_frontend.mesh"
+
+		animation = { id = "idle"	type = "machineage_frontend_idle_animation" }
+
+		meshsettings = {
+			name = "background_geoShape"
+			texture_diffuse = "machineage_frontend_export_background.dds"
+			shader = "PdxMeshFrontendBackground"
+		}	
+		
+	}
+}

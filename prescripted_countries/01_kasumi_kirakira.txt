@@ -29,7 +29,7 @@ kasumi = {
 
 	origin = "origin_default"
 
-	flag = empire_human_1
+	flags = { empire_human_1 poppinparty }
 
 	planet_name = "NAME_Earth"
 	planet_class = "pc_continental"
