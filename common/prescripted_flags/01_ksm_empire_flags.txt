@@ -1,0 +1,3 @@
+empire_poppinparty = {
+	flags = { poppinparty custom_start_screen }
+}

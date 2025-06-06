@@ -1,5 +1,5 @@
 kasumi = {
-	name = "EMPIRE_DESIGN_ksm1"
+	name = "EMPIRE_DESIGN_kasumi"
 	adjective = "PRESCRIPTED_adjective_humans1"
 	spawn_enabled = no # yes / no / always
 	ignore_portrait_duplication = yes
@@ -29,7 +29,7 @@ kasumi = {
 
 	origin = "origin_default"
 
-	flags = { empire_human_1 poppinparty }
+	flag = empire_poppinparty
 
 	planet_name = "NAME_Earth"
 	planet_class = "pc_continental"

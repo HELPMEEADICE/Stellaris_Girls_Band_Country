@@ -4,3 +4,21 @@ on_game_start_country = {
 		ksm.0
 	}
 }
+
+on_modification_complete = {
+	events = {
+		ksm.2
+	}
+}
+
+on_leader_level_up = {
+	events = {
+		ksm.2
+	}
+}
+
+on_monthly_pulse_country = {
+	events = {
+		ksm.2
+	}
+}
