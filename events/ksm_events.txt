@@ -21,7 +21,10 @@ country_event = {
 				has_country_flag = poppinparty
 			}
 			hidden_effect = {
-				kill_leader = { type = ruler }
+				kill_leader = { 
+					type = ruler 
+					show_notification = no
+				}
 				create_species = {
 					name = "BanGDream_Human"
 					class = HUM
@@ -43,6 +46,7 @@ country_event = {
 					hide_age = yes
 					gender = female
 					skill = 10
+			randomize_traits = no
 					traits = {
 						trait = leader_trait_star_beat
 						trait = trait_kasumi_sparkling_heartbeat
@@ -56,7 +60,7 @@ country_event = {
 				}
 				last_created_leader = {
 					change_leader_portrait = "ksm_leader_popipa_portrait"
-					set_age = 17
+					set_age = 18
 					change_background_job = executive
 				}
 				set_leader = last_created_leader
@@ -72,6 +76,7 @@ country_event = {
 					hide_age = yes
 					gender = female
 					skill = 10
+			randomize_traits = no
 					traits = {
 						trait = leader_trait_star_beat
 						trait = trait_arisa_sparkling_heartbeat
@@ -95,6 +100,7 @@ country_event = {
 					hide_age = yes
 					gender = female
 					skill = 10
+			randomize_traits = no
 					traits = {
 						trait = leader_trait_star_beat
 						trait = trait_saaya_sparkling_heartbeat
@@ -118,6 +124,7 @@ country_event = {
 					hide_age = yes
 					gender = female
 					skill = 10
+			randomize_traits = no
 					traits = {
 						trait = leader_trait_star_beat
 						trait = trait_tae_sparkling_heartbeat
@@ -141,6 +148,7 @@ country_event = {
 					hide_age = yes
 					gender = female
 					skill = 10
+			randomize_traits = no
 					traits = {
 						trait = leader_trait_star_beat
 						trait = trait_rimi_sparkling_heartbeat
@@ -171,21 +179,17 @@ country_event = {
 				has_country_flag = poppinparty
 			}
 			every_owned_leader = {
-            	# THIS 在这里指向当前遍历到的领导人
-				
-            	# 添加限制条件：只有当领导人没有 "legendary_leader" 标记时才执行后续操作
             	limit = {
             	    NOT = {
             	        has_leader_flag = legendary_leader
             	    }
-            	    # 你也可以在这里添加其他排除条件，例如：
-            	    NOT = { is_ruler = yes } # 不杀死国家元首
+            	    NOT = { is_ruler = yes }
             	}
-			
-            	# 如果满足 limit 条件 (即没有 legendary_leader 标记)
 				remove_leader = THIS
-            	kill_leader = THIS # 杀死当前领导人
-            	# log = "[Root.GetName] is killing non-legendary leader: [This.GetName]" # 调试日志
+            	kill_leader = { 
+					type = THIS 
+					show_notification = no
+				}
         	}
 		}
 	}
@@ -208,7 +212,7 @@ country_event = {
 					has_leader_flag = trait_kasumi_sparkling_heartbeat
 				}
 				change_leader_portrait = "ksm_leader_popipa_portrait"
-				set_age = 17
+				set_age = 18
 				remove_all_negative_traits = yes
 			}
 			every_owned_leader = {
@@ -216,7 +220,7 @@ country_event = {
 					has_leader_flag = arisa
 				}
 				change_leader_portrait = "arisa_leader_popipa_portrait"
-				set_age = 17
+				set_age = 18
 				remove_all_negative_traits = yes
 			}
 			every_owned_leader = {
@@ -224,7 +228,7 @@ country_event = {
 					has_leader_flag = saaya
 				}
 				change_leader_portrait = "saaya_leader_popipa_portrait"
-				set_age = 17
+				set_age = 18
 				remove_all_negative_traits = yes
 			}
 			every_owned_leader = {
@@ -232,7 +236,7 @@ country_event = {
 					has_leader_flag = tae
 				}
 				change_leader_portrait = "tae_leader_popipa_portrait"
-				set_age = 17
+				set_age = 18
 				remove_all_negative_traits = yes
 			}
 			every_owned_leader = {
@@ -240,7 +244,15 @@ country_event = {
 					has_leader_flag = rimi
 				}
 				change_leader_portrait = "rimi_leader_popipa_portrait"
-				set_age = 17
+				set_age = 18
+				remove_all_negative_traits = yes
+			}
+			every_owned_leader = {
+				limit = {
+					has_leader_flag = popy
+				}
+				change_leader_portrait = "popy_leader_popipa_portrait"
+				set_age = 18
 				remove_all_negative_traits = yes
 			}
 		}

@@ -1,0 +1,83 @@
+create_popy_edict = {
+    length = 1
+    icon = "GFX_edict_type_popy"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = POPY}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = POPY}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		hidden_effect = {
+			set_country_flag = POPY
+            country_event = {
+                id = popy.0
+            }
+        }
+    }
+}
+
+change_popy_edict = {
+    length = 1
+    icon = "GFX_edict_type_popy"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		has_country_flag = POPY
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		has_country_flag = POPY
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		hidden_effect = {
+            if = {
+				limit = {
+					has_country_flag = POPY_scientist
+				}
+				country_event = {
+						id = popy.1
+					}
+			}
+			if = {
+				limit = {
+					has_country_flag = POPY_commander
+				}
+				country_event = {
+						id = popy.2
+					}
+			}
+			if = {
+				limit = {
+					has_country_flag = POPY_official
+				}
+				country_event = {
+						id = popy.3
+					}
+			}
+        }
+    }
+}

@@ -1,0 +1,165 @@
+namespace = popy
+
+country_event = {
+	id = popy.0
+	is_triggered_only = yes
+	title = popy.0.t
+	desc = popy.0.d
+
+	option = {
+		name = popy.scientist
+		set_country_flag = POPY_scientist
+		creat_popy_scientist = yes
+	}
+
+	option = {
+		name = popy.commander
+		set_country_flag = POPY_commander
+		creat_popy_commander = yes
+	}
+
+	option = {
+		name = popy.official
+		set_country_flag = POPY_official
+		creat_popy_official = yes
+	}
+}
+
+#从科学家进入
+country_event = {
+	id = popy.1
+	is_triggered_only = yes
+	title = popy.1.t
+	desc = popy.1.d
+
+	option = {
+		name = popy.commander
+		hidden_effect = {
+			every_owned_leader = {
+        		limit = {
+        		    has_leader_flag = popy
+        		}
+				remove_leader = THIS
+        		kill_leader = { 
+					type = THIS 
+					show_notification = no
+				}
+        	}
+		}
+		remove_country_flag = POPY_scientist
+		set_country_flag = POPY_commander
+		creat_popy_commander = yes
+	}
+
+	option = {
+		name = popy.official
+		hidden_effect = {
+			every_owned_leader = {
+        		limit = {
+        		    has_leader_flag = popy
+        		}
+				remove_leader = THIS
+        		kill_leader = { 
+					type = THIS 
+					show_notification = no
+				}
+        	}
+		}
+		remove_country_flag = POPY_scientist
+		set_country_flag = POPY_official
+		creat_popy_official = yes
+	}
+}
+
+
+#从军官进入
+country_event = {
+	id = popy.2
+	is_triggered_only = yes
+	title = popy.2.t
+	desc = popy.2.d
+
+	option = {
+		name = popy.scientist
+		hidden_effect = {
+			every_owned_leader = {
+        		limit = {
+        		    has_leader_flag = popy
+        		}
+				remove_leader = THIS
+        		kill_leader = { 
+					type = THIS 
+					show_notification = no
+				}
+        	}
+		}
+		remove_country_flag = POPY_commander
+		set_country_flag = POPY_scientist
+		creat_popy_scientist = yes
+	}
+
+	option = {
+		name = popy.official
+		hidden_effect = {
+			every_owned_leader = {
+        		limit = {
+        		    has_leader_flag = popy
+        		}
+				remove_leader = THIS
+        		kill_leader = { 
+					type = THIS 
+					show_notification = no
+				}
+        	}
+		}
+		remove_country_flag = POPY_commander
+		set_country_flag = POPY_official
+		creat_popy_official = yes
+	}
+}
+
+#从行政官进入
+country_event = {
+	id = popy.3
+	is_triggered_only = yes
+	title = popy.3.t
+	desc = popy.3.d
+
+	option = {
+		name = popy.scientist
+		hidden_effect = {
+			every_owned_leader = {
+        		limit = {
+        		    has_leader_flag = popy
+        		}
+				remove_leader = THIS
+        		kill_leader = { 
+					type = THIS 
+					show_notification = no
+				}
+        	}
+		}
+		remove_country_flag = POPY_official
+		set_country_flag = POPY_scientist
+		creat_popy_scientist = yes
+	}
+
+	option = {
+		name = popy.commander
+		hidden_effect = {
+			every_owned_leader = {
+        		limit = {
+        		    has_leader_flag = popy
+        		}
+				remove_leader = THIS
+        		kill_leader = { 
+					type = THIS 
+					show_notification = no
+				}
+        	}
+		}
+		remove_country_flag = POPY_official
+		set_country_flag = POPY_commander
+		creat_popy_commander = yes
+	}
+}

@@ -14,4 +14,8 @@ portraits = {
 	rimi_leader_popipa_portrait ={
 		texturefile = "gfx/models/portraits/rimi.png"
 	}
+
+	popy_leader_popipa_portrait ={
+		texturefile = "gfx/models/portraits/popy.png"
+	}
 }

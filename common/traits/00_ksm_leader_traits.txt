@@ -201,3 +201,80 @@ trait_poppin_party = {
         envoys_add = 5                                          # +5 特使
     }
 }
+
+trait_popy_commander = {
+    cost = 0
+    icon = "gfx/interface/icons/traits/Popy_icon.dds"
+    initial = no	#能否在初始界面被选择
+	randomized = no	#是否可以随机生成该特质
+	leader_class = { commander }
+
+    modifier = {
+        ship_fire_rate_mult = 1.00              # +100% 开火速率（倍伤）
+        ship_weapon_damage = 1.00               # +100% 武器伤害（翻倍伤害）
+        ship_speed_mult = 0.75                  # +75% 舰队航速（打完跑）
+        ship_disengage_chance_mult = 0.50       # +50% 撤退成功率
+        ship_evasion_mult = 0.50                # +50% 回避
+    }
+
+    councilor_modifier = {
+        ship_fire_rate_mult = 1.00              # +100% 开火速率（倍伤）
+        ship_weapon_damage = 1.00               # +100% 武器伤害（翻倍伤害）
+        ship_speed_mult = 0.75                  # +75% 舰队航速（打完跑）
+        ship_disengage_chance_mult = 0.50       # +50% 撤退成功率
+        ship_evasion_mult = 0.50                # +50% 回避
+    }
+}
+
+trait_popy_scientist = {
+    cost = 0
+    icon = "gfx/interface/icons/traits/Popy_icon.dds"
+    initial = no	#能否在初始界面被选择
+	randomized = no	#是否可以随机生成该特质
+	leader_class = { scientist }
+
+    modifier = {
+        scientist_skill_levels = 3
+        pop_happiness = 0.5                                     # +50% 幸福度
+        pop_growth_speed = 1.0                                  # +100% 增长速度
+        planet_crime_add = -100                                 # -100 犯罪（清零）
+        pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
+        planet_stability_add = 50   
+        edicts_upkeep_mult = -0.25                      # 法令维护 -25%
+    }
+
+    councilor_modifier = {
+        scientist_skill_levels = 3
+        pop_happiness = 0.5                                     # +50% 幸福度
+        pop_growth_speed = 1.0                                  # +100% 增长速度
+        planet_crime_add = -100                                 # -100 犯罪（清零）
+        pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
+        planet_stability_add = 50   
+        edicts_upkeep_mult = -0.25                      # 法令维护 -25%
+    }
+}
+
+trait_popy_official = {
+    cost = 0
+    icon = "gfx/interface/icons/traits/Popy_icon.dds"
+    initial = no	#能否在初始界面被选择
+	randomized = no	#是否可以随机生成该特质
+	leader_class = { official }
+
+    modifier = {
+        planet_jobs_produces_mult = 0.50                # 所有岗位产出 +50%
+        planet_amenities_mult = 0.50                    # 舒适度 +50%
+        planet_stability_add = 20                       # 稳定度 +20
+        planet_crime_add = -40                          # 犯罪 -40
+        empire_size_mult = -0.25                        # 帝国规模降低 25%（科技膨胀控制）
+    }
+
+
+    councilor_modifier = {
+        planet_jobs_produces_mult = 0.50                # 所有岗位产出 +50%
+        planet_amenities_mult = 0.50                    # 舒适度 +50%
+        planet_stability_add = 20                       # 稳定度 +20
+        planet_crime_add = -40                          # 犯罪 -40
+        empire_size_mult = -0.25                        # 帝国规模降低 25%（科技膨胀控制）
+    }
+}

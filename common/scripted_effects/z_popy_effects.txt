@@ -1,0 +1,72 @@
+creat_popy_scientist = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		background_job = executive
+		name = PRESCRIPTED_ruler_name_popy1
+		custom_description = PRESCRIPTED_ruler_name_popy1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_popy_scientist
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = popy_leader_popipa_portrait
+			set_leader_flag = popy
+		}
+	}
+}
+creat_popy_official = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		background_job = executive
+		name = PRESCRIPTED_ruler_name_popy1
+		custom_description = PRESCRIPTED_ruler_name_popy1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_popy_official
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = popy_leader_popipa_portrait
+			set_leader_flag = popy
+		}
+	}
+}
+creat_popy_commander = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		background_job = executive
+		name = PRESCRIPTED_ruler_name_popy1
+		custom_description = PRESCRIPTED_ruler_name_popy1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_popy_commander
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = popy_leader_popipa_portrait
+			set_leader_flag = popy
+		}
+	}
+}

@@ -3,4 +3,10 @@ spriteTypes = {
        name = "GFX_traits_kirakira"
        texturefile = "gfx/event_pictures/ksm_diymod_beijing.png"
   }
+  
+  spriteType = {
+		name = "GFX_edict_type_popy"
+		textureFile = "gfx/interface/icons/popy_edict_icon.dds"
+  }
 }
+
