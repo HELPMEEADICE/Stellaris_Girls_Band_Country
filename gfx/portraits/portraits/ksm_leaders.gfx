@@ -15,6 +15,10 @@ portraits = {
 		texturefile = "gfx/models/portraits/rimi.png"
 	}
 
+	asuka_leader_popipa_portrait ={
+		texturefile = "gfx/models/portraits/asuka.png"
+	}
+
 	popy_leader_popipa_portrait ={
 		texturefile = "gfx/models/portraits/popy.png"
 	}

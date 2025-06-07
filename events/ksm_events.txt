@@ -39,6 +39,7 @@ country_event = {
 					species = event_target:bangdream_species
 					class = official
 					background_job = executive
+					skip_background_generation = yes
 					name = PRESCRIPTED_ruler_name_ksm1
 					custom_description = EMPIRE_DESIGN_kasumi_desc
 					immortal = yes
@@ -46,7 +47,7 @@ country_event = {
 					hide_age = yes
 					gender = female
 					skill = 10
-			randomize_traits = no
+					randomize_traits = no
 					traits = {
 						trait = leader_trait_star_beat
 						trait = trait_kasumi_sparkling_heartbeat
@@ -62,6 +63,7 @@ country_event = {
 					change_leader_portrait = "ksm_leader_popipa_portrait"
 					set_age = 18
 					change_background_job = executive
+					skip_background_generation = yes
 				}
 				set_leader = last_created_leader
 				#ars
@@ -69,6 +71,7 @@ country_event = {
 					species = event_target:bangdream_species
 					class = official
 					background_job = executive
+					skip_background_generation = yes
 					name = PRESCRIPTED_ruler_name_arisa1
 					custom_description = PRESCRIPTED_ruler_name_arisa1_desc
 					immortal = yes
@@ -76,7 +79,7 @@ country_event = {
 					hide_age = yes
 					gender = female
 					skill = 10
-			randomize_traits = no
+					randomize_traits = no
 					traits = {
 						trait = leader_trait_star_beat
 						trait = trait_arisa_sparkling_heartbeat
@@ -93,6 +96,7 @@ country_event = {
 					species = event_target:bangdream_species
 					class = official
 					background_job = executive
+					skip_background_generation = yes
 					name = PRESCRIPTED_ruler_name_saaya1
 					custom_description = PRESCRIPTED_ruler_name_saaya1_desc
 					immortal = yes
@@ -100,7 +104,7 @@ country_event = {
 					hide_age = yes
 					gender = female
 					skill = 10
-			randomize_traits = no
+					randomize_traits = no
 					traits = {
 						trait = leader_trait_star_beat
 						trait = trait_saaya_sparkling_heartbeat
@@ -117,6 +121,7 @@ country_event = {
 					species = event_target:bangdream_species
 					class = commander
 					background_job = executive
+					skip_background_generation = yes
 					name = PRESCRIPTED_ruler_name_tae1
 					custom_description = PRESCRIPTED_ruler_name_tae1_desc
 					immortal = yes
@@ -124,7 +129,7 @@ country_event = {
 					hide_age = yes
 					gender = female
 					skill = 10
-			randomize_traits = no
+					randomize_traits = no
 					traits = {
 						trait = leader_trait_star_beat
 						trait = trait_tae_sparkling_heartbeat
@@ -141,6 +146,7 @@ country_event = {
 					species = event_target:bangdream_species
 					class = scientist
 					background_job = executive
+					skip_background_generation = yes
 					name = PRESCRIPTED_ruler_name_rimi1
 					custom_description = PRESCRIPTED_ruler_name_rimi1_desc
 					immortal = yes
@@ -148,7 +154,7 @@ country_event = {
 					hide_age = yes
 					gender = female
 					skill = 10
-			randomize_traits = no
+					randomize_traits = no
 					traits = {
 						trait = leader_trait_star_beat
 						trait = trait_rimi_sparkling_heartbeat
@@ -158,6 +164,30 @@ country_event = {
 					effect = {
 						change_leader_portrait = rimi_leader_popipa_portrait
 						set_leader_flag = rimi
+					}
+				}
+
+				#asuka
+				create_leader = {
+					species = event_target:bangdream_species
+					class = scientist
+					background_job = executive
+					skip_background_generation = yes
+					name = PRESCRIPTED_ruler_name_asuka1
+					custom_description = PRESCRIPTED_ruler_name_asuka1_desc
+					immortal = yes
+					set_age = 18
+					hide_age = yes
+					gender = female
+					skill = 10
+					randomize_traits = no
+					traits = {
+						trait = leader_trait_star_beat
+					}
+					event_leader = yes
+					effect = {
+						change_leader_portrait = asuka_leader_popipa_portrait
+						set_leader_flag = asuka
 					}
 				}
 			}
@@ -252,6 +282,14 @@ country_event = {
 					has_leader_flag = popy
 				}
 				change_leader_portrait = "popy_leader_popipa_portrait"
+				set_age = 18
+				remove_all_negative_traits = yes
+			}
+			every_owned_leader = {
+				limit = {
+					has_leader_flag = asuka
+				}
+				change_leader_portrait = "asuka_leader_popipa_portrait"
 				set_age = 18
 				remove_all_negative_traits = yes
 			}

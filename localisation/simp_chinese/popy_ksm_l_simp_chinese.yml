@@ -1,7 +1,9 @@
 ﻿l_simp_chinese:
  NAME_POPY: "POPY"
  edict_create_popy_edict: "初始化POPY"
+ edict_create_popy_edict_desc: "初始化POPY"
  edict_change_popy_edict: "修改POPY状态"
+ edict_change_popy_edict_desc: "修改POPY状态"
  creat_popy_scientist: "POPY将会变为科学家"
  creat_popy_official: "POPY将会变为行政官"
  creat_popy_commander: "POPY将会变为指挥官"

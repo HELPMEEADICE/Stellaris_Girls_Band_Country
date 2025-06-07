@@ -1,0 +1,28 @@
+﻿l_english:
+ NAME_POPY: "POPY"
+ edict_create_popy_edict: "Initialize POPY"
+ edict_create_popy_edict_desc: "Initialize POPY"
+ edict_change_popy_edict: "Change POPY's Role"
+ edict_change_popy_edict_desc: "Change POPY's Role"
+ creat_popy_scientist: "POPY will become a Scientist"
+ creat_popy_official: "POPY will become an Official"
+ creat_popy_commander: "POPY will become a Commander"
+ PRESCRIPTED_ruler_name_popy1: "POPY"
+ PRESCRIPTED_ruler_name_popy1_desc: "POPY is a super artificial intelligence assistant created by 'The Great Girls' Band Nation' based on Kasumi Toyama's 'Sparkling Heart-Pounding' spirit through cutting-edge AI technology. She is an entity with high autonomous learning capabilities, able to understand and amplify the power of 'KIRAKIRADOKIDOKI'. Her existence is to assist in national management and to propagate Kasumi's ideals throughout the universe in a more efficient and systematic manner."
+ trait_popy_scientist: "Starlit Scientist" # Changed from "Star-tongue Scientist" for better flow
+ trait_popy_scientist_desc: "When POPY is appointed as the Head of Research, she uses her unique AI thinking and profound understanding of 'Sparkling Heart-Pounding' to discover the 'rhythm' and 'chords' of science in seemingly unrelated things, leading technological leaps."
+ trait_popy_official: "Stellar Governor" # Changed from "Star-rule Official" for better flow
+ trait_popy_official_desc: "When POPY is appointed as a Planetary or Sector Governor, she integrates the spirit of 'Sparkling Heart-Pounding' into every administrative decision, filling the entire planet with vitality, happiness, and creativity."
+ trait_popy_commander: "Cosmic Commander" # Changed from "Starsea Commander" for better flow
+ trait_popy_commander_desc: "When POPY is appointed as a Fleet Admiral, she injects Kasumi's courage, vitality, and trust in her companions into every warship. Her command style is not cold calculation, but rather inspiring the entire fleet with the most rousing 'battle songs'."
+ popy.scientist: "Assign POPY as Scientist"
+ popy.commander: "Assign POPY as Commander"
+ popy.official: "Assign POPY as Official"
+ popy.0.t: "Initialize POPY"
+ popy.0.d: "Initialize POPY"
+ popy.1.t: "Change POPY's Role"
+ popy.2.t: "Change POPY's Role"
+ popy.3.t: "Change POPY's Role"
+ popy.1.d: "POPY is currently serving as a Scientist."
+ popy.2.d: "POPY is currently serving as a Commander."
+ popy.3.d: "POPY is currently serving as an Official."
