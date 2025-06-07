@@ -1,0 +1,34 @@
+﻿l_english:
+ EMPIRE_DESIGN_kasumi: "The Great Girls' Band Nation"
+ EMPIRE_DESIGN_kasumi_desc: "Kasumi's pursuit of 'Sparkling Heart-Pounding' has never changed. In the past, she ignited the passion of audiences in small live houses with her songs and guitar; now, her stage has expanded from Earth to the entire sea of stars! As Secretary-General, her goal remains pure and grand: to deliver this unique 'Sparkling Heart-Pounding' to every corner of the universe, filling every planet and every galaxy with their songs and smiles!\n\n\"Every corner of the universe should echo with our sparkling, heart-pounding songs! Hello everyone, this is 'The Great Girls' Band Nation'—an interstellar federation born from music, singing for dreams!\""
+ PRESCRIPTED_ruler_name_ksm1: "Kasumi Toyama"
+ PRESCRIPTED_ruler_name_arisa1: "Arisa Ichigaya"
+ PRESCRIPTED_ruler_name_arisa1_desc: "The girl who once practiced keyboard in the basement of her family's pawn shop, dreaming of an ordinary high school life, now shoulders the internal affairs management and strategic planning of an entire interstellar nation. Although she often complains, 'This is such a pain,' or 'Why me?', when Kasumi bursts into her office with a brand new 'KIRAKIRADOKIDOKI' idea, Arisa can always analyze the pros and cons at lightning speed and formulate the most feasible plan."
+ PRESCRIPTED_ruler_name_saaya1: "Saaya Yamabuki"
+ PRESCRIPTED_ruler_name_saaya1_desc: "Once, Saaya was the reliable girl from Yamabuki Bakery who woke up early to help her family, take care of her younger siblings, and juggle her studies and band. Now, her 'bakery' has expanded to an entire interstellar nation. Her responsibility is to ensure that every citizen—be they pioneers on the front lines, scientists in labs, or shining musicians on stage—can live a healthy life with ample supplies and a warm spiritual haven."
+ PRESCRIPTED_ruler_name_tae1: "Tae Hanazono"
+ PRESCRIPTED_ruler_name_tae1_desc: "On the brilliant star map of 'The Great Girls' Band Nation,' there is a figure who, with her unfathomable '4D' thinking and unique perception of all things in the universe (especially rabbit-like creatures), has become a crucial link connecting different civilizations and cultures. She is Tae Hanazono, our Chief Interstellar Exchange Officer and Head of the Xenocultural Research Department, a prodigy who communicates with the universe through her blues guitar."
+ PRESCRIPTED_ruler_name_rimi1: "Rimi Ushigome"
+ PRESCRIPTED_ruler_name_rimi1_desc: "As the starlight of 'The Great Girls' Band Nation' illuminates the universe, a special sweet aroma also begins to permeate. This scent originates from Rimi Ushigome, the once slightly timid bassist soluções who adored chocolate cornets. Now, with her unique gentleness and dedication to 'deliciousness,' she has become the nation's Minister of Confectionery and Interstellar Friendship. She firmly believes that there is no barrier that a delicious chocolate cornet cannot bridge; if there is, then make it two!"
+ RT_secretary_general: "Secretary-General"
+ gov_federal_democracy: "Federal Democracy"
+ PRESCRIPTED_ship_prefix_ksm1: "G.B.P.S.F." # Girls' Band Planet. Stellar. Fleet. (or something similar)
+ leader_trait_star_beat: "Star Beat"
+ leader_trait_star_beat_desc: "Her song inspires the entire sea of stars. It stirs the rhythm of the cosmos, awakening the resonance of civilizations."
+ BanGDream_Human: "Human" # Or maybe "Bandori Human" or "Kirakira Human" for flavor
+ auth_radiant_harmony: "Radiant Harmony"
+ auth_radiant_harmony_desc: "Under a regime woven from pure music, dreams, and unity, myriad stars shine in rhythm with the girls. Leadership guides the nation through their unparalleled charisma and inspiring performances, ensuring everyone finds their own light."
+ AUTHORITY_POPIPA: "This civilization is led not by elections, but continuously by those who can best ignite the sea of stars. Music is their language, the stars their stage."
+
+ trait_kasumi_sparkling_heartbeat: "Kasumi's Sparkling Heartbeat"
+ trait_kasumi_sparkling_heartbeat_desc: "§YKasumi Toyama§!'s '§SSparkling Heartbeat§!' power is everywhere! Her presence fills the entire nation with incredible vitality, happiness, and a spirit of unity. Under her guidance, everyone aspires to chase their dreams and spread their songs throughout the sea of stars!"
+ trait_arisa_sparkling_heartbeat: "Arisa's Precision Planning" # Kept the original English name for consistency, assuming trait_arisa_sparkling_heartbeat was a typo and you meant to use a different name for Arisa's trait
+ trait_arisa_sparkling_heartbeat_desc: "§YArisa Ichigaya§!, the girl who always complains 'This is such a pain' yet silently shoulders everything, ensures the precise operation of the entire nation with her extraordinary wisdom and planning abilities. Under her coordination, everything is orderly and astonishingly efficient."
+ trait_saaya_sparkling_heartbeat: "Saaya's Gentle Guardian" # Kept the original English name
+ trait_saaya_sparkling_heartbeat_desc: "§YSaaya Yamabuki§!'s gentleness nourishes the entire nation like spring rain. Under her meticulous care and selfless dedication, everyone feels the warmth of home and a solid reliance. Her presence is the nation's strongest support and most gentle harbor."
+ trait_tae_sparkling_heartbeat: "Tae's Cosmic Rabbit Whisperer" # Kept the original English name
+ trait_tae_sparkling_heartbeat_desc: "§YTae Hanazono§!, the girl who communicates with the universe through her guitar, possesses a wondrous ability to connect with all things (especially rabbit-like creatures). Her thoughts are as deep and unfathomable as the cosmos, always finding extraordinary 'rhythms' in the most ordinary things."
+ trait_rimi_sparkling_heartbeat: "Rimi's Sweet Bond" # Kept the original English name
+ trait_rimi_sparkling_heartbeat_desc: "§YRimi Ushigome§! believes that delicious food (especially chocolate cornets!) possesses a wondrous power to connect hearts and convey friendship. Under her influence, the entire nation is immersed in a sweet atmosphere of sharing and care, using 'deliciousness' to dissolve barriers and weave interstellar bonds."
+ trait_poppin_party: "Poppin'Party"
+ trait_poppin_party_desc: "The combined power of all §YPoppin'Party§! members converges here, transforming into a '§SKIRAKIRADOKIDOKI§!' storm that sweeps the universe! Their music, dreams, and unwavering bonds grant this civilization an unimaginable miraculous power. This is more than just a trait; it's the §Rultimate§! §Sdream symphony§! played by the girls, dedicated to the entire galaxy!\n\n§RWarning: This trait is extremely overpowered, designed purely for entertainment and to experience the unparalleled power of the girls!§!"
