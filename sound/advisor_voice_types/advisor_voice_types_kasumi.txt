@@ -1,0 +1,10 @@
+advisor_kasumi = {
+	name = "advisor_kasumi"
+	icon = "gfx/interface/icons/vo/kasumi.dds"
+	playable = {
+		always = yes
+	}
+	weight = {
+		base = 0
+	}
+}

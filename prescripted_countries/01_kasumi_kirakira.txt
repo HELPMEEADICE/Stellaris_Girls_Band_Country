@@ -31,9 +31,9 @@ kasumi = {
 
 	flag = empire_poppinparty
 
-	planet_name = "NAME_Earth"
+	planet_name = "NAME_Earth_ksm"
 	planet_class = "pc_continental"
-	initializer = "sol_system_initializer"
+	initializer = "sol_ksm_system_initializer"
 	system_name = "NAME_Sol"
 
 	graphical_culture = "humanoid_01"
@@ -66,4 +66,5 @@ kasumi = {
 		trait = "leader_trait_star_beat"
 		leader_class = official
 	}
+	advisor_voice_type = advisor_kasumi
 }
