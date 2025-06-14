@@ -1,0 +1,103 @@
+trait_paspal = {
+    cost = 0
+    icon = "gfx/interface/icons/traits/paspal.dds"
+    initial = no	#能否在初始界面被选择
+	randomized = no	#是否可以随机生成该特质
+	leader_class = { commander scientist official }
+
+    councilor_modifier = {
+        ### 经济与资源全面增强
+        planet_jobs_produces_mult = 5.0                         # +500% 所有岗位产出
+        planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
+        planet_amenities_mult = 3.0                             # +300% 舒适度
+        planet_housing_add = 50                                 # +50 房屋
+        country_resource_max_add = 50000                        # +5W 储存上限
+        country_energy_produces_mult = 3.0                      # +300% 能源产出
+        country_minerals_produces_mult = 3.0                    # +300% 矿物产出
+        country_food_produces_mult = 3.0                        # +300% 食物产出
+        country_alloys_produces_mult = 3.0                      # +300% 合金产出
+        country_consumer_goods_produces_mult = 3.0              # +300% 消费品产出
+        country_sr_living_metal_produces_add = 5                # +5 活体金属
+        country_sr_zro_produces_add = 5                         # +5 紫色异质体
+        country_sr_dark_matter_produces_add = 5                 # +5 暗物质
+
+        ### 科研与凝聚力
+        country_all_technology_research_speed = 2.0             # +200% 科研速度
+        country_unity_produces_mult = 4.0                       # +400% 凝聚力
+        pop_government_ethic_attraction = 1.0                   # +100% 主伦理吸引力
+
+        ### 幸福与人口
+        pop_happiness = 0.5                                     # +50% 幸福度
+        pop_growth_speed = 1.0                                  # +100% 增长速度
+        planet_crime_add = -100                                 # -100 犯罪（清零）
+        pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
+        planet_stability_add = 50                               # +50 稳定度
+
+        ### 军事逆天强化
+        country_naval_cap_mult = 3.0                            # +300% 海军容量
+        ship_fire_rate_mult = 1.0                               # +100% 射速
+        ship_weapon_damage = 1.0                                # +100% 武器伤害
+        ship_speed_mult = 1.0                                   # +100% 舰船速度
+        army_damage_mult = 2.0                                  # +200% 陆军伤害
+        army_health = 2.0                                       # +200% 陆军生命值
+        country_war_exhaustion_mult = -0.75                     # -75% 战争疲劳增速
+
+        ### 帝国运营&法令
+        empire_size_mult = -0.5                                 # -50% 帝国规模（降低科技惩罚）
+        country_edict_cost_mult = -0.9                          # -90% 法令费用
+        country_edict_length_mult = 3.0                         # +300% 法令持续时间
+        envoys_add = 5                                          # +5 特使
+    }
+}
+
+trait_roselia = {
+    cost = 0
+    icon = "gfx/interface/icons/traits/roselia.dds"
+    initial = no	#能否在初始界面被选择
+	randomized = no	#是否可以随机生成该特质
+	leader_class = { commander scientist official }
+
+    councilor_modifier = {
+        ### 经济与资源全面增强
+        planet_jobs_produces_mult = 5.0                         # +500% 所有岗位产出
+        planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
+        planet_amenities_mult = 3.0                             # +300% 舒适度
+        planet_housing_add = 50                                 # +50 房屋
+        country_resource_max_add = 50000                        # +5W 储存上限
+        country_energy_produces_mult = 3.0                      # +300% 能源产出
+        country_minerals_produces_mult = 3.0                    # +300% 矿物产出
+        country_food_produces_mult = 3.0                        # +300% 食物产出
+        country_alloys_produces_mult = 3.0                      # +300% 合金产出
+        country_consumer_goods_produces_mult = 3.0              # +300% 消费品产出
+        country_sr_living_metal_produces_add = 5                # +5 活体金属
+        country_sr_zro_produces_add = 5                         # +5 紫色异质体
+        country_sr_dark_matter_produces_add = 5                 # +5 暗物质
+
+        ### 科研与凝聚力
+        country_all_technology_research_speed = 2.0             # +200% 科研速度
+        country_unity_produces_mult = 4.0                       # +400% 凝聚力
+        pop_government_ethic_attraction = 1.0                   # +100% 主伦理吸引力
+
+        ### 幸福与人口
+        pop_happiness = 0.5                                     # +50% 幸福度
+        pop_growth_speed = 1.0                                  # +100% 增长速度
+        planet_crime_add = -100                                 # -100 犯罪（清零）
+        pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
+        planet_stability_add = 50                               # +50 稳定度
+
+        ### 军事逆天强化
+        country_naval_cap_mult = 3.0                            # +300% 海军容量
+        ship_fire_rate_mult = 1.0                               # +100% 射速
+        ship_weapon_damage = 1.0                                # +100% 武器伤害
+        ship_speed_mult = 1.0                                   # +100% 舰船速度
+        army_damage_mult = 2.0                                  # +200% 陆军伤害
+        army_health = 2.0                                       # +200% 陆军生命值
+        country_war_exhaustion_mult = -0.75                     # -75% 战争疲劳增速
+
+        ### 帝国运营&法令
+        empire_size_mult = -0.5                                 # -50% 帝国规模（降低科技惩罚）
+        country_edict_cost_mult = -0.9                          # -90% 法令费用
+        country_edict_length_mult = 3.0                         # +300% 法令持续时间
+        envoys_add = 5                                          # +5 特使
+    }
+}

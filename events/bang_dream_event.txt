@@ -1,0 +1,40 @@
+namespace = paspal
+namespace = roselia
+
+country_event = {
+	id = paspal.0
+	is_triggered_only = yes
+	picture = GFX_evt_paspal_1
+	title = paspal.0.t
+	desc = paspal.0.d
+
+	option = {
+		name = paspal.0.a
+		set_country_flag = have_paspal
+		creat_aya = yes
+		creat_cst = yes
+		creat_eve = yes
+		creat_hina = yes
+		creat_maya = yes
+		custom_tooltip = C_PASPAL
+	}
+}
+
+country_event = {
+	id = roselia.0
+	is_triggered_only = yes
+	picture = GFX_evt_roselia_1
+	title = roselia.0.t
+	desc = roselia.0.d
+
+	option = {
+		name = roselia.0.a
+		set_country_flag = have_roselia
+		creat_ykn = yes
+		creat_lisa = yes
+		creat_sayo = yes
+		creat_rinko = yes
+		creat_sko = yes
+		custom_tooltip = C_ROSELIA
+	}
+}

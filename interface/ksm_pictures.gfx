@@ -3,4 +3,12 @@ spriteTypes = {
 		name = "GFX_evt_kirakira"
 		texturefile = "gfx/event_pictures/kira_galaxy.dds"
 	}
+	spriteType = {
+		name = "GFX_evt_paspal_1"
+		texturefile = "gfx/event_pictures/paspal_1.dds"
+	}
+	spriteType = {
+		name = "GFX_evt_roselia_1"
+		texturefile = "gfx/event_pictures/roselia_1.dds"
+	}
 }

@@ -1,0 +1,57 @@
+create_paspal = {
+    length = 1
+    icon = "GFX_edict_type_paspal"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_paspal}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_paspal}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		country_event = {
+			id = paspal.0
+		}
+    }
+}
+
+create_roselia = {
+    length = 1
+    icon = "GFX_edict_type_roselia"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_roselia}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_roselia}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		country_event = {
+			id = roselia.0
+		}
+    }
+}

@@ -3,5 +3,13 @@ spriteTypes = {
 		name = "GFX_edict_type_popy"
 		textureFile = "gfx/interface/icons/popy_edict_icon.dds"
   }
+  spriteType = {
+		name = "GFX_edict_type_roselia"
+		textureFile = "gfx/interface/icons/roselia_edict_icon.dds"
+  }
+  spriteType = {
+		name = "GFX_edict_type_paspal"
+		textureFile = "gfx/interface/icons/paspal_edict_icon.dds"
+  }
 }
 

@@ -22,4 +22,37 @@ portraits = {
 	popy_leader_popipa_portrait ={
 		texturefile = "gfx/models/portraits/popy.png"
 	}
+
+	#paspal
+	aya_leader_paspal_portrait ={
+		texturefile = "gfx/models/portraits/paspal/aya.png"
+	}
+	cst_leader_paspal_portrait ={
+		texturefile = "gfx/models/portraits/paspal/cst.png"
+	}
+	eve_leader_paspal_portrait ={
+		texturefile = "gfx/models/portraits/paspal/eve.png"
+	}
+	maya_leader_paspal_portrait ={
+		texturefile = "gfx/models/portraits/paspal/maya.png"
+	}
+	hina_leader_paspal_portrait ={
+		texturefile = "gfx/models/portraits/paspal/hina.png"
+	}
+	#roselia
+	ykn_leader_roselia_portrait ={
+		texturefile = "gfx/models/portraits/roselia/ykn.png"
+	}
+	rinko_leader_roselia_portrait ={
+		texturefile = "gfx/models/portraits/roselia/rinko.png"
+	}
+	lisa_leader_roselia_portrait ={
+		texturefile = "gfx/models/portraits/roselia/lisa.png"
+	}
+	ako_leader_roselia_portrait ={
+		texturefile = "gfx/models/portraits/roselia/ako.png"
+	}
+	sayo_leader_roselia_portrait ={
+		texturefile = "gfx/models/portraits/roselia/sayo.png"
+	}
 }

@@ -3,6 +3,7 @@ namespace = popy
 country_event = {
 	id = popy.0
 	is_triggered_only = yes
+	picture = GFX_evt_kirakira
 	title = popy.0.t
 	desc = popy.0.d
 
@@ -29,6 +30,7 @@ country_event = {
 country_event = {
 	id = popy.1
 	is_triggered_only = yes
+	picture = GFX_evt_kirakira
 	title = popy.1.t
 	desc = popy.1.d
 
@@ -76,6 +78,7 @@ country_event = {
 country_event = {
 	id = popy.2
 	is_triggered_only = yes
+	picture = GFX_evt_kirakira
 	title = popy.2.t
 	desc = popy.2.d
 
@@ -122,6 +125,7 @@ country_event = {
 country_event = {
 	id = popy.3
 	is_triggered_only = yes
+	picture = GFX_evt_kirakira
 	title = popy.3.t
 	desc = popy.3.d
 

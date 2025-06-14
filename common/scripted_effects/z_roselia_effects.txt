@@ -1,0 +1,178 @@
+creat_ykn = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_ykn1
+		custom_description = PRESCRIPTED_ruler_name_ykn1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_roselia
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = ykn_leader_roselia_portrait
+			set_leader_flag = ykn
+			set_leader_flag = roselia
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+creat_sayo = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_sayo1
+		custom_description = PRESCRIPTED_ruler_name_sayo1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_roselia
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = sayo_leader_roselia_portrait
+			set_leader_flag = sayo
+			set_leader_flag = roselia
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+creat_rinko = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_rinko1
+		custom_description = PRESCRIPTED_ruler_name_rinko1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_roselia
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = rinko_leader_roselia_portrait
+			set_leader_flag = rinko
+			set_leader_flag = roselia
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+creat_lisa = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_lisa1
+		custom_description = PRESCRIPTED_ruler_name_lisa1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_roselia
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = lisa_leader_roselia_portrait
+			set_leader_flag = lisa
+			set_leader_flag = roselia
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+creat_ako = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_ako1
+		custom_description = PRESCRIPTED_ruler_name_ako1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_roselia
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = ako_leader_roselia_portrait
+			set_leader_flag = ako
+			set_leader_flag = roselia
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+
+fix_roselia = {
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = ykn
+		}
+		change_leader_portrait = "ykn_leader_roselia_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = sayo
+		}
+		change_leader_portrait = "sayo_leader_roselia_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = lisa
+		}
+		change_leader_portrait = "lisa_leader_roselia_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = rinko
+		}
+		change_leader_portrait = "rinko_leader_roselia_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = ako
+		}
+		change_leader_portrait = "ako_leader_roselia_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+}

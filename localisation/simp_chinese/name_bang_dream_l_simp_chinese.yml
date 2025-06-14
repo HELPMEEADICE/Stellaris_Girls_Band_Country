@@ -1,0 +1,47 @@
+﻿l_simp_chinese:
+#paspal
+ PRESCRIPTED_ruler_name_aya1: "丸山彩"
+ PRESCRIPTED_ruler_name_cst1: "白鹭千圣"
+ PRESCRIPTED_ruler_name_eve1: "若宫伊芙"
+ PRESCRIPTED_ruler_name_hina1: "冰川日菜"
+ PRESCRIPTED_ruler_name_maya1: "大和麻弥"
+ PRESCRIPTED_ruler_name_aya1_desc: "丸山彩"
+ PRESCRIPTED_ruler_name_cst1_desc: "白鹭千圣"
+ PRESCRIPTED_ruler_name_eve1_desc: "若宫伊芙"
+ PRESCRIPTED_ruler_name_hina1_desc: "冰川日菜"
+ PRESCRIPTED_ruler_name_maya1_desc: "大和麻弥"
+ 
+ edict_create_paspal: "邀请Pastel*Palettes"
+ edict_create_paspal_desc: "Pastel*Palettes全员将成为领袖"
+ C_PASPAL: "Pastel*Palettes全员将成为领袖"
+
+ paspal.0.t: "舞台，向着星辰延展！"
+ paspal.0.d: "一则激动人心的消息正在母星地球上传开。\n备受瞩目的偶像团体‘Pastel＊Palettes’，以其专业的精神和不懈的努力赢得了无数粉丝的心，如今，她们决定迈向一个前所未有的广阔舞台。\n在收到了来自秘书长办公室的正式邀请后，这支闪耀着柔和光彩的乐团，同意将她们独特的天赋奉献给整个‘大少女乐团国’的星辰事业。\n丸山彩那份笨拙却真诚的努力，将为我们的行政注入全新的活力；冰川日菜的天才头脑，必将在科研领域掀起“噜♪”的革新；白鹭千圣的现实主义与专业精神，是处理复杂星际关系不可或缺的基石；大和麻弥对器材的极端痴迷，将为我们的技术发展提供坚实保障；而若宫伊芙的“武士道”精神，则将成为连接不同文明的友谊桥梁。\n她们已经准备好了。从今天起，Pastel＊Palettes的光芒，将不仅仅照亮地球的舞台，更将闪耀于整个银河！"
+ paspal.0.a: "我们的星空将更加闪耀！"
+
+ trait_paspal: "Pastel*Palettes"
+ trait_paspal_desc: "并非所有的星光都诞生于宇宙的烈焰。有些光芒，是在无数个日夜的练习室中，用汗水与泪水精心打磨而成；是在面对挫折时，依然选择彼此相信、手牵着手，才最终绽放的。\nPastel＊Palettes，便是这种光芒的代名词。她们是舞台上的职业偶像，是贩卖梦想的艺术家。她们的道路并非一帆风顺，却始终致力于向世界传递一份完美无瑕、经过精心编织的幸福。她们的信条是：以百分之百的努力，回应百分之百的期待。每一份笑容的背后，都是不为人知的艰辛；每一次完美的演出，都源于对“偶像”身份的无上荣耀与责任感。\n她们是幸福的建筑师，用亲手点燃的光芒，照亮每一个渴望梦想的心灵。"
+
+
+#roselia
+ PRESCRIPTED_ruler_name_ykn1: "凑友希那"
+ PRESCRIPTED_ruler_name_sayo1: "冰川纱夜"
+ PRESCRIPTED_ruler_name_rinko1: "白金燐子"
+ PRESCRIPTED_ruler_name_lisa1: "今井莉莎"
+ PRESCRIPTED_ruler_name_ako1: "宇田川亚子"
+ PRESCRIPTED_ruler_name_ykn1_desc: "凑友希那"
+ PRESCRIPTED_ruler_name_sayo1_desc: "冰川纱夜"
+ PRESCRIPTED_ruler_name_rinko1_desc: "白金燐子"
+ PRESCRIPTED_ruler_name_lisa1_desc: "今井莉莎"
+ PRESCRIPTED_ruler_name_ako1_desc: "宇田川亚子"
+ 
+ edict_create_roselia: "邀请Roselia"
+ edict_create_roselia_desc: "Roselia全员将成为领袖"
+ C_ROSELIA: "Roselia全员将成为领袖"
+
+ roselia.0.t: "奏响巅峰之誓"
+ roselia.0.d: "随着我们的理念在星际间传开，其影响也回溯到了母星——地球。昔日的伙伴们，如今已是星际文明的奠基人，她们的事迹在地球上也成为了传奇。\n一封来自星海的正式邀请函，经由最高效的星际通讯网络，被送到了顶尖技术型乐团Roselia的面前。邀请并非单纯的合作请求，而是希望她们能作为一股重要的力量，加入“大少女乐团国”的行列，将她们那份对音乐的极致追求带向全宇宙。\n面对这份来自星辰的邀约，Roselia内部进行了严肃的讨论。友希那凝视着全息星图，沉默良久。对她而言，这不仅仅是一个新的舞台，更是对Roselia信念的终极考验。\n最终，她以不容置疑的声音给出了答复：\n“我们是Roselia，是立于顶点之人。既然宇宙已成为我们必须征服的舞台，那么我们便没有理由退缩。我们将向全宇宙，展现Roselia的音乐。全员，愿意献上你们的一切吗？”\n其他成员的回应，坚定而一致。Roselia，这朵高贵的蓝色玫瑰，决心在无垠的宇宙中，绽放出最耀眼的光芒。"
+ roselia.0.a: "为了Roselia的荣耀"
+
+ trait_roselia: "Roselia"
+ trait_roselia_desc: "在宇宙这片繁花盛开的庭院中，总有一些存在，她们不追求成为最耀眼的那一颗，而是立志成为最崇高、最完美、最无法企及的那一朵——如同传说中永不可能绽放的蓝色蔷薇。\nRoselia，便是这样一份决然觉悟的具象化。她们是追求技艺顶点的孤高艺术家，是向着音乐的“顶点”奉献一切的求道者。她们的音乐并非为了带来轻松的愉悦，而是要以绝对的技术、压倒性的世界观和高贵的姿态，震撼听众的灵魂。对她们而言，道路上没有妥协，舞台上不容失误，每一次演出都是一次向着更高境界发起的、堵上全部荣耀的挑战。\n她们不祈求掌声，只赢取敬畏。因为对于真正的强者而言，通往顶点的道路，本身就是唯一的勋章。"

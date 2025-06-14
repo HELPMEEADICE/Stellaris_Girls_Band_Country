@@ -1,0 +1,182 @@
+creat_aya = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_aya1
+		custom_description = PRESCRIPTED_ruler_name_aya1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_paspal
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = aya_leader_paspal_portrait
+			set_leader_flag = aya
+			set_leader_flag = paspal
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+
+creat_cst = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_cst1
+		custom_description = PRESCRIPTED_ruler_name_cst1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_paspal
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = cst_leader_paspal_portrait
+			set_leader_flag = cst
+			set_leader_flag = paspal
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+
+creat_eve = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_eve1
+		custom_description = PRESCRIPTED_ruler_name_eve1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_paspal
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = eve_leader_paspal_portrait
+			set_leader_flag = eve
+			set_leader_flag = paspal
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+
+creat_hina = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_hina1
+		custom_description = PRESCRIPTED_ruler_name_hina1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_paspal
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = hina_leader_paspal_portrait
+			set_leader_flag = hina
+			set_leader_flag = paspal
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+
+creat_maya = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_maya1
+		custom_description = PRESCRIPTED_ruler_name_maya1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_paspal
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = maya_leader_paspal_portrait
+			set_leader_flag = maya
+			set_leader_flag = paspal
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+
+fix_paspal = {
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = aya
+		}
+		change_leader_portrait = "aya_leader_paspal_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = cst
+		}
+		change_leader_portrait = "cst_leader_paspal_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = eve
+		}
+		change_leader_portrait = "eve_leader_paspal_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = maya
+		}
+		change_leader_portrait = "maya_leader_paspal_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = hina
+		}
+		change_leader_portrait = "hina_leader_paspal_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+}

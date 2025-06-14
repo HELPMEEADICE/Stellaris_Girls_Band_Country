@@ -300,5 +300,13 @@ country_event = {
 				remove_all_negative_traits = yes
 			}
 		}
+		if = {
+			limit = {has_country_flag = have_paspal}
+			fix_paspal = yes
+		}
+		if = {
+			limit = {has_country_flag = have_roselia}
+			fix_roselia = yes
+		}
 	}
 }
