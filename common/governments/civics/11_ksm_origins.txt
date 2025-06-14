@@ -1,0 +1,19 @@
+origin_kirakira = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_kirakira.dds"
+	picture = GFX_evt_kirakira
+
+	potential = {
+		always = yes
+	}
+
+	possible = {
+	}
+
+	random_weight = {
+		base = 0
+	}
+	#description = "origin_tooltip_kirakira_effects"
+
+	advanced_start = yes
+}

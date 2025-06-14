@@ -27,7 +27,7 @@ kasumi = {
 	ethic = "ethic_materialist"
 	ethic = "ethic_fanatic_egalitarian"
 
-	origin = "origin_default"
+	origin = "origin_kirakira"
 
 	flag = empire_poppinparty
 
