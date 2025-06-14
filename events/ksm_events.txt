@@ -89,6 +89,7 @@ country_event = {
 					effect = {
 						change_leader_portrait = arisa_leader_popipa_portrait
 						set_leader_flag = arisa
+						set_leader_flag = legendary_leader
 					}
 				}
 				#saaya
@@ -114,6 +115,7 @@ country_event = {
 					effect = {
 						change_leader_portrait = saaya_leader_popipa_portrait
 						set_leader_flag = saaya
+						set_leader_flag = legendary_leader
 					}
 				}
 				#tae
@@ -139,6 +141,7 @@ country_event = {
 					effect = {
 						change_leader_portrait = tae_leader_popipa_portrait
 						set_leader_flag = tae
+						set_leader_flag = legendary_leader
 					}
 				}
 				#rimi
@@ -164,6 +167,7 @@ country_event = {
 					effect = {
 						change_leader_portrait = rimi_leader_popipa_portrait
 						set_leader_flag = rimi
+						set_leader_flag = legendary_leader
 					}
 				}
 
@@ -188,6 +192,7 @@ country_event = {
 					effect = {
 						change_leader_portrait = asuka_leader_popipa_portrait
 						set_leader_flag = asuka
+						set_leader_flag = legendary_leader
 					}
 				}
 			}
@@ -228,6 +233,7 @@ country_event = {
 	id = ksm.2
 	hide_window = yes
 	is_triggered_only = yes
+	fire_only_once = no
 	trigger = {
 		is_ai = no
 		has_country_flag = ruled_by_ksm
@@ -239,7 +245,7 @@ country_event = {
 			}
 			every_owned_leader = {
 				limit = {
-					has_leader_flag = trait_kasumi_sparkling_heartbeat
+					has_leader_flag = ruler_ksm
 				}
 				change_leader_portrait = "ksm_leader_popipa_portrait"
 				set_age = 18
