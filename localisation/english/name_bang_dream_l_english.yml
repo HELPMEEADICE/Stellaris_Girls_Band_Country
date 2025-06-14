@@ -1,0 +1,47 @@
+﻿l_english:
+#paspal
+ PRESCRIPTED_ruler_name_aya1: "Aya Maruyama"
+ PRESCRIPTED_ruler_name_cst1: "Chisato Shirasagi"
+ PRESCRIPTED_ruler_name_eve1: "Eve Wakamiya"
+ PRESCRIPTED_ruler_name_hina1: "Hina Hikawa"
+ PRESCRIPTED_ruler_name_maya1: "Maya Yamato"
+ PRESCRIPTED_ruler_name_aya1_desc: "Aya Maruyama"
+ PRESCRIPTED_ruler_name_cst1_desc: "Chisato Shirasagi"
+ PRESCRIPTED_ruler_name_eve1_desc: "Eve Wakamiya"
+ PRESCRIPTED_ruler_name_hina1_desc: "Hina Hikawa"
+ PRESCRIPTED_ruler_name_maya1_desc: "Maya Yamato"
+ 
+ edict_create_paspal: "Invite Pastel*Palettes"
+ edict_create_paspal_desc: "All members of Pastel*Palettes will become leaders."
+ C_PASPAL: "All members of Pastel*Palettes will become leaders."
+
+ paspal.0.t: "The Stage, Extending Towards the Stars!"
+ paspal.0.d: "An exciting piece of news is spreading on the homeworld, Earth.\nThe highly acclaimed idol group 'Pastel*Palettes', who have won the hearts of countless fans with their professional spirit and relentless effort, have now decided to step onto an unprecedentedly vast stage.\nAfter receiving a formal invitation from the Secretary-General's Office, this band, shining with a gentle light, has agreed to dedicate their unique talents to the stellar cause of the entire 'Great Girls' Band Nation'.\nAya Maruyama's clumsy yet sincere efforts will bring new vitality to our administration; Hina Hikawa's genius mind will surely bring a 'Run~♪' revolution to the field of research; Chisato Shirasagi's realism and professionalism are an indispensable cornerstone for handling complex interstellar relations; Maya Yamato's extreme fascination with equipment will provide a solid guarantee for our technological development; and Eve Wakamiya's 'Bushido' spirit will become a bridge of friendship connecting different civilizations.\nThey are ready. From this day forward, the light of Pastel*Palettes will not only illuminate the stages of Earth, but will shine throughout the entire galaxy!"
+ paspal.0.a: "Our stars will shine even brighter!"
+
+ trait_paspal: "Pastel*Palettes"
+ trait_paspal_desc: "Not all starlight is born from the cosmos's flames. Some light is meticulously polished with sweat and tears through countless days and nights in the practice room; it is a light that finally blooms only when, faced with setbacks, they still choose to believe in each other, hand in hand.\nPastel*Palettes is synonymous with this kind of light. They are professional idols on stage, artists who sell dreams. Their path is not always smooth, yet they are always dedicated to delivering a flawless, carefully-woven happiness to the world. Their creed is: to respond to one hundred percent of expectations with one hundred percent of effort. Behind every smile lies untold hardship; every perfect performance stems from the utmost honor and responsibility of being an 'idol'.\nThey are the architects of happiness, illuminating every heart that yearns for a dream with the light they themselves have kindled."
+
+
+#roselia
+ PRESCRIPTED_ruler_name_ykn1: "Yukina Minato"
+ PRESCRIPTED_ruler_name_sayo1: "Sayo Hikawa"
+ PRESCRIPTED_ruler_name_rinko1: "Rinko Shirokane"
+ PRESCRIPTED_ruler_name_lisa1: "Lisa Imai"
+ PRESCRIPTED_ruler_name_ako1: "Ako Udagawa"
+ PRESCRIPTED_ruler_name_ykn1_desc: "Yukina Minato"
+ PRESCRIPTED_ruler_name_sayo1_desc: "Sayo Hikawa"
+ PRESCRIPTED_ruler_name_rinko1_desc: "Rinko Shirokane"
+ PRESCRIPTED_ruler_name_lisa1_desc: "Lisa Imai"
+ PRESCRIPTED_ruler_name_ako1_desc: "Ako Udagawa"
+ 
+ edict_create_roselia: "Invite Roselia"
+ edict_create_roselia_desc: "All members of Roselia will become leaders."
+ C_ROSELIA: "All members of Roselia will become leaders."
+
+ roselia.0.t: "Sounding the Oath to the Summit"
+ roselia.0.d: "As our philosophy spreads among the stars, its influence has traced back to the homeworld—Earth. Former companions, now the founders of an interstellar civilization, their deeds have become legends on Earth as well.\nA formal invitation from the sea of stars, delivered through the most efficient interstellar communication network, was presented to the top-tier technical band, Roselia. The invitation was not merely a request for collaboration, but a hope that they would join the ranks of 'The Great Girls' Band Nation' as a vital force, bringing their ultimate pursuit of music to the entire universe.\nFaced with this summons from the stars, Roselia held a serious discussion. Yukina gazed at the holographic star map, silent for a long moment. To her, this was not just a new stage, but the ultimate test of Roselia's conviction.\nFinally, she gave her answer with an unshakeable voice:\n\"We are Roselia, those who stand at the summit. Since the universe has become a stage we must conquer, we have no reason to retreat. We shall show the entire universe Roselia's music. Everyone, are you prepared to devote your everything?\"\nThe other members' response was firm and unanimous. Roselia, this noble blue rose, has resolved to bloom with the most dazzling light in the boundless universe."
+ roselia.0.a: "For the glory of Roselia."
+
+ trait_roselia: "Roselia"
+ trait_roselia_desc: "In the blooming garden of the cosmos, there are always some who exist not to be the brightest, but aspire to become the most sublime, the most perfect, the most unattainable one—like the legendary blue rose, said to be impossible to bloom.\nRoselia is the very embodiment of such a resolute awakening. They are virtuosos in pursuit of the summit of their craft, seekers who devote everything to the 'pinnacle' of music. Their music is not meant to bring easy pleasure, but to shock the souls of the audience with absolute skill, an overwhelming worldview, and a noble presence. For them, there are no compromises on their path, no mistakes allowed on stage; every performance is a challenge to a higher realm, with all their glory on the line.\nThey do not ask for applause; they command reverence. For to the truly strong, the path to the summit is, in itself, the only medal."
