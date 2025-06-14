@@ -236,7 +236,7 @@ country_event = {
 	fire_only_once = no
 	trigger = {
 		is_ai = no
-		has_country_flag = ruled_by_ksm
+		has_country_flag = poppinparty
 	}
 	immediate = {
 		if = {
