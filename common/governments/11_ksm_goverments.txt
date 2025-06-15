@@ -5,7 +5,7 @@ gov_federal_democracy = {
 	possible = {
 		has_authority = auth_radiant_harmony
 	}
-
+	
 	weight = {
 		base = @gov_authority_weight
 	}
