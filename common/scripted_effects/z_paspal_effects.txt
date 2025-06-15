@@ -1,4 +1,4 @@
-creat_aya = {
+create_aya = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = official
@@ -26,7 +26,7 @@ creat_aya = {
 	}
 }
 
-creat_cst = {
+create_cst = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = official
@@ -54,7 +54,7 @@ creat_cst = {
 	}
 }
 
-creat_eve = {
+create_eve = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = commander
@@ -82,7 +82,7 @@ creat_eve = {
 	}
 }
 
-creat_hina = {
+create_hina = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = scientist
@@ -110,7 +110,7 @@ creat_hina = {
 	}
 }
 
-creat_maya = {
+create_maya = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = scientist

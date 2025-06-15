@@ -1,4 +1,4 @@
-creat_ykn = {
+create_ykn = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = commander
@@ -25,7 +25,7 @@ creat_ykn = {
 		}
 	}
 }
-creat_sayo = {
+create_sayo = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = scientist
@@ -52,7 +52,7 @@ creat_sayo = {
 		}
 	}
 }
-creat_rinko = {
+create_rinko = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = scientist
@@ -79,7 +79,7 @@ creat_rinko = {
 		}
 	}
 }
-creat_lisa = {
+create_lisa = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = official
@@ -106,7 +106,7 @@ creat_lisa = {
 		}
 	}
 }
-creat_ako = {
+create_ako = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = commander
