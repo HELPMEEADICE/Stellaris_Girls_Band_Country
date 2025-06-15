@@ -18,7 +18,7 @@ kasumi = {
 		trait = "trait_wasteful"
 	}
 
-	room = "personality_federation_builders_room"
+	room = "ksm_room"
 
 	authority = "auth_radiant_harmony"
 	civics = { "civic_shared_burden" "civic_idealistic_foundation" }
