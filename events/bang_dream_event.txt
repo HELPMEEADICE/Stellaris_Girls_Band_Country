@@ -34,7 +34,7 @@ country_event = {
 		creat_lisa = yes
 		creat_sayo = yes
 		creat_rinko = yes
-		creat_sko = yes
+		creat_ako = yes
 		custom_tooltip = C_ROSELIA
 	}
 }
