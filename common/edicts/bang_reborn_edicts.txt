@@ -526,3 +526,40 @@ reborn_ako_edict = {
 		create_ako = yes
     }
 }
+
+#other
+reborn_asuka_edict = {
+	length = 1
+    icon = "GFX_edict_type_asuka"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = asuka
+			}
+		}
+		has_country_flag = poppinparty
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = asuka
+			}
+		}
+		has_country_flag = poppinparty
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_asuka = yes
+    }
+}

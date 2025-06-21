@@ -42,20 +42,48 @@
  ksm.0.d: "\"Our newly built Star Chart Command Center on the capital planet isn't filled with the cold hum of machinery. Instead, it's filled with a quiet anticipation, like a live house moments before a show begins.\nSecretary-General Kasumi Toyama, holding her beloved RANDOM STAR, stepped onto the central holographic podium. Her voice, carried by the interstellar broadcast system, was formally transmitted for the first time to every citizen of 'The Great Girls' Band Nation', echoing through the command room where the civilization's future is decided:\n\n\"Hello everyone—! Can you hear me—?\"\n\n\"From today on, this is our 'Great Girls' Band Nation's' very first stage! I've always thought, the stars in the night sky, they aren't just distant points of light, right? They might be an audience waiting to listen, future friends waiting for us to meet them!\"\n\n\"So, we must sing our songs, and let the entire universe feel this 'Kirakira Dokidoki' (Sparkling Heart-Pounding)!\"\n\nHer eyes, shining with a light that rivaled any star, looked towards you, and towards all our citizens.\n\n\"So then, what kind of song should our very first song... for the entire universe... be?\"\n\n\"Come on, let's play this one-of-a-kind opening number together!\""
  ksm.0.a: "The First Sparkling Heartbeat"
  ksm_startup: "Of course, a song full of 'Sparkling Heart-Pounding'! Let's turn our dreams and curiosity into a melody and explore the unknown sea of stars!"
- reborn_ksm_edict: "Revive §YKasumi Toyama§!"
- reborn_ars_edict: "Revive §YArisa Ichigaya§!"
- reborn_saaya_edict: "Revive §YSaaya Yamabuki§!"
- reborn_tae_edict: "Revive §YTae Hanazono§!"
- reborn_rimi_edict: "Revive §YRimi Ushigome§!"
+# Poppin'Party
+ edict_reborn_ksm_edict: "Resurrect §YKasumi Toyama§!"
+ edict_reborn_ars_edict: "Resurrect §YArisa Ichigaya§!"
+ edict_reborn_saaya_edict: "Resurrect §YSaaya Yamabuki§!"
+ edict_reborn_tae_edict: "Resurrect §YTae Hanazono§!"
+ edict_reborn_rimi_edict: "Resurrect §YRimi Ushigome§!"
 
- reborn_aya_edict: "Revive §YAya Maruyama§!"
- reborn_cst_edict: "Revive §YChisato Shirasagi§!"
- reborn_eve_edict: "Revive §YEve Wakamiya§!"
- reborn_hina_edict: "Revive §YHina Hikawa§!"
- reborn_maya_edict: "Revive §YMaya Yamato§!"
+# Pastel*Palettes
+ edict_reborn_aya_edict: "Resurrect §YAya Maruyama§!"
+ edict_reborn_cst_edict: "Resurrect §YChisato Shirasagi§!"
+ edict_reborn_eve_edict: "Resurrect §YEve Wakamiya§!"
+ edict_reborn_hina_edict: "Resurrect §YHina Hikawa§!"
+ edict_reborn_maya_edict: "Resurrect §YMaya Yamato§!"
 
- reborn_ykn_edict: "Revive §YYukina Minato§!"
- reborn_sayo_edict: "Revive §YSayo Hikawa§!"
- reborn_rinko_edict: "Revive §YRinko Shirokane§!"
- reborn_lisa_edict: "Revive §YLisa Imai§!"
- reborn_ako_edict: "Revive §YAko Udagawa§!"
+# Roselia
+ edict_reborn_ykn_edict: "Resurrect §YYukina Minato§!"
+ edict_reborn_sayo_edict: "Resurrect §YSayo Hikawa§!"
+ edict_reborn_rinko_edict: "Resurrect §YRinko Shirokane§!"
+ edict_reborn_lisa_edict: "Resurrect §YLisa Imai§!"
+ edict_reborn_ako_edict: "Resurrect §YAko Udagawa§!"
+
+# Others
+ edict_reborn_asuka_edict: "Resurrect §YAsuka Toyama§!"
+
+
+# Descriptions
+ edict_reborn_ksm_edict_desc: "Resurrect §YKasumi Toyama§!"
+ edict_reborn_ars_edict_desc: "Resurrect §YArisa Ichigaya§!"
+ edict_reborn_saaya_edict_desc: "Resurrect §YSaaya Yamabuki§!"
+ edict_reborn_tae_edict_desc: "Resurrect §YTae Hanazono§!"
+ edict_reborn_rimi_edict_desc: "Resurrect §YRimi Ushigome§!"
+
+ edict_reborn_aya_edict_desc: "Resurrect §YAya Maruyama§!"
+ edict_reborn_cst_edict_desc: "Resurrect §YChisato Shirasagi§!"
+ edict_reborn_eve_edict_desc: "Resurrect §YEve Wakamiya§!"
+ edict_reborn_hina_edict_desc: "Resurrect §YHina Hikawa§!"
+ edict_reborn_maya_edict_desc: "Resurrect §YMaya Yamato§!"
+
+ edict_reborn_ykn_edict_desc: "Resurrect §YYukina Minato§!"
+ edict_reborn_sayo_edict_desc: "Resurrect §YSayo Hikawa§!"
+ edict_reborn_rinko_edict_desc: "Resurrect §YRinko Shirokane§!"
+ edict_reborn_lisa_edict_desc: "Resurrect §YLisa Imai§!"
+ edict_reborn_ako_edict_desc: "Resurrect §YAko Udagawa§!"
+
+ edict_reborn_asuka_edict_desc: "Resurrect §YAsuka Toyama§!"
