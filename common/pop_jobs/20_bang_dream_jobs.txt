@@ -1,0 +1,24 @@
+band_girl = {
+	category = specialist
+	
+	swappable_data = {
+	}
+
+	possible_pre_triggers = {
+	}
+
+	possible_precalc = can_fill_worker_job
+
+	# 无任何修正效果
+	planet_modifier = {
+	}
+
+	# 无资源产出
+	resources = {
+	}
+
+	# 权重为0，确保不会被自动分配
+	weight = {
+		weight = 0
+	}
+}

@@ -1,0 +1,165 @@
+create_ksm = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		skip_background_generation = yes
+		#background_job = band_girl
+		name = PRESCRIPTED_ruler_name_ksm1
+		custom_description = EMPIRE_DESIGN_kasumi_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_kasumi_sparkling_heartbeat
+			trait = trait_poppin_party
+		}
+		event_leader = yes
+		effect = {
+			set_leader_flag = ruler_ksm
+			set_leader_flag = legendary_leader
+		}
+	}
+	last_created_leader = {
+		change_leader_portrait = "ksm_leader_popipa_portrait"
+		set_age = 18
+		#change_background_job = band_girl
+	}
+	set_leader = last_created_leader
+}
+create_ars = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		skip_background_generation = yes
+		#background_job = band_girl
+		name = PRESCRIPTED_ruler_name_arisa1
+		custom_description = PRESCRIPTED_ruler_name_arisa1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_arisa_sparkling_heartbeat
+			trait = trait_poppin_party
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = arisa_leader_popipa_portrait
+			set_leader_flag = arisa
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+create_saaya = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		skip_background_generation = yes
+		#background_job = band_girl
+		name = PRESCRIPTED_ruler_name_saaya1
+		custom_description = PRESCRIPTED_ruler_name_saaya1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_saaya_sparkling_heartbeat
+			trait = trait_poppin_party
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = saaya_leader_popipa_portrait
+			set_leader_flag = saaya
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+create_tae = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		skip_background_generation = yes
+		#background_job = band_girl
+		name = PRESCRIPTED_ruler_name_tae1
+		custom_description = PRESCRIPTED_ruler_name_tae1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_tae_sparkling_heartbeat
+			trait = trait_poppin_party
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = tae_leader_popipa_portrait
+			set_leader_flag = tae
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+create_rimi = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = yes
+		#background_job = band_girl
+		name = PRESCRIPTED_ruler_name_rimi1
+		custom_description = PRESCRIPTED_ruler_name_rimi1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_rimi_sparkling_heartbeat
+			trait = trait_poppin_party
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = rimi_leader_popipa_portrait
+			set_leader_flag = rimi
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+create_asuka = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = yes
+		##background_job = band_girl
+		name = PRESCRIPTED_ruler_name_asuka1
+		custom_description = PRESCRIPTED_ruler_name_asuka1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = asuka_leader_popipa_portrait
+			set_leader_flag = asuka
+			set_leader_flag = legendary_leader
+		}
+	}
+}

@@ -1,0 +1,528 @@
+#popipa
+reborn_ksm_edict = {
+	length = 1
+    icon = "GFX_edict_type_popipa"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = ruler_ksm
+			}
+		}
+		has_country_flag = poppinparty
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = ruler_ksm
+			}
+		}
+		has_country_flag = poppinparty
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_ksm = yes
+    }
+}
+reborn_ars_edict = {
+	length = 1
+    icon = "GFX_edict_type_popipa"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = arisa
+			}
+		}
+		has_country_flag = poppinparty
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = arisa
+			}
+		}
+		has_country_flag = poppinparty
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_ars = yes
+    }
+}
+reborn_saaya_edict = {
+	length = 1
+    icon = "GFX_edict_type_popipa"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = saaya
+			}
+		}
+		has_country_flag = poppinparty
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = saaya
+			}
+		}
+		has_country_flag = poppinparty
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_saaya = yes
+    }
+}
+reborn_tae_edict = {
+	length = 1
+    icon = "GFX_edict_type_popipa"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = tae
+			}
+		}
+		has_country_flag = poppinparty
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = tae
+			}
+		}
+		has_country_flag = poppinparty
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_tae = yes
+    }
+}
+reborn_rimi_edict = {
+	length = 1
+    icon = "GFX_edict_type_popipa"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = rimi
+			}
+		}
+		has_country_flag = poppinparty
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = rimi
+			}
+		}
+		has_country_flag = poppinparty
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_rimi = yes
+    }
+}
+#paspal
+reborn_aya_edict = {
+	length = 1
+    icon = "GFX_edict_type_paspal"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = aya
+			}
+		}
+		has_country_flag = have_paspal
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = aya
+			}
+		}
+		has_country_flag = have_paspal
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_aya = yes
+    }
+}
+reborn_cst_edict = {
+	length = 1
+    icon = "GFX_edict_type_paspal"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = cst
+			}
+		}
+		has_country_flag = have_paspal
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = cst
+			}
+		}
+		has_country_flag = have_paspal
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_cst = yes
+    }
+}
+reborn_eve_edict = {
+	length = 1
+    icon = "GFX_edict_type_paspal"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = eve
+			}
+		}
+		has_country_flag = have_paspal
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = eve
+			}
+		}
+		has_country_flag = have_paspal
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_eve = yes
+    }
+}
+reborn_hina_edict = {
+	length = 1
+    icon = "GFX_edict_type_paspal"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = hina
+			}
+		}
+		has_country_flag = have_paspal
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = hina
+			}
+		}
+		has_country_flag = have_paspal
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_hina = yes
+    }
+}
+reborn_maya_edict = {
+	length = 1
+    icon = "GFX_edict_type_paspal"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = maya
+			}
+		}
+		has_country_flag = have_paspal
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = maya
+			}
+		}
+		has_country_flag = have_paspal
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_maya = yes
+    }
+}
+#roselia
+reborn_ykn_edict = {
+	length = 1
+    icon = "GFX_edict_type_roselia"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = ykn
+			}
+		}
+		has_country_flag = have_roselia
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = ykn
+			}
+		}
+		has_country_flag = have_roselia
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_ykn = yes
+    }
+}
+reborn_sayo_edict = {
+	length = 1
+    icon = "GFX_edict_type_roselia"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = sayo
+			}
+		}
+		has_country_flag = have_roselia
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = sayo
+			}
+		}
+		has_country_flag = have_roselia
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_sayo = yes
+    }
+}
+reborn_rinko_edict = {
+	length = 1
+    icon = "GFX_edict_type_roselia"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = rinko
+			}
+		}
+		has_country_flag = have_roselia
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = rinko
+			}
+		}
+		has_country_flag = have_roselia
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_rinko = yes
+    }
+}
+reborn_lisa_edict = {
+	length = 1
+    icon = "GFX_edict_type_roselia"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = lisa
+			}
+		}
+		has_country_flag = have_roselia
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = lisa
+			}
+		}
+		has_country_flag = have_roselia
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_lisa = yes
+    }
+}
+reborn_ako_edict = {
+	length = 1
+    icon = "GFX_edict_type_roselia"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = ako
+			}
+		}
+		has_country_flag = have_roselia
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = ako
+			}
+		}
+		has_country_flag = have_roselia
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_ako = yes
+    }
+}

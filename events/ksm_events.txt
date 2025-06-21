@@ -2,8 +2,11 @@ namespace = ksm
 
 country_event = {
 	id = ksm.0
-	hide_window = yes
+	title = ksm.0.t
+	desc = ksm.0.d
+	#hide_window = yes
 	is_triggered_only = yes
+	picture = GFX_evt_kirakira
 	trigger = {
 		is_ai = no
 	}
@@ -13,189 +16,37 @@ country_event = {
 				has_country_flag = poppinparty
 			}
 			set_country_flag = ruled_by_ksm
+			kill_leader = { 
+				type = ruler 
+				show_notification = no
+			}
+			create_species = {
+				name = "BanGDream_Human"
+				class = HUM
+				portrait = "human"
+				gender = female
+				immortal = yes
+				effect = {
+					save_event_target_as = bangdream_species
+				}
+			}
 		}
 	}
-	after = {
-		if = {
-			limit = {
-				has_country_flag = poppinparty
-			}
-			hidden_effect = {
-				kill_leader = { 
-					type = ruler 
-					show_notification = no
-				}
-				create_species = {
-					name = "BanGDream_Human"
-					class = HUM
-					portrait = "human"
-					gender = female
-					immortal = yes
-					effect = {
-						save_event_target_as = bangdream_species
-					}
-				}
-				create_leader = {
-					species = event_target:bangdream_species
-					class = official
-					background_job = executive
-					skip_background_generation = yes
-					name = PRESCRIPTED_ruler_name_ksm1
-					custom_description = EMPIRE_DESIGN_kasumi_desc
-					immortal = yes
-					set_age = 18
-					hide_age = yes
-					gender = female
-					skill = 10
-					randomize_traits = no
-					traits = {
-						trait = leader_trait_star_beat
-						trait = trait_kasumi_sparkling_heartbeat
-						trait = trait_poppin_party
-					}
-					event_leader = yes
-					effect = {
-						set_leader_flag = ruler_ksm
-						set_leader_flag = legendary_leader
-					}
-				}
-				last_created_leader = {
-					change_leader_portrait = "ksm_leader_popipa_portrait"
-					set_age = 18
-					change_background_job = executive
-					skip_background_generation = yes
-				}
-				set_leader = last_created_leader
-				#ars
-				create_leader = {
-					species = event_target:bangdream_species
-					class = official
-					background_job = executive
-					skip_background_generation = yes
-					name = PRESCRIPTED_ruler_name_arisa1
-					custom_description = PRESCRIPTED_ruler_name_arisa1_desc
-					immortal = yes
-					set_age = 18
-					hide_age = yes
-					gender = female
-					skill = 10
-					randomize_traits = no
-					traits = {
-						trait = leader_trait_star_beat
-						trait = trait_arisa_sparkling_heartbeat
-						trait = trait_poppin_party
-					}
-					event_leader = yes
-					effect = {
-						change_leader_portrait = arisa_leader_popipa_portrait
-						set_leader_flag = arisa
-						set_leader_flag = legendary_leader
-					}
-				}
-				#saaya
-				create_leader = {
-					species = event_target:bangdream_species
-					class = official
-					background_job = executive
-					skip_background_generation = yes
-					name = PRESCRIPTED_ruler_name_saaya1
-					custom_description = PRESCRIPTED_ruler_name_saaya1_desc
-					immortal = yes
-					set_age = 18
-					hide_age = yes
-					gender = female
-					skill = 10
-					randomize_traits = no
-					traits = {
-						trait = leader_trait_star_beat
-						trait = trait_saaya_sparkling_heartbeat
-						trait = trait_poppin_party
-					}
-					event_leader = yes
-					effect = {
-						change_leader_portrait = saaya_leader_popipa_portrait
-						set_leader_flag = saaya
-						set_leader_flag = legendary_leader
-					}
-				}
-				#tae
-				create_leader = {
-					species = event_target:bangdream_species
-					class = commander
-					background_job = executive
-					skip_background_generation = yes
-					name = PRESCRIPTED_ruler_name_tae1
-					custom_description = PRESCRIPTED_ruler_name_tae1_desc
-					immortal = yes
-					set_age = 18
-					hide_age = yes
-					gender = female
-					skill = 10
-					randomize_traits = no
-					traits = {
-						trait = leader_trait_star_beat
-						trait = trait_tae_sparkling_heartbeat
-						trait = trait_poppin_party
-					}
-					event_leader = yes
-					effect = {
-						change_leader_portrait = tae_leader_popipa_portrait
-						set_leader_flag = tae
-						set_leader_flag = legendary_leader
-					}
-				}
-				#rimi
-				create_leader = {
-					species = event_target:bangdream_species
-					class = scientist
-					background_job = executive
-					skip_background_generation = yes
-					name = PRESCRIPTED_ruler_name_rimi1
-					custom_description = PRESCRIPTED_ruler_name_rimi1_desc
-					immortal = yes
-					set_age = 18
-					hide_age = yes
-					gender = female
-					skill = 10
-					randomize_traits = no
-					traits = {
-						trait = leader_trait_star_beat
-						trait = trait_rimi_sparkling_heartbeat
-						trait = trait_poppin_party
-					}
-					event_leader = yes
-					effect = {
-						change_leader_portrait = rimi_leader_popipa_portrait
-						set_leader_flag = rimi
-						set_leader_flag = legendary_leader
-					}
-				}
-
-				#asuka
-				create_leader = {
-					species = event_target:bangdream_species
-					class = scientist
-					background_job = executive
-					skip_background_generation = yes
-					name = PRESCRIPTED_ruler_name_asuka1
-					custom_description = PRESCRIPTED_ruler_name_asuka1_desc
-					immortal = yes
-					set_age = 18
-					hide_age = yes
-					gender = female
-					skill = 10
-					randomize_traits = no
-					traits = {
-						trait = leader_trait_star_beat
-					}
-					event_leader = yes
-					effect = {
-						change_leader_portrait = asuka_leader_popipa_portrait
-						set_leader_flag = asuka
-						set_leader_flag = legendary_leader
-					}
-				}
-			}
+	option = {
+		name = ksm.0.a
+		custom_tooltip = ksm_startup
+		hidden_effect = {
+			create_ksm = yes
+			#ars
+			create_ars = yes
+			#saaya
+			create_saaya = yes
+			#tae
+			create_tae = yes
+			#rimi
+			create_rimi = yes
+			#asuka
+			create_asuka = yes
 		}
 	}
 }
