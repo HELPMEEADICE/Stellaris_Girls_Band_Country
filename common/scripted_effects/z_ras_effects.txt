@@ -1,0 +1,182 @@
+create_chuchu = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_chuchu1
+		custom_description = PRESCRIPTED_ruler_name_chuchu1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_ras
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = chuchu_leader_ras_portrait
+			set_leader_flag = chuchu
+			set_leader_flag = ras
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+
+create_lock = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_lock1
+		custom_description = PRESCRIPTED_ruler_name_lock1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_ras
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = lock_leader_ras_portrait
+			set_leader_flag = lock
+			set_leader_flag = ras
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+
+create_layer = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_layer1
+		custom_description = PRESCRIPTED_ruler_name_layer1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_ras
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = layer_leader_ras_portrait
+			set_leader_flag = layer
+			set_leader_flag = ras
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+
+create_masking = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_masking1
+		custom_description = PRESCRIPTED_ruler_name_masking1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_ras
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = masking_leader_ras_portrait
+			set_leader_flag = masking
+			set_leader_flag = ras
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+
+create_pareo = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_pareo1
+		custom_description = PRESCRIPTED_ruler_name_pareo1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_ras
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = pareo_leader_ras_portrait
+			set_leader_flag = pareo
+			set_leader_flag = ras
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+
+fix_ras = {
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = chuchu
+		}
+		change_leader_portrait = "chuchu_leader_ras_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = layer
+		}
+		change_leader_portrait = "layer_leader_ras_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = lock
+		}
+		change_leader_portrait = "lock_leader_ras_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = masking
+		}
+		change_leader_portrait = "masking_leader_ras_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = pareo
+		}
+		change_leader_portrait = "pareo_leader_ras_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+}

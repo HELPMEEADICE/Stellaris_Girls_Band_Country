@@ -563,3 +563,181 @@ reborn_asuka_edict = {
 		create_asuka = yes
     }
 }
+
+
+#ras
+reborn_chuchu_edict = {
+	length = 1
+    icon = "GFX_edict_type_ras"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = chuchu
+			}
+		}
+		has_country_flag = have_ras
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = chuchu
+			}
+		}
+		has_country_flag = have_ras
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_chuchu = yes
+    }
+}
+reborn_layer_edict = {
+	length = 1
+    icon = "GFX_edict_type_ras"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = layer
+			}
+		}
+		has_country_flag = have_ras
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = layer
+			}
+		}
+		has_country_flag = have_ras
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_layer = yes
+    }
+}
+reborn_lock_edict = {
+	length = 1
+    icon = "GFX_edict_type_ras"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = lock
+			}
+		}
+		has_country_flag = have_ras
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = lock
+			}
+		}
+		has_country_flag = have_ras
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_lock = yes
+    }
+}
+reborn_masking_edict = {
+	length = 1
+    icon = "GFX_edict_type_ras"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = masking
+			}
+		}
+		has_country_flag = have_ras
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = masking
+			}
+		}
+		has_country_flag = have_ras
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_masking = yes
+    }
+}
+reborn_pareo_edict = {
+	length = 1
+    icon = "GFX_edict_type_ras"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = pareo
+			}
+		}
+		has_country_flag = have_ras
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = pareo
+			}
+		}
+		has_country_flag = have_ras
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_pareo = yes
+    }
+}

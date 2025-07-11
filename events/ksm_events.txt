@@ -162,5 +162,9 @@ country_event = {
 			limit = {has_country_flag = have_roselia}
 			fix_roselia = yes
 		}
+		if = {
+			limit = {has_country_flag = have_ras}
+			fix_ras = yes
+		}
 	}
 }

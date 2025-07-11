@@ -1,5 +1,6 @@
 namespace = paspal
 namespace = roselia
+namespace = ras
 
 country_event = {
 	id = paspal.0
@@ -36,5 +37,24 @@ country_event = {
 		create_rinko = yes
 		create_ako = yes
 		custom_tooltip = C_ROSELIA
+	}
+}
+
+country_event = {
+	id = ras.0
+	is_triggered_only = yes
+	picture = GFX_evt_ras_1
+	title = ras.0.t
+	desc = ras.0.d
+
+	option = {
+		name = ras.0.a
+		set_country_flag = have_ras
+		create_chuchu = yes
+		create_lock = yes
+		create_layer = yes
+		create_masking = yes
+		create_pareo = yes
+		custom_tooltip = C_RAS
 	}
 }

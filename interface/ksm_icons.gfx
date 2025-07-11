@@ -19,5 +19,9 @@ spriteTypes = {
 		name = "GFX_edict_type_paspal"
 		textureFile = "gfx/interface/icons/paspal_edict_icon.dds"
   }
+  spriteType = {
+		name = "GFX_edict_type_ras"
+		textureFile = "gfx/interface/icons/ras_edict_icon.dds"
+  }
 }
 

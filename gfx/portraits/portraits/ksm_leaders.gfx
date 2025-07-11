@@ -55,4 +55,20 @@ portraits = {
 	sayo_leader_roselia_portrait ={
 		texturefile = "gfx/models/portraits/roselia/sayo.png"
 	}
+	#ras
+	chuchu_leader_ras_portrait ={
+		texturefile = "gfx/models/portraits/ras/chuchu.png"
+	}
+	lock_leader_ras_portrait ={
+		texturefile = "gfx/models/portraits/ras/lock.png"
+	}
+	layer_leader_ras_portrait ={
+		texturefile = "gfx/models/portraits/ras/layer.png"
+	}
+	masking_leader_ras_portrait ={
+		texturefile = "gfx/models/portraits/ras/masking.png"
+	}
+	pareo_leader_ras_portrait ={
+		texturefile = "gfx/models/portraits/ras/pareo.png"
+	}
 }

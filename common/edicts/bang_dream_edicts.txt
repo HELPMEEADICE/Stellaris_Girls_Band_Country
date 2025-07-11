@@ -55,3 +55,32 @@ create_roselia = {
 		}
     }
 }
+
+create_ras = {
+    length = 1
+    icon = "GFX_edict_type_ras"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_ras}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_ras}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		country_event = {
+			id = ras.0
+		}
+    }
+}
