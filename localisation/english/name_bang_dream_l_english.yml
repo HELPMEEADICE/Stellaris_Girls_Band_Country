@@ -45,3 +45,28 @@
 
  trait_roselia: "Roselia"
  trait_roselia_desc: "In the blooming garden of the cosmos, there are always some who exist not to be the brightest, but aspire to become the most sublime, the most perfect, the most unattainable one—like the legendary blue rose, said to be impossible to bloom.\nRoselia is the very embodiment of such a resolute awakening. They are virtuosos in pursuit of the summit of their craft, seekers who devote everything to the 'pinnacle' of music. Their music is not meant to bring easy pleasure, but to shock the souls of the audience with absolute skill, an overwhelming worldview, and a noble presence. For them, there are no compromises on their path, no mistakes allowed on stage; every performance is a challenge to a higher realm, with all their glory on the line.\nThey do not ask for applause; they command reverence. For to the truly strong, the path to the summit is, in itself, the only medal."
+
+
+#ras
+ PRESCRIPTED_ruler_name_chuchu1: "Chiyu Tamade"
+ PRESCRIPTED_ruler_name_layer1: "Rei Wakana"
+ PRESCRIPTED_ruler_name_lock1: "Rokka Asahi"
+ PRESCRIPTED_ruler_name_masking1: "Masuki Satou"
+ PRESCRIPTED_ruler_name_pareo1: "Reona Nyubara"
+ PRESCRIPTED_ruler_name_chuchu1_desc: "CHU²"
+ PRESCRIPTED_ruler_name_layer1_desc: "LAYER"
+ PRESCRIPTED_ruler_name_lock1_desc: "LOCK"
+ PRESCRIPTED_ruler_name_masking1_desc: "MASKING"
+ PRESCRIPTED_ruler_name_pareo1_desc: "PAREO"
+
+ 
+ edict_create_ras: "Invite RAISE A SUILEN"
+ edict_create_ras_desc: "All members of RAISE A SUILEN will become leaders."
+ C_RAS: "All members of RAISE A SUILEN will become leaders."
+
+ ras.0.t: "The Declaration, Sounding Here and Now!"
+ ras.0.d: "Not all responses are gentle.\nAs the 'Great Girls' Band Nation's' signal, filled with 'Sparkling Heart-Pounding', spread through the universe, a sharp, ferocious signal, like an electronic storm, forcefully cut into all our communication channels. It was filled with jagged soundwaves, overloaded data streams, and undisguised raw power, clashing violently with the harmonious melodies we are accustomed to.\nThen, a clear and confident voice, through the ruins of this sonic chaos, issued a declaration to the entire universe. This was not a response, but a one-sided 'musical surprise attack'.\n\"Attention, 'Great Girls' Band Nation'! Your gentle 'KIRAKIRADOKIDOKI' set is outdated! This universe doesn't need a lullaby, it needs a complete revolution!\"\n\"Listen up! We are—RAISE A SUILEN! What we bring is the strongest music! We will destroy everything you have built, and then, create a brand new world!\"\nThis was not an invitation from the Secretary-General's Office, but an ultimatum issued to us by them—this electronic rock legion, led by their producer, with the goal of conquering the world. They were not requesting to join; they were announcing their arrival.\nThe signal cut off abruptly, leaving a silence echoing with the aftershock of their power.\nThe era of gentle harmonies is over. From this day forward, the universe will tremble at the sound of RAISE A SUILEN."
+ ras.0.a: "Applaud this chaotic symphony!"
+
+ trait_ras: "RAISE A SUILEN"
+ trait_ras_desc: "The laws of the universe exist to be broken; the courses of the stars shine to be remade. When gentle songs can only bring comfort, when noble oaths only lead to a lonely summit, then, there must be another voice, one that brings destruction, revolution, and rebirth.\nRAISE A SUILEN is the very embodiment of this will. They are not conventional musicians, but an electronic rock legion, meticulously crafted by their producer, with 'the strongest music' as their sole creed. Their music is a declaration, a challenge, a wild symphony that destroys the old world and establishes a new order. To them, the stage is not a land of dreams, but a battlefield; the audience is not an object to be pleased, but a territory to be conquered.\nTheir melodies are overloaded currents, their lyrics a powerful manifesto, every performance an all-out musical raid launched against the entire universe. They will tear the silence with the sharpest soundwaves, shake the stars with the most ferocious drumbeats, and with absolute power, prove who the true masters of this era are.\nThey are the storm, the thunder, the horn announcing the dawn of a new era. Get ready to be utterly conquered by their music."
