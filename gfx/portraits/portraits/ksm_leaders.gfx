@@ -71,4 +71,20 @@ portraits = {
 	pareo_leader_ras_portrait ={
 		texturefile = "gfx/models/portraits/ras/pareo.png"
 	}
+	#ag
+	ran_leader_ag_portrait ={
+		texturefile = "gfx/models/portraits/ag/ran.png"
+	}
+	moca_leader_ag_portrait ={
+		texturefile = "gfx/models/portraits/ag/moca.png"
+	}
+	hmr_leader_ag_portrait ={
+		texturefile = "gfx/models/portraits/ag/hmr.png"
+	}
+	tsugu_leader_ag_portrait ={
+		texturefile = "gfx/models/portraits/ag/tsugu.png"
+	}
+	tme_leader_ag_portrait ={
+		texturefile = "gfx/models/portraits/ag/tme.png"
+	}
 }

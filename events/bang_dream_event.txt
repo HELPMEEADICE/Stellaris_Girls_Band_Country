@@ -1,6 +1,7 @@
 namespace = paspal
 namespace = roselia
 namespace = ras
+namespace = ag
 
 country_event = {
 	id = paspal.0
@@ -56,5 +57,24 @@ country_event = {
 		create_masking = yes
 		create_pareo = yes
 		custom_tooltip = C_RAS
+	}
+}
+
+country_event = {
+	id = ag.0
+	is_triggered_only = yes
+	picture = GFX_evt_ag_1
+	title = ag.0.t
+	desc = ag.0.d
+
+	option = {
+		name = ag.0.a
+		set_country_flag = have_ag
+		create_ran = yes
+		create_moca = yes
+		create_tsugu = yes
+		create_hmr = yes
+		create_tme = yes
+		custom_tooltip = C_AG
 	}
 }

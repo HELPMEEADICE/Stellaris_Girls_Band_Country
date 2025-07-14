@@ -166,5 +166,9 @@ country_event = {
 			limit = {has_country_flag = have_ras}
 			fix_ras = yes
 		}
+		if = {
+			limit = {has_country_flag = have_ag}
+			fix_ag = yes
+		}
 	}
 }

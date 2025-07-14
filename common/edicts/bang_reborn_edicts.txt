@@ -741,3 +741,179 @@ reborn_pareo_edict = {
 		create_pareo = yes
     }
 }
+#ag
+reborn_ran_edict = {
+	length = 1
+    icon = "GFX_edict_type_ag"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = ran
+			}
+		}
+		has_country_flag = have_ag
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = ran
+			}
+		}
+		has_country_flag = have_ag
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_ran = yes
+    }
+}
+reborn_moca_edict = {
+	length = 1
+    icon = "GFX_edict_type_ag"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = moca
+			}
+		}
+		has_country_flag = have_ag
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = moca
+			}
+		}
+		has_country_flag = have_ag
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_moca = yes
+    }
+}
+reborn_tsugu_edict = {
+	length = 1
+    icon = "GFX_edict_type_ag"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = tsugu
+			}
+		}
+		has_country_flag = have_ag
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = tsugu
+			}
+		}
+		has_country_flag = have_ag
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_tsugu = yes
+    }
+}
+reborn_tme_edict = {
+	length = 1
+    icon = "GFX_edict_type_ag"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = tme
+			}
+		}
+		has_country_flag = have_ag
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = tme
+			}
+		}
+		has_country_flag = have_ag
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_tme = yes
+    }
+}
+reborn_hmr_edict = {
+	length = 1
+    icon = "GFX_edict_type_ag"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = hmr
+			}
+		}
+		has_country_flag = have_ag
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = hmr
+			}
+		}
+		has_country_flag = have_ag
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_hmr = yes
+    }
+}

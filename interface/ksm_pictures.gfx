@@ -15,4 +15,8 @@ spriteTypes = {
 		name = "GFX_evt_ras_1"
 		texturefile = "gfx/event_pictures/ras_1.dds"
 	}
+	spriteType = {
+		name = "GFX_evt_ag_1"
+		texturefile = "gfx/event_pictures/afterglow_1.dds"
+	}
 }

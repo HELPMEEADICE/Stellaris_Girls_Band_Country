@@ -84,3 +84,32 @@ create_ras = {
 		}
     }
 }
+
+create_ag = {
+    length = 1
+    icon = "GFX_edict_type_ag"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_ag}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_ag}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		country_event = {
+			id = ag.0
+		}
+    }
+}

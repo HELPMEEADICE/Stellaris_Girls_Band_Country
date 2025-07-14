@@ -23,5 +23,9 @@ spriteTypes = {
 		name = "GFX_edict_type_ras"
 		textureFile = "gfx/interface/icons/ras_edict_icon.dds"
   }
+  spriteType = {
+		name = "GFX_edict_type_ag"
+		textureFile = "gfx/interface/icons/afterglow_edict_icon.dds"
+  }
 }
 

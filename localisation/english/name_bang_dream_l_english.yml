@@ -70,3 +70,26 @@
 
  trait_ras: "RAISE A SUILEN"
  trait_ras_desc: "The laws of the universe exist to be broken; the courses of the stars shine to be remade. When gentle songs can only bring comfort, when noble oaths only lead to a lonely summit, then, there must be another voice, one that brings destruction, revolution, and rebirth.\nRAISE A SUILEN is the very embodiment of this will. They are not conventional musicians, but an electronic rock legion, meticulously crafted by their producer, with 'the strongest music' as their sole creed. Their music is a declaration, a challenge, a wild symphony that destroys the old world and establishes a new order. To them, the stage is not a land of dreams, but a battlefield; the audience is not an object to be pleased, but a territory to be conquered.\nTheir melodies are overloaded currents, their lyrics a powerful manifesto, every performance an all-out musical raid launched against the entire universe. They will tear the silence with the sharpest soundwaves, shake the stars with the most ferocious drumbeats, and with absolute power, prove who the true masters of this era are.\nThey are the storm, the thunder, the horn announcing the dawn of a new era. Get ready to be utterly conquered by their music."
+
+ #ag
+ PRESCRIPTED_ruler_name_ran1: "Ran Mitake"
+ PRESCRIPTED_ruler_name_moca1: "Moca Aoba"
+ PRESCRIPTED_ruler_name_tsugu1: "Tsugumi Hazawa"
+ PRESCRIPTED_ruler_name_hmr1: "Himari Uehara"
+ PRESCRIPTED_ruler_name_tme1: "Tomoe Udagawa"
+ PRESCRIPTED_ruler_name_ran1_desc: "Ran Mitake"
+ PRESCRIPTED_ruler_name_moca1_desc: "Moca Aoba"
+ PRESCRIPTED_ruler_name_tsugu1_desc: "Tsugumi Hazawa"
+ PRESCRIPTED_ruler_name_hmr1_desc: "Himari Uehara"
+ PRESCRIPTED_ruler_name_tme1_desc: "Tomoe Udagawa"
+ 
+ edict_create_ag: "Invite Afterglow"
+ edict_create_ag_desc: "All members of Afterglow will become leaders."
+ C_AG: "All members of Afterglow will become leaders."
+
+ ag.0.t: "Echoes Under the Sunset"
+ ag.0.d: "The Star Chart Command Center received an unofficial, encrypted transmission. The signal source was surprisingly stable, but its content was filled with a casual and untamed spirit.\nIt wasn't a formal document, but more like a casual chat recording among a group of friends, with the background filled with the sounds of guitar tuning, the crinkling of snack bags, and suppressed laughter. A slightly lazy yet incredibly reliable voice broke the silence:\n\"Yo yo, can you hear us? This is Afterglow.\"\n\"Heard you guys are making quite a scene out there in space, with all that 'Sparkling Heart-Pounding' and 'summits'... pretty cool. Over here, it's the same as always. Practice, part-time jobs, staring at the clouds from the rooftop under the sunset... y'know, this 'same as always' feeling isn't half bad.\"\n\"But, we've been talking lately. Wondering if our 'same as always' could be played somewhere farther away? In a sea of stars with no sunset, what would our music even sound like?\"\n\"So, we talked it over. We don't want to be great leaders, and we're not looking to conquer anyone. We just want to go somewhere no one's been before, with our most important friends, play our own sound, and then head home laughing, just like always. If your starships happen to be short a few 'same as always' folks, then how about you give us a shot?\"\nThe transmission ended with a hearty laugh, followed by a whispered, \"Hehe, sounded cool, didn't I?\"\nTheir arrival might not bring revolutionary changes, but this irreplaceable bond, forged under the sunset, will become the warmest, most solid 'place to come home to' for The Great Girls' Band Nation in the cold universe."
+ ag.0.a: "Welcome aboard. Let 'as always' echo through the stars."
+
+ trait_ag: "Afterglow"
+ trait_ag_desc: "Not all stories need a grand opening, and not all rock is for screaming and rebellion. There's a kind of power born from alleyway graffiti, convenience store lights, and a rooftop bathed in the setting sun. It doesn't seek to change the world, only to protect the 'same as always' scenery and the irreplaceable friends by their side.\nAfterglow is the crystallization of this youthful bond. They are five childhood friends, partners who share a secret base, rebels who fight against the anxieties of growing up and the world's boredom with the purest rock spirit. Their music lacks fancy words but is filled with after-school laziness, the warmth of the sunset, and a promise to never part. Every ensemble is a resonance of five hearts; every time they sing out loud, it's the most passionate cheer for their unchanging daily lives and friendship.\nThey may not bring the fastest efficiency or the greatest power, but their very existence is a form of unparalleled 'stability'. They are the solid support that can still laugh and say 'It's the same as always' in a storm, the lighthouse named 'home' that will never be lost in the vast universe.\nThey are the afterglow of the sunset, the proof of youth, the strongest 'us' who can find a home anywhere."

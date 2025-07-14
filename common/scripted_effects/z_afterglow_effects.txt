@@ -1,0 +1,178 @@
+create_ran = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_ran1
+		custom_description = PRESCRIPTED_ruler_name_ran1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_ag
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = ran_leader_ag_portrait
+			set_leader_flag = ran
+			set_leader_flag = ag
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+create_moca = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_moca1
+		custom_description = PRESCRIPTED_ruler_name_moca1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_ag
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = moca_leader_ag_portrait
+			set_leader_flag = moca
+			set_leader_flag = ag
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+create_tsugu = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_tsugu1
+		custom_description = PRESCRIPTED_ruler_name_tsugu1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_ag
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = tsugu_leader_ag_portrait
+			set_leader_flag = tsugu
+			set_leader_flag = ag
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+create_tme = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_tme1
+		custom_description = PRESCRIPTED_ruler_name_tme1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_ag
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = tme_leader_ag_portrait
+			set_leader_flag = tme
+			set_leader_flag = ag
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+create_hmr = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		background_job = executive
+		skip_background_generation = yes
+		name = PRESCRIPTED_ruler_name_hmr1
+		custom_description = PRESCRIPTED_ruler_name_hmr1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_ag
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = hmr_leader_ag_portrait
+			set_leader_flag = hmr
+			set_leader_flag = ag
+			set_leader_flag = legendary_leader
+		}
+	}
+}
+
+fix_ag = {
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = ran
+		}
+		change_leader_portrait = "ran_leader_ag_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = moca
+		}
+		change_leader_portrait = "moca_leader_ag_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = tsugu
+		}
+		change_leader_portrait = "tsugu_leader_ag_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = hmr
+		}
+		change_leader_portrait = "hmr_leader_ag_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = tme
+		}
+		change_leader_portrait = "tme_leader_ag_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+}
