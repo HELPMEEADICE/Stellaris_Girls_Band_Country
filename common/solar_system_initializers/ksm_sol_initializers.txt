@@ -17,7 +17,7 @@ sol_ksm_system_initializer = {
 		radius = 290
 	}
 
-	flags = { empire_home_system sol_system sol }
+	flags = { bangdream_sol_system }
 
 	usage = custom_empire
 

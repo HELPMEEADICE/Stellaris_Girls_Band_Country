@@ -21,7 +21,7 @@ kasumi = {
 	room = "ksm_room"
 
 	authority = "auth_radiant_harmony"
-	civics = { "civic_shared_burden" "civic_idealistic_foundation" }
+	civics = { "civic_shared_burden1" "civic_idealistic_foundation1" }
 	government = gov_federal_democracy
 
 	ethic = "ethic_materialist"
