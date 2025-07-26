@@ -1,0 +1,13 @@
+sr_stars = {
+	category = strategic
+	tradable = no
+	
+	ai_weight = {
+		weight = 10
+	}	
+	ai_wants = {
+		base = 10
+	}
+}
+
+	
