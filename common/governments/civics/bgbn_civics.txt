@@ -1,0 +1,65 @@
+civic_bgbn_1 = {
+	description = "civic_tooltip_bgbn_1_effects"
+	icon = "gfx/interface/icons/governments/civics/civic_bgbn_1.dds"
+	potential = {
+		authority = {
+			value = auth_radiant_harmony
+		}
+	}
+	random_weight = {
+		base = 0
+	}
+	modification = no
+	modifier = {
+		country_government_civic_points_add = 2
+	}
+}
+
+civic_bgbn_2 = {
+	description = "civic_tooltip_bgbn_2_effects"
+	icon = "gfx/interface/icons/governments/civics/civic_bgbn_2.dds"
+	potential = {
+		authority = {
+			value = auth_radiant_harmony
+		}
+	}
+	random_weight = {
+		base = 0
+	}
+	modifier = {
+		ship_weapon_range_mult = 0.1
+	}
+}
+
+civic_bgbn_3 = {
+	description = "civic_tooltip_bgbn_3_effects"
+	icon = "gfx/interface/icons/governments/civics/civic_bgbn_3.dds"
+	potential = {
+		authority = {
+			value = auth_radiant_harmony
+		}
+	}
+	random_weight = {
+		base = 0
+	}
+	modifier = {
+		ship_weapon_range_mult = 0.2
+	}
+}
+
+civic_bgbn_4 = {
+	description = "civic_tooltip_bgbn_4_effects"
+	icon = "gfx/interface/icons/governments/civics/civic_bgbn_4.dds"
+	potential = {
+		authority = {
+			value = auth_radiant_harmony
+		}
+	}
+	random_weight = {
+		base = 0
+	}
+	modifier = {
+		ship_weapon_range_mult = 0.3
+	}
+}
+
