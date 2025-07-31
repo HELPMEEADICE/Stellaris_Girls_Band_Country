@@ -1,0 +1,59 @@
+councilor_bgbn_1 = {
+	leader_class = { official scientist commander }
+	is_leader_possible = {
+		leader_class = official
+		leader_class = scientist
+		leader_class = official
+	}
+
+	civic = civic_bgbn_1
+	modifier = {
+		empire_size_mult = -0.02
+		official_exp_gain = 0.03
+	}
+	icon = "GFX_icon_bgbn_1"
+}
+councilor_bgbn_2 = {
+	leader_class = { official }
+	is_leader_possible = {
+		OR = {
+			leader_class = official
+		}
+	}
+
+	civic = civic_bgbn_2
+	modifier = {
+		pop_happiness = 0.02
+
+	}
+	icon = "GFX_icon_bgbn_2"
+}
+councilor_bgbn_3 = {
+	leader_class = { scientist }
+	is_leader_possible = {
+		OR = {
+			leader_class = scientist
+		}
+	}
+
+	civic = civic_bgbn_3
+	modifier = {
+		planet_jobs_specialist_produces_mult = 0.02
+		country_physics_research_produces_mult = 0.03
+	}
+	icon = "GFX_icon_bgbn_3"
+}
+councilor_bgbn_4 = {
+	leader_class = { official }
+	is_leader_possible = {
+		leader_class = official
+	}
+
+	civic = civic_bgbn_4
+	modifier = {
+		planet_building_build_speed_mult = 0.02
+		megastructure_build_speed_mult = 0.03
+	}
+	icon = "GFX_icon_bgbn_4"
+}
+
