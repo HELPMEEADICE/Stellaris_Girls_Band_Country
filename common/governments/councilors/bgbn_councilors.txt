@@ -9,7 +9,8 @@ councilor_bgbn_1 = {
 	civic = civic_bgbn_1
 	modifier = {
 		empire_size_mult = -0.02
-		official_exp_gain = 0.03
+		country_unity_produces_mult = 0.01
+		species_leader_exp_gain = 0.03
 	}
 	icon = "GFX_icon_bgbn_1"
 }
