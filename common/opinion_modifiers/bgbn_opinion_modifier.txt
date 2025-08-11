@@ -1,0 +1,12 @@
+civic_resonating_the_starry_sea_opinion_modifiers = {
+	trigger = {
+		has_civic = civic_resonating_the_starry_sea
+	}
+
+	opinion = {
+		modifier = {
+			add = 150
+			has_civic = civic_resonating_the_starry_sea
+		}	
+	}
+}
