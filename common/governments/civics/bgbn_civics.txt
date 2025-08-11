@@ -1,6 +1,6 @@
-civic_bgbn_1 = {
-	description = "civic_tooltip_bgbn_1_effects"
-	icon = "gfx/interface/icons/governments/civics/civic_bgbn_1.dds"
+civic_harmonic_symphony = {
+	description = "civic_tooltip_harmonic_symphony_effects"
+	icon = "gfx/interface/icons/governments/civics/civic_harmonic_symphony.dds"
 	potential = {
 		authority = {
 			value = auth_radiant_harmony
@@ -23,9 +23,9 @@ civic_bgbn_1 = {
 	}
 }
 
-civic_bgbn_2 = {
-	description = "civic_tooltip_bgbn_2_effects"
-	icon = "gfx/interface/icons/governments/civics/civic_bgbn_2.dds"
+civic_resonating_the_starry_sea = {
+	description = "civic_tooltip_resonating_the_starry_sea_effects"
+	icon = "gfx/interface/icons/governments/civics/civic_resonating_the_starry_sea.dds"
 	potential = {
 		authority = {
 			value = auth_radiant_harmony
@@ -46,9 +46,9 @@ civic_bgbn_2 = {
 	}
 }
 
-civic_bgbn_3 = {
-	description = "civic_tooltip_bgbn_3_effects"
-	icon = "gfx/interface/icons/governments/civics/civic_bgbn_3.dds"
+civic_luminous_starry_array = {
+	description = "civic_tooltip_luminous_starry_array_effects"
+	icon = "gfx/interface/icons/governments/civics/civic_luminous_starry_array.dds"
 	potential = {
 		authority = {
 			value = auth_radiant_harmony
@@ -73,9 +73,9 @@ civic_bgbn_3 = {
 	}
 }
 
-civic_bgbn_4 = {
-	description = "civic_tooltip_bgbn_4_effects"
-	icon = "gfx/interface/icons/governments/civics/civic_bgbn_4.dds"
+civic_bang_dream_explosion = {
+	description = "civic_tooltip_bang_dream_explosion_effects"
+	icon = "gfx/interface/icons/governments/civics/civic_bang_dream_explosion.dds"
 	potential = {
 		authority = {
 			value = auth_radiant_harmony

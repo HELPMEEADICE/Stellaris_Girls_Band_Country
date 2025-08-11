@@ -1,4 +1,4 @@
-councilor_bgbn_1 = {
+councilor_harmonic_symphony = {
 	leader_class = { official scientist commander }
 	is_leader_possible = {
 		OR = {
@@ -8,16 +8,16 @@ councilor_bgbn_1 = {
 		}
 	}
 
-	civic = civic_bgbn_1
+	civic = civic_harmonic_symphony
 	modifier = {
 		empire_size_mult = -0.02
 		country_unity_produces_mult = 0.01
 		species_leader_exp_gain = 0.03
 		planet_jobs_specialist_produces_mult = 0.02
 	}
-	icon = "GFX_icon_bgbn_1"
+	icon = "GFX_icon_harmonic_symphony"
 }
-councilor_bgbn_2 = {
+councilor_resonating_the_starry_sea = {
 	leader_class = { official }
 	is_leader_possible = {
 		OR = {
@@ -25,15 +25,15 @@ councilor_bgbn_2 = {
 		}
 	}
 
-	civic = civic_bgbn_2
+	civic = civic_resonating_the_starry_sea
 	modifier = {
 		pop_happiness = 0.02
 		country_unity_produces_mult = 0.03
 
 	}
-	icon = "GFX_icon_bgbn_2"
+	icon = "GFX_icon_resonating_the_starry_sea"
 }
-councilor_bgbn_3 = {
+councilor_luminous_starry_array = {
 	leader_class = { scientist }
 	is_leader_possible = {
 		OR = {
@@ -41,26 +41,26 @@ councilor_bgbn_3 = {
 		}
 	}
 
-	civic = civic_bgbn_3
+	civic = civic_luminous_starry_array
 	modifier = {
 		planet_jobs_specialist_produces_mult = 0.03
 		country_physics_research_produces_mult = 0.02
 	}
-	icon = "GFX_icon_bgbn_3"
+	icon = "GFX_icon_luminous_starry_array"
 }
-councilor_bgbn_4 = {
+councilor_bang_dream_explosion = {
 	leader_class = { official }
 	is_leader_possible = {
 		leader_class = official
 	}
 
-	civic = civic_bgbn_4
+	civic = civic_bang_dream_explosion
 	modifier = {
 		planet_building_build_speed_mult = 0.02
 		megastructure_build_speed_mult = 0.03
 		planet_jobs_produces_mult = 0.01
 		planet_pops_upkeep_mult = -0.01
 	}
-	icon = "GFX_icon_bgbn_4"
+	icon = "GFX_icon_bang_dream_explosion"
 }
 

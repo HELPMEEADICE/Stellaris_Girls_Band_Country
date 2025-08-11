@@ -7,15 +7,15 @@ country_event = {
 	is_triggered_only = yes
 
  	trigger = {
-		has_civic = civic_bgbn_1
+		has_civic = civic_harmonic_symphony
 		has_authority = auth_radiant_harmony
 		NOT = { 
-			has_civic = civic_bgbn_3 
-			has_civic = civic_bgbn_4
+			has_civic = civic_luminous_starry_array 
+			has_civic = civic_bang_dream_explosion
 		}
 	}
 	immediate = {
-		force_add_civic = civic_bgbn_3
-		force_add_civic = civic_bgbn_4
+		force_add_civic = civic_luminous_starry_array
+		force_add_civic = civic_bang_dream_explosion
 	}
 }
