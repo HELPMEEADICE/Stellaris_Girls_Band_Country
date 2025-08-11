@@ -26,22 +26,7 @@
  auth_radiant_harmony_desc: "在一个由纯粹的音乐、梦想和团结编织而成的政权下，万千星辰随着少女们的节奏一同闪耀。领导层通过其无与伦比的魅力和激励人心的表演来引导国家，确保每个人都能找到属于自己的光芒。"
  AUTHORITY_POPIPA: "不通过选举，而是由最能点燃星海的人持续领导这个文明。音乐是她的语言，星辰是她的舞台。"
  sr_stars: "星石"
- civic_harmonic_symphony: "和音谐律"
- civic_harmonic_symphony_desc: "我们的梦想虽有不同，音乐也各显异彩，但我们仍然愿意追求着我们乐队之间的和谐，也希望能共同实现我们的梦想\n§R但现实真的会如此美好吗§!"
- civic_tooltip_harmonic_symphony_effects: "开局获得 §B流明星彩 邦，炸梦！§! 国策\n可邀请其他风格各异的乐队加入政府\n随机发生的乐队互动事件\n消耗凝聚力增加/减少 团结度与宁和度\n各个乐队面对不同的政策会有不同的想法，同时每个乐队拥有专属飞升\n§R团结度与宁和度将会决定我们帝国的走向，若不进行调和内阁就会分裂§!"
- councilor_harmonic_symphony: "总秘书"
- civic_resonating_the_starry_sea: "奏响星海"
- civic_resonating_the_starry_sea_desc: "尽管机械波并不能在真空中传递，我们的听众也未必都能清晰的感知振动，但我们会尽力创造更加闪耀的音乐，令每一个听众心动不已，也将一并能够远扬繁星"
- civic_tooltip_resonating_the_starry_sea_effects: "消耗凝聚力创作音乐加入到收藏中\n解锁特殊宣战理由:§H反静默战争 远星鸣奏§!\n可以建造少女乐队特殊建筑\n所有帝国对你评价+150"
- councilor_resonating_the_starry_sea: "文化部长"
- civic_luminous_starry_array: "流明星彩"
- civic_luminous_starry_array_desc: "我们于新星的闪耀中诞生，又将回到这片万千星彩的寰宇中，对闪耀群星的追求成为了我们社会的同一谐振"
- civic_tooltip_luminous_starry_array_effects: "每探索一个新的恒星系，可获得少量凝聚力\n每在一种新的类型的星体上修建恒星基地会获得阶段性加成\n一系列与探索有关的少女乐队特色科技\n可以建造少女乐队特殊巨构\n可以建造少女乐队特殊探索类建筑\n解锁特殊资源星石"
- councilor_luminous_starry_array: "解星者"
- civic_bang_dream_explosion: "邦，炸梦！"
- civic_bang_dream_explosion_desc: "土地，矿产，能源，信息。。。长久以来，这些不知所谓的东西将不羁的灵魂与梦想束缚在了现实的大地上，而今，帝国迈入星海，我等已经受够了这些繁文缛节！开始吧，让每个人都将能变得幸福起来！"
- civic_tooltip_bang_dream_explosion_effects: "解锁乌托邦式富足生活标准\n强制主体物种为社会福利生活标准及以上\n禁止不允许接受难民\n禁止关闭边境\n解锁特殊宣战理由:§H炸梦§!\n可以建设特殊生活类巨构"
- councilor_bang_dream_explosion: "乌托邦建设执行官"
+
  
 
  trait_kasumi_sparkling_heartbeat: "户山香澄的闪耀心动"
