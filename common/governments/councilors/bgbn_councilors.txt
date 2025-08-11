@@ -1,9 +1,11 @@
 councilor_bgbn_1 = {
 	leader_class = { official scientist commander }
 	is_leader_possible = {
-		leader_class = official
-		leader_class = scientist
-		leader_class = official
+		OR = {
+			leader_class = official
+			leader_class = scientist
+			leader_class = commander
+		}
 	}
 
 	civic = civic_bgbn_1

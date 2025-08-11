@@ -1,0 +1,5 @@
+on_game_start_country = {
+	events = {
+		bgbn_civic.1        #和音谐律效果
+	}
+}

@@ -1,0 +1,21 @@
+namespace = bgbn_civic
+
+# 和音谐律效果(添加国民理念)
+country_event = {
+	id = bgbn_civic.1
+	hide_window = yes
+	is_triggered_only = yes
+
+ 	trigger = {
+		has_civic = civic_bgbn_1
+		has_authority = auth_radiant_harmony
+		NOT = { 
+			has_civic = civic_bgbn_3 
+			has_civic = civic_bgbn_4
+		}
+	}
+	immediate = {
+		force_add_civic = civic_bgbn_3
+		force_add_civic = civic_bgbn_4
+	}
+}
