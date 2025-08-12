@@ -1,0 +1,4 @@
+sound = {
+	name = "sage_der_rosen"
+	file = "event/sage_der_rosen.wav"
+}

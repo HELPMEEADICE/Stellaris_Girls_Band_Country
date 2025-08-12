@@ -1,0 +1,10 @@
+
+soundeffect = {
+	name = sage_der_rosen
+	sounds = {
+		sound = sage_der_rosen
+	}
+	volume = 0.5
+	max_audible = 1
+	max_audible_behaviour = fail
+}

@@ -29,6 +29,10 @@ country_event = {
 	title = roselia.0.t
 	desc = roselia.0.d
 
+	immediate = {
+		play_sound = { sound = sage_der_rosen location = capital_scope }
+	}
+		
 	option = {
 		name = roselia.0.a
 		set_country_flag = have_roselia
