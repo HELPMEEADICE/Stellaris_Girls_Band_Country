@@ -258,6 +258,10 @@ sound =
 	name = "kasumi_advisor_notification_unidentified_object_1"
 	file = "vo/kasumi/advisor_notification_unidentified_object_1.wav"
 }
+sound = {
+	name = "tokimeki_experience"
+	file = "event/tokimeki_experience.wav"
+}
 
 #AAAAAAAAAA
 soundgroup = 

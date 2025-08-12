@@ -11,6 +11,7 @@ country_event = {
 		is_ai = no
 	}
 	immediate = {
+		play_sound = { sound = tokimeki_experience location = capital_scope }	
 		if = {
 			limit = {
 				has_country_flag = poppinparty
