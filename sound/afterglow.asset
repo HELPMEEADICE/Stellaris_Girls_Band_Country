@@ -1,0 +1,4 @@
+sound = {
+	name = "yolo"
+	file = "event/yolo.wav"
+}

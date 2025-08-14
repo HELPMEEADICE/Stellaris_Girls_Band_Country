@@ -1,0 +1,4 @@
+sound = {
+	name = "chakai_no_wingbeat"
+	file = "event/chakai_no_wingbeat.wav"
+}

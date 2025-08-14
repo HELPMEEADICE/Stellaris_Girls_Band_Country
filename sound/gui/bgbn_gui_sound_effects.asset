@@ -4,7 +4,7 @@ soundeffect = {
 	sounds = {
 		sound = sage_der_rosen
 	}
-	volume = 0.5
+	volume = 0.2
 	max_audible = 1
 	max_audible_behaviour = fail
 }
@@ -14,7 +14,57 @@ soundeffect = {
 	sounds = {
 		sound = tokimeki_experience
 	}
-	volume = 0.5
+	volume = 0.2
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+
+soundeffect = {
+	name = chakai_no_wingbeat
+	sounds = {
+		sound = chakai_no_wingbeat
+	}
+	volume = 0.2
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+
+soundeffect = {
+	name = happy_happier_happiest
+	sounds = {
+		sound = happy_happier_happiest
+	}
+	volume = 0.2
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+
+soundeffect = {
+	name = hell_or_hell
+	sounds = {
+		sound = hell_or_hell
+	}
+	volume = 0.2
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+
+soundeffect = {
+	name = kyu_mai_flower
+	sounds = {
+		sound = kyu_mai_flower
+	}
+	volume = 0.2
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+
+soundeffect = {
+	name = yolo
+	sounds = {
+		sound = yolo
+	}
+	volume = 0.2
 	max_audible = 1
 	max_audible_behaviour = fail
 }

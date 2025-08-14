@@ -10,6 +10,10 @@ country_event = {
 	title = paspal.0.t
 	desc = paspal.0.d
 
+	immediate = {
+		play_sound = { sound = kyu_mai_flower location = capital_scope }
+	}
+		
 	option = {
 		name = paspal.0.a
 		set_country_flag = have_paspal
@@ -52,6 +56,10 @@ country_event = {
 	title = ras.0.t
 	desc = ras.0.d
 
+	immediate = {
+		play_sound = { sound = hell_or_hell location = capital_scope }
+	}
+		
 	option = {
 		name = ras.0.a
 		set_country_flag = have_ras
@@ -71,6 +79,10 @@ country_event = {
 	title = ag.0.t
 	desc = ag.0.d
 
+	immediate = {
+		play_sound = { sound = yolo location = capital_scope }
+	}
+		
 	option = {
 		name = ag.0.a
 		set_country_flag = have_ag

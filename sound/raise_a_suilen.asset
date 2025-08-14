@@ -1,0 +1,4 @@
+sound = {
+	name = "hell_or_hell"
+	file = "event/hell_or_hell.wav"
+}

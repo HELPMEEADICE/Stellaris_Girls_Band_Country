@@ -1,0 +1,4 @@
+sound = {
+	name = "kyu_mai_flower"
+	file = "event/kyu_mai_flower.wav"
+}
