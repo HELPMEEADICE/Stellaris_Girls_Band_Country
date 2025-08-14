@@ -1,0 +1,52 @@
+#先驱者 深红 考古
+ #深红第一个考古 星流
+site_starry_string = {								
+	desc = "site_starry_string_intro"					#概览文本
+	picture = GFX_evt_excavation_team			#概览段图片
+	stages = 5									#整个考古一共需要多少阶段（概览不算一个阶段）
+	weight = {
+		base = 0
+	}
+
+	allow = {									#什么职位的人来考古
+		exists = leader
+		leader = { leader_class = scientist }
+	}
+
+	visible = {									#什么条件的文明可以遇到这个考古
+		has_authority = auth_radiant_harmony
+	}	
+
+	stage = {									#每个阶段的内容
+		difficulty = 1							#这个阶段的考古难度
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.1					#这个阶段的文本事件
+	}
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.2
+	}
+	stage = {
+		difficulty = 4
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.3
+	}
+	stage = {
+		difficulty = 5
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.4
+	}
+	stage = {
+		difficulty = 6
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.5
+	}
+
+	on_roll_failed = {							#考古roll骰子失败触发的效果，平常最好不要有
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = no_events }
+		}
+	}
+}
+	

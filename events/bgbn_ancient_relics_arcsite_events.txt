@@ -1,0 +1,126 @@
+#本文件为考古遗迹相关的事件文本
+namespace = bgbn_ancrel
+
+#星流
+country_event = {				#触发考古的事件是country_event,考古内部的阶段事件是fleet_event
+	id = bgbn_ancrel.0          #触发考古1 星流
+	title = "bgbn_ancrel.0.name"
+	desc = "bgbn_ancrel.0.desc"
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_authority = auth_radiant_harmony
+		days_passed >= 730
+    }
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	fire_only_once = yes
+
+	immediate = {
+		random_planet_within_border = {
+			limit = {
+				OR = {
+					is_planet_class = pc_molten
+					is_planet_class = pc_barren
+					is_planet_class = pc_barren_cold
+					is_planet_class = pc_frozen
+				}
+				NOT = { exists = archaeological_site }
+				NOT = { has_planet_flag = suppress_archaeological_sites }
+			}
+			save_event_target_as = tomb_planet
+		}
+	}
+
+	option = {
+		name = bgbn_ancrel.0.a
+		event_target:tomb_planet = {
+			create_archaeological_site = site_starry_string
+		}
+	}
+}
+	
+#阶段1	琴音
+fleet_event = {
+	id = bgbn_ancrel.1
+	title = "bgbn_ancrel.1.name"
+	desc = "bgbn_ancrel.1.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.1.a
+	}
+}	
+
+#阶段2
+fleet_event = {
+	id = bgbn_ancrel.2
+	title = "bgbn_ancrel.2.name"
+	desc = "bgbn_ancrel.2.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.2.a
+	}
+}	
+
+#阶段3
+fleet_event = {
+	id = bgbn_ancrel.3
+	title = "bgbn_ancrel.3.name"
+	desc = "bgbn_ancrel.3.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.3.a
+	}
+}	
+
+#阶段4
+fleet_event = {
+	id = bgbn_ancrel.4
+	title = "bgbn_ancrel.4.name"
+	desc = "bgbn_ancrel.4.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.4.a
+	}
+}	
+
+#阶段5
+fleet_event = {
+	id = bgbn_ancrel.5
+	title = "bgbn_ancrel.5.name"
+	desc = "bgbn_ancrel.5.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.5.a
+	}
+}	
+
