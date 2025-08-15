@@ -1,26 +1,34 @@
 #本文件为考古遗迹相关的事件文本
 namespace = bgbn_ancrel
 
+country_event = {			#触发星流前置	
+	id = bgbn_ancrel.7          
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = { 
+		country_event = { id = bgbn_ancrel.6 days = 360 }
+	}
+}	
+
 #星流
 country_event = {				#触发考古的事件是country_event,考古内部的阶段事件是fleet_event
-	id = bgbn_ancrel.0          #触发考古1 星流
-	title = "bgbn_ancrel.0.name"
-	desc = "bgbn_ancrel.0.desc"
+	id = bgbn_ancrel.6          #触发考古1 星流
+	title = "bgbn_ancrel.6.name"
+	desc = "bgbn_ancrel.6.desc"
 
 	location = event_target:starry_string_planet
 
 	is_triggered_only = yes
 
 	trigger = {
-		days_passed > 365
+		has_authority = auth_radiant_harmony
 	}
-	
+
 	immediate = {
 		random_planet_within_border = {
 			limit = {
 				OR = {
-					is_planet_class = pc_molten
-					is_planet_class = pc_barren
 					is_planet_class = pc_barren_cold
 					is_planet_class = pc_frozen
 				}
@@ -32,7 +40,7 @@ country_event = {				#触发考古的事件是country_event,考古内部的阶�
 	}
 
 	option = {
-		name = bgbn_ancrel.0.a
+		name = bgbn_ancrel.6.a
 		event_target:starry_string_planet = {
 			create_archaeological_site = site_starry_string
 		}
