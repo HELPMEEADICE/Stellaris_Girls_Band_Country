@@ -7,19 +7,14 @@ country_event = {				#触发考古的事件是country_event,考古内部的阶�
 	title = "bgbn_ancrel.0.name"
 	desc = "bgbn_ancrel.0.desc"
 
+	location = event_target:starry_string_planet
+
 	is_triggered_only = yes
 
 	trigger = {
-		has_authority = auth_radiant_harmony
-		days_passed >= 730
-    }
-
-	mean_time_to_happen = {
-		days = 0
+		days_passed > 365
 	}
-
-	fire_only_once = yes
-
+	
 	immediate = {
 		random_planet_within_border = {
 			limit = {
@@ -32,13 +27,13 @@ country_event = {				#触发考古的事件是country_event,考古内部的阶�
 				NOT = { exists = archaeological_site }
 				NOT = { has_planet_flag = suppress_archaeological_sites }
 			}
-			save_event_target_as = tomb_planet
+			save_event_target_as = starry_string_planet
 		}
 	}
 
 	option = {
 		name = bgbn_ancrel.0.a
-		event_target:tomb_planet = {
+		event_target:starry_string_planet = {
 			create_archaeological_site = site_starry_string
 		}
 	}

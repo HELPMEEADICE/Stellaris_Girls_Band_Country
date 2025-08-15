@@ -1,0 +1,5 @@
+on_game_start_country = {
+	events = {
+		bgbn_ancrel.0        #先驱者深红第一个事件
+	}
+}
