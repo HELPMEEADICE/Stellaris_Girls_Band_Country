@@ -17,7 +17,7 @@ country_event = {				#触发考古的事件是country_event,考古内部的阶�
 	title = "bgbn_ancrel.6.name"
 	desc = "bgbn_ancrel.6.desc"
 
-	location = event_target:starry_string_planet
+	location = event_target:starry_string_planet		#注册特殊地点
 
 	is_triggered_only = yes
 
@@ -26,14 +26,14 @@ country_event = {				#触发考古的事件是country_event,考古内部的阶�
 	}
 
 	immediate = {
-		random_planet_within_border = {
+		random_planet_within_border = {								#选中特殊地点
 			limit = {
 				OR = {
 					is_planet_class = pc_barren_cold
 					is_planet_class = pc_frozen
 				}
-				NOT = { exists = archaeological_site }
-				NOT = { has_planet_flag = suppress_archaeological_sites }
+				NOT = { exists = archaeological_site }				#选中行星的要求：没有考古遗迹
+				NOT = { has_planet_flag = suppress_archaeological_sites }		#选中行星的要求：没有禁止考古遗迹生成
 			}
 			save_event_target_as = starry_string_planet
 		}
@@ -41,7 +41,7 @@ country_event = {				#触发考古的事件是country_event,考古内部的阶�
 
 	option = {
 		name = bgbn_ancrel.6.a
-		event_target:starry_string_planet = {
+		event_target:starry_string_planet = {						#特殊地点会发生的事
 			create_archaeological_site = site_starry_string
 		}
 	}
