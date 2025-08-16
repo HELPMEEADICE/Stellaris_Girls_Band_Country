@@ -1,6 +1,7 @@
-#本文件为考古遗迹相关的事件文本
+#本文件为考古遗迹相关的事件文本 #触发考古的事件是country_event,考古内部的阶段事件是fleet_event
 namespace = bgbn_ancrel
 
+#先驱者 深红 事件链
 country_event = {			#触发星流前置	
 	id = bgbn_ancrel.7          
 	hide_window = yes
@@ -11,9 +12,9 @@ country_event = {			#触发星流前置
 	}
 }	
 
-#星流
-country_event = {				#触发考古的事件是country_event,考古内部的阶段事件是fleet_event
-	id = bgbn_ancrel.6          #触发考古1 星流
+#星流  #触发考古1 星流
+country_event = {				
+	id = bgbn_ancrel.6          
 	title = "bgbn_ancrel.6.name"
 	desc = "bgbn_ancrel.6.desc"
 
@@ -47,7 +48,7 @@ country_event = {				#触发考古的事件是country_event,考古内部的阶�
 	}
 }
 	
-#阶段1	琴音
+#阶段1	
 fleet_event = {
 	id = bgbn_ancrel.1
 	title = "bgbn_ancrel.1.name"
@@ -124,6 +125,149 @@ fleet_event = {
 	
 	option = {
 		name = bgbn_ancrel.5.a
+		owner = {
+			country_event = { id = bgbn_ancrel.8 days = 1}
+		}	
 	}
 }	
 
+#星流 挖掘完成事件
+country_event = {			
+	id = bgbn_ancrel.8          
+	title = bgbn_ancrel.8.name
+	desc = bgbn_ancrel.8.desc
+	
+	is_triggered_only = yes
+
+	option = { 
+		name = bgbn_ancrel.8.a
+		country_event = { id = bgbn_ancrel.9 days = 60 }
+		
+	}
+}
+
+#逆融 生成第二个考古遗迹事件
+country_event = {			
+	id = bgbn_ancrel.9          
+	title = bgbn_ancrel.9.name
+	desc = bgbn_ancrel.9.desc
+	location = event_target:reversal_to_magma_planet		
+
+	is_triggered_only = yes
+
+	immediate = {
+		random_planet_within_border = {								
+			limit = {
+				OR = {
+					is_planet_class = pc_molten
+				}
+				NOT = { exists = archaeological_site }				
+				NOT = { has_planet_flag = suppress_archaeological_sites }		
+			}
+			save_global_event_target_as = reversal_to_magma_planet
+		}
+	}
+
+	option = {
+		name = bgbn_ancrel.9.a
+		event_target:reversal_to_magma_planet = {						
+			create_archaeological_site = site_reversal_to_magma
+		}
+	}
+}
+
+
+fleet_event = {
+	id = bgbn_ancrel.10
+	title = "bgbn_ancrel.10.name"
+	desc = "bgbn_ancrel.10.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.10.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.11
+	title = "bgbn_ancrel.11.name"
+	desc = "bgbn_ancrel.11.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.11.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.12
+	title = "bgbn_ancrel.12.name"
+	desc = "bgbn_ancrel.12.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.12.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.13
+	title = "bgbn_ancrel.13.name"
+	desc = "bgbn_ancrel.13.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.13.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.14
+	title = "bgbn_ancrel.14.name"
+	desc = "bgbn_ancrel.14.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.14.a
+		owner = {
+			country_event = { id = bgbn_ancrel.15 days = 1 }
+				
+		}	
+	}
+}	
+
+#逆融 挖掘完成事件
+country_event = {			
+	id = bgbn_ancrel.15         
+	title = bgbn_ancrel.15.name
+	desc = bgbn_ancrel.15.desc
+	is_triggered_only = yes
+
+	option = { 
+		name = bgbn_ancrel.15.a
+		event_target:reversal_to_magma_planet = {						
+			change_pc = pc_gaia
+			
+		}
+	}
+}	

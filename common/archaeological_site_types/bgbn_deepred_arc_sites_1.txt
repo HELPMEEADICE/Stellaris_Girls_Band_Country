@@ -38,7 +38,7 @@ site_starry_string = {
 		event = bgbn_ancrel.4
 	}
 	stage = {
-		difficulty = 6
+		difficulty = 7
 		icon = GFX_archaeology_runes_F1
 		event = bgbn_ancrel.5
 	}
@@ -50,3 +50,54 @@ site_starry_string = {
 	}
 }
 	
+ #深红第二个考古 逆融
+site_reversal_to_magma = {								
+	desc = "site_reversal_to_magma_intro"					
+	picture = GFX_evt_excavation_team			
+	stages = 5									
+	weight = {
+		base = 0
+	}
+
+	allow = {									
+		exists = leader
+		leader = { leader_class = scientist }
+	}
+
+	visible = {									
+		has_authority = auth_radiant_harmony
+	}	
+
+	stage = {									
+		difficulty = 1							
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.10					
+	}
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.11
+	}
+	stage = {
+		difficulty = 5
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.12
+	}
+	stage = {
+		difficulty = 6
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.13
+	}
+	stage = {
+		difficulty = 8
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.14
+	}
+
+	on_roll_failed = {							
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = no_events }
+		}
+	}
+}
+	 
