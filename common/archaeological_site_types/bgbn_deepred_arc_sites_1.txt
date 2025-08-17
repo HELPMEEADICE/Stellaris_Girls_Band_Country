@@ -101,3 +101,84 @@ site_reversal_to_magma = {
 	}
 }
 	 
+ #深红第三个考古 邀约
+site_invitation = {								
+	desc = "site_invitation_intro"					
+	picture = GFX_evt_excavation_team			
+	stages = 11									
+	weight = {
+		base = 0
+	}
+
+	allow = {									
+		exists = leader
+		leader = { leader_class = scientist }
+	}
+
+	visible = {									
+		has_authority = auth_radiant_harmony
+	}	
+
+	stage = {									
+		difficulty = 1							
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.19					
+	}
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.20
+	}
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.21
+	}
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.22
+	}
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.23
+	}
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.24
+	}
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.25
+	}
+	stage = {
+		difficulty = 4
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.26
+	}
+	stage = {
+		difficulty = 6
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.27
+	}
+	stage = {
+		difficulty = 8
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.28
+	}
+	stage = {
+		difficulty = 8
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.29
+	}
+
+	on_roll_failed = {							
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = no_events }
+		}
+	}
+}
+	 

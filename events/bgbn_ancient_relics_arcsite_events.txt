@@ -267,7 +267,261 @@ country_event = {
 		name = bgbn_ancrel.15.a
 		event_target:reversal_to_magma_planet = {						
 			change_pc = pc_gaia
-			
+		}	
+		owner = {
+			country_event = { id = bgbn_ancrel.16 days = 60 }
 		}
+	}
+}	
+
+
+#邀约 第三个考古
+country_event = {			
+	id = bgbn_ancrel.16         
+	title = bgbn_ancrel.16.name
+	desc = bgbn_ancrel.16.desc
+	is_triggered_only = yes
+
+	option = { 
+		name = bgbn_ancrel.16.a
+		owner = {
+			country_event = { id = bgbn_ancrel.17 days = 5 }
+		}
+	}
+}	
+
+country_event = {						#生成 曦击 星系
+	id = bgbn_ancrel.17        
+	title = bgbn_ancrel.17.name
+	desc = bgbn_ancrel.17.desc
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = glowstrike_new_version
+		set_country_flag = glowstrike_wand_new_version
+		set_country_flag = glowstrike_version_11111
+		
+		set_spawn_system_batch = begin
+
+		capital_scope = {
+			spawn_system = {
+				min_distance = 25
+				max_distance = 30
+				max_jumps = 0
+				hyperlane = yes
+				is_discovered = no
+				initializer = "glowstrike_system"
+				effect = {
+					save_global_event_target_as = glowstrike_system
+				}
+			}
+		}
+
+		set_spawn_system_batch = end
+	}
+
+
+	option = { 
+		name = bgbn_ancrel.17.a
+		owner = {
+			country_event = { id = bgbn_ancrel.18 days = 1 }
+		}
+	}
+}	
+
+country_event = {			#生成第三个考古遗迹事件
+	id = bgbn_ancrel.18 
+	title = bgbn_ancrel.18.name
+	desc = bgbn_ancrel.18.desc  
+	location = event_target:glowstrike_star      
+
+	is_triggered_only = yes
+
+	option = {
+		name = bgbn_ancrel.18.a
+		event_target:glowstrike_star = {						
+			create_archaeological_site = site_invitation
+		}
+	}
+}
+
+fleet_event = {
+	id = bgbn_ancrel.19
+	title = "bgbn_ancrel.19.name"
+	desc = "bgbn_ancrel.19.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.19.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.20
+	title = "bgbn_ancrel.20.name"
+	desc = "bgbn_ancrel.20.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.20.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.21
+	title = "bgbn_ancrel.21.name"
+	desc = "bgbn_ancrel.21.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.21.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.22
+	title = "bgbn_ancrel.22.name"
+	desc = "bgbn_ancrel.22.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.22.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.23
+	title = "bgbn_ancrel.23.name"
+	desc = "bgbn_ancrel.23.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.23.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.24
+	title = "bgbn_ancrel.24.name"
+	desc = "bgbn_ancrel.24.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.24.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.25
+	title = "bgbn_ancrel.25.name"
+	desc = "bgbn_ancrel.25.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.25.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.26
+	title = "bgbn_ancrel.26.name"
+	desc = "bgbn_ancrel.26.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.26.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.27
+	title = "bgbn_ancrel.27.name"
+	desc = "bgbn_ancrel.27.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.27.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.28
+	title = "bgbn_ancrel.28.name"
+	desc = "bgbn_ancrel.28.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.28.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.29
+	title = "bgbn_ancrel.29.name"
+	desc = "bgbn_ancrel.29.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.29.a
+		owner = {
+			country_event = { id = bgbn_ancrel.30 days = 1 }
+		}
+	}
+}	
+
+country_event = {		#邀约挖掘完成事件	
+	id = bgbn_ancrel.30         
+	title = bgbn_ancrel.30.name
+	desc = bgbn_ancrel.30.desc
+	is_triggered_only = yes
+
+	option = { 
+		name = bgbn_ancrel.30.a
+
+		
 	}
 }	

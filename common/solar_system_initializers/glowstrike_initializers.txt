@@ -1,24 +1,21 @@
-@distance = 50
-@base_moon_distance = 10
-@jumps = 3
-
-
-### glowstrike System
+### glowstrike System 曦击 星系
 glowstrike_system = {
 	name = "glowstrike.name"
-	class = "sc_pulsar"
+	class = "sc_neutron_star"
 	flags = { glowstrike_system_flag }
 
 	planet = {
 		name = "glowstrike_system.1.name"
-		class = "sc_neutron_star"
-		flags = { glowstrike_star_flag }
-		orbit_distance = 0
+		class = "pc_neutron_star"						#类型
+		flags = { glowstrike_star_flag }				#可以用于锁定星球
+		orbit_distance = 0								#轨道距离 0代表中心
 		size = { min = 37 max = 71 }
 		init_effect = {
 		    prevent_anomaly = yes
 		    clear_deposits = yes
-		    add_deposit = d_physics_10
+		    add_deposit = d_physics_30
+			set_planet_flag = glowstrike_star
+			save_global_event_target_as = glowstrike_star
 		}	
 	}
 }
