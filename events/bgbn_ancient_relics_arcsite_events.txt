@@ -521,7 +521,541 @@ country_event = {		#邀约挖掘完成事件
 
 	option = { 
 		name = bgbn_ancrel.30.a
+		owner = {
+			country_event = { id = bgbn_ancrel.31 days = 60 }	
+		}		
+	}
+}	
 
+#第四个考古 微明
+country_event = {			
+	id = bgbn_ancrel.31         
+	title = bgbn_ancrel.31.name
+	desc = bgbn_ancrel.31.desc
+	is_triggered_only = yes
+
+	option = { 
+		name = bgbn_ancrel.31.a
+		owner = {
+			country_event = { id = bgbn_ancrel.32 days = 5 }
+		}
+	}
+}	
+
+country_event = {	 				#生成 星系 囚星之锁（starry_prisoner_lock）
+	id = bgbn_ancrel.32         
+	title = bgbn_ancrel.32.name
+	desc = bgbn_ancrel.32.desc
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = starry_prisoner_lock_new_version
+		set_country_flag = starry_prisoner_lock_wand_new_version
+		set_country_flag = starry_prisoner_lock_version_11112
 		
+		set_spawn_system_batch = begin
+
+		capital_scope = {
+			spawn_system = {
+				min_distance = 25
+				max_distance = 30
+				max_jumps = 3
+				hyperlane = yes
+				is_discovered = no
+				initializer = "starry_prisoner_lock_system"
+				effect = {
+					save_global_event_target_as = starry_prisoner_lock_system
+				}
+			}
+		}
+
+		set_spawn_system_batch = end
+	}
+
+
+	option = { 
+		name = bgbn_ancrel.32.a
+		owner = {
+			country_event = { id = bgbn_ancrel.33 days = 1 }
+		}
+	}
+}	
+
+country_event = {			#生成第四个考古遗迹事件
+	id = bgbn_ancrel.33 
+	title = bgbn_ancrel.33.name
+	desc = bgbn_ancrel.33.desc  
+	location = event_target:starry_prisoner_lock_star      
+
+	is_triggered_only = yes
+
+	option = {
+		name = bgbn_ancrel.33.a
+		event_target:starry_prisoner_lock_star = {						
+			create_archaeological_site = site_faint_starlight
+		}
+	}
+}
+
+fleet_event = {
+	id = bgbn_ancrel.34
+	title = "bgbn_ancrel.34.name"
+	desc = "bgbn_ancrel.34.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.34.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.35
+	title = "bgbn_ancrel.35.name"
+	desc = "bgbn_ancrel.35.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.35.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.36
+	title = "bgbn_ancrel.36.name"
+	desc = "bgbn_ancrel.36.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.36.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.37
+	title = "bgbn_ancrel.37.name"
+	desc = "bgbn_ancrel.37.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.37.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.38
+	title = "bgbn_ancrel.38.name"
+	desc = "bgbn_ancrel.38.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.38.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.39
+	title = "bgbn_ancrel.39.name"
+	desc = "bgbn_ancrel.39.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.39.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.40
+	title = "bgbn_ancrel.40.name"
+	desc = "bgbn_ancrel.40.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.40.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.41
+	title = "bgbn_ancrel.41.name"
+	desc = "bgbn_ancrel.41.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.41.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.42
+	title = "bgbn_ancrel.42.name"
+	desc = "bgbn_ancrel.42.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.42.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.43
+	title = "bgbn_ancrel.43.name"
+	desc = "bgbn_ancrel.43.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.43.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.44
+	title = "bgbn_ancrel.44.name"
+	desc = "bgbn_ancrel.44.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.44.a
+		owner = {
+			country_event = { id = bgbn_ancrel.45 days = 1 }	
+		}	
+	}
+}	
+
+country_event = {		#微明挖掘完成事件	
+	id = bgbn_ancrel.45         
+	title = bgbn_ancrel.45.name
+	desc = bgbn_ancrel.45.desc
+	is_triggered_only = yes
+
+	option = { 
+		name = bgbn_ancrel.45.a
+		owner = {
+			country_event = { id = bgbn_ancrel.46 days = 60 }
+		}		
+	}
+}	
+
+#第五个考古 幻彩
+country_event = {			
+	id = bgbn_ancrel.46         
+	title = bgbn_ancrel.46.name
+	desc = bgbn_ancrel.46.desc
+	is_triggered_only = yes
+
+	option = { 
+		name = bgbn_ancrel.46.a
+		owner = {
+			country_event = { id = bgbn_ancrel.47 days = 5 }
+		}
+	}
+}	
+
+country_event = {	 				#生成 星系 星之彩（colors_out_of_space）
+	id = bgbn_ancrel.47         
+	title = bgbn_ancrel.47.name
+	desc = bgbn_ancrel.47.desc
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = colors_out_of_space_new_version
+		set_country_flag = colors_out_of_space_wand_new_version
+		set_country_flag = colors_out_of_space_version_11112
+		
+		set_spawn_system_batch = begin
+
+		capital_scope = {
+			spawn_system = {
+				min_distance = 25
+				max_distance = 30
+				max_jumps = 3
+				hyperlane = yes
+				is_discovered = no
+				initializer = "colors_out_of_space_system"
+				effect = {
+					save_global_event_target_as = colors_out_of_space_system
+				}
+			}
+		}
+
+		set_spawn_system_batch = end
+	}
+
+	option = { 
+		name = bgbn_ancrel.47.a
+		owner = {
+			country_event = { id = bgbn_ancrel.48 days = 2 }
+		}
+	}
+}	
+
+country_event = {			#生成第五个考古遗迹事件 dreamy_colors
+	id = bgbn_ancrel.48 
+	title = bgbn_ancrel.48.name
+	desc = bgbn_ancrel.48.desc  
+	location = event_target:colors_out_of_space_star      
+
+	is_triggered_only = yes
+
+	option = {
+		name = bgbn_ancrel.48.a
+		event_target:colors_out_of_space_star = {						
+			create_archaeological_site = site_dreamy_colors
+		}
+	}
+}
+
+fleet_event = {
+	id = bgbn_ancrel.49
+	title = "bgbn_ancrel.49.name"
+	desc = "bgbn_ancrel.49.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.49.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.50
+	title = "bgbn_ancrel.50.name"
+	desc = "bgbn_ancrel.50.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.50.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.51
+	title = "bgbn_ancrel.51.name"
+	desc = "bgbn_ancrel.51.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.51.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.52
+	title = "bgbn_ancrel.52.name"
+	desc = "bgbn_ancrel.52.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.52.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.53
+	title = "bgbn_ancrel.53.name"
+	desc = "bgbn_ancrel.53.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.53.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.54
+	title = "bgbn_ancrel.54.name"
+	desc = "bgbn_ancrel.54.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.54.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.55
+	title = "bgbn_ancrel.55.name"
+	desc = "bgbn_ancrel.55.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.55.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.56
+	title = "bgbn_ancrel.56.name"
+	desc = "bgbn_ancrel.56.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.56.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.57
+	title = "bgbn_ancrel.57.name"
+	desc = "bgbn_ancrel.57.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.57.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.58
+	title = "bgbn_ancrel.58.name"
+	desc = "bgbn_ancrel.58.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.58.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.59
+	title = "bgbn_ancrel.59.name"
+	desc = "bgbn_ancrel.59.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.59.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.60
+	title = "bgbn_ancrel.60.name"
+	desc = "bgbn_ancrel.60.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.60.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.61
+	title = "bgbn_ancrel.61.name"
+	desc = "bgbn_ancrel.61.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.61.a
+		owner = {
+			country_event = { id = bgbn_ancrel.62 days = 1 }	
+		}	
+	}
+}
+
+country_event = {		#幻彩挖掘完成事件	
+	id = bgbn_ancrel.62         
+	title = bgbn_ancrel.62.name
+	desc = bgbn_ancrel.62.desc
+	is_triggered_only = yes
+
+	option = { 
+		name = bgbn_ancrel.62.a
+		
+			
+				
 	}
 }	

@@ -181,4 +181,169 @@ site_invitation = {
 		}
 	}
 }
-	 
+
+ #深红第四个考古 微明
+site_faint_starlight = {								
+	desc = "site_faint_starlight_intro"					
+	picture = GFX_evt_excavation_team			
+	stages = 11									
+	weight = {
+		base = 0
+	}
+
+	allow = {									
+		exists = leader
+		leader = { leader_class = scientist }
+	}
+
+	visible = {									
+		has_authority = auth_radiant_harmony
+	}	
+
+	stage = {									
+		difficulty = 1							
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.34					
+	}
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.35
+	}
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.36
+	}
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.37
+	}
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.38
+	}
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.39
+	}
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.40
+	}
+	stage = {
+		difficulty = 4
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.41
+	}
+	stage = {
+		difficulty = 6
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.42
+	}
+	stage = {
+		difficulty = 8
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.43
+	}
+	stage = {
+		difficulty = 8
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.44
+	}
+
+	on_roll_failed = {							
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = no_events }
+		}
+	}
+}
+
+ #深红第五个考古 幻彩
+site_dreamy_colors = {								
+	desc = "site_dreamy_colors_intro"					
+	picture = GFX_evt_excavation_team			
+	stages = 13									
+	weight = {
+		base = 0
+	}
+
+	allow = {									
+		exists = leader
+		leader = { leader_class = scientist }
+	}
+
+	visible = {									
+		has_authority = auth_radiant_harmony
+	}	
+
+	stage = {									
+		difficulty = 1							
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.49					
+	}
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.50
+	}
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.51
+	}
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.52
+	}
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.53
+	}
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.54
+	}
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.55
+	}
+	stage = {
+		difficulty = 4
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.56
+	}
+	stage = {
+		difficulty = 6
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.57
+	}
+	stage = {
+		difficulty = 8
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.58
+	}
+	stage = {
+		difficulty = 8
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.59
+	}
+	stage = {
+		difficulty = 8
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.60
+	}
+	stage = {
+		difficulty = 8
+		icon = GFX_archaeology_runes_F1
+		event = bgbn_ancrel.61
+	}
+}

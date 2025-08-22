@@ -1,0 +1,232 @@
+### glowstrike System 曦击 星系
+glowstrike_system = {
+	name = "glowstrike.name"
+	class = "sc_neutron_star"							#星系类型
+	flags = { glowstrike_system_flag }
+
+	planet = {
+		name = "glowstrike_system.1.name"
+		class = "pc_neutron_star"						#行星/恒星类型
+		flags = { glowstrike_star_flag }				#可以用于各种事件/效果锁定星球
+		orbit_distance = 0								#轨道距离 0代表中心
+		size = { min = 37 max = 71 }
+		init_effect = {
+		    prevent_anomaly = yes
+		    clear_deposits = yes
+		    add_deposit = d_physics_30
+			set_planet_flag = glowstrike_star
+			save_global_event_target_as = glowstrike_star
+		}	
+	}
+}
+
+### starry_prisoner_lock  囚星之锁 星系
+starry_prisoner_lock_system = {
+	name = "starry_prisoner_lock.name"
+	class = "sc_black_hole"
+	flags = { starry_prisoner_lock_system_flag }
+
+	planet = {
+		name = "starry_prisoner_lock_system.1.name"
+		class = "pc_black_hole"						
+		flags = { starry_prisoner_lock_star_flag }				
+		orbit_distance = 0								
+		size = { min = 13 max = 17 }
+		init_effect = {
+		    prevent_anomaly = yes
+		    clear_deposits = yes
+		    add_deposit = d_physics_30
+			set_planet_flag = starry_prisoner_lock_star
+			save_global_event_target_as = starry_prisoner_lock_star
+		}	
+	}
+}
+
+### colors_out_of_space  星之彩 星系
+colors_out_of_space_system = {
+	name = "colors_out_of_space.name"
+	class = "sc_neutron_star"
+	flags = { colors_out_of_space_system_flag }
+	
+	planet = {
+		class = "pc_neutron_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 0
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+			create_ambient_object = {
+				type = "space_storm_1"
+				location = this
+			}	
+		}
+	}
+
+	planet = {
+		name = "colors_out_of_space_system.1.name"
+		class = "pc_gaia"						
+		flags = { holy_world_colors_out_of_space_planet }				
+		orbit_distance = 1								
+		size = 50
+
+		init_effect = {
+		    prevent_anomaly = yes
+		    clear_deposits = yes
+		    add_deposit = d_physics_30
+			set_planet_flag = colors_out_of_space_star
+			save_global_event_target_as = colors_out_of_space_star
+		}	
+	}
+	
+	change_orbit = 60
+
+	planet = {
+		class = "pc_pulsar"
+		name = "colors_out_of_space_system.2.name"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 70
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	change_orbit = 60
+
+	planet = {
+		class = "pc_neutron_star"
+		name = "colors_out_of_space_system.3.name"
+		orbit_distance = 0
+		orbit_angle = 210
+		size = 70
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
+	}
+
+	change_orbit = 60
+
+	planet = {
+		class = "pc_black_hole"
+		name = "colors_out_of_space_system.4.name"
+		orbit_distance = 0
+		orbit_angle = 75
+		size = 50
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	change_orbit = 10
+
+	planet = {
+		class = "pc_m_giant_star"
+		name = "colors_out_of_space_system.5.name"
+		orbit_distance = 0
+		orbit_angle = 120
+		size = 45
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
+	}
+
+	planet = {
+		class = "pc_m_star"
+		name = "colors_out_of_space_system.6.name"
+		orbit_distance = 0
+		orbit_angle = 200
+		size = 40
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	change_orbit = 5
+
+	planet = {
+		class = "pc_k_star"
+		name = "colors_out_of_space_system.7.name"
+		orbit_distance = 0
+		orbit_angle = 90
+		size = 35
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = "pc_g_star"
+		name = "colors_out_of_space_system.8.name"
+		orbit_distance = 0
+		orbit_angle = 130
+		size = 30
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
+	}
+
+	change_orbit = 30
+
+	planet = {
+		class = "pc_f_star"
+		name = "colors_out_of_space_system.9.name"
+		orbit_distance = 0
+		orbit_angle = 245
+		size = 25
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	change_orbit = 10
+
+	planet = {
+		class = "pc_a_star"
+		name = "colors_out_of_space_system.10.name"
+		orbit_distance = 0
+		orbit_angle = 110
+		size = 20
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
+	}
+
+	change_orbit = 10
+
+	planet = {
+		class = "pc_b_star"
+		name = "colors_out_of_space_system.11.name"
+		orbit_distance = 0
+		orbit_angle = 170
+		size = 15
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+}
