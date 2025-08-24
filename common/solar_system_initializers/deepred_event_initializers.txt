@@ -9,7 +9,7 @@ glowstrike_system = {
 		class = "pc_neutron_star"						#行星/恒星类型
 		flags = { glowstrike_star_flag }				#可以用于各种事件/效果锁定星球
 		orbit_distance = 0								#轨道距离 0代表中心
-		size = { min = 37 max = 71 }
+		size = 50
 		init_effect = {
 		    prevent_anomaly = yes
 		    clear_deposits = yes
@@ -31,16 +31,23 @@ starry_prisoner_lock_system = {
 		class = "pc_black_hole"						
 		flags = { starry_prisoner_lock_star_flag }				
 		orbit_distance = 0								
-		size = { min = 13 max = 17 }
+		size = 17
 		init_effect = {
 		    prevent_anomaly = yes
 		    clear_deposits = yes
-		    add_deposit = d_physics_30
 			set_planet_flag = starry_prisoner_lock_star
 			save_global_event_target_as = starry_prisoner_lock_star
 		}	
 	}
+
+	planet = {
+		name = "starry_prisoner_lock_system.2.name"
+		class = "pc_black_hole"										
+		orbit_distance = 5								
+		size = 0			
+	}
 }
+
 
 ### colors_out_of_space  星之彩 星系
 colors_out_of_space_system = {
@@ -74,7 +81,6 @@ colors_out_of_space_system = {
 		init_effect = {
 		    prevent_anomaly = yes
 		    clear_deposits = yes
-		    add_deposit = d_physics_30
 			set_planet_flag = colors_out_of_space_star
 			save_global_event_target_as = colors_out_of_space_star
 		}	

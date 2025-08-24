@@ -346,4 +346,10 @@ site_dreamy_colors = {
 		icon = GFX_archaeology_runes_F1
 		event = bgbn_ancrel.61
 	}
+
+	on_roll_failed = {							
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = no_events }
+		}
+	}
 }
