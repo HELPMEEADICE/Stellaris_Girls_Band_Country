@@ -1,4 +1,4 @@
-#本文件为考古遗迹相关的事件文本 #触发考古的事件是country_event,考古内部的阶段事件是fleet_event
+#本文件为考古遗迹相关的事件文本 #触发考古的事件是country_event,考古内部的阶段事件是fleet_event,通讯界面事件用diplomatic = yes
 namespace = bgbn_ancrel
 
 #先驱者 深红 事件链
@@ -1054,8 +1054,324 @@ country_event = {		#幻彩挖掘完成事件
 
 	option = { 
 		name = bgbn_ancrel.62.a
-		
-			
-				
+		owner = {
+			country_event = { id = bgbn_ancrel.63 days = 60 }	
+		}					
 	}
 }	
+
+#第六个考古 远歌
+country_event = {			
+	id = bgbn_ancrel.63         
+	title = bgbn_ancrel.63.name
+	desc = bgbn_ancrel.63.desc
+	is_triggered_only = yes
+
+	option = { 
+		name = bgbn_ancrel.63.a
+		owner = {
+			country_event = { id = bgbn_ancrel.64 days = 5 }
+		}
+	}
+}	
+
+country_event = {	 				#生成 残熄 residual_extinction 星系
+	id = bgbn_ancrel.64         
+	title = bgbn_ancrel.64.name
+	desc = bgbn_ancrel.64.desc
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = residual_extinction_new_version
+		set_country_flag = residual_extinction_wand_new_version
+		set_country_flag = residual_extinction_version_11112
+		
+		set_spawn_system_batch = begin
+
+		capital_scope = {
+			spawn_system = {
+				min_distance = 25
+				max_distance = 30
+				max_jumps = 2
+				hyperlane = yes
+				is_discovered = no
+				initializer = "residual_extinction_system"
+				effect = {
+					save_global_event_target_as = residual_extinction_system
+				}
+			}
+		}
+
+		set_spawn_system_batch = end
+	}
+
+	option = { 
+		name = bgbn_ancrel.64.a
+		owner = {
+			country_event = { id = bgbn_ancrel.65 days = 2 }
+		}
+	}
+}	
+
+country_event = {			#生成第六个考古遗迹事件 faraway_singing
+	id = bgbn_ancrel.65 
+	title = bgbn_ancrel.65.name
+	desc = bgbn_ancrel.65.desc  
+	location = event_target:residual_extinction_star
+
+	is_triggered_only = yes
+
+	option = {
+		name = bgbn_ancrel.65.a
+		event_target:residual_extinction_star = {						
+			create_archaeological_site = site_faraway_singing
+		}
+		event_target:residual_extinction_planet_1 = {						
+			change_pc = pc_molten
+		}					
+		event_target:residual_extinction_planet_2 = {						
+			change_pc = pc_relic
+		}	
+		event_target:residual_extinction_planet_3 = {						
+			change_pc = pc_city
+		}	
+	}
+}
+
+fleet_event = {
+	id = bgbn_ancrel.66
+	title = "bgbn_ancrel.66.name"
+	desc = "bgbn_ancrel.66.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.66.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.67
+	title = "bgbn_ancrel.67.name"
+	desc = "bgbn_ancrel.67.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.67.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.68
+	title = "bgbn_ancrel.68.name"
+	desc = "bgbn_ancrel.68.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.68.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.69
+	title = "bgbn_ancrel.69.name"
+	desc = "bgbn_ancrel.69.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.69.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.70
+	title = "bgbn_ancrel.70.name"
+	desc = "bgbn_ancrel.70.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.70.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.71
+	title = "bgbn_ancrel.71.name"
+	desc = "bgbn_ancrel.71.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.71.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.72
+	title = "bgbn_ancrel.72.name"
+	desc = "bgbn_ancrel.72.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.72.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.73
+	title = "bgbn_ancrel.73.name"
+	desc = "bgbn_ancrel.73.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.73.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.74
+	title = "bgbn_ancrel.74.name"
+	desc = "bgbn_ancrel.74.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.74.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.75
+	title = "bgbn_ancrel.75.name"
+	desc = "bgbn_ancrel.75.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.75.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.76
+	title = "bgbn_ancrel.76.name"
+	desc = "bgbn_ancrel.76.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.76.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.77
+	title = "bgbn_ancrel.77.name"
+	desc = "bgbn_ancrel.77.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.77.a
+	}
+}	
+
+fleet_event = {
+	id = bgbn_ancrel.78
+	title = "bgbn_ancrel.78.name"
+	desc = "bgbn_ancrel.78.desc"
+	picture = GFX_evt_star_yellow
+
+	archaeology = yes
+
+	is_triggered_only = yes
+	
+	option = {
+		name = bgbn_ancrel.78.a
+		owner = {
+			country_event = { id = bgbn_ancrel.79 days = 1 }	
+		}	
+	}
+}
+
+country_event = {		#远歌挖掘完成事件	挖完遗迹后在事件栏那里显示这两个文案，选择一个探究就不能研究另外一个
+	id = bgbn_ancrel.79         
+	title = bgbn_ancrel.79.name
+	desc = bgbn_ancrel.79.desc
+	is_triggered_only = yes
+
+	option = { 
+		name = bgbn_ancrel.79.a
+		owner = {
+			hidden_effect = { country_event = { id = bgbn_ancrel.80 }}
+		}
+	}
+}	
+
+country_event = {		
+	id = bgbn_ancrel.80         
+	title = bgbn_ancrel.80.name
+	desc = bgbn_ancrel.80.desc
+	is_triggered_only = yes
+
+	option = { 
+		name = bgbn_ancrel.80.a	
+		begin_event_chain = {
+			event_chain = "bgbn_deepred"
+			target = this.owner
+		}
+		enable_special_project = {
+			name = bgbn_ancrel.80.b
+			location = event_target:kirakira_sol_system_earth
+			owner = root
+		}
+		enable_special_project = {
+			name = bgbn_ancrel.80.c
+			location = event_target:kirakira_sol_system_earth
+			owner = root
+		}				
+	}
+}	
+

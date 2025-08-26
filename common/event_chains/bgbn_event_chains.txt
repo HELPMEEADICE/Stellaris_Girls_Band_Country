@@ -1,0 +1,5 @@
+bgbn_deepred = {
+	icon = "gfx/interface/icons/bgbn_deepred.dds"
+	picture = GFX_evt_bgbn_deepred
+	
+}

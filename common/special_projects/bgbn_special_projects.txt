@@ -1,0 +1,46 @@
+#深红最后的研究
+special_project = {
+	key = "bgbn_ancrel.80.b"
+	event_chain = bgbn_deepred
+	days_to_research = 360
+	tech_department = physics_technology
+	event_scope = planet_event
+	picture = GFX_evt_wormhole
+	
+
+	same_option_group_as = { bgbn_ancrel.80.c }
+
+	on_success = {
+		owner = { 
+			abort_special_project = {
+				type = bgbn_ancrel.80.c
+			}
+			country_event = { id = bgbn_ancrel.81 }
+		}
+	}
+}
+
+special_project = {
+	key = "bgbn_ancrel.80.c"
+	event_chain = bgbn_deepred
+	days_to_research = 30
+	tech_department = physics_technology
+	event_scope = ship_event
+	picture = GFX_evt_wormhole
+	
+
+	same_option_group_as = { bgbn_ancrel.80.b }
+
+	requirements = {
+		shipclass_science_ship = 1
+	}
+
+	on_success = {
+		from = { 
+			abort_special_project = {
+				type = bgbn_ancrel.80.b
+			}
+			country_event = { id = bgbn_ancrel.81 }
+		}
+	}
+}

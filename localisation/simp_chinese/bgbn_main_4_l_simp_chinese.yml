@@ -24,3 +24,14 @@
  colors_out_of_space_system.10.name: "弦震"
  colors_out_of_space_system.11.name: "墟寂"
 
+ residual_extinction.name: "残熄"
+ residual_extinction_system.1.name: "残熄"
+ residual_extinction_system.2.name: "语律"
+ residual_extinction_system.3.name: "星序"
+ residual_extinction_system.4.name: "宏瞳"
+ residual_extinction_system.5.name: "越界"
+ residual_extinction_system.6.name: "筹极"
+ residual_extinction_system.7.name: "策源"
+ residual_extinction_system.8.name: "御垣"
+
+

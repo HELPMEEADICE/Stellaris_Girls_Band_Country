@@ -88,7 +88,7 @@ sol_ksm_system_initializer = {
 		flags = { planet_earth }
 
 		init_effect = {
-			save_global_event_target_as = sol_system_earth
+			save_global_event_target_as = kirakira_sol_system_earth
 
 			prevent_anomaly = yes
 		}

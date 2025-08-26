@@ -236,3 +236,101 @@ colors_out_of_space_system = {
 		}
 	}
 }
+
+### residual_extinction  残熄 residual_extinction 星系
+residual_extinction_system = {
+	name = "residual_extinction.name"
+	class = "sc_black_hole"
+	flags = { residual_extinction_system_flag }
+
+	planet = {
+		name = "residual_extinction_system.1.name"
+		class = "pc_black_hole"						
+		flags = { residual_extinction_star_flag }				
+		orbit_distance = 0								
+		size = 25
+		init_effect = {
+		    prevent_anomaly = yes
+		    clear_deposits = yes
+			set_planet_flag = residual_extinction_star
+			save_global_event_target_as = residual_extinction_star
+		}	
+	}
+
+	planet = {
+		name = "residual_extinction_system.2.name"
+		class = "pc_molten"										
+		orbit_distance = 30	
+		orbit_angle = 110							
+		size = 30	
+		init_effect = {	
+			save_global_event_target_as = residual_extinction_planet_1
+		}	
+	}
+
+	planet = {
+		name = "residual_extinction_system.3.name"
+		class = "pc_relic"										
+		orbit_distance = 30	
+		orbit_angle = 110							
+		size = 30	
+		init_effect = {	
+			save_global_event_target_as = residual_extinction_planet_2
+		}			
+	}
+
+	planet = {
+		name = "residual_extinction_system.4.name"
+		class = "pc_nanotech"										
+		orbit_distance = 30	
+		orbit_angle = 110							
+		size = 30			
+	}
+
+	planet = {
+		name = "residual_extinction_system.5.name"
+		class = "pc_machine"										
+		orbit_distance = 30	
+		orbit_angle = 110							
+		size = 30			
+	}
+
+	planet = {
+		name = "residual_extinction_system.6.name"
+		class = "pc_ai"										
+		orbit_distance = 30	
+		orbit_angle = 110							
+		size = 30			
+	}
+
+	planet = {
+		name = "residual_extinction_system.7.name"
+		class = "pc_city"										
+		orbit_distance = 30	
+		orbit_angle = 110							
+		size = 30	
+		init_effect = {	
+			save_global_event_target_as = residual_extinction_planet_3
+		}			
+	}
+
+	planet = {
+		name = "residual_extinction_system.8.name"
+		class = "pc_shielded"										
+		orbit_distance = 30	
+		orbit_angle = 110							
+		size = 30			
+	}
+
+	init_effect = {
+		spawn_megastructure = {
+			type = "dyson_sphere_5"			
+			orbit_angle = 0
+			orbit_distance = 0
+			planet = star
+			init_effect = {
+				set_megastructure_flag = bgbn_dyson_sphere_flag
+			}
+		}
+	}
+}

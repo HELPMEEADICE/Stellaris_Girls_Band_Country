@@ -1,0 +1,58 @@
+#附属国协议预设
+preset_bgbn_jurisdiction_subject = {
+	icon = ""
+	specialist_type = specialist_bgbn_jurisdiction
+	term_data = {
+		discrete_terms = {
+			{
+				key = specialist_type
+				value = specialist_bgbn_jurisdiction
+			}
+			{
+				key = subject_integration
+				value = subject_can_not_be_integrated
+			}
+			{
+				key = subject_diplomacy
+				value = subject_can_do_diplomacy
+			}
+			{
+				key = subject_expand
+				value = subject_can_expand
+			}
+			{
+				key = joins_overlord_wars
+				value = joins_overlord_wars_all
+			}
+			{
+				key = joins_subject_wars
+				value = joins_subject_wars_none
+			}
+			{
+				key = subject_holdings_limit
+				value = subject_holdings_limit_2
+			}
+			{
+				key = subject_sensors
+				value = subject_does_not_get_sensors
+			}
+			{
+				key = subject_loyalty
+				value = subject_loyalty_effects
+			}
+		}
+	}
+
+	potential = {
+		from = {
+			has_authority = auth_radiant_harmony
+		}	
+	}
+
+	overlord_weight = {
+		base = 200
+	}
+	subject_weight = {
+		base = 100
+	}
+}
