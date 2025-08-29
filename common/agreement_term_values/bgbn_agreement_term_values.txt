@@ -1,5 +1,5 @@
 #附属国特化类型设定
-specialist_bgbn_jurisdiction = {
+specialist_rhythmic_realm = {
 	term = specialist_type
 	triggered_loyalty_change = {
 		trigger = {
@@ -8,9 +8,9 @@ specialist_bgbn_jurisdiction = {
 		loyalty_change = 30
 	}
 	activate_effect = {
-		convert_to_specialist = specialist_bgbn_jurisdiction
+		convert_to_specialist = specialist_rhythmic_realm
 	}
 	potential = {
-		agreement_preset = preset_bgbn_jurisdiction_subject
+		agreement_preset = preset_rhythmic_realm
 	}
 }

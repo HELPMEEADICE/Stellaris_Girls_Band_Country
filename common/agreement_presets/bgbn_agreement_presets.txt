@@ -1,12 +1,12 @@
 #附属国协议预设
-preset_bgbn_jurisdiction_subject = {
-	icon = ""
-	specialist_type = specialist_bgbn_jurisdiction
+preset_rhythmic_realm = {
+	icon = "1"
+	specialist_type = specialist_rhythmic_realm
 	term_data = {
 		discrete_terms = {
 			{
 				key = specialist_type
-				value = specialist_bgbn_jurisdiction
+				value = specialist_rhythmic_realm
 			}
 			{
 				key = subject_integration
