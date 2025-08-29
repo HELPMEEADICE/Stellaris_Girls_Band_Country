@@ -1,0 +1,213 @@
+### Great Girls' Band Nation
+### Created for the BanG Dream! Mod
+
+GIRLSBAND = {
+	category = "Humanoid"
+	# customize_random_override = HUM1 # Not needed for custom namelist
+	randomized = no
+	alias = "BanGDream_Name"
+
+	ship_names = {
+
+		### Small, numerous, fast - like individual songs ###
+		corvette = {
+			GIRLSBAND_SHIP_TokimekiExperience GIRLSBAND_SHIP_STARBEAT GIRLSBAND_SHIP_KizunaMusic GIRLSBAND_SHIP_Initial GIRLSBAND_SHIP_Returns GIRLSBAND_SHIP_PoppinShuffle GIRLSBAND_SHIP_LightDelight GIRLSBAND_SHIP_CiRCLING GIRLSBAND_SHIP_GirlsCode GIRLSBAND_SHIP_ThatIsHowIRoll GIRLSBAND_SHIP_HeyDayCapriccio GIRLSBAND_SHIP_YOLO GIRLSBAND_SHIP_COMICPANIC GIRLSBAND_SHIP_ScarletSky GIRLSBAND_SHIP_ShuwarinDreamin GIRLSBAND_SHIP_YuraYuraRingDongDance GIRLSBAND_SHIP_UniteAtoZ GIRLSBAND_SHIP_LuminousOnceMore GIRLSBAND_SHIP_TenkaToitsuAtoZ GIRLSBAND_SHIP_BLACKSHOUT GIRLSBAND_SHIP_NeoAspect GIRLSBAND_SHIP_FIREBIRD GIRLSBAND_SHIP_R GIRLSBAND_SHIP_Sprechchor GIRLSBAND_SHIP_PASSIONATEANTHEM GIRLSBAND_SHIP_ZEALofProud GIRLSBAND_SHIP_EgaonoOrchestra GIRLSBAND_SHIP_GokaGokaiPhantomThief GIRLSBAND_SHIP_KimigaInakucha GIRLSBAND_SHIP_HighFiveAdventure GIRLSBAND_SHIP_RIOT GIRLSBAND_SHIP_DeclarationOfXXX GIRLSBAND_SHIP_InvincibleFighter GIRLSBAND_SHIP_HELLorHELL GIRLSBAND_SHIP_DRIVEUSCRAZY GIRLSBAND_SHIP_EXIST GIRLSBAND_SHIP_UNSTOPPABLE GIRLSBAND_SHIP_Daylight GIRLSBAND_SHIP_Hitoshizuku GIRLSBAND_SHIP_Shiori GIRLSBAND_SHIP_Namonaki GIRLSBAND_SHIP_Haruhikage GIRLSBAND_SHIP_Utakotoba GIRLSBAND_SHIP_Mayoiuta GIRLSBAND_SHIP_Otoichimonji GIRLSBAND_SHIP_Shunrai GIRLSBAND_SHIP_NingenGokko GIRLSBAND_SHIP_Utaouyo GIRLSBAND_SHIP_Lacrimosa GIRLSBAND_SHIP_Masquerade GIRLSBAND_SHIP_Kaikairoku
+		}
+
+		### More specialized, thematic - like event titles or core concepts ###
+		destroyer = {
+			GIRLSBAND_SHIP_DoubleRainbow GIRLSBAND_SHIP_PopipasHoliday GIRLSBAND_SHIP_SakuraBloomingParty GIRLSBAND_SHIP_AsEveningClears GIRLSBAND_SHIP_TiedToTheSkies GIRLSBAND_SHIP_GrowingUpSisters GIRLSBAND_SHIP_PastelBloom GIRLSBAND_SHIP_TitleIdol GIRLSBAND_SHIP_LuminousKnights GIRLSBAND_SHIP_NobleRose GIRLSBAND_SHIP_NeoFantasyOnline GIRLSBAND_SHIP_BluebirdPromise GIRLSBAND_SHIP_SmileParade GIRLSBAND_SHIP_DetectivesofthePhantomThief GIRLSBAND_SHIP_EraOfRevolution GIRLSBAND_SHIP_TheThird GIRLSBAND_SHIP_HydrangeaInTheRain GIRLSBAND_SHIP_SummerlyTone GIRLSBAND_SHIP_LostOnesWeeping GIRLSBAND_SHIP_SpringSunlight GIRLSBAND_SHIP_PoetryOfOblivion GIRLSBAND_SHIP_TwinStarsEnsemble GIRLSBAND_SHIP_FallinFallin
+		}
+
+		### The core of the fleet, powerful - named after the bands and key places ###
+		cruiser = {
+			GIRLSBAND_SHIP_PoppinParty GIRLSBAND_SHIP_Afterglow GIRLSBAND_SHIP_PastelPalettes GIRLSBAND_SHIP_Roselia GIRLSBAND_SHIP_HelloHappyWorld GIRLSBAND_SHIP_Morfonica GIRLSBAND_SHIP_RAISEASUILEN GIRLSBAND_SHIP_MyGO GIRLSBAND_SHIP_AveMujica GIRLSBAND_SHIP_CiRCLE GIRLSBAND_SHIP_Galaxy GIRLSBAND_SHIP_LiveHouseSpace GIRLSBAND_SHIP_Arisato GIRLSBAND_SHIP_Dub
+		}
+
+		### Capital ships, legendary concepts ###
+		battleship = {
+			GIRLSBAND_SHIP_BanGDream GIRLSBAND_SHIP_GirlsBandParty GIRLSBAND_SHIP_KirakiraDokidoki GIRLSBAND_SHIP_StarBeat GIRLSBAND_SHIP_TheSummitsVow GIRLSBAND_SHIP_AsAlways GIRLSBAND_SHIP_MakeTheWorldSmile GIRLSBAND_SHIP_MelodyOfDreams
+		}
+
+		### Ultimate vessels, ultimate ideas ###
+		titan = {
+			GIRLSBAND_SHIP_PoppinDream GIRLSBAND_SHIP_FleetingStarbloom GIRLSBAND_SHIP_TheFirstSong GIRLSBAND_SHIP_FinalLive GIRLSBAND_SHIP_OurSymphony
+		}
+
+		### Planet-wide "concerts" ###
+		colossus = {
+			GIRLSBAND_SHIP_UniversalChorus GIRLSBAND_SHIP_WorldEndLive GIRLSBAND_SHIP_EncoreOfTheCosmos
+		}
+
+		### Mobile stages and command centers ###
+		juggernaut = {
+			GIRLSBAND_SHIP_StarlightTour GIRLSBAND_SHIP_CosmicStage GIRLSBAND_SHIP_TheCaravan GIRLSBAND_SHIP_MovingLiveHouse
+		}
+
+		### For exploration and discovery ###
+		science = {
+			GIRLSBAND_SHIP_Kanon GIRLSBAND_SHIP_Rinko GIRLSBAND_SHIP_Maya GIRLSBAND_SHIP_Hina GIRLSBAND_SHIP_Tsugumi GIRLSBAND_SHIP_Hanasakigawa GIRLSBAND_SHIP_Haneoka GIRLSBAND_SHIP_Observatory
+		}
+
+		### Building new homes and stages ###
+		colonizer = {
+			GIRLSBAND_SHIP_Shinjuku GIRLSBAND_SHIP_Shibuya GIRLSBAND_SHIP_Ushigome GIRLSBAND_SHIP_YamabukiBakery GIRLSBAND_SHIP_HazawaCoffee GIRLSBAND_SHIP_KitazawaMusic GIRLSBAND_SHIP_Ryuuseidou GIRLSBAND_SHIP_NewHome
+		}
+
+		sponsored_colonizer = { # needed when there are no generic names
+			GIRLSBAND_SHIP_Shinjuku GIRLSBAND_SHIP_Shibuya GIRLSBAND_SHIP_Ushigome GIRLSBAND_SHIP_YamabukiBakery GIRLSBAND_SHIP_HazawaCoffee GIRLSBAND_SHIP_KitazawaMusic GIRLSBAND_SHIP_Ryuuseidou GIRLSBAND_SHIP_NewHome
+		}
+
+		constructor = {
+			GIRLSBAND_SHIP_StageBuilder GIRLSBAND_SHIP_SoundEngineer GIRLSBAND_SHIP_LightingCrew GIRLSBAND_SHIP_TheRoadie GIRLSBAND_SHIP_Pioneer
+		}
+
+		### The loyal fans and staff ###
+		transport = {
+			GIRLSBAND_SHIP_FanClubConvoy GIRLSBAND_SHIP_LightStickBrigade GIRLSBAND_SHIP_StaffShuttle GIRLSBAND_SHIP_RoadieUnit
+		}
+
+		### Defensive installations with musical names ###
+		military_station_small = {
+			GIRLSBAND_SHIP_SoundBarrier GIRLSBAND_SHIP_RhythmKeep GIRLSBAND_SHIP_MelodyBastion GIRLSBAND_SHIP_ChordFortress
+		}
+
+		ion_cannon = {
+			GIRLSBAND_SHIP_TheSolo GIRLSBAND_SHIP_Crescendo GIRLSBAND_SHIP_FinalChorus GIRLSBAND_SHIP_Forte
+		}
+
+	}
+
+	fleet_names = {
+		random_names = {
+
+		}
+		sequential_name = GIRLSBAND_FLEET
+	}
+
+	army_names = {
+
+		generic = {
+			sequential_name = GIRLSBAND_BAND
+		}
+		
+		defense_army = {
+			sequential_name = GIRLSBAND_LIVE_HOUSE_GUARD
+		}
+
+		assault_army = {
+			sequential_name = GIRLSBAND_BAND
+		}
+
+		### Renamed to be more thematic ###
+		slave_army = {
+			sequential_name = GIRLSBAND_SUPPORT_STAFF
+		}
+
+		clone_army = {
+			sequential_name = GIRLSBAND_IDOL_UNIT
+		}
+		
+		undead_army = {
+			sequential_name = GIRLSBAND_GHOST_BAND
+		}
+
+		robotic_army = {
+			sequential_name = GIRLSBAND_SYNTH_UNIT
+		}
+
+		robotic_defense_army = {
+			sequential_name = GIRLSBAND_AUTOTUNE_DEFENSE
+		}
+
+		psionic_army = {
+			sequential_name = GIRLSBAND_MELODY_OF_THE_SOUL
+		}
+
+		xenomorph_army = {
+			sequential_name = GIRLSBAND_BEAST_TAMERS
+		}
+
+		gene_warrior_army = {
+			sequential_name = GIRLSBAND_THE_IDOLS # PasuPare ;)
+		}
+
+		occupation_army = {
+			sequential_name = GIRLSBAND_FAN_CLUB_PATROL
+		}
+
+		# Fallbacks
+		machine_defense = {
+			sequential_name = GIRLSBAND_LIVE_HOUSE_GUARD
+		}
+		machine_assault_1 = {
+			sequential_name = GIRLSBAND_SYNTH_UNIT
+		}
+		perfected_clone_army = {
+			sequential_name = GIRLSBAND_IDOL_UNIT
+		}
+		individual_machine_occupation_army = {
+			sequential_name = GIRLSBAND_FAN_CLUB_PATROL
+		}
+		robotic_occupation_army = {
+			sequential_name = GIRLSBAND_FAN_CLUB_PATROL
+		}
+		primitive_army = {
+			sequential_name = GIRLSBAND_GARAGE_BAND
+		}
+		industrial_army = {
+			sequential_name = GIRLSBAND_INDIE_BAND
+		}
+		postatomic_army = {
+			sequential_name = GIRLSBAND_PUNK_BAND
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				GIRLSBAND_PLANET_PlanetOfSmiles GIRLSBAND_PLANET_WorldOfSound GIRLSBAND_PLANET_StageOfDreams GIRLSBAND_PLANET_KirakiraStar GIRLSBAND_PLANET_Starbloom GIRLSBAND_PLANET_CiRCLEPrime GIRLSBAND_PLANET_NewGalaxy GIRLSBAND_PLANET_HanasakigawaII GIRLSBAND_PLANET_HaneokaMinor GIRLSBAND_PLANET_Utopia GIRLSBAND_PLANET_Melodia GIRLSBAND_PLANET_Rhythmos GIRLSBAND_PLANET_Harmonia
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				GIRLSBAND_PLANET_Eden GIRLSBAND_PLANET_PerfectStage GIRLSBAND_PLANET_Paradise
+			}
+		}
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 100 # All characters use this pool
+			### Very few male characters in BanG Dream!, using common Japanese names as placeholders ###
+			first_names_male = {
+				GIRLSBAND_CHR_Ken GIRLSBAND_CHR_Daichi GIRLSBAND_CHR_Haruto GIRLSBAND_CHR_Yuki GIRLSBAND_CHR_Sora GIRLSBAND_CHR_Riku GIRLSBAND_CHR_Kaito GIRLSBAND_CHR_Owner
+			}
+			### All the girls! ###
+			first_names_female = {
+				GIRLSBAND_CHR_Kasumi GIRLSBAND_CHR_Tae GIRLSBAND_CHR_Rimi GIRLSBAND_CHR_Saaya GIRLSBAND_CHR_Arisa GIRLSBAND_CHR_Ran GIRLSBAND_CHR_Moca GIRLSBAND_CHR_Himari GIRLSBAND_CHR_Tomoe GIRLSBAND_CHR_Tsugumi GIRLSBAND_CHR_Aya GIRLSBAND_CHR_Hina GIRLSBAND_CHR_Chisato GIRLSBAND_CHR_Maya GIRLSBAND_CHR_Eve GIRLSBAND_CHR_Yukina GIRLSBAND_CHR_Sayo GIRLSBAND_CHR_Lisa GIRLSBAND_CHR_Ako GIRLSBAND_CHR_Rinko GIRLSBAND_CHR_Kokoro GIRLSBAND_CHR_Kaoru GIRLSBAND_CHR_Hagumi GIRLSBAND_CHR_Kanon GIRLSBAND_CHR_Misaki GIRLSBAND_CHR_Mashiro GIRLSBAND_CHR_Toko GIRLSBAND_CHR_Nanami GIRLSBAND_CHR_Tsukushi GIRLSBAND_CHR_Rui GIRLSBAND_CHR_Rei GIRLSBAND_CHR_Rokka GIRLSBAND_CHR_Masuki GIRLSBAND_CHR_Chiyu GIRLSBAND_CHR_Reona GIRLSBAND_CHR_Tomori GIRLSBAND_CHR_Anon GIRLSBAND_CHR_Rana GIRLSBAND_CHR_Soyo GIRLSBAND_CHR_Taki GIRLSBAND_CHR_Uika GIRLSBAND_CHR_Sakiko GIRLSBAND_CHR_Mutsumi GIRLSBAND_CHR_Umiri GIRLSBAND_CHR_Nyamu
+			}
+			### Surnames of all the girls ###
+			second_names = {
+				GIRLSBAND_CHR_Toyama GIRLSBAND_CHR_Hanazono GIRLSBAND_CHR_Ushigome GIRLSBAND_CHR_Yamabuki GIRLSBAND_CHR_Ichigaya GIRLSBAND_CHR_Mitake GIRLSBAND_CHR_Aoba GIRLSBAND_CHR_Uehara GIRLSBAND_CHR_Udagawa GIRLSBAND_CHR_Hazawa GIRLSBAND_CHR_Maruyama GIRLSBAND_CHR_Hikawa GIRLSBAND_CHR_Shirasagi GIRLSBAND_CHR_Yamato GIRLSBAND_CHR_Wakamiya GIRLSBAND_CHR_Minato GIRLSBAND_CHR_Imai GIRLSBAND_CHR_Shirokane GIRLSBAND_CHR_Tsurumaki GIRLSBAND_CHR_Seta GIRLSBAND_CHR_Kitazawa GIRLSBAND_CHR_Matsubara GIRLSBAND_CHR_Okusawa GIRLSBAND_CHR_Kurata GIRLSBAND_CHR_Kirigaya GIRLSBAND_CHR_Hiromachi GIRLSBAND_CHR_Futaba GIRLSBAND_CHR_Yashio GIRLSBAND_CHR_Wakana GIRLSBAND_CHR_Asahi GIRLSBAND_CHR_Sato GIRLSBAND_CHR_Tamade GIRLSBAND_CHR_Nyubara GIRLSBAND_CHR_Takao GIRLSBAND_CHR_Chihaya GIRLSBAND_CHR_Kaname GIRLSBAND_CHR_Nagasaki GIRLSBAND_CHR_Shiina GIRLSBAND_CHR_Misumi GIRLSBAND_CHR_Togawa GIRLSBAND_CHR_Wakaba GIRLSBAND_CHR_Yutenji
+			}
+			### Band Leaders ###
+			regnal_first_names_male = {
+				GIRLSBAND_CHR_Ken GIRLSBAND_CHR_Daichi GIRLSBAND_CHR_Haruto
+			}
+			regnal_first_names_female = {
+				GIRLSBAND_CHR_Kasumi GIRLSBAND_CHR_Ran GIRLSBAND_CHR_Aya GIRLSBAND_CHR_Yukina GIRLSBAND_CHR_Kokoro GIRLSBAND_CHR_Mashiro GIRLSBAND_CHR_Rei GIRLSBAND_CHR_Tomori GIRLSBAND_CHR_Sakiko
+			}
+			regnal_second_names = {
+				GIRLSBAND_CHR_Toyama GIRLSBAND_CHR_Minato GIRLSBAND_CHR_Maruyama GIRLSBAND_CHR_Mitake GIRLSBAND_CHR_Tsurumaki
+			}
+		}
+	}
+}
