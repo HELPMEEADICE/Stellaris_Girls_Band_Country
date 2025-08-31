@@ -1,4 +1,20 @@
 namespace = ksm
+namespace = bgbn_start
+
+#设置country flag为poppinparty,后续各种内容将绑定这个flag,同时为了适配更多人的需求，选中闪耀谐律政体即可获得该flag,方便自建预设使用
+country_event = {
+	id = bgbn_start.1
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = {
+		has_authority = auth_radiant_harmony
+	}
+	immediate = {
+		owner = {
+			set_country_flag = poppinparty
+		}
+	}
+}
 
 country_event = {
 	id = ksm.0
