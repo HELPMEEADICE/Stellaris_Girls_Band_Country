@@ -1,0 +1,7 @@
+#宗主国特殊修正文件
+
+specialist_rhythmic_realm_neighbor = {
+	icon = ""
+	country_sr_stars_produces_mult = 0.25
+	planet_building_build_speed_mult = 0.25
+}

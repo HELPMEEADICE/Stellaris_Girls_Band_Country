@@ -1,5 +1,5 @@
 #附属国协议预设
-preset_rhythmic_realm = {
+preset_rhythmic_realm = { 	#律吕谐邦
 	icon = "1"
 	specialist_type = specialist_rhythmic_realm
 	term_data = {

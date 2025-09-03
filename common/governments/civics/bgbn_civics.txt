@@ -89,6 +89,7 @@ civic_bang_dream_explosion = {
 		planet_jobs_produces_mult = 0.25
 		planet_pops_consumer_goods_upkeep_mult = 0.25
 		planet_building_capacity_add = 1
+		logistic_growth_mult = 0.15
 
 	}
 }

@@ -1,0 +1,41 @@
+#附属国特化内容文件
+specialist_rhythmic_realm = {	#律吕谐邦特化内容
+	icon = ""
+	icon_large = ""
+	preferred_ethic = ethic_materialist
+	base_conversion_time = @specialist_base_conversion_time
+
+	on_progress_complete = {
+	}
+
+	levels = {
+		# Level 1
+		{
+			experience_needed_for_next_level = @level_2_xp_cost
+			perks = {
+				rhythmic_realm_1_modifier
+				rhythmic_realm_1_initial_economic_directive
+				rhythmic_realm_1_dream_of_stellar_genesis
+				rhythmic_realm_1_hyper_relay_collaboration
+			}
+		}
+		# Level 2
+		{
+			experience_needed_for_next_level = @level_3_xp_cost
+			perks = {
+				rhythmic_realm_2_modifier
+				rhythmic_realm_2_holistic_development_reforge
+				rhythmic_realm_2_astral_flare_initiative
+				rhythmic_realm_2_ethos_lineage
+			}
+		}
+		# Level 3
+		{
+			perks = {
+				rhythmic_realm_3_modifier
+				rhythmic_realm_3_legendary_ode
+				rhythmic_realm_3_chroma_veil_defense
+			}
+		}
+	}
+}
