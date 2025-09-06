@@ -51,7 +51,7 @@ create_cst = {
 			set_leader_flag = cst
 			set_leader_flag = paspal
 			set_leader_flag = legendary_leader
-			change_background_job = bgbn_Bassist
+			change_background_job = bgbn_bassist
 		}
 	}
 }

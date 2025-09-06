@@ -106,7 +106,7 @@ create_lisa = {
 			set_leader_flag = lisa
 			set_leader_flag = roselia
 			set_leader_flag = legendary_leader
-			change_background_job = bgbn_Bassist
+			change_background_job = bgbn_bassist
 		}
 	}
 }

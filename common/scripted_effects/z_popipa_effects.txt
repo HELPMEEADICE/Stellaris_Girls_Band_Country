@@ -138,7 +138,7 @@ create_rimi = {
 			change_leader_portrait = rimi_leader_popipa_portrait
 			set_leader_flag = rimi
 			set_leader_flag = legendary_leader
-			change_background_job = bgbn_Bassist
+			change_background_job = bgbn_bassist
 		}
 	}
 }

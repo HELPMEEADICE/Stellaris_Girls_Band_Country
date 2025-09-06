@@ -106,7 +106,7 @@ bgbn_guitarist = {
 	}
 }
 
-bgbn_Bassist = {
+bgbn_bassist = {
 	category = worker
 	is_capped_by_modifier = no
 	swappable_data = {

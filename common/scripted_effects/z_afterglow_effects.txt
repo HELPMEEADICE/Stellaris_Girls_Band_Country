@@ -135,7 +135,7 @@ create_hmr = {
 			set_leader_flag = hmr
 			set_leader_flag = ag
 			set_leader_flag = legendary_leader
-			change_background_job = bgbn_Bassist
+			change_background_job = bgbn_bassist
 		}
 	}
 }
