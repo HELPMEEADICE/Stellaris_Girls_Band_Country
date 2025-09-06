@@ -1,0 +1,23 @@
+#恒星基地光环建筑
+
+utility_component_template = {
+	key = "STARBASE_AURA_BULWARK_ARRAY"
+	size = medium
+	icon = "GFX_bulwark_array"
+	icon_frame = 1
+	power = 0
+
+	friendly_aura = {
+		name = "aura_starbase_bulwark_shield_magnifier"
+		system_wide = yes
+
+		stack_info = {
+			id = friendly_bulwark_shield_magnifier_aura
+			priority = 10
+		}
+
+		modifier = {
+			ship_shield_mult = 1
+		}
+	}
+}

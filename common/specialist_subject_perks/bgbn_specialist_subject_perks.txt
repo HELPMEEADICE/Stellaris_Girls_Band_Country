@@ -1,3 +1,4 @@
+#附属国特化效果文件
 #律吕谐邦
 
 rhythmic_realm_1_modifier = {
@@ -86,7 +87,7 @@ rhythmic_realm_2_holistic_development_reforge = {
 rhythmic_realm_2_astral_flare_initiative = {		#解锁恒星基地建筑
 	icon = ""
 	subject_modifier = {	
-		all_technology_research_speed = 0.2
+		all_technology_research_speed = 0.25
 	}
 
 
@@ -95,6 +96,11 @@ rhythmic_realm_2_astral_flare_initiative = {		#解锁恒星基地建筑
 
 rhythmic_realm_2_ethos_lineage = {			#限制附属国政策，获得法令
 	icon = ""
+	subject_event = {	
+		country_event = {
+			id = bgbn_agreement.1
+		}
+	}
 }
 
 rhythmic_realm_3_modifier = {

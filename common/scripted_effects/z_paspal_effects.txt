@@ -1,9 +1,8 @@
 create_aya = {
 	create_leader = {
 		species = event_target:bangdream_species
-		class = official
-		background_job = executive
-		skip_background_generation = yes
+		class = official										#领袖类型
+		skip_background_generation = no							#no使领袖生成母星，思潮，此前岗位 yes跳过
 		name = PRESCRIPTED_ruler_name_aya1
 		custom_description = PRESCRIPTED_ruler_name_aya1_desc
 		immortal = yes
@@ -12,6 +11,7 @@ create_aya = {
 		gender = female
 		skill = 10
 		randomize_traits = no
+		background_ethic = ethic_xenophile						#设定领袖思潮
 		traits = {
 			trait = leader_trait_star_beat
 			trait = trait_paspal
@@ -22,6 +22,7 @@ create_aya = {
 			set_leader_flag = aya
 			set_leader_flag = paspal
 			set_leader_flag = legendary_leader
+			change_background_job = vocal
 		}
 	}
 }

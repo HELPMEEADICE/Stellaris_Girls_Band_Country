@@ -1,0 +1,23 @@
+#附属国特殊事件文件
+namespace = bgbn_agreement
+#律吕谐邦
+country_event = {
+	id = bgbn_agreement.1
+
+	picture = GFX_evt_board_meeting
+	show_sound = event_default
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		owner = {
+			set_policy = {
+				policy = orbital_bombardment_accept_surrender
+				option = orbital_bombardment_surrender_forbidden
+				cooldown = yes
+			}
+		}
+	}
+	
+}

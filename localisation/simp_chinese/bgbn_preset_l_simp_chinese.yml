@@ -1,4 +1,14 @@
 ﻿l_simp_chinese:
 #附属国
  preset_rhythmic_realm: "律吕谐邦"
-
+ rhythmic_realm_1_modifier: "律吕谐邦特化等级1"
+ rhythmic_realm_1_initial_economic_directive: "初步经济发展指导"
+ rhythmic_realm_1_dream_of_stellar_genesis: "远星之梦"
+ rhythmic_realm_1_hyper_relay_collaboration: "网道协作"
+ rhythmic_realm_2_modifier: "律吕谐邦特化等级2"
+ rhythmic_realm_2_holistic_development_reforge: "全面发展改革"
+ rhythmic_realm_2_astral_flare_initiative: "星辰曜光"
+ rhythmic_realm_2_ethos_lineage: "礼化传承"
+ rhythmic_realm_3_modifier: "律吕谐邦特化等级3"
+ rhythmic_realm_3_legendary_ode: "传奇赞美诗"
+ rhythmic_realm_3_chroma_veil_defense: "炫彩霓裳"
