@@ -1,0 +1,373 @@
+#工作岗位文件
+
+bgbn_vocal = {
+	category = worker
+	is_capped_by_modifier = no
+	swappable_data = {
+		default = {
+			building_icon = building_food_processing_facility
+			icon = miner
+		}
+	}
+	possible_pre_triggers = {
+		has_owner = yes
+	}
+
+	possible = {
+		owner = { has_authority = auth_radiant_harmony }
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			food = 5
+			energy = 5
+			minerals = 5
+		}
+	}	
+	
+	weight = {
+		weight = 1000
+
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+	promotion = {
+		time = @standard_promotion_time
+		effect = {
+			pop_amount_change_category = {
+				CATEGORY = precursor
+				AMOUNT = local_pop_amount
+			}
+		}
+	}
+}
+
+bgbn_guitarist = {
+	category = worker
+	is_capped_by_modifier = no
+	swappable_data = {
+		default = {
+			building_icon = building_food_processing_facility
+			icon = miner
+		}
+	}
+	possible_pre_triggers = {
+		has_owner = yes
+	}
+
+	possible = {
+		owner = { has_authority = auth_radiant_harmony }
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			food = 5
+			energy = 5
+			minerals = 5
+		}
+	}	
+	
+	weight = {
+		weight = 1000
+
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+	promotion = {
+		time = @standard_promotion_time
+		effect = {
+			pop_amount_change_category = {
+				CATEGORY = precursor
+				AMOUNT = local_pop_amount
+			}
+		}
+	}
+}
+
+bgbn_Bassist = {
+	category = worker
+	is_capped_by_modifier = no
+	swappable_data = {
+		default = {
+			building_icon = building_food_processing_facility
+			icon = miner
+		}
+	}
+	possible_pre_triggers = {
+		has_owner = yes
+	}
+
+	possible = {
+		owner = { has_authority = auth_radiant_harmony }
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			food = 5
+			energy = 5
+			minerals = 5
+		}
+	}	
+	
+	weight = {
+		weight = 1000
+
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+	promotion = {
+		time = @standard_promotion_time
+		effect = {
+			pop_amount_change_category = {
+				CATEGORY = precursor
+				AMOUNT = local_pop_amount
+			}
+		}
+	}
+}
+
+bgbn_drummer = {
+	category = worker
+	is_capped_by_modifier = no
+	swappable_data = {
+		default = {
+			building_icon = building_food_processing_facility
+			icon = miner
+		}
+	}
+	possible_pre_triggers = {
+		has_owner = yes
+	}
+
+	possible = {
+		owner = { has_authority = auth_radiant_harmony }
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			food = 5
+			energy = 5
+			minerals = 5
+		}
+	}	
+	
+	weight = {
+		weight = 1000
+
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+	promotion = {
+		time = @standard_promotion_time
+		effect = {
+			pop_amount_change_category = {
+				CATEGORY = precursor
+				AMOUNT = local_pop_amount
+			}
+		}
+	}
+}
+
+bgbn_keyboardist = {
+	category = worker
+	is_capped_by_modifier = no
+	swappable_data = {
+		default = {
+			building_icon = building_food_processing_facility
+			icon = miner
+		}
+	}
+	possible_pre_triggers = {
+		has_owner = yes
+	}
+
+	possible = {
+		owner = { has_authority = auth_radiant_harmony }
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			food = 5
+			energy = 5
+			minerals = 5
+		}
+	}	
+	
+	weight = {
+		weight = 1000
+
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+	promotion = {
+		time = @standard_promotion_time
+		effect = {
+			pop_amount_change_category = {
+				CATEGORY = precursor
+				AMOUNT = local_pop_amount
+			}
+		}
+	}
+}
+
+bgbn_violinist = {
+	category = worker
+	is_capped_by_modifier = no
+	swappable_data = {
+		default = {
+			building_icon = building_food_processing_facility
+			icon = miner
+		}
+	}
+	possible_pre_triggers = {
+		has_owner = yes
+	}
+
+	possible = {
+		owner = { has_authority = auth_radiant_harmony }
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			food = 5
+			energy = 5
+			minerals = 5
+		}
+	}	
+	
+	weight = {
+		weight = 1000
+
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+	promotion = {
+		time = @standard_promotion_time
+		effect = {
+			pop_amount_change_category = {
+				CATEGORY = precursor
+				AMOUNT = local_pop_amount
+			}
+		}
+	}
+}
+
+bgbn_dj = {
+	category = worker
+	is_capped_by_modifier = no
+	swappable_data = {
+		default = {
+			building_icon = building_food_processing_facility
+			icon = miner
+		}
+	}
+	possible_pre_triggers = {
+		has_owner = yes
+	}
+
+	possible = {
+		owner = { has_authority = auth_radiant_harmony }
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			food = 5
+			energy = 5
+			minerals = 5
+		}
+	}	
+	
+	weight = {
+		weight = 1000
+
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+	promotion = {
+		time = @standard_promotion_time
+		effect = {
+			pop_amount_change_category = {
+				CATEGORY = precursor
+				AMOUNT = local_pop_amount
+			}
+		}
+	}
+}
+

@@ -2,8 +2,7 @@ create_ykn = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = commander
-		background_job = executive
-		skip_background_generation = yes
+		skip_background_generation = no
 		name = PRESCRIPTED_ruler_name_ykn1
 		custom_description = PRESCRIPTED_ruler_name_ykn1_desc
 		immortal = yes
@@ -12,6 +11,7 @@ create_ykn = {
 		gender = female
 		skill = 10
 		randomize_traits = no
+		background_ethic = ethic_militarist
 		traits = {
 			trait = leader_trait_star_beat
 			trait = trait_roselia
@@ -22,6 +22,7 @@ create_ykn = {
 			set_leader_flag = ykn
 			set_leader_flag = roselia
 			set_leader_flag = legendary_leader
+			change_background_job = bgbn_vocal
 		}
 	}
 }
@@ -29,8 +30,7 @@ create_sayo = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = scientist
-		background_job = executive
-		skip_background_generation = yes
+		skip_background_generation = no
 		name = PRESCRIPTED_ruler_name_sayo1
 		custom_description = PRESCRIPTED_ruler_name_sayo1_desc
 		immortal = yes
@@ -39,6 +39,7 @@ create_sayo = {
 		gender = female
 		skill = 10
 		randomize_traits = no
+		background_ethic = ethic_authoritarian
 		traits = {
 			trait = leader_trait_star_beat
 			trait = trait_roselia
@@ -49,6 +50,7 @@ create_sayo = {
 			set_leader_flag = sayo
 			set_leader_flag = roselia
 			set_leader_flag = legendary_leader
+			change_background_job = bgbn_guitarist
 		}
 	}
 }
@@ -56,8 +58,7 @@ create_rinko = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = scientist
-		background_job = executive
-		skip_background_generation = yes
+		skip_background_generation = no
 		name = PRESCRIPTED_ruler_name_rinko1
 		custom_description = PRESCRIPTED_ruler_name_rinko1_desc
 		immortal = yes
@@ -66,6 +67,7 @@ create_rinko = {
 		gender = female
 		skill = 10
 		randomize_traits = no
+		background_ethic = ethic_pacifist
 		traits = {
 			trait = leader_trait_star_beat
 			trait = trait_roselia
@@ -76,6 +78,7 @@ create_rinko = {
 			set_leader_flag = rinko
 			set_leader_flag = roselia
 			set_leader_flag = legendary_leader
+			change_background_job = bgbn_keyboardist
 		}
 	}
 }
@@ -83,8 +86,7 @@ create_lisa = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = official
-		background_job = executive
-		skip_background_generation = yes
+		skip_background_generation = no
 		name = PRESCRIPTED_ruler_name_lisa1
 		custom_description = PRESCRIPTED_ruler_name_lisa1_desc
 		immortal = yes
@@ -93,6 +95,7 @@ create_lisa = {
 		gender = female
 		skill = 10
 		randomize_traits = no
+		background_ethic = ethic_egalitarian
 		traits = {
 			trait = leader_trait_star_beat
 			trait = trait_roselia
@@ -103,6 +106,7 @@ create_lisa = {
 			set_leader_flag = lisa
 			set_leader_flag = roselia
 			set_leader_flag = legendary_leader
+			change_background_job = bgbn_Bassist
 		}
 	}
 }
@@ -110,8 +114,7 @@ create_ako = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = commander
-		background_job = executive
-		skip_background_generation = yes
+		skip_background_generation = no
 		name = PRESCRIPTED_ruler_name_ako1
 		custom_description = PRESCRIPTED_ruler_name_ako1_desc
 		immortal = yes
@@ -120,6 +123,7 @@ create_ako = {
 		gender = female
 		skill = 10
 		randomize_traits = no
+		background_ethic = ethic_materialist
 		traits = {
 			trait = leader_trait_star_beat
 			trait = trait_roselia
@@ -130,6 +134,7 @@ create_ako = {
 			set_leader_flag = ako
 			set_leader_flag = roselia
 			set_leader_flag = legendary_leader
+			change_background_job = bgbn_drummer
 		}
 	}
 }

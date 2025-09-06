@@ -2,8 +2,7 @@ create_ran = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = commander
-		background_job = executive
-		skip_background_generation = yes
+		skip_background_generation = no
 		name = PRESCRIPTED_ruler_name_ran1
 		custom_description = PRESCRIPTED_ruler_name_ran1_desc
 		immortal = yes
@@ -12,6 +11,7 @@ create_ran = {
 		gender = female
 		skill = 10
 		randomize_traits = no
+		background_ethic = ethic_pacifist
 		traits = {
 			trait = leader_trait_star_beat
 			trait = trait_ag
@@ -22,6 +22,7 @@ create_ran = {
 			set_leader_flag = ran
 			set_leader_flag = ag
 			set_leader_flag = legendary_leader
+			change_background_job = bgbn_vocal
 		}
 	}
 }
@@ -30,7 +31,7 @@ create_moca = {
 		species = event_target:bangdream_species
 		class = official
 		background_job = executive
-		skip_background_generation = yes
+		skip_background_generation = no
 		name = PRESCRIPTED_ruler_name_moca1
 		custom_description = PRESCRIPTED_ruler_name_moca1_desc
 		immortal = yes
@@ -39,6 +40,7 @@ create_moca = {
 		gender = female
 		skill = 10
 		randomize_traits = no
+		background_ethic = ethic_authoritarian
 		traits = {
 			trait = leader_trait_star_beat
 			trait = trait_ag
@@ -49,6 +51,7 @@ create_moca = {
 			set_leader_flag = moca
 			set_leader_flag = ag
 			set_leader_flag = legendary_leader
+			change_background_job = bgbn_guitarist
 		}
 	}
 }
@@ -56,8 +59,7 @@ create_tsugu = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = scientist
-		background_job = executive
-		skip_background_generation = yes
+		skip_background_generation = no
 		name = PRESCRIPTED_ruler_name_tsugu1
 		custom_description = PRESCRIPTED_ruler_name_tsugu1_desc
 		immortal = yes
@@ -66,6 +68,7 @@ create_tsugu = {
 		gender = female
 		skill = 10
 		randomize_traits = no
+		background_ethic = ethic_materialist
 		traits = {
 			trait = leader_trait_star_beat
 			trait = trait_ag
@@ -76,6 +79,7 @@ create_tsugu = {
 			set_leader_flag = tsugu
 			set_leader_flag = ag
 			set_leader_flag = legendary_leader
+			change_background_job = bgbn_keyboardist
 		}
 	}
 }
@@ -83,8 +87,7 @@ create_tme = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = commander
-		background_job = executive
-		skip_background_generation = yes
+		skip_background_generation = no
 		name = PRESCRIPTED_ruler_name_tme1
 		custom_description = PRESCRIPTED_ruler_name_tme1_desc
 		immortal = yes
@@ -93,6 +96,7 @@ create_tme = {
 		gender = female
 		skill = 10
 		randomize_traits = no
+		background_ethic = ethic_militarist
 		traits = {
 			trait = leader_trait_star_beat
 			trait = trait_ag
@@ -103,6 +107,7 @@ create_tme = {
 			set_leader_flag = tme
 			set_leader_flag = ag
 			set_leader_flag = legendary_leader
+			change_background_job = bgbn_drummer
 		}
 	}
 }
@@ -110,8 +115,7 @@ create_hmr = {
 	create_leader = {
 		species = event_target:bangdream_species
 		class = official
-		background_job = executive
-		skip_background_generation = yes
+		skip_background_generation = no
 		name = PRESCRIPTED_ruler_name_hmr1
 		custom_description = PRESCRIPTED_ruler_name_hmr1_desc
 		immortal = yes
@@ -120,6 +124,7 @@ create_hmr = {
 		gender = female
 		skill = 10
 		randomize_traits = no
+		background_ethic = ethic_xenophile
 		traits = {
 			trait = leader_trait_star_beat
 			trait = trait_ag
@@ -130,6 +135,7 @@ create_hmr = {
 			set_leader_flag = hmr
 			set_leader_flag = ag
 			set_leader_flag = legendary_leader
+			change_background_job = bgbn_Bassist
 		}
 	}
 }

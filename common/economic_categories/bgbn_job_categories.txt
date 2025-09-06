@@ -1,4 +1,4 @@
-#工作岗位文件
+#工作岗位分类文件(未确定）
 
 planet_vocal = {
 	icon = "job_vocal"

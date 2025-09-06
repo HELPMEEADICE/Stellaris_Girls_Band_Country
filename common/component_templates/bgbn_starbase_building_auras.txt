@@ -1,23 +1,62 @@
 #恒星基地光环建筑
 
-utility_component_template = {
-	key = "STARBASE_AURA_BULWARK_ARRAY"
-	size = medium
-	icon = "GFX_bulwark_array"
+utility_ultra_high_energy_stellar_excitation_experimental_facility = {
+	key = "bgbn_ultra_high_energy_stellar_excitation_experimental_facility"
+	size = small
+	icon = ""
 	icon_frame = 1
 	power = 0
 
-	friendly_aura = {
-		name = "aura_starbase_bulwark_shield_magnifier"
+	hostile_aura = {
+		name = "aura_ultra_high_energy_stellar_excitation_experimental_facility"
 		system_wide = yes
 
 		stack_info = {
-			id = friendly_bulwark_shield_magnifier_aura
+			id = ultra_high_energy_stellar_excitation_experimental_facility_aura
 			priority = 10
 		}
 
 		modifier = {
-			ship_shield_mult = 1
+			ship_shield_mult = -0.8	#护盾承受值
+			ship_speed_mult = -0.8	#亚空间航速
+			ship_jumpdrive_cooldown_mult = 0.95 #跃迁充能速度
+		}
+	}
+}
+
+utility_resonance_enhancement_system = {
+	key = "bgbn_resonance_enhancement_system"
+	size = small
+	icon = ""
+	icon_frame = 1
+	power = 0
+
+	hostile_aura = {
+		name = "aura_resonance_enhancement_system"
+		system_wide = yes
+
+		stack_info = {
+			id = resonance_enhancement_system_aura
+			priority = 10
+		}
+
+		modifier = {
+			ship_speed_mult = -0.75	#亚空间航速
+		}
+	}
+	friendly_aura = {
+		name = "aura_resonance_enhancement_system"
+		system_wide = yes
+
+		stack_info = {
+			id = resonance_enhancement_system_aura
+			priority = 10
+		}
+
+		modifier = {
+			ship_shield_mult = -0.8	#护盾承受值
+			ship_speed_mult = -0.8	#亚空间航速
+			ship_jumpdrive_cooldown_mult = 0.95 #跃迁充能速度
 		}
 	}
 }
