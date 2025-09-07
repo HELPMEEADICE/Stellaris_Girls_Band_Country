@@ -11,7 +11,7 @@ specialist_rhythmic_realm = {	#律吕谐邦特化内容
 	levels = {
 		# Level 1
 		{
-			experience_needed_for_next_level = @level_2_xp_cost
+			experience_needed_for_next_level = 500				#到下一级要多少经验
 			perks = {
 				rhythmic_realm_1_modifier
 				rhythmic_realm_1_initial_economic_directive
@@ -21,7 +21,7 @@ specialist_rhythmic_realm = {	#律吕谐邦特化内容
 		}
 		# Level 2
 		{
-			experience_needed_for_next_level = @level_3_xp_cost
+			experience_needed_for_next_level = 500
 			perks = {
 				rhythmic_realm_2_modifier
 				rhythmic_realm_2_holistic_development_reforge

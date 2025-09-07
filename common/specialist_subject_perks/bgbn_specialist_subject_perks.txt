@@ -84,22 +84,37 @@ rhythmic_realm_2_holistic_development_reforge = {
 	}
 }
 
-rhythmic_realm_2_astral_flare_initiative = {		#解锁恒星基地建筑
+rhythmic_realm_2_astral_flare_initiative = {		#获得给予恒星基地建筑的科技
 	icon = ""
 	subject_modifier = {	
 		all_technology_research_speed = 0.25
 	}
-
-
+	activate_effect = {
+		target = {
+			if = {
+				limit = { NOT = { has_technology = tech_astral_flare_initiative } }
+				give_technology = {
+					tech = tech_astral_flare_initiative
+					message = yes
+				}
+			}
+		}
+	}
+	desc = {
+		description = rhythmic_realm_2_astral_flare_initiative_desc
+	}
 
 }
 
-rhythmic_realm_2_ethos_lineage = {			#限制附属国政策，获得法令
+rhythmic_realm_2_ethos_lineage = {			#
 	icon = ""
-	subject_event = {	
-		country_event = {
-			id = bgbn_agreement.1
-		}
+	subject_modifier = {	
+		logistic_growth_mult = 2.5
+		pop_unemployment_demotion_time_mult = -0.5
+		pop_happiness = -0.25
+		planet_housing_add = 2000
+		planet_housing_mult = 0.5
+
 	}
 }
 
@@ -119,11 +134,28 @@ rhythmic_realm_3_modifier = {
 	}
 }
 
-rhythmic_realm_3_legendary_ode = {		#获得法令
+rhythmic_realm_3_legendary_ode = {		#
+	subject_modifier = {
+		planet_stability_add = 30
+		planet_amenities_mult = 0.5
+		
+	}
 
 }
 
 rhythmic_realm_3_chroma_veil_defense = {		#获得恒星基地建筑
-
-
+	activate_effect = {
+		target = {
+			if = {
+				limit = { NOT = { has_technology = tech_chroma_veil_defense } }
+				give_technology = {
+					tech = tech_chroma_veil_defense
+					message = yes
+				}
+			}
+		}
+	}
+	desc = {
+		description = rhythmic_realm_3_chroma_veil_defense_desc
+	}
 }

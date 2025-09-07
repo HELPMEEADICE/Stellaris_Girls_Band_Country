@@ -1,0 +1,64 @@
+#恒星基地建筑
+
+ultra_high_energy_stellar_excitation_experimental_facility = {
+	icon = ""
+	construction_days = 360	#建造时间
+
+	potential = {	#什么情况下可以建造这个建筑
+		exists = owner
+		owner = { has_technology = tech_astral_flare_initiative }
+		is_space_citadel = no
+	}
+
+	resources = {	#需求资源
+		category = starbase_buildings	#什么类型的建筑
+		cost = {	#建造需要多少资源
+			alloys = 500	
+		}
+
+		upkeep = {	#维护费
+			energy = 50	
+			unity = 10
+		}
+	}
+
+	equipped_component = "bgbn_ultra_high_energy_stellar_excitation_experimental_facility"	#装配组件，这样整个恒星基地建筑才有效果,要绑定组件的key
+	show_in_tech = "tech_astral_flare_initiative"	#哪个科技获得这个建筑
+
+	ai_weight = {		#ai造这个建筑的权重
+		weight = 1000
+	}
+
+}
+
+resonance_enhancement_system = {
+	icon = ""
+	construction_days = 300	#建造时间
+
+	potential = {	#什么情况下可以建造这个建筑
+		exists = owner
+		owner = { has_technology = tech_chroma_veil_defense }
+		is_space_citadel = no
+	}
+
+	resources = {	#需求资源
+		category = starbase_buildings	#什么类型的建筑
+		cost = {	#建造需要多少资源
+			alloys = 500
+			unity = 1000	
+		}
+
+		upkeep = {	#维护费
+			energy = 50	
+			unity = 100
+		}
+	}
+
+	equipped_component = "bgbn_resonance_enhancement_system"	#装配组件，这样整个恒星基地建筑才有效果
+	show_in_tech = "tech_chroma_veil_defense"	#哪个科技的介绍有这个建筑 获得这个建筑
+
+	ai_weight = {		#ai造这个建筑的权重
+		weight = 1000
+	}
+
+}

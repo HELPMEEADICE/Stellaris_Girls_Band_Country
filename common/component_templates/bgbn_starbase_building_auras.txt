@@ -1,9 +1,9 @@
-#恒星基地光环建筑
+#恒星基地组件（需要绑定建筑）
 
-utility_ultra_high_energy_stellar_excitation_experimental_facility = {
+utility_component_template = {
 	key = "bgbn_ultra_high_energy_stellar_excitation_experimental_facility"
-	size = small
-	icon = ""
+	size = medium
+	icon = "x"
 	icon_frame = 1
 	power = 0
 
@@ -24,10 +24,10 @@ utility_ultra_high_energy_stellar_excitation_experimental_facility = {
 	}
 }
 
-utility_resonance_enhancement_system = {
+utility_component_template = {
 	key = "bgbn_resonance_enhancement_system"
-	size = small
-	icon = ""
+	size = medium
+	icon = "x"
 	icon_frame = 1
 	power = 0
 
@@ -36,12 +36,14 @@ utility_resonance_enhancement_system = {
 		system_wide = yes
 
 		stack_info = {
-			id = resonance_enhancement_system_aura
+			id = hostile_resonance_enhancement_system_aura
 			priority = 10
 		}
 
 		modifier = {
 			ship_speed_mult = -0.75	#亚空间航速
+			ship_fire_rate_mult = -0.75 	#舰船攻击速度
+			ship_weapon_damage = -0.7	#舰船伤害
 		}
 	}
 	friendly_aura = {
@@ -49,14 +51,18 @@ utility_resonance_enhancement_system = {
 		system_wide = yes
 
 		stack_info = {
-			id = resonance_enhancement_system_aura
+			id = friendly_resonance_enhancement_system_aura
 			priority = 10
 		}
 
 		modifier = {
-			ship_shield_mult = -0.8	#护盾承受值
-			ship_speed_mult = -0.8	#亚空间航速
-			ship_jumpdrive_cooldown_mult = 0.95 #跃迁充能速度
+			ship_shield_mult = 0.8	#护盾承受值
+			ship_speed_mult = 0.8	#亚空间航速
+			ship_jumpdrive_cooldown_mult = -0.95 #跃迁充能速度
+			ship_armor_mult = 0.8	#装甲值
+			ship_hull_mult = 0.8	#船体值
 		}
 	}
 }
+
+

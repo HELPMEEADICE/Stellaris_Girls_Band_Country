@@ -1,0 +1,44 @@
+#获得恒星基地建筑科技文件
+
+tech_astral_flare_initiative = {
+	area = physics		#是什么类型的科技（工程/物理/社会）
+	tier = 1			#第几个阶段的科技（线性科技可用，不是也要写个1）
+	cost = 2000			#需要多少对应研究点数
+	weight = 100
+	category = {		#哪个子类型的科技
+		particles
+	}
+	modifier = {
+		all_technology_research_speed = 0.5
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 100
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+tech_chroma_veil_defense = {
+	area = physics		
+	tier = 1	
+	cost = 2000
+	weight = 100
+	category = {		
+		field_manipulation
+	}
+	weight_modifier = {
+		modifier = {
+			factor = 100
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 100
+		}
+	}
+}
