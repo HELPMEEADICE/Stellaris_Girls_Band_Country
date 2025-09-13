@@ -94,9 +94,6 @@ country_event = {
 					show_notification = no
 				}
         	}
-			country_event = {
-				id = ksm.0
-			}
 		}
 	}
 }

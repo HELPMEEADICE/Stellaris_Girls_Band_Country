@@ -13,8 +13,28 @@ sol_ksm_system_initializer = {
 		radius = 145
 	}
 	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 380
+	}
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 400
+	}
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 420
+	}
+	asteroid_belt = {
 		type = icy_asteroid_belt
-		radius = 290
+		radius = 450
+	}
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 470
+	}
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 490
 	}
 
 	flags = { bangdream_sol_system }
@@ -108,12 +128,30 @@ sol_ksm_system_initializer = {
 	planet = {
 		name = "NAME_Mars"
 		class = "pc_barren"
-		orbit_distance = 25
+		orbit_distance = 30
 		orbit_angle = 60
 		size = 13
 		has_ring = no
 		entity = "barren_planet_mars_entity"
 		flags = { planet_mars }
+
+		moon = {
+			name = "name_phobos"
+			class = "pc_barren"
+			size = 1
+			orbit_distance = 7
+			orbit_angle = 0
+			has_ring = no
+		}
+		moon = {
+			name = "name_deimos"
+			class = "pc_barren"
+			size = 1
+			orbit_distance = 2.5
+			orbit_angle = 0
+			has_ring = no
+		}
+		
 
 		init_effect = {
 			add_modifier = {
@@ -206,7 +244,7 @@ sol_ksm_system_initializer = {
 	planet = {
 		name = "NAME_Saturn"
 		class = "pc_gas_giant"
-		orbit_distance = 25
+		orbit_distance = 60
 		orbit_angle = 170
 		size = 30
 		has_ring = yes
@@ -214,11 +252,59 @@ sol_ksm_system_initializer = {
 		change_orbit = 7
 
 		moon = {
+			name = "name_mimas"
+			class = "pc_nuked"
+			size = 2
+			orbit_distance = 10
+			orbit_angle = 320
+			has_ring = no
+		}
+		moon = {
+			name = "name_enceladus"
+			class = "pc_frozen"
+			size = 3
+			orbit_distance = 2
+			orbit_angle = 0
+			has_ring = no
+		}
+		moon = {
+			name = "name_tethys"
+			class = "pc_frozen"
+			size = 4
+			orbit_distance = 2
+			orbit_angle = 20
+			has_ring = no
+		}
+		moon = {
+			name = "name_dione"
+			class = "pc_frozen"
+			size = 4
+			orbit_distance = 2
+			orbit_angle = 50
+			has_ring = no
+		}
+		moon = {
+			name = "name_rhea"
+			class = "pc_frozen"
+			size = 6
+			orbit_distance = 3
+			orbit_angle = 70
+			has_ring = no
+		}
+		moon = {
 			name = "NAME_Titan"
 			class = "pc_frozen"
 			size = 8
-			orbit_distance = 12
+			orbit_distance = 4
 			orbit_angle = 320
+			has_ring = no
+		}
+		moon = {
+			name = "name_iapetus"
+			class = "pc_frozen"
+			size = 5
+			orbit_distance = 2
+			orbit_angle = 130
 			has_ring = no
 		}
 	}
@@ -226,10 +312,52 @@ sol_ksm_system_initializer = {
 	planet = {
 		name = "NAME_Uranus"
 		class = "pc_gas_giant"
-		orbit_distance = 25
+		orbit_distance = 60
 		orbit_angle = 125
 		size = 20
 		has_ring = no
+
+		moon = {
+			name = "name_ariel"
+			class = "pc_frozen"
+			size = 4
+			orbit_distance = 10
+			orbit_angle = 70
+			has_ring = no
+		}
+		moon = {
+			name = "name_umbriel"
+			class = "pc_frozen"
+			size = 4
+			orbit_distance = 3
+			orbit_angle = 50
+			has_ring = no
+		}
+		moon = {
+			name = "name_titania"
+			class = "pc_frozen"
+			size = 5
+			orbit_distance = 4
+			orbit_angle = 12
+			has_ring = no
+		}
+		moon = {
+			name = "name_oberon"
+			class = "pc_frozen"
+			size = 5
+			orbit_distance = 4
+			orbit_angle = 90
+			has_ring = no
+		}
+		moon = {
+			name = "name_miranda"
+			class = "pc_frozen"
+			size = 2
+			orbit_distance = 4
+			orbit_angle = 130
+			has_ring = no
+		}
+
 		init_effect = {
 			set_planet_entity = {
 				entity = gas_giant_uranus_entity
@@ -243,7 +371,7 @@ sol_ksm_system_initializer = {
 	planet = {
 		name = "NAME_Neptune"
 		class = "pc_gas_giant"
-		orbit_distance = 25
+		orbit_distance = 32
 		orbit_angle = -195
 		size = 20
 		has_ring = no
@@ -273,13 +401,13 @@ sol_ksm_system_initializer = {
 		class = "pc_asteroid"
 		orbit_distance = 30
 		orbit_angle = -210
-		size = 5
+		size = 10
 		has_ring = no
 	}
 
 	planet = {
 		name = "NAME_136472_Makemake"
-		class = "pc_ice_asteroid"
+		class = "pc_asteroid"
 		orbit_distance = 0
 		orbit_angle = -95
 		size = 5
@@ -288,7 +416,7 @@ sol_ksm_system_initializer = {
 
 	planet = {
 		name = "NAME_136108_Haumea"
-		class = "pc_ice_asteroid"
+		class = "pc_asteroid"
 		orbit_distance = 0
 		orbit_angle = 285
 		size = 5
@@ -297,11 +425,57 @@ sol_ksm_system_initializer = {
 
 	planet = {
 		name = "NAME_20000_Varuna"
-		class = "pc_ice_asteroid"
+		class = "pc_asteroid"
 		orbit_distance = 0
 		orbit_angle = -80
 		size = 5
 		has_ring = no
 	}
 
+	planet = {
+		name = "name_orcus"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -80
+		size = 5
+		has_ring = no
+	}
+
+	planet = {
+		name = "name_quaoar"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -80
+		size = 5
+		has_ring = no
+	}
+
+	planet = {
+		name = "name_eris"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -80
+		size = 5
+		has_ring = no
+	}
+
+	planet = {
+		name = "name_gonggong"
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = -80
+		size = 5
+		has_ring = no
+	}
+
+
+
+	init_effect = {
+		create_nebula = {		#生成星云
+			radius = 75
+			effect = {
+				create_turbulent_nebula_2 = yes
+			}
+		}
+	}
 }
