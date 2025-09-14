@@ -1,0 +1,18 @@
+#游戏规则文件
+can_add_negative_traits_organic = {	#移除有益特质
+	OR = {
+		has_tradition = tr_kirakira_cognitive_extension
+	}
+}
+
+can_remove_positive_traits_organic = { #增加不利特质
+	OR = {
+		has_tradition = tr_kirakira_cognitive_extension
+	}
+}
+
+can_modify_organic_portraits = {	#改变物种肖像
+	OR = {
+		has_tradition = tr_kirakira_cognitive_extension
+	}
+}

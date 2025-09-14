@@ -1,0 +1,27 @@
+#传统ui布局文件
+@two_layer_tree_h = 25
+@three_layer_tree_h = 0
+
+guiTypes = {
+	#传统内图标定位
+	@x_1 = 61
+	@x_2 = 96
+	@x_3 = 131
+	@x_4 = 166
+	@x_5 = 201
+	@y_1 = 55
+	@y_2 = 125
+	@y_3 = 195
+	#变革
+	containerWindowType = {
+		name = "tree_tt_change"
+		position = { x = 0 y = @three_layer_tree_h }
+		iconType = { name = "arrow_1" spriteType = "GFX_arrow_merge" position = { x = 83 y = 100 } }
+		iconType = { name = "arrow_2" spriteType = "GFX_arrow_merge" position = { x = 153 y = 100 } }
+		containerWindowType = { name = "tree_tt_change_1" position = { x = @x_3 y = @y_1 } }
+		containerWindowType = { name = "tree_tt_change_2" position = { x = @x_2 y = @y_2 } }
+		containerWindowType = { name = "tree_tt_change_3" position = { x = @x_4 y = @y_2 } }
+		containerWindowType = { name = "tree_tt_change_4" position = { x = @x_2 y = @y_3 } }
+		containerWindowType = { name = "tree_tt_change_5" position = { x = @x_4 y = @y_3 } }
+	}
+}

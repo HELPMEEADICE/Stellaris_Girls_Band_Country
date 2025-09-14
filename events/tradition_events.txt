@@ -1,0 +1,53 @@
+#传统特殊效果事件
+namespace = bgbn_tradition
+country_event = {
+	id = bgbn_tradition.1
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_tradition = tr_psionics_adopt
+	}
+
+	immediate = {
+		every_owned_pop_group = {
+			limit = {
+				is_same_species = root
+				species = {
+					has_psionic_species_trait = no
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_first_glowing
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bgbn_tradition.2
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_tradition = tr_kirakira_stream_of_collective_consciousness
+	}
+
+	immediate = {
+		every_owned_pop_group = {
+			limit = {
+				is_same_species = root
+				species = {
+					has_psionic_species_trait = no
+				}
+			}
+			modify_species = {
+				species = this
+				add_trait = trait_psionic
+			}
+		}
+	}
+}

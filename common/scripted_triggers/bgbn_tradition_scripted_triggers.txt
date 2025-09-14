@@ -1,0 +1,6 @@
+#传统特殊效果触发
+can_perform_genetic_assimilation = {	#同化蜂巢思维
+	OR = {
+		has_tradition = tr_kirakira_cognitive_extension
+	}
+}

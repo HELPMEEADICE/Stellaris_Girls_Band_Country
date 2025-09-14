@@ -1,0 +1,27 @@
+#物种特质文件
+trait_first_glowing = {
+	cost = 0
+	icon = "1"
+
+	initial = no
+	randomized = no
+	species_potential_add = {	#是否可以被手动添加
+		always = no
+	}
+	species_possible_remove = {		#是否可以被手动移除
+		always = no
+	}
+	species_possible_merge_add = {		#是否可以在物种亚种内添加
+		always = yes
+	}
+	allowed_archetypes = { BIOLOGICAL }
+	tags = { organic positive pop_output research unity psionic }
+
+	modifier = {
+		pop_demotion_time_mult = -1.5	#人口降级速度/人口降级时间
+		pop_bonus_workforce_mult = 0.2	#岗位效率（全产）
+	}
+	slave_cost = {
+		energy = 1500
+	}
+}

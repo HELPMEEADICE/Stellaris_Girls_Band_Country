@@ -1,0 +1,70 @@
+#传统内容文件
+tr_kirakira_adopt = {	#采纳效果
+	on_enabled = {
+		hidden_effect = {
+			country_event = { id = bgbn_tradition.1 }	#你的物种获得特质
+		}
+	}
+}
+
+tr_kirakira_finish = {	#传统完成效果
+	modifier = {
+		species_leader_exp_gain = 1	#领袖经验获得
+		logistic_growth_mult = 0.2            #人口增长速度
+	}
+}
+
+tr_kirakira_socialized_upbringing = {	#1
+	modifier = {
+		logistic_growth_mult = 3	 #人口增长速度
+		bonus_pop_growth = 3		#每月有机人口生长
+		pop_demotion_time_mult = -1.5	
+		BIOLOGICAL_species_trait_points_add = 5   	#有机物种特质修饰点
+		BIOLOGICAL_species_trait_picks_add = 3		#可选有机物种特质数
+	}
+}
+
+tr_kirakira_post_scarcity_production_paradigm = { #2
+	modifier = {
+		empire_size_pops_mult = -0.75	#人口帝国规模
+		planet_jobs_produces_mult = 1     #所有岗位产出
+		planet_pops_energy_upkeep_mult = -0.9	#人口岗位能量币维护
+		planet_pops_consumer_goods_upkeep_mult = -0.9 #人口岗位消费品维护
+		pop_amenities_usage_mult = -0.5	#人口舒适度使用
+	}
+}
+
+tr_kirakira_cognitive_extension = {
+	modifier = {
+		BIOLOGICAL_species_trait_points_add = 5   	#有机物种特质修饰点
+		pop_environment_tolerance = 1	#宜居性
+		science_ship_survey_speed = 1 #调查速度
+		ship_emergency_ftl_mult = -1 #舰船超光速脱离风险
+		#允许经由物种修饰技术移除有益特质，增加不利特质。允许经由物种修饰技术调整物种外观。可以同化蜂巢思维    可以在game_rule和scripted_triggers里面绑定效果，选择has_这个传统
+	}
+}
+
+tr_kirakira_the_philosophy_of_kirakira = {
+	modifier = {
+		country_galactic_standard_influence_produces_add = 50 #每月影响力增加数值
+		negative_traits_leader = -10 #领袖负面特质上限
+		leader_skill_levels = 5	#领袖等级上限
+	}
+}
+
+tr_kirakira_stream_of_collective_consciousness = {
+	modifier = {
+		planetary_ascension_effect_mult = 1.25 #行星飞升效果
+		country_sr_stars_produces_mult = 5 #每月星石
+	}
+	on_enabled = {
+		hidden_effect = {
+			country_event = {	#初始物种获得灵能特质
+				id = bgbn_tradition.2
+			}
+			country_event = {	#让其他物种获得灵能
+				id = 
+			}
+		}
+	}
+}
