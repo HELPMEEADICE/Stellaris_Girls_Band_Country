@@ -11,11 +11,18 @@ country_event = {
 	}
 
 	immediate = {
+		if = {
+			limit = { NOT = { has_technology = tech_gene_tailoring } }
+			give_technology = {		#给可以改变物种特质的科技，不然没办法加特质
+				tech = tech_gene_tailoring
+				message = yes
+			}
+		}
 		every_owned_pop_group = {
 			limit = {
 				is_same_species = root
 				species = {
-					has_psionic_species_trait = no
+					has_trait = { trait_first_glowing = no }
 				}
 			}
 			modify_species = {
@@ -46,8 +53,8 @@ country_event = {
 			}
 			modify_species = {
 				species = this
-				add_trait = trait_psionic
+				add_trait = trait_latent_psionic
 			}
 		}
-	}
+	}	
 }

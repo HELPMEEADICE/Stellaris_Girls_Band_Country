@@ -3,8 +3,8 @@ trait_first_glowing = {
 	cost = 0
 	icon = "1"
 
-	initial = no
-	randomized = no
+	initial = no	#能否在初始界面被选择
+	randomized = no	#是否可以随机生成该特质
 	species_potential_add = {	#是否可以被手动添加
 		always = no
 	}

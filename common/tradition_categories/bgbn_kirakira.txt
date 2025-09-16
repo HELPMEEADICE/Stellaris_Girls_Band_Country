@@ -1,0 +1,21 @@
+#注册传统文件
+tradition_kirakira = {
+	tree_template = "tree_kirakira"
+	adoption_bonus = "tr_kirakira_adopt"
+	finish_bonus = "tr_kirakira_finish"
+	traditions = {
+		"tr_kirakira_socialized_upbringing"
+		"tr_kirakira_post_scarcity_production_paradigm"
+		"tr_kirakira_cognitive_extension"
+		"tr_kirakira_the_philosophy_of_kirakira"
+		"tr_kirakira_stream_of_collective_consciousness"
+	}
+
+	potential = {
+		has_authority = auth_radiant_harmony
+	}
+
+	ai_weight = {
+		factor = 100
+	}	
+}

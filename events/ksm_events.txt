@@ -25,6 +25,7 @@ country_event = {
 	picture = GFX_evt_kirakira
 	trigger = {
 		is_ai = no
+		has_country_flag = poppinparty
 	}
 	immediate = {
 		play_sound = { sound = tokimeki_experience location = capital_scope }	
@@ -75,6 +76,8 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		is_ai = no
+		has_country_flag = poppinparty
+		
 	}
 	immediate = {
 		if = {

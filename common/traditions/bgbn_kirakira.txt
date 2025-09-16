@@ -1,8 +1,31 @@
 #传统内容文件
 tr_kirakira_adopt = {	#采纳效果
+	modifier = {
+		BIOLOGICAL_species_trait_points_add = 2   	
+		BIOLOGICAL_species_trait_picks_add = 2
+	}
+	custom_tooltip_with_modifiers  = tr_kirakira_adopt_tooltip	#效果提示
 	on_enabled = {
 		hidden_effect = {
-			country_event = { id = bgbn_tradition.1 }	#你的物种获得特质
+			give_technology = {
+				tech = tech_gene_tailoring
+				message = yes
+			}
+			species = {
+				change_species_characteristics = {
+					add_trait = trait_first_glowing
+					add_traits_at_start_of_list = yes
+				}
+			}
+			every_owned_species = {
+				limit = {
+					is_subspecies = root
+				}
+				change_species_characteristics = {
+					add_trait = trait_first_glowing
+					add_traits_at_start_of_list = yes
+				}
+			}
 		}
 	}
 }
@@ -11,6 +34,7 @@ tr_kirakira_finish = {	#传统完成效果
 	modifier = {
 		species_leader_exp_gain = 1	#领袖经验获得
 		logistic_growth_mult = 0.2            #人口增长速度
+		ascension_perks_add = 1
 	}
 }
 
@@ -22,6 +46,9 @@ tr_kirakira_socialized_upbringing = {	#1
 		BIOLOGICAL_species_trait_points_add = 5   	#有机物种特质修饰点
 		BIOLOGICAL_species_trait_picks_add = 3		#可选有机物种特质数
 	}
+	ai_weight = {
+		factor = 1000
+	}
 }
 
 tr_kirakira_post_scarcity_production_paradigm = { #2
@@ -32,9 +59,16 @@ tr_kirakira_post_scarcity_production_paradigm = { #2
 		planet_pops_consumer_goods_upkeep_mult = -0.9 #人口岗位消费品维护
 		pop_amenities_usage_mult = -0.5	#人口舒适度使用
 	}
+	ai_weight = {
+		factor = 1000
+	}
 }
 
-tr_kirakira_cognitive_extension = {
+tr_kirakira_cognitive_extension = {	#3
+	possible = {
+		has_tradition = tr_kirakira_socialized_upbringing
+		has_tradition = tr_kirakira_post_scarcity_production_paradigm
+	}
 	modifier = {
 		BIOLOGICAL_species_trait_points_add = 5   	#有机物种特质修饰点
 		pop_environment_tolerance = 1	#宜居性
@@ -42,29 +76,57 @@ tr_kirakira_cognitive_extension = {
 		ship_emergency_ftl_mult = -1 #舰船超光速脱离风险
 		#允许经由物种修饰技术移除有益特质，增加不利特质。允许经由物种修饰技术调整物种外观。可以同化蜂巢思维    可以在game_rule和scripted_triggers里面绑定效果，选择has_这个传统
 	}
+	ai_weight = {
+		factor = 1000
+	}
+	custom_tooltip_with_modifiers = tr_kirakira_cognitive_extensio_desc
 }
 
-tr_kirakira_the_philosophy_of_kirakira = {
+tr_kirakira_the_philosophy_of_kirakira = { #4
+	possible = {
+		has_tradition = tr_kirakira_socialized_upbringing
+		has_tradition = tr_kirakira_post_scarcity_production_paradigm
+	}
 	modifier = {
 		country_galactic_standard_influence_produces_add = 50 #每月影响力增加数值
 		negative_traits_leader = -10 #领袖负面特质上限
 		leader_skill_levels = 5	#领袖等级上限
 	}
+	ai_weight = {
+		factor = 1000
+	}
 }
 
-tr_kirakira_stream_of_collective_consciousness = {
+tr_kirakira_stream_of_collective_consciousness = { 	#5
+	possible = {
+		has_tradition = tr_kirakira_the_philosophy_of_kirakira
+		has_tradition = tr_kirakira_cognitive_extension
+	}
 	modifier = {
 		planetary_ascension_effect_mult = 1.25 #行星飞升效果
 		country_sr_stars_produces_mult = 5 #每月星石
 	}
+	custom_tooltip_with_modifiers  = tr_kirakira_finish_tooltip
 	on_enabled = {
 		hidden_effect = {
-			country_event = {	#初始物种获得灵能特质
-				id = bgbn_tradition.2
+			species = {
+				change_species_characteristics = {
+					add_trait = trait_latent_psionic
+					add_traits_at_start_of_list = yes
+				}
 			}
-			country_event = {	#让其他物种获得灵能
-				id = 
+			every_owned_species = {
+				limit = {
+					is_subspecies = root
+				}
+				change_species_characteristics = {
+					add_trait = trait_latent_psionic
+					add_traits_at_start_of_list = yes
+				}
 			}
 		}
+	}
+	ai_weight = {
+		factor = 1000
 	}
 }

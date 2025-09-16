@@ -12,16 +12,25 @@ guiTypes = {
 	@y_1 = 55
 	@y_2 = 125
 	@y_3 = 195
-	#变革
+	#闪耀 		五边形（星星）
 	containerWindowType = {
-		name = "tree_tt_change"
+		name = "tree_kirakira"
 		position = { x = 0 y = @three_layer_tree_h }
-		iconType = { name = "arrow_1" spriteType = "GFX_arrow_merge" position = { x = 83 y = 100 } }
-		iconType = { name = "arrow_2" spriteType = "GFX_arrow_merge" position = { x = 153 y = 100 } }
-		containerWindowType = { name = "tree_tt_change_1" position = { x = @x_3 y = @y_1 } }
-		containerWindowType = { name = "tree_tt_change_2" position = { x = @x_2 y = @y_2 } }
-		containerWindowType = { name = "tree_tt_change_3" position = { x = @x_4 y = @y_2 } }
-		containerWindowType = { name = "tree_tt_change_4" position = { x = @x_2 y = @y_3 } }
-		containerWindowType = { name = "tree_tt_change_5" position = { x = @x_4 y = @y_3 } }
+		containerWindowType = { name = "tr_kirakira_socialized_upbringing" position = { x = 100 y = 195 } }		#左下		#子传统坐标，所有传统均位于第四象限，但y轴为正数
+		containerWindowType = { name = "tr_kirakira_post_scarcity_production_paradigm" position = { x = 162 y = 195 } }	#右下
+		containerWindowType = { name = "tr_kirakira_cognitive_extension" position = { x = 70 y = 125 } }	#左上
+		containerWindowType = { name = "tr_kirakira_the_philosophy_of_kirakira" position = { x = 192 y = 125 } }	#右上
+		containerWindowType = { name = "tr_kirakira_stream_of_collective_consciousness" position = { x = 131 y = 55 } }	#上
+	}
+	containerWindowType = {
+		name = "tree_"
+		position = { x = 0 y = @three_layer_tree_h }
+		iconType = { name = "tr_kirakira_adopt" spriteType = "" position = { x = 83 y = 100 } }	#传统箭头提示（只是图片，不具备影响传统顺序的功能）
+		iconType = { name = "tr_kirakira_finish" spriteType = "" position = { x = 153 y = 100 } }
+		containerWindowType = { name = "tr_kirakira_socialized_upbringing" position = { x = 100 y = 195 } }				#子传统坐标，所有传统均位于第四象限，但y轴为正数
+		containerWindowType = { name = "tr_kirakira_post_scarcity_production_paradigm" position = { x = 162 y = 195 } }	
+		containerWindowType = { name = "tr_kirakira_cognitive_extension" position = { x = 70 y = 125 } }	
+		containerWindowType = { name = "tr_kirakira_the_philosophy_of_kirakira" position = { x = 192 y = 125 } }	
+		containerWindowType = { name = "tr_kirakira_stream_of_collective_consciousness" position = { x = 131 y = 55 } }	
 	}
 }

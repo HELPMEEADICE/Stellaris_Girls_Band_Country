@@ -4,7 +4,7 @@ tech_astral_flare_initiative = {
 	area = physics		#是什么类型的科技（工程/物理/社会）
 	tier = 1			#第几个阶段的科技（线性科技可用，不是也要写个1）
 	cost = 2000			#需要多少对应研究点数
-	weight = 100
+	weight = 0			#0不出现这个科技在科研池,其他大于0的数字则是出现几率
 	category = {		#哪个子类型的科技
 		particles
 	}
@@ -13,12 +13,12 @@ tech_astral_flare_initiative = {
 	}
 	weight_modifier = {
 		modifier = {
-			factor = 100
+			factor = 0
 		}
 	}
 	ai_weight = {
 		modifier = {
-			factor = 100
+			factor = 0
 		}
 	}
 }
@@ -27,18 +27,21 @@ tech_chroma_veil_defense = {
 	area = physics		
 	tier = 1	
 	cost = 2000
-	weight = 100
+	weight = 0
+
+	
+
 	category = {		
 		field_manipulation
 	}
 	weight_modifier = {
 		modifier = {
-			factor = 100
+			factor = 0
 		}
 	}
 	ai_weight = {
 		modifier = {
-			factor = 100
+			factor = 0
 		}
 	}
 }
