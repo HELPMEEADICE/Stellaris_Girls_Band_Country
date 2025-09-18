@@ -34,7 +34,7 @@ tr_kirakira_finish = {	#传统完成效果
 	modifier = {
 		species_leader_exp_gain = 1	#领袖经验获得
 		logistic_growth_mult = 0.2            #人口增长速度
-		ascension_perks_add = 1
+		ascension_perks_add = 2		#飞升槽位解锁
 	}
 }
 

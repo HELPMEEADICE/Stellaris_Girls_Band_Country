@@ -16,16 +16,16 @@ guiTypes = {
 	containerWindowType = {
 		name = "tree_kirakira"
 		position = { x = 0 y = @three_layer_tree_h }
-		containerWindowType = { name = "tr_kirakira_socialized_upbringing" position = { x = 100 y = 195 } }		#左下		#子传统坐标，所有传统均位于第四象限，但y轴为正数
-		containerWindowType = { name = "tr_kirakira_post_scarcity_production_paradigm" position = { x = 162 y = 195 } }	#右下
-		containerWindowType = { name = "tr_kirakira_cognitive_extension" position = { x = 70 y = 125 } }	#左上
-		containerWindowType = { name = "tr_kirakira_the_philosophy_of_kirakira" position = { x = 192 y = 125 } }	#右上
-		containerWindowType = { name = "tr_kirakira_stream_of_collective_consciousness" position = { x = 131 y = 55 } }	#上
+		containerWindowType = { name = "tree_kirakira_socialized_upbringing" position = { x = 100 y = 195 } }		#左下		#子传统坐标，所有传统均位于第四象限，但y轴为正数，name一定要以tree作为前缀
+		containerWindowType = { name = "tree_kirakira_post_scarcity_production_paradigm" position = { x = 162 y = 195 } }	#右下
+		containerWindowType = { name = "tree_kirakira_cognitive_extension" position = { x = 70 y = 125 } }	#左上
+		containerWindowType = { name = "tree_kirakira_the_philosophy_of_kirakira" position = { x = 192 y = 125 } }	#右上
+		containerWindowType = { name = "tree_kirakira_stream_of_collective_consciousness" position = { x = 131 y = 55 } }	#上
 	}
 	containerWindowType = {
 		name = "tree_"
 		position = { x = 0 y = @three_layer_tree_h }
-		iconType = { name = "tr_kirakira_adopt" spriteType = "" position = { x = 83 y = 100 } }	#传统箭头提示（只是图片，不具备影响传统顺序的功能）
+		iconType = { name = "tr_kirakira_adopt" spriteType = "" position = { x = 83 y = 100 } }	#传统箭头提示（只是图片，不具备影响传统顺序的功能）name一定要以tree作为前缀
 		iconType = { name = "tr_kirakira_finish" spriteType = "" position = { x = 153 y = 100 } }
 		containerWindowType = { name = "tr_kirakira_socialized_upbringing" position = { x = 100 y = 195 } }				#子传统坐标，所有传统均位于第四象限，但y轴为正数
 		containerWindowType = { name = "tr_kirakira_post_scarcity_production_paradigm" position = { x = 162 y = 195 } }	
