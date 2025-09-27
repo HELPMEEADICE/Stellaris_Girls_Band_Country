@@ -1,3 +1,4 @@
+#复活领袖决议
 #popipa
 reborn_ksm_edict = {
 	length = 1
@@ -915,5 +916,885 @@ reborn_hmr_edict = {
     }
     effect = {
 		create_hmr = yes
+    }
+}
+#hhw
+reborn_kkr_edict = {
+	length = 1
+    icon = "GFX_edict_type_hhw"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = kkr
+			}
+		}
+		has_country_flag = have_hhw
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = kkr
+			}
+		}
+		has_country_flag = have_hhw
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_kkr = yes
+    }
+}
+reborn_hgm_edict = {
+	length = 1
+    icon = "GFX_edict_type_hhw"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = hgm
+			}
+		}
+		has_country_flag = have_hhw
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = hgm
+			}
+		}
+		has_country_flag = have_hhw
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_hgm = yes
+    }
+}
+reborn_msk_edict = {
+	length = 1
+    icon = "GFX_edict_type_hhw"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = msk
+			}
+		}
+		has_country_flag = have_hhw
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = msk
+			}
+		}
+		has_country_flag = have_hhw
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_msk = yes
+    }
+}
+reborn_kaoru_edict = {
+	length = 1
+    icon = "GFX_edict_type_hhw"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = kaoru
+			}
+		}
+		has_country_flag = have_hhw
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = kaoru
+			}
+		}
+		has_country_flag = have_hhw
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_kaoru = yes
+    }
+}
+reborn_kanon_edict = {
+	length = 1
+    icon = "GFX_edict_type_hhw"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = kanon
+			}
+		}
+		has_country_flag = have_hhw
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = kanon
+			}
+		}
+		has_country_flag = have_hhw
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_kanon = yes
+    }
+}
+#monica
+reborn_mashiro_edict = {
+	length = 1
+    icon = "GFX_edict_type_monica"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = mashiro
+			}
+		}
+		has_country_flag = have_monica
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = mashiro
+			}
+		}
+		has_country_flag = have_monica
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_mashiro = yes
+    }
+}
+reborn_rui_edict = {
+	length = 1
+    icon = "GFX_edict_type_monica"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = rui
+			}
+		}
+		has_country_flag = have_monica
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = rui
+			}
+		}
+		has_country_flag = have_monica
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_rui = yes
+    }
+}
+reborn_tsukushi_edict = {
+	length = 1
+    icon = "GFX_edict_type_monica"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = tsukushi
+			}
+		}
+		has_country_flag = have_monica
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = tsukushi
+			}
+		}
+		has_country_flag = have_monica
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_tsukushi = yes
+    }
+}
+reborn_tsukushi_edict = {
+	length = 1
+    icon = "GFX_edict_type_monica"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = tsukushi
+			}
+		}
+		has_country_flag = have_monica
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = tsukushi
+			}
+		}
+		has_country_flag = have_monica
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_tsukushi = yes
+    }
+}
+reborn_toko_edict = {
+	length = 1
+    icon = "GFX_edict_type_monica"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = toko
+			}
+		}
+		has_country_flag = have_monica
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = toko
+			}
+		}
+		has_country_flag = have_monica
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_toko = yes
+    }
+}
+#mygo
+reborn_tomori_edict = {
+	length = 1
+    icon = "GFX_edict_type_mygo"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = tomori
+			}
+		}
+		has_country_flag = have_mygo
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = tomori
+			}
+		}
+		has_country_flag = have_mygo
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_tomori = yes
+    }
+}
+reborn_anon_edict = {
+	length = 1
+    icon = "GFX_edict_type_mygo"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = anon
+			}
+		}
+		has_country_flag = have_mygo
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = anon
+			}
+		}
+		has_country_flag = have_mygo
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_anon = yes
+    }
+}
+reborn_rana_edict = {
+	length = 1
+    icon = "GFX_edict_type_mygo"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = rana
+			}
+		}
+		has_country_flag = have_mygo
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = rana
+			}
+		}
+		has_country_flag = have_mygo
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_rana = yes
+    }
+}
+reborn_soyo_edict = {
+	length = 1
+    icon = "GFX_edict_type_mygo"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = soyo
+			}
+		}
+		has_country_flag = have_mygo
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = soyo
+			}
+		}
+		has_country_flag = have_mygo
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_soyo = yes
+    }
+}
+reborn_taki_edict = {
+	length = 1
+    icon = "GFX_edict_type_mygo"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = taki
+			}
+		}
+		has_country_flag = have_mygo
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = taki
+			}
+		}
+		has_country_flag = have_mygo
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_taki = yes
+    }
+}
+#mujica
+reborn_sakiko_edict = {
+	length = 1
+    icon = "GFX_edict_type_mujica"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = sakiko
+			}
+		}
+		has_country_flag = have_mujica
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = sakiko
+			}
+		}
+		has_country_flag = have_mujica
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_sakiko = yes
+    }
+}
+reborn_mutsumi_edict = {
+	length = 1
+    icon = "GFX_edict_type_mujica"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = mutsumi
+			}
+		}
+		has_country_flag = have_mujica
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = mutsumi
+			}
+		}
+		has_country_flag = have_mujica
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_mutsumi = yes
+    }
+}
+reborn_uika_edict = {
+	length = 1
+    icon = "GFX_edict_type_mujica"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = uika
+			}
+		}
+		has_country_flag = have_mujica
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = uika
+			}
+		}
+		has_country_flag = have_mujica
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_uika = yes
+    }
+}
+reborn_umiri_edict = {
+	length = 1
+    icon = "GFX_edict_type_mujica"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = umiri
+			}
+		}
+		has_country_flag = have_mujica
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = umiri
+			}
+		}
+		has_country_flag = have_mujica
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_umiri = yes
+    }
+}
+reborn_nyamu_edict = {
+	length = 1
+    icon = "GFX_edict_type_mujica"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = nyamu
+			}
+		}
+		has_country_flag = have_mujica
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = nyamu
+			}
+		}
+		has_country_flag = have_mujica
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_nyamu = yes
+    }
+}
+#mugendai
+reborn_arale_edict = {
+	length = 1
+    icon = "GFX_edict_type_mugendai"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = arale
+			}
+		}
+		has_country_flag = have_mugendai
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = arale
+			}
+		}
+		has_country_flag = have_mugendai
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_arale = yes
+    }
+}
+reborn_nonoka_edict = {
+	length = 1
+    icon = "GFX_edict_type_mugendai"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = nonoka
+			}
+		}
+		has_country_flag = have_mugendai
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = nonoka
+			}
+		}
+		has_country_flag = have_mugendai
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_nonoka = yes
+    }
+}
+reborn_ritsu_edict = {
+	length = 1
+    icon = "GFX_edict_type_mugendai"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = ritsu
+			}
+		}
+		has_country_flag = have_mugendai
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = ritsu
+			}
+		}
+		has_country_flag = have_mugendai
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_ritsu = yes
+    }
+}
+reborn_miyako_edict = {
+	length = 1
+    icon = "GFX_edict_type_mugendai"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = miyako
+			}
+		}
+		has_country_flag = have_mugendai
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = miyako
+			}
+		}
+		has_country_flag = have_mugendai
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_miyako = yes
+    }
+}
+reborn_yuno_edict = {
+	length = 1
+    icon = "GFX_edict_type_mugendai"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = yuno
+			}
+		}
+		has_country_flag = have_mugendai
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = yuno
+			}
+		}
+		has_country_flag = have_mugendai
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_yuno = yes
     }
 }

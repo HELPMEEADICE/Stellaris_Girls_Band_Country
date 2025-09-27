@@ -1,0 +1,183 @@
+create_tomori = { #高松灯
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_tomori1
+		custom_description = PRESCRIPTED_ruler_name_tomori1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_spiritualist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_mygo
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = tomori_leader_mygo_portrait
+			set_leader_flag = tomori
+			set_leader_flag = mygo
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_vocal
+		}
+	}
+}
+create_anon = { #千早爱音
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_anon1
+		custom_description = PRESCRIPTED_ruler_name_anon1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_materialist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_mygo
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = anon_leader_mygo_portrait
+			set_leader_flag = anon
+			set_leader_flag = mygo
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_guitarist
+		}
+	}
+}
+create_rana = { #要乐奈
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_rana1
+		custom_description = PRESCRIPTED_ruler_name_rana1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_militarist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_mygo
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = rana_leader_mygo_portrait
+			set_leader_flag = rana
+			set_leader_flag = mygo
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_guitarist
+		}
+	}
+}
+create_soyo = { #长崎素世
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_soyo1
+		custom_description = PRESCRIPTED_ruler_name_soyo1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_xenophile
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_mygo
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = soyo_leader_mygo_portrait
+			set_leader_flag = soyo
+			set_leader_flag = mygo
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_bassist
+		}
+	}
+}
+create_taki = { #锥名立希
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_taki1
+		custom_description = PRESCRIPTED_ruler_name_taki1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_authoritarian
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_mygo
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = taki_leader_mygo_portrait
+			set_leader_flag = taki
+			set_leader_flag = mygo
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_drummer
+		}
+	}
+}
+
+fix_mygo = {
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = tomori
+		}
+		change_leader_portrait = "tomori_leader_mygo_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = anon
+		}
+		change_leader_portrait = "anon_leader_mygo_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = soyo
+		}
+		change_leader_portrait = "soyo_leader_mygo_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = rana
+		}
+		change_leader_portrait = "rana_leader_mygo_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = taki
+		}
+		change_leader_portrait = "taki_leader_mygo_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+}

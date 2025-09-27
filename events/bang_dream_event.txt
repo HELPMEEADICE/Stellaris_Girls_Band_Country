@@ -2,6 +2,11 @@ namespace = paspal
 namespace = roselia
 namespace = ras
 namespace = ag
+namespace = hhw
+namespace = monica
+namespace = mygo
+namespace = mujica
+namespace = mugendai
 
 country_event = {
 	id = paspal.0
@@ -92,5 +97,120 @@ country_event = {
 		create_hmr = yes
 		create_tme = yes
 		custom_tooltip = C_AG
+	}
+}
+
+country_event = {
+	id = hhw.1
+	is_triggered_only = yes
+	picture = GFX_evt_hhw_1
+	title = hhw.1.t
+	desc = hhw.1.d
+
+	immediate = {
+		play_sound = { sound = happy_happier_happiest location = capital_scope }
+	}
+		
+	option = {
+		name = hhw.1.a
+		set_country_flag = have_hhw
+		create_kkr = yes
+		create_hgm = yes
+		create_msk = yes
+		create_kaoru = yes
+		create_kanon = yes
+		custom_tooltip = C_hhw
+	}
+}
+
+country_event = {
+	id = monica.1
+	is_triggered_only = yes
+	picture = GFX_evt_monica_1
+	title = monica.1.t
+	desc = monica.1.d
+
+	immediate = {
+		play_sound = { sound = chakai_no_wingbeat location = capital_scope }
+	}
+		
+	option = {
+		name = monica.1.a
+		set_country_flag = have_monica
+		create_mashiro = yes
+		create_rui = yes
+		create_tsukushi = yes
+		create_nanami = yes
+		create_toko = yes
+		custom_tooltip = C_monica
+	}
+}
+
+country_event = {
+	id = mygo.1
+	is_triggered_only = yes
+	picture = GFX_evt_mygo_1
+	title = mygo.1.t
+	desc = mygo.1.d
+
+	immediate = {
+		play_sound = { sound = hitoshizuku location = capital_scope }
+	}
+		
+	option = {
+		name = mygo.1.a
+		set_country_flag = have_mygo
+		create_tomori = yes
+		create_anon = yes
+		create_rana = yes
+		create_soyo = yes
+		create_taki = yes
+		custom_tooltip = C_mygo
+	}
+}
+
+country_event = {
+	id = mujica.1
+	is_triggered_only = yes
+	picture = GFX_evt_mujica_1
+	title = mujica.1.t
+	desc = mujica.1.d
+
+	immediate = {
+		play_sound = { sound = ave_mujica location = capital_scope }
+	}
+		
+	option = {
+		name = mujica.1.a
+		set_country_flag = have_mujica
+		create_sakiko = yes
+		create_mutsumi = yes
+		create_uika= yes
+		create_umiri = yes
+		create_nyamu = yes
+		custom_tooltip = C_mujica
+	}
+}
+
+country_event = {
+	id = mugendai.1
+	is_triggered_only = yes
+	picture = GFX_evt_mugendai_1
+	title = mugendai.1.t
+	desc = mugendai.1.d
+
+	immediate = {
+		play_sound = { sound = dream_fantasy_world location = capital_scope }
+	}
+		
+	option = {
+		name = mugendai.1.a
+		set_country_flag = have_mugendai
+		create_arale = yes
+		create_nonoka = yes
+		create_ritsu = yes
+		create_miyako = yes
+		create_yuno = yes
+		custom_tooltip = C_mugendai
 	}
 }

@@ -1,0 +1,183 @@
+create_arale = {	#仲町阿拉蕾
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_arale1
+		custom_description = PRESCRIPTED_ruler_name_arale1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_xenophile
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_mugendai
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = arale_leader_mugendai_portrait
+			set_leader_flag = arale
+			set_leader_flag = mugendai
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_vocal
+		}
+	}
+}
+create_nonoka = { #宫永野乃花
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_nonoka1
+		custom_description = PRESCRIPTED_ruler_name_nonoka1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_spiritualist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_mugendai
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = nonoka_leader_mugendai_portrait
+			set_leader_flag = nonoka
+			set_leader_flag = mugendai
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_guitarist
+		}
+	}
+}
+create_ritsu = { #峰月律
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_ritsu1
+		custom_description = PRESCRIPTED_ruler_name_ritsu1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_xenophile
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_mugendai
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = ritsu_leader_mugendai_portrait
+			set_leader_flag = ritsu
+			set_leader_flag = mugendai
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_guitarist
+		}
+	}
+}
+create_miyako = { #藤都子
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_miyako1
+		custom_description = PRESCRIPTED_ruler_name_miyako1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_materialist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_mugendai
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = miyako_leader_mugendai_portrait
+			set_leader_flag = miyako
+			set_leader_flag = mugendai
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_keyboardist
+		}
+	}
+}
+create_yuno = { #千石由乃
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_yuno1
+		custom_description = PRESCRIPTED_ruler_name_yuno1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_pacifist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_mugendai
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = yuno_leader_mugendai_portrait
+			set_leader_flag = yuno
+			set_leader_flag = mugendai
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_dj
+		}
+	}
+}
+
+fix_mugendai = {
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = arale
+		}
+		change_leader_portrait = "arale_leader_mugendai_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = nonoka
+		}
+		change_leader_portrait = "nonoka_leader_mugendai_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = miyako
+		}
+		change_leader_portrait = "miyako_leader_mugendai_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = ritsu
+		}
+		change_leader_portrait = "ritsu_leader_mugendai_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = yuno
+		}
+		change_leader_portrait = "yuno_leader_mugendai_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+}

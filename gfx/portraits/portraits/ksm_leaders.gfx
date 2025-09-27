@@ -87,4 +87,84 @@ portraits = {
 	tme_leader_ag_portrait ={
 		texturefile = "gfx/models/portraits/ag/tme.png"
 	}
+	#hhw
+	kkr_leader_hhw_portrait ={
+		texturefile = "gfx/models/portraits/hhw/kkr.png"
+	}
+	hgm_leader_hhw_portrait ={
+		texturefile = "gfx/models/portraits/hhw/hgm.png"
+	}
+	msk_leader_hhw_portrait ={
+		texturefile = "gfx/models/portraits/hhw/msk.png"
+	}
+	kaoru_leader_hhw_portrait ={
+		texturefile = "gfx/models/portraits/hhw/kaoru.png"
+	}
+	kanon_leader_hhw_portrait ={
+		texturefile = "gfx/models/portraits/hhw/kanon.png"
+	}
+	#monica
+	mashiro_leader_monica_portrait ={
+		texturefile = "gfx/models/portraits/monica/mashiro.png"
+	}
+	rui_leader_monica_portrait ={
+		texturefile = "gfx/models/portraits/monica/rui.png"
+	}
+	tsukushi_leader_monica_portrait ={
+		texturefile = "gfx/models/portraits/monica/tsukushi.png"
+	}
+	nanami_leader_monica_portrait ={
+		texturefile = "gfx/models/portraits/monica/nanami.png"
+	}
+	toko_leader_monica_portrait ={
+		texturefile = "gfx/models/portraits/monica/toko.png"
+	}
+	#mygo
+	tomori_leader_mygo_portrait ={
+		texturefile = "gfx/models/portraits/mygo/tomori.png"
+	}
+	anon_leader_mygo_portrait ={
+		texturefile = "gfx/models/portraits/mygo/anon.png"
+	}
+	rana_leader_mygo_portrait ={
+		texturefile = "gfx/models/portraits/mygo/rana.png"
+	}
+	soyo_leader_mygo_portrait ={
+		texturefile = "gfx/models/portraits/mygo/soyo.png"
+	}
+	taki_leader_mygo_portrait ={
+		texturefile = "gfx/models/portraits/mygo/taki.png"
+	}
+	#mujica
+	sakiko_leader_mujica_portrait ={
+		texturefile = "gfx/models/portraits/mujica/sakiko.png"
+	}
+	mutsumi_leader_mujica_portrait ={
+		texturefile = "gfx/models/portraits/mujica/mutsumi.png"
+	}
+	uika_leader_mujica_portrait ={
+		texturefile = "gfx/models/portraits/mujica/uika.png"
+	}
+	umiri_leader_mujica_portrait ={
+		texturefile = "gfx/models/portraits/mujica/umiri.png"
+	}
+	nyamu_leader_mujica_portrait ={
+		texturefile = "gfx/models/portraits/mujica/nyamu.png"
+	}
+	#mugendai
+	arale_leader_mugendai_portrait ={
+		texturefile = "gfx/models/portraits/mugendai/arale.png"
+	}
+	nonoka_leader_mugendai_portrait ={
+		texturefile = "gfx/models/portraits/mugendai/nonoka.png"
+	}
+	ritsu_leader_mugendai_portrait ={
+		texturefile = "gfx/models/portraits/mugendai/ritsu.png"
+	}
+	miyako_leader_mugendai_portrait ={
+		texturefile = "gfx/models/portraits/mugendai/miyako.png"
+	}
+	yuno_leader_mugendai_portrait ={
+		texturefile = "gfx/models/portraits/mugendai/yuno.png"
+	}
 }

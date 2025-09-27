@@ -1,0 +1,183 @@
+create_mashiro = {	#仓田真白
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_mashiro1
+		custom_description = PRESCRIPTED_ruler_name_mashiro1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_spiritualist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_monica
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = mashiro_leader_monica_portrait
+			set_leader_flag = mashiro
+			set_leader_flag = monica
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_vocal
+		}
+	}
+}
+create_rui = {	#八潮瑠唯
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_rui1
+		custom_description = PRESCRIPTED_ruler_name_rui1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_authoritarian #威权
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_monica
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = rui_leader_monica_portrait
+			set_leader_flag = rui
+			set_leader_flag = monica
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_violinist
+		}
+	}
+}
+create_tsukushi = {	#二叶筑紫
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_tsukushi1
+		custom_description = PRESCRIPTED_ruler_name_tsukushi1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_pacifist #和平
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_monica
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = tsukushi_leader_monica_portrait
+			set_leader_flag = tsukushi
+			set_leader_flag = monica
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_drummer
+		}
+	}
+}
+create_nanami = {	#广町七深
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_nanami1
+		custom_description = PRESCRIPTED_ruler_name_nanami1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_egalitarian #平等
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_monica
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = nanami_leader_monica_portrait
+			set_leader_flag = nanami
+			set_leader_flag = monica
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_bassist
+		}
+	}
+}
+create_toko = { #桐谷透子
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_toko1
+		custom_description = PRESCRIPTED_ruler_name_toko1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_xenophile
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_monica
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = toko_leader_monica_portrait
+			set_leader_flag = toko
+			set_leader_flag = monica
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_guitarist
+		}
+	}
+}
+
+fix_monica = {
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = mashiro
+		}
+		change_leader_portrait = "mashiro_leader_monica_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = rui
+		}
+		change_leader_portrait = "rui_leader_monica_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = nanami
+		}
+		change_leader_portrait = "nanami_leader_monica_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = tsukushi
+		}
+		change_leader_portrait = "tsukushi_leader_monica_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = toko
+		}
+		change_leader_portrait = "toko_leader_monica_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+}

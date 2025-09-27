@@ -107,7 +107,7 @@ sol_ksm_system_initializer = {
 		modifiers = none
 		flags = { planet_earth }
 
-		init_effect = {
+		init_effect = {	#由于使用了planet_earth的flag（为了让星球拥有地球的外观)部分作用在原版地联地球的效果也会作用在本mod的D球，添加针对D球的效果时请注意
 			save_global_event_target_as = kirakira_sol_system_earth
 
 			prevent_anomaly = yes

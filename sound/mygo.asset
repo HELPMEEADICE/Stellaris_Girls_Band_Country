@@ -1,0 +1,4 @@
+sound = {
+	name = "hitoshizuku"
+	file = "event/hitoshizuku.wav"
+}

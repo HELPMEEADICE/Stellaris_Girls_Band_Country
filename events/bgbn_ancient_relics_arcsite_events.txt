@@ -7,6 +7,10 @@ country_event = {			#触发星流前置
 	hide_window = yes
 	is_triggered_only = yes
 
+	trigger = {
+		has_authority = auth_radiant_harmony
+	}
+
 	immediate = { 
 		country_event = { id = bgbn_ancrel.6 days = 360 }
 	}

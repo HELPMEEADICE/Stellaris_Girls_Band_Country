@@ -1,0 +1,183 @@
+create_kkr = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_kkr1
+		custom_description = PRESCRIPTED_ruler_name_kkr1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_materialist #唯物
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_hhw
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = kkr_leader_hhw_portrait
+			set_leader_flag = kkr
+			set_leader_flag = hhw
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_vocal
+		}
+	}
+}
+create_hgm = {	#北泽育美
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_hgm1
+		custom_description = PRESCRIPTED_ruler_name_hgm1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_spiritualist #唯心
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_hhw
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = hgm_leader_hhw_portrait
+			set_leader_flag = hgm
+			set_leader_flag = hhw
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_bassist
+		}
+	}
+}
+create_msk = {	#奥泽美咲
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official #指挥官
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_msk1
+		custom_description = PRESCRIPTED_ruler_name_msk1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_spiritualist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_hhw
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = msk_leader_hhw_portrait
+			set_leader_flag = msk
+			set_leader_flag = hhw
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_dj
+		}
+	}
+}
+create_kaoru = {	#濑田薰
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_kaoru1
+		custom_description = PRESCRIPTED_ruler_name_kaoru1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_spiritualist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_hhw
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = kaoru_leader_hhw_portrait
+			set_leader_flag = kaoru
+			set_leader_flag = hhw
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_guitarist
+		}
+	}
+}
+create_kanon = {	#松原花音
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_kanon1
+		custom_description = PRESCRIPTED_ruler_name_kanon1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_spiritualist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_hhw
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = kanon_leader_hhw_portrait
+			set_leader_flag = kanon
+			set_leader_flag = hhw
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_drummer
+		}
+	}
+}
+
+fix_hhw = {
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = kkr
+		}
+		change_leader_portrait = "kkr_leader_hhw_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = hgm
+		}
+		change_leader_portrait = "hgm_leader_hhw_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = kaoru
+		}
+		change_leader_portrait = "kaoru_leader_hhw_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = msk
+		}
+		change_leader_portrait = "msk_leader_hhw_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = kanon
+		}
+		change_leader_portrait = "kanon_leader_hhw_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+}

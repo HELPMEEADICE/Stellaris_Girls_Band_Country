@@ -1,3 +1,4 @@
+#招募领袖决议
 create_paspal = {
     length = 1
     icon = "GFX_edict_type_paspal"
@@ -110,6 +111,151 @@ create_ag = {
     effect = {
 		country_event = {
 			id = ag.0
+		}
+    }
+}
+
+create_hhw = {
+    length = 1
+    icon = "GFX_edict_type_hhw"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_hhw}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_hhw}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		country_event = {
+			id = hhw.1
+		}
+    }
+}
+
+create_monica = {
+    length = 1
+    icon = "GFX_edict_type_monica"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_monica}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_monica}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		country_event = {
+			id = monica.1
+		}
+    }
+}
+
+create_mygo = {
+    length = 1
+    icon = "GFX_edict_type_mygo"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_mygo}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_mygo}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		country_event = {
+			id = mygo.1
+		}
+    }
+}
+
+create_mujica = {
+    length = 1
+    icon = "GFX_edict_type_mujica"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_mujica}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_mujica}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		country_event = {
+			id = mujica.1
+		}
+    }
+}
+
+create_mugendai = {
+    length = 1
+    icon = "GFX_edict_type_mugendai"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_mugendai}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_mugendai}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		country_event = {
+			id = mugendai.1
 		}
     }
 }

@@ -1,0 +1,4 @@
+sound = {
+	name = "dream_fantasy_world"
+	file = "event/dream_fantasy_world.wav"
+}

@@ -3,6 +3,7 @@ on_game_start_country = {
 	events = {
 		bgbn_start.1		#设置country flag为poppinparty,后续各种内容将绑定这个flag,同时为了适配更多人的需求，选中闪耀谐律政体即可获得该flag
 		ksm.1				
+		bgbn_deposits.2		#给D球加我们的自制地块
 	}
 }
 

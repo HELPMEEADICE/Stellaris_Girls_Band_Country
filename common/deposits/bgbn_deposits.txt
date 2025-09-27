@@ -1,0 +1,108 @@
+#星球地块文件
+East_African_Deep_Mantle_Exploration_Base = {
+	is_for_colonizable = yes
+	icon = "d_veiny_cliffs"
+	category = deposit_cat_rare
+
+	potential = { always = no }
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			minerals = 50
+            engineering_research = 10
+		}
+	}
+}
+
+Siberian_Industry_Complex = {
+	is_for_colonizable = yes
+	icon = "d_veiny_cliffs"
+	category = deposit_cat_rare
+
+	potential = { always = no }
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			alloys = 5
+			consumer_goods = 10
+		}
+	}
+}
+
+The_East_Asian_Coastal_Megalopolis_Linking_the_Pearl_Yangtze_and_Yellow_River_Deltas ={
+    is_for_colonizable = yes
+	icon = "d_veiny_cliffs"
+	category = deposit_cat_rare
+
+	potential = { always = no }
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			trade = 100
+		}
+	}
+}
+
+Equatorial_Solar_Power_Grid = {
+	is_for_colonizable = yes
+	icon = "d_veiny_cliffs"
+	category = deposit_cat_rare
+
+	potential = { always = no }
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			energy = 50
+            physics_research = 10
+		}
+	}
+}
+
+South_American_Biosphere_Conservation_and_Restoration_Zone = {
+	is_for_colonizable = yes
+	icon = "d_veiny_cliffs"
+	category = deposit_cat_rare
+
+	potential = { always = no }
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			society_research = 10
+		}
+	}
+}
+
+The_North_American_Agricultural_Heartland = {
+	is_for_colonizable = yes
+	icon = "d_veiny_cliffs"
+	category = deposit_cat_rare
+
+	potential = { always = no }
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			food = 50
+		}
+	}
+}
+
+The_Planets_Cordilleran_Ecological_Backbone = {
+	is_for_colonizable = yes
+	icon = "d_veiny_cliffs"
+	category = deposit_cat_rare
+
+	potential = { always = no }
+
+	resources = {
+		category = planet_deposits
+		produces = {
+			planet_stability_add = 20
+		}
+	}
+}

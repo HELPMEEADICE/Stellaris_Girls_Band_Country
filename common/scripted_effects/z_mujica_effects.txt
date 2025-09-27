@@ -1,0 +1,183 @@
+create_sakiko = { #丰川祥子
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_sakiko1
+		custom_description = PRESCRIPTED_ruler_name_sakiko1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_authoritarian
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_mujica
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = sakiko_leader_mujica_portrait
+			set_leader_flag = sakiko
+			set_leader_flag = mujica
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_keyboardist
+		}
+	}
+}
+create_mutsumi = { #若叶睦
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_mutsumi1
+		custom_description = PRESCRIPTED_ruler_name_mutsumi1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_spiritualist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_mujica
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = mutsumi_leader_mujica_portrait
+			set_leader_flag = mutsumi
+			set_leader_flag = mujica
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_guitarist
+		}
+	}
+}
+create_uika = { #三角初华
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_uika1
+		custom_description = PRESCRIPTED_ruler_name_uika1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_authoritarian
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_mujica
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = uika_leader_mujica_portrait
+			set_leader_flag = uika
+			set_leader_flag = mujica
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_vocal
+		}
+	}
+}
+create_umiri = { #八幡海玲
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_umiri1
+		custom_description = PRESCRIPTED_ruler_name_umiri1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_authoritarian
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_mujica
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = umiri_leader_mujica_portrait
+			set_leader_flag = umiri
+			set_leader_flag = mujica
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_bassist
+		}
+	}
+}
+create_nyamu = { #祐天寺若麦
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_nyamu1
+		custom_description = PRESCRIPTED_ruler_name_nyamu1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_egalitarian
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_mujica
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = nyamu_leader_mujica_portrait
+			set_leader_flag = nyamu
+			set_leader_flag = mujica
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_drummer
+		}
+	}
+}
+
+fix_mujica = {
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = sakiko
+		}
+		change_leader_portrait = "sakiko_leader_mujica_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = mutsumi
+		}
+		change_leader_portrait = "mutsumi_leader_mujica_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = umiri
+		}
+		change_leader_portrait = "umiri_leader_mujica_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = uika
+		}
+		change_leader_portrait = "uika_leader_mujica_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = nyamu
+		}
+		change_leader_portrait = "nyamu_leader_mujica_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+}

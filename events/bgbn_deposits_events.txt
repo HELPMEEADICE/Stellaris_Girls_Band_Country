@@ -1,0 +1,42 @@
+namespace = bgbn_deposits
+
+country_event = {
+    id = bgbn_deposits.1    #给D球加我们的自制地块
+    hide_window = yes
+    is_triggered_only = yes
+    location = event_target:kirakira_sol_system_earth
+
+    trigger = {
+        owner = {
+            has_authority = auth_radiant_harmony
+        }
+    }
+
+    immediate = {
+        event_target:kirakira_sol_system_earth = {						
+            add_deposit = East_African_Deep_Mantle_Exploration_Base
+	        add_deposit = Siberian_Industry_Complex
+		    add_deposit = The_East_Asian_Coastal_Megalopolis_Linking_the_Pearl_Yangtze_and_Yellow_River_Deltas
+		    add_deposit = Equatorial_Solar_Power_Grid
+		    add_deposit = South_American_Biosphere_Conservation_and_Restoration_Zone
+		    add_deposit = The_North_American_Agricultural_Heartland
+		    add_deposit = The_Planets_Cordilleran_Ecological_Backbone
+        }
+    }
+}
+country_event = {
+    id = bgbn_deposits.2
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        owner = {
+            has_authority = auth_radiant_harmony
+        }
+    }
+
+    immediate = { 
+		country_event = { 
+            id = bgbn_deposits.1  days = 1
+        }
+	}
+}

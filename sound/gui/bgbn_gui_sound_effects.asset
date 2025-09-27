@@ -68,3 +68,33 @@ soundeffect = {
 	max_audible = 1
 	max_audible_behaviour = fail
 }
+
+soundeffect = {
+	name = dream_fantasy_world
+	sounds = {
+		sound = dream_fantasy_world
+	}
+	volume = 0.15
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+
+soundeffect = {
+	name = ave_mujica
+	sounds = {
+		sound = ave_mujica
+	}
+	volume = 0.15
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+
+soundeffect = {
+	name = hitoshizuku
+	sounds = {
+		sound = hitoshizuku
+	}
+	volume = 0.15
+	max_audible = 1
+	max_audible_behaviour = fail
+}
