@@ -1,31 +1,53 @@
 spriteTypes = {
-  spriteType = {
+	spriteType = {
 		name = "GFX_edict_type_popy"
 		textureFile = "gfx/interface/icons/popy_edict_icon.dds"
-  }
-  spriteType = {
+	}
+	spriteType = {
 		name = "GFX_edict_type_popipa"
 		textureFile = "gfx/interface/icons/popipa_edict_icon.dds"
-  }
-  spriteType = {
+	}
+	spriteType = {
 		name = "GFX_edict_type_asuka"
 		textureFile = "gfx/interface/icons/asuka_edict_icon.dds"
-  }
-  spriteType = {
+	}
+	spriteType = {
 		name = "GFX_edict_type_roselia"
 		textureFile = "gfx/interface/icons/roselia_edict_icon.dds"
-  }
-  spriteType = {
+	}
+	spriteType = {
 		name = "GFX_edict_type_paspal"
 		textureFile = "gfx/interface/icons/paspal_edict_icon.dds"
-  }
-  spriteType = {
+	}
+	spriteType = {
 		name = "GFX_edict_type_ras"
 		textureFile = "gfx/interface/icons/ras_edict_icon.dds"
-  }
-  spriteType = {
+	}
+	spriteType = {
 		name = "GFX_edict_type_ag"
 		textureFile = "gfx/interface/icons/afterglow_edict_icon.dds"
-  }
+	}
+	spriteType = {
+		name = "GFX_edict_type_hhw"
+		textureFile = "gfx/interface/icons/hhw_edict_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_edict_type_monica"
+		textureFile = "gfx/interface/icons/monica_edict_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_edict_type_mygo"
+		textureFile = "gfx/interface/icons/mygo_edict_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_edict_type_mujica"
+		textureFile = "gfx/interface/icons/mujica_edict_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_edict_type_mugendai"
+		textureFile = "gfx/interface/icons/mugendai_edict_icon.dds"
+	}
+	
+  
 }
 
