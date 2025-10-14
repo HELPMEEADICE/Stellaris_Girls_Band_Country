@@ -7,7 +7,9 @@ namespace = monica
 namespace = mygo
 namespace = mujica
 namespace = mugendai
+namespace = bgbn_leader_fix
 
+#领袖事件
 country_event = {
 	id = paspal.0
 	is_triggered_only = yes
@@ -214,3 +216,329 @@ country_event = {
 		custom_tooltip = C_mugendai
 	}
 }
+
+#修复事件
+country_event = {
+	id = bgbn_leader_fix.1	#修复所有角色立绘，之后每添加一个新领袖都需要在这里加上代码
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {
+		every_owned_leader = {
+			if = {
+				limit = { 
+					has_leader_flag = ruler_ksm
+				}
+				change_leader_portrait = ksm_leader_popipa_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = arisa
+				}
+				change_leader_portrait = arisa_leader_popipa_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = saaya
+				}
+				change_leader_portrait = saaya_leader_popipa_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = tae
+				}
+				change_leader_portrait = tae_leader_popipa_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = rimi
+				}
+				change_leader_portrait = rimi_leader_popipa_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = asuka
+				}
+				change_leader_portrait = asuka_leader_popipa_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = popy
+				}
+				change_leader_portrait = popy_leader_popipa_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = ran
+				}
+				change_leader_portrait = ran_leader_ag_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = moca
+				}
+				change_leader_portrait = moca_leader_ag_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = tsugu
+				}
+				change_leader_portrait = tsugu_leader_ag_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = tme
+				}
+				change_leader_portrait = tme_leader_ag_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = hmr
+				}
+				change_leader_portrait = hmr_leader_ag_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = aya
+				}
+				change_leader_portrait = aya_leader_paspal_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = cst
+				}
+				change_leader_portrait = cst_leader_paspal_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = eve
+				}
+				change_leader_portrait = eve_leader_paspal_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = hina
+				}
+				change_leader_portrait = hina_leader_paspal_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = maya
+				}
+				change_leader_portrait = maya_leader_paspal_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = ykn
+				}
+				change_leader_portrait = ykn_leader_roselia_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = sayo
+				}
+				change_leader_portrait = sayo_leader_roselia_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = rinko
+				}
+				change_leader_portrait = rinko_leader_roselia_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = lisa
+				}
+				change_leader_portrait = lisa_leader_roselia_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = ako
+				}
+				change_leader_portrait = ako_leader_roselia_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = kkr
+				}
+				change_leader_portrait = kkr_leader_hhw_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = hgm
+				}
+				change_leader_portrait = hgm_leader_hhw_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = msk
+				}
+				change_leader_portrait = msk_leader_hhw_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = kaoru
+				}
+				change_leader_portrait = kaoru_leader_hhw_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = kanon
+				}
+				change_leader_portrait = kanon_leader_hhw_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = mashiro
+				}
+				change_leader_portrait = mashiro_leader_monica_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = rui
+				}
+				change_leader_portrait = rui_leader_monica_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = tsukushi
+				}
+				change_leader_portrait = tsukushi_leader_monica_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = nanami
+				}
+				change_leader_portrait = nanami_leader_monica_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = toko
+				}
+				change_leader_portrait = toko_leader_monica_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = chuchu
+				}
+				change_leader_portrait = chuchu_leader_ras_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = lock
+				}
+				change_leader_portrait = lock_leader_ras_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = layer
+				}
+				change_leader_portrait = layer_leader_ras_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = masking
+				}
+				change_leader_portrait = masking_leader_ras_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = pareo
+				}
+				change_leader_portrait = pareo_leader_ras_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = tomori
+				}
+				change_leader_portrait = tomori_leader_mygo_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = anon
+				}
+				change_leader_portrait = anon_leader_mygo_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = rana
+				}
+				change_leader_portrait = rana_leader_mygo_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = soyo
+				}
+				change_leader_portrait = soyo_leader_mygo_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = taki
+				}
+				change_leader_portrait = taki_leader_mygo_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = sakiko
+				}
+				change_leader_portrait = sakiko_leader_mujica_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = mutsumi
+				}
+				change_leader_portrait = mutsumi_leader_mujica_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = uika
+				}
+				change_leader_portrait = uika_leader_mujica_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = umiri
+				}
+				change_leader_portrait = umiri_leader_mujica_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = nyamu
+				}
+				change_leader_portrait = nyamu_leader_mujica_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = arale
+				}
+				change_leader_portrait = arale_leader_mugendai_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = nonoka
+				}
+				change_leader_portrait = nonoka_leader_mugendai_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = ritsu
+				}
+				change_leader_portrait = ritsu_leader_mugendai_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = miyako
+				}
+				change_leader_portrait = miyako_leader_mugendai_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = yuno
+				}
+				change_leader_portrait = yuno_leader_mugendai_portrait
+			}
+		}
+	}
+}
+
+#其他事件

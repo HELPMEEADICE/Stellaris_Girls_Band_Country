@@ -259,3 +259,23 @@ create_mugendai = {
 		}
     }
 }
+
+restore_character_portraits = { #修复领袖立绘
+    length = 1
+    icon = "GFX_edict_type_popipa"
+    allow = {
+        has_country_flag = poppinparty
+    }
+    potential = {
+        has_country_flag = poppinparty
+    }
+    ai_weight = {
+        weight = 1000
+    }
+    effect = {
+        country_event = {
+            id = bgbn_leader_fix.1
+        }
+    }
+
+}

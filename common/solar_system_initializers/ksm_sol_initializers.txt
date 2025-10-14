@@ -111,6 +111,9 @@ sol_ksm_system_initializer = {
 			save_global_event_target_as = kirakira_sol_system_earth
 
 			prevent_anomaly = yes
+			add_resource = {
+				sr_stars = 1
+			}
 		}
 
 		moon = {
@@ -121,6 +124,12 @@ sol_ksm_system_initializer = {
 			orbit_angle = 40
 			has_ring = no
 			entity = "cold_barren_planet_luna_entity"
+
+			init_effect = {
+				add_resource = {
+					physics_research = 10
+				}
+			}
 		}
 	}
 
