@@ -1200,7 +1200,7 @@ reborn_tsukushi_edict = {
 		create_tsukushi = yes
     }
 }
-reborn_tsukushi_edict = {
+reborn_nanami_edict = {
 	length = 1
     icon = "GFX_edict_type_monica"
     resources = {
@@ -1214,7 +1214,7 @@ reborn_tsukushi_edict = {
         is_ai = no
 		NOT = {
 			any_owned_leader = {
-				has_leader_flag = tsukushi
+				has_leader_flag = nanami
 			}
 		}
 		has_country_flag = have_monica
@@ -1223,7 +1223,7 @@ reborn_tsukushi_edict = {
 		is_ai = no
 		NOT = {
 			any_owned_leader = {
-				has_leader_flag = tsukushi
+				has_leader_flag = nanami
 			}
 		}
 		has_country_flag = have_monica
@@ -1232,7 +1232,7 @@ reborn_tsukushi_edict = {
         weight = 0
     }
     effect = {
-		create_tsukushi = yes
+		create_nanami = yes
     }
 }
 reborn_toko_edict = {
