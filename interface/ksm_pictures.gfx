@@ -19,4 +19,24 @@ spriteTypes = {
 		name = "GFX_evt_ag_1"
 		texturefile = "gfx/event_pictures/afterglow_1.dds"
 	}
+	spriteType = {
+		name = "GFX_evt_hhw_1"
+		texturefile = "gfx/event_pictures/hhw_1.dds"
+	}
+	spriteType = {
+		name = "GFX_evt_monica_1"
+		texturefile = "gfx/event_pictures/monica_1.dds"
+	}
+	spriteType = {
+		name = "GFX_evt_mygo_1"
+		texturefile = "gfx/event_pictures/mygo_1.dds"
+	}
+	spriteType = {
+		name = "GFX_evt_mujica_1"
+		texturefile = "gfx/event_pictures/mujica_1.dds"
+	}
+	spriteType = {
+		name = "GFX_evt_mugendai_1"
+		texturefile = "gfx/event_pictures/mugendai_1.dds"
+	}
 }
