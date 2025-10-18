@@ -99,7 +99,10 @@ The_Planets_Cordilleran_Ecological_Backbone = {
 
 	potential = { always = no }
 
-	planet_modifier = {
-		planet_stability_add = 20
+	resources = {
+		category = planet_deposits
+		produces = {
+			planet_stability_add = 20
+		}
 	}
 }
