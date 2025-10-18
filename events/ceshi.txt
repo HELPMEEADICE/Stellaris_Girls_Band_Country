@@ -1,0 +1,10 @@
+namespace = zijian
+
+country_event = {
+    id = zijian.1
+    hide_window = yes
+    is_triggered_only = yes
+    immediate = {
+        start_situation = {type = situation_zijian}
+    }
+}

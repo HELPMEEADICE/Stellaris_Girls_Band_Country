@@ -22,3 +22,60 @@ band_girl = {
 		weight = 0
 	}
 }
+
+114514 = {
+	category = specialist
+
+	possible = {
+		exists = owner
+		owner = {
+			has_authority = auth_radiant_harmony
+		}
+	}
+
+	swappable_data = {
+
+	}
+	swap_type = {
+
+	}
+
+	promotion = {
+		time = 0
+		effect = {
+			pop_amount_change_category = {
+				CATEGORY = specialist
+				AMOUNT = local_pop_amount
+			}
+		}
+	}
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	# 无任何修正效果
+	planet_modifier = {
+	}
+
+	# 无资源产出
+	resources = {
+		produces = {
+			minerals = 100
+			alloys = 50 
+			consumer_goods = 50
+		}
+		upkeep = {
+			food = 3
+		}
+	}
+
+	# 权重为0，确保不会被自动分配
+	weight = {
+		weight = 0
+	}
+}
