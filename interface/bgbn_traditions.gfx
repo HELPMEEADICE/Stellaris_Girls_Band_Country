@@ -1,6 +1,17 @@
 #传统图标绑定
 spriteTypes = {
 	#闪耀传统图标
+		#传统小图标
+	spriteType = {	
+		name = "GFX_tradition_category_icon_tradition_kirakira"
+		textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_kirakira.dds"
+	}
+		#背景图
+	spriteType = {
+		name = "GFX_tradition_category_bg_tradition_kirakira"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_kirakira.dds"
+	}
+	 	#五个传统图标
 	spritetype = {
 		name = "GFX_tr_kirakira_socialized_upbringing"	#需要绑定的内容，必须加前缀GFX
 		textureFile = "gfx/interface/icons/traditions/tr_kirakira_socialized_upbringing.dds"	#图标路径
