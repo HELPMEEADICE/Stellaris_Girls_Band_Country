@@ -1,6 +1,8 @@
 ﻿l_simp_chinese:
 #附属国
  preset_rhythmic_realm: "律吕谐邦"
+ preset_rhythmic_realm_desc: "专为在音乐上进行更深入交流与研究的附庸国。\n她们拥有几乎完整的主权，但需要接受来自宗主的礼乐教化，将自己文明漫长历史积累的独特韵律融入到一个更加闪耀、和谐的合奏中。\n不论历史研究者与文化工作者将如何看待，来自乐团国在资源，科技与军事上的慷慨合作是实打实的。"
+ preset_rhythmic_realm_flavor_desc: "专为在音乐上进行更深入交流与研究的附庸国。\n她们拥有几乎完整的主权，但需要接受来自宗主的礼乐教化，将自己文明漫长历史积累的独特韵律融入到一个更加闪耀、和谐的合奏中。\n不论历史研究者与文化工作者将如何看待，来自乐团国在资源，科技与军事上的慷慨合作是实打实的。"
  rhythmic_realm_1_modifier: "律吕谐邦特化等级1"
  rhythmic_realm_1_initial_economic_directive: "初步经济发展指导"
  rhythmic_realm_1_dream_of_stellar_genesis: "远星之梦"
