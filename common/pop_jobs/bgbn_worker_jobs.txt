@@ -2,11 +2,17 @@
 
 bgbn_vocal = {
 	category = worker
-	is_capped_by_modifier = no
-	swappable_data = {
-		default = {
+	
+	swappable_data = {	#岗位图标与介绍,下面是岗位变体
+		default = {	#初始岗位图标与介绍
 			building_icon = building_food_processing_facility
 			icon = miner
+		}
+		swap_type = {	#岗位变体
+			weight = 1
+			trigger = {
+				
+			}
 		}
 	}
 	possible_pre_triggers = {
@@ -15,6 +21,11 @@ bgbn_vocal = {
 
 	possible = {
 		owner = { has_authority = auth_radiant_harmony }
+		
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 100
 	}
 
 	resources = {
@@ -26,7 +37,7 @@ bgbn_vocal = {
 		}
 	}	
 	
-	weight = {
+	weight = {	#权重，影响自动分配岗位
 		weight = 1000
 
 		# crisis purge
@@ -55,7 +66,7 @@ bgbn_vocal = {
 
 bgbn_guitarist = {
 	category = worker
-	is_capped_by_modifier = no
+	
 	swappable_data = {
 		default = {
 			building_icon = building_food_processing_facility
@@ -68,6 +79,11 @@ bgbn_guitarist = {
 
 	possible = {
 		owner = { has_authority = auth_radiant_harmony }
+		
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 100
 	}
 
 	resources = {
@@ -108,7 +124,7 @@ bgbn_guitarist = {
 
 bgbn_bassist = {
 	category = worker
-	is_capped_by_modifier = no
+	
 	swappable_data = {
 		default = {
 			building_icon = building_food_processing_facility
@@ -121,6 +137,10 @@ bgbn_bassist = {
 
 	possible = {
 		owner = { has_authority = auth_radiant_harmony }
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 100
 	}
 
 	resources = {
@@ -161,7 +181,7 @@ bgbn_bassist = {
 
 bgbn_drummer = {
 	category = worker
-	is_capped_by_modifier = no
+	
 	swappable_data = {
 		default = {
 			building_icon = building_food_processing_facility
@@ -174,6 +194,10 @@ bgbn_drummer = {
 
 	possible = {
 		owner = { has_authority = auth_radiant_harmony }
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 100
 	}
 
 	resources = {
@@ -214,7 +238,7 @@ bgbn_drummer = {
 
 bgbn_keyboardist = {
 	category = worker
-	is_capped_by_modifier = no
+	
 	swappable_data = {
 		default = {
 			building_icon = building_food_processing_facility
@@ -227,6 +251,10 @@ bgbn_keyboardist = {
 
 	possible = {
 		owner = { has_authority = auth_radiant_harmony }
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 100
 	}
 
 	resources = {
@@ -267,7 +295,7 @@ bgbn_keyboardist = {
 
 bgbn_violinist = {
 	category = worker
-	is_capped_by_modifier = no
+	
 	swappable_data = {
 		default = {
 			building_icon = building_food_processing_facility
@@ -280,6 +308,10 @@ bgbn_violinist = {
 
 	possible = {
 		owner = { has_authority = auth_radiant_harmony }
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 100
 	}
 
 	resources = {
@@ -320,7 +352,7 @@ bgbn_violinist = {
 
 bgbn_dj = {
 	category = worker
-	is_capped_by_modifier = no
+	
 	swappable_data = {
 		default = {
 			building_icon = building_food_processing_facility
@@ -333,6 +365,10 @@ bgbn_dj = {
 
 	possible = {
 		owner = { has_authority = auth_radiant_harmony }
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 100
 	}
 
 	resources = {
