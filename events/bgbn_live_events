@@ -1,0 +1,15 @@
+namespace = bgbn_live
+
+country_event = {
+    id = bgbn_live.1
+    title = bgbn_live.1.t
+    desc = bgbn_live.1.d
+    is_triggered_only = yes
+    
+    fire_only_once = yes 
+
+    option = {
+        name = bgbn_live.1.a
+        
+    }
+}
