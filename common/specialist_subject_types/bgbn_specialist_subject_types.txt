@@ -1,9 +1,9 @@
 #附属国特化内容文件
 specialist_rhythmic_realm = {	#律吕谐邦特化内容
-	icon = ""
-	icon_large = ""
+	icon = "GFX_diplomacy_specialist_subject_rhythmic_realm"
+	icon_large = "GFX_diplomacy_specialist_subject_rhythmic_realm_large"
 	preferred_ethic = ethic_materialist
-	base_conversion_time = @specialist_base_conversion_time
+	base_conversion_time = 30
 
 	on_progress_complete = {
 	}
@@ -11,7 +11,7 @@ specialist_rhythmic_realm = {	#律吕谐邦特化内容
 	levels = {
 		# Level 1
 		{
-			experience_needed_for_next_level = 500				#到下一级要多少经验
+			experience_needed_for_next_level = 600				#到下一级要多少经验
 			perks = {
 				rhythmic_realm_1_modifier
 				rhythmic_realm_1_initial_economic_directive
@@ -21,7 +21,7 @@ specialist_rhythmic_realm = {	#律吕谐邦特化内容
 		}
 		# Level 2
 		{
-			experience_needed_for_next_level = 500
+			experience_needed_for_next_level = 600
 			perks = {
 				rhythmic_realm_2_modifier
 				rhythmic_realm_2_holistic_development_reforge

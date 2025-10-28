@@ -2,5 +2,6 @@
 on_monthly_pulse_country = {
     random_events = {
 		5 = bgbn_live.1
+		
 	}
 }

@@ -3,6 +3,7 @@
 
 rhythmic_realm_1_modifier = {
 	main_perk = yes			#一个特化等级的主特化标识代码，副特化不需要写
+	
 	subject_modifier = {	#附属国效果
 		all_technology_research_speed = 0.25
 		ship_hyperlane_range_add = 1
@@ -17,7 +18,7 @@ rhythmic_realm_1_modifier = {
 }
 
 rhythmic_realm_1_initial_economic_directive = {
-	icon = ""
+	icon = "GFX_specialist_perk_rhythmic_realm_1_initial_economic_directive"
 	subject_modifier = {
 		country_energy_produces_mult = 0.25
 		country_minerals_produces_mult = 0.25
@@ -25,32 +26,25 @@ rhythmic_realm_1_initial_economic_directive = {
 		country_alloys_produces_mult = 0.1
 		country_consumer_goods_produces_mult = 0.1
 	}
-	desc = {
-		description = x
-	}
 }
 
 rhythmic_realm_1_dream_of_stellar_genesis = {
-	icon = ""
+	icon = "GFX_specialist_perk_rhythmic_realm_1_dream_of_stellar_genesis"
 	subject_modifier = {
 		country_society_research_produces_mult = 0.5
 		country_physics_research_produces_mult = 0.5
 		country_engineering_research_produces_mult = 0.5
 		country_sr_stars_produces_mult = 0.25
 	}
-	desc = {
-		description = x
-	}
+	
 }
 
 rhythmic_realm_1_hyper_relay_collaboration = {
-	icon = ""
+	icon = "GFX_specialist_perk_rhythmic_realm_1_hyper_relay_collaboration"
 	overlord_relay_network_modifier = {		#调用特殊效果
 		specialist_rhythmic_realm_neighbor = 1
 	}
-	desc = {
-		description = x
-	}
+	
 }
 
 rhythmic_realm_2_modifier = {
@@ -70,7 +64,7 @@ rhythmic_realm_2_modifier = {
 }
 
 rhythmic_realm_2_holistic_development_reforge = {
-	icon = ""
+	icon = "GFX_specialist_perk_rhythmic_realm_2_holistic_development_reforge"
 	subject_modifier = {
 		country_energy_produces_mult = 0.5
 		country_minerals_produces_mult = 0.5
@@ -79,13 +73,11 @@ rhythmic_realm_2_holistic_development_reforge = {
 		country_consumer_goods_produces_mult = 0.25
 		country_sr_stars_produces_mult = 0.2
 	}
-	desc = {
-		description = x
-	}
+	
 }
 
 rhythmic_realm_2_astral_flare_initiative = {		#获得给予恒星基地建筑的科技
-	icon = ""
+	icon = "GFX_specialist_perk_rhythmic_realm_2_astral_flare_initiative"
 	subject_modifier = {	
 		all_technology_research_speed = 0.25
 	}
@@ -107,7 +99,7 @@ rhythmic_realm_2_astral_flare_initiative = {		#获得给予恒星基地建筑的
 }
 
 rhythmic_realm_2_ethos_lineage = {			#
-	icon = ""
+	icon = "GFX_specialist_perk_rhythmic_realm_2_ethos_lineage"
 	subject_modifier = {	
 		logistic_growth_mult = 2.5
 		pop_unemployment_demotion_time_mult = -0.5
@@ -135,6 +127,7 @@ rhythmic_realm_3_modifier = {
 }
 
 rhythmic_realm_3_legendary_ode = {		#
+	icon = "GFX_specialist_perk_rhythmic_realm_3_legendary_ode"
 	subject_modifier = {
 		planet_stability_add = 30
 		planet_amenities_mult = 0.5
@@ -144,6 +137,7 @@ rhythmic_realm_3_legendary_ode = {		#
 }
 
 rhythmic_realm_3_chroma_veil_defense = {		#获得恒星基地建筑
+	icon = "GFX_specialist_perk_rhythmic_realm_3_chroma_veil_defense"
 	activate_effect = {
 		target = {
 			if = {

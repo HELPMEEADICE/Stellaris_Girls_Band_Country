@@ -1,0 +1,82 @@
+spriteTypes = {
+	#律吕谐邦
+	#附属国图标
+	spriteType = {
+		name = "GFX_diplomacy_specialist_subject_rhythmic_realm"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_specialist_subject_rhythmic_realm.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_specialist_subject_rhythmic_realm_large"
+		texturefile = "gfx/interface/subjugation/specialists_icons/specialist_subject_rhythmic_realm_icon.dds"
+	}
+	#阶段图标
+	spriteType = {
+		name = "GFX_specialist_tier_specialist_rhythmic_realm_1_off"
+		textureFile = "gfx/interface/subjugation/specialist_tiers/specialist_tier_rhythmic_realm_1_off.dds"
+	}
+
+	spriteType = {
+		name = "GFX_specialist_tier_specialist_rhythmic_realm_1_on"
+		textureFile = "gfx/interface/subjugation/specialist_tiers/specialist_tier_rhythmic_realm_1_on.dds"
+	}
+
+	spriteType = {
+		name = "GFX_specialist_tier_specialist_rhythmic_realm_2_off"
+		textureFile = "gfx/interface/subjugation/specialist_tiers/specialist_tier_rhythmic_realm_2_off.dds"
+	}
+
+	spriteType = {
+		name = "GFX_specialist_tier_specialist_rhythmic_realm_2_on"
+		textureFile = "gfx/interface/subjugation/specialist_tiers/specialist_tier_rhythmic_realm_2_on.dds"
+	}
+
+	spriteType = {
+		name = "GFX_specialist_tier_specialist_rhythmic_realm_3_off"
+		textureFile = "gfx/interface/subjugation/specialist_tiers/specialist_tier_rhythmic_realm_3_off.dds"
+	}
+
+	spriteType = {
+		name = "GFX_specialist_tier_specialist_rhythmic_realm_3_on"
+		textureFile = "gfx/interface/subjugation/specialist_tiers/specialist_tier_rhythmic_realm_3_on.dds"
+	}
+	#阶段内容图标
+	spriteType = {
+		name = "GFX_specialist_perk_rhythmic_realm_1_initial_economic_directive"
+		textureFile = "gfx/interface/subjugation/specialist_perks/rhythmic_realm_1_initial_economic_directive.dds"
+	}
+
+	spriteType = {
+		name = "GFX_specialist_perk_rhythmic_realm_1_dream_of_stellar_genesis"
+		textureFile = "gfx/interface/subjugation/specialist_perks/rhythmic_realm_1_dream_of_stellar_genesis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_specialist_perk_rhythmic_realm_1_hyper_relay_collaboration"
+		textureFile = "gfx/interface/subjugation/specialist_perks/rhythmic_realm_1_hyper_relay_collaboration.dds"
+	}
+
+	spriteType = {
+		name = "GFX_specialist_perk_rhythmic_realm_2_holistic_development_reforge"
+		textureFile = "gfx/interface/subjugation/specialist_perks/rhythmic_realm_2_holistic_development_reforge.dds"
+	}
+
+	spriteType = {
+		name = "GFX_specialist_perk_rhythmic_realm_2_astral_flare_initiative"
+		textureFile = "gfx/interface/subjugation/specialist_perks/rhythmic_realm_2_astral_flare_initiative.dds"
+	}
+
+	spriteType = {
+		name = "GFX_specialist_perk_rhythmic_realm_2_ethos_lineage"
+		textureFile = "gfx/interface/subjugation/specialist_perks/rhythmic_realm_2_ethos_lineage.dds"
+	}
+
+	spriteType = {
+		name = "GFX_specialist_perk_rhythmic_realm_3_legendary_ode"
+		textureFile = "gfx/interface/subjugation/specialist_perks/rhythmic_realm_3_legendary_ode.dds"
+	}
+
+	spriteType = {
+		name = "GFX_specialist_perk_rhythmic_realm_3_chroma_veil_defense"
+		textureFile = "gfx/interface/subjugation/specialist_perks/rhythmic_realm_3_chroma_veil_defense.dds"
+	}
+}
