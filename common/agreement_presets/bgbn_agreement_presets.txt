@@ -1,6 +1,6 @@
 #附属国协议预设
 preset_rhythmic_realm = { 	#律吕谐邦
-	icon = "1"
+	icon = "GFX_diplomacy_specialist_subject_rhythmic_realm"
 	specialist_type = specialist_rhythmic_realm
 	term_data = {
 		discrete_terms = {
