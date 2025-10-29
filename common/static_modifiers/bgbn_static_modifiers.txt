@@ -1,0 +1,18 @@
+#修正文件 通用修正图标gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds
+ #国家修正
+  #生活事件修正
+nothing_wrong_with_it = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	logistic_growth_mult = 0.1
+}
+necessary_seriousness = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	planet_stability_add = 2
+}
+bring_the_instruments = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	pop_happiness = 0.02
+	diplo_weight_mult = 0.05 #外交权重
+	country_trade_produces_mult = 0.03 #全国贸易额产出
+}
+ #行星修正

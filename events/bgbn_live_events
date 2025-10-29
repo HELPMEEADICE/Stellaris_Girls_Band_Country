@@ -2,14 +2,48 @@ namespace = bgbn_live
 
 country_event = {
     id = bgbn_live.1
-    title = bgbn_live.1.t
-    desc = bgbn_live.1.d
+    title = bgbn_live.1.name
+    desc = bgbn_live.1.desc
     is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
     
-    fire_only_once = yes
+    fire_only_once = yes #只触发一次
 
     option = {
         name = bgbn_live.1.a
-        
+        add_modifier = {
+            modifier = nothing_wrong_with_it
+        }
     }
+    option = {
+        name = bgbn_live.1.b
+        add_modifier = {
+            modifier = necessary_seriousness
+        }
+    }
+}
+
+country_event = {
+    id = bgbn_live.2
+    title = bgbn_live.2.name
+    desc = bgbn_live.2.desc
+    is_triggered_only = yes
+
+    trigger = {
+        is_galactic_community_formed = yes  #星海共同体是否成立
+        has_country_flag = poppinparty
+    }
+    
+    fire_only_once = yes 
+
+    option = {
+        name = bgbn_live.2.a
+        add_modifier = {
+            modifier = bring_the_instruments
+        }
+    }
+
 }
