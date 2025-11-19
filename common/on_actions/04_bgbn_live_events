@@ -9,5 +9,12 @@ on_monthly_pulse_country = {
 on_monthly_pulse_country = {
     random_events = {
 		3 = bgbn_ramdom_live.1
+		5 = bgbn_ramdom_live.2
+		6 = bgbn_ramdom_live.3
+		3 = bgbn_ramdom_live.4
+		3 = bgbn_ramdom_live.5
+		3 = bgbn_ramdom_live.6
+		3 = bgbn_ramdom_live.7
+		3 = bgbn_ramdom_live.8
 	}
 }
