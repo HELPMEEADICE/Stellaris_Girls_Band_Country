@@ -1,0 +1,297 @@
+#全星系行政/探索生活事件
+namespace = bgbn_ramdom_live
+
+country_event = {
+	id = bgbn_ramdom_live.1
+    title = bgbn_ramdom_live.1.name
+    desc = bgbn_ramdom_live.1.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+    location = event_target:ramdom_live_1_planet
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+    
+    fire_only_once = yes #只触发一次
+
+    
+
+    option = {
+        name = bgbn_ramdom_live.1.a
+        while = {
+            count = 1
+            random_owned_planet = {
+                add_modifier = {
+                    modifier = amazing_rhythm days = -1
+                }
+            }
+        }
+    }
+}
+
+country_event = {
+	id = bgbn_ramdom_live.2
+	title = bgbn_ramdom_live.2.name
+	desc = bgbn_ramdom_live.2.desc
+	picture = GFX_evt_star_yellow
+	location = bgbn_random_live_2_planet
+    location = bgbn_random_live_2_leader
+	is_triggered_only = yes
+
+	trigger = {
+        has_country_flag = poppinparty
+        
+	}
+
+	fire_only_once = yes
+
+    immediate = {
+        while = {   #循环
+            count = 1   #循环一次
+            random_owned_planet = { #随机一个拥有的行星，只需要随机一个的话不用写while
+                limit = {
+                    exists = leader
+                }
+                save_event_target_as = bgbn_random_live_2_planet
+                leader = {
+                    save_event_target_as = bgbn_random_live_2_leader
+                }
+            }
+        }
+    }
+
+	option = {
+		name = bgbn_ramdom_live.2.a
+        event_target:bgbn_random_live_2_planet = {
+            leader = {
+                add_trait = { trait = leader_trait_bgbn_simple_resonator }
+            }
+        }
+	}
+}
+
+country_event = {
+	id = bgbn_ramdom_live.3
+	title = bgbn_ramdom_live.3.name
+	desc = bgbn_ramdom_live.3.desc
+	picture = GFX_evt_star_yellow
+	location = bgbn_random_live_3_planet
+	is_triggered_only = yes
+
+	trigger = {
+        has_country_flag = poppinparty
+        
+	}
+
+	fire_only_once = yes
+
+    immediate = {
+        random_owned_planet = {
+            save_event_target_as = bgbn_random_live_3_planet
+        }
+    }
+
+	option = {
+		name = bgbn_ramdom_live.3.a
+        owner = {
+            add_resource = {    #增加减少资源
+                energy = -10000 #能量币
+            }
+        }
+        event_target:bgbn_random_live_3_planet = {
+            add_modifier = {
+                modifier = rectification_of_fan_groups
+                days = 1080
+            }
+        }
+        
+	}
+}
+
+country_event = {
+	id = bgbn_ramdom_live.4
+	title = bgbn_ramdom_live.4.name
+	desc = bgbn_ramdom_live.4.desc
+	picture = GFX_evt_star_yellow
+	location = bgbn_random_live_4_planet
+    
+	is_triggered_only = yes
+
+	trigger = {
+        has_country_flag = poppinparty
+        
+	}
+
+	fire_only_once = yes
+
+    immediate = {
+        random_owned_planet = {
+            save_event_target_as = bgbn_random_live_4_planet
+        }
+    }
+
+	option = {
+		name = bgbn_ramdom_live.4.a
+        event_target:bgbn_random_live_4_planet = {
+            add_modifier = {
+                modifier = hollow_plague
+                days = 720
+            }
+        }
+        
+	}
+}
+
+country_event = {
+	id = bgbn_ramdom_live.5
+	title = bgbn_ramdom_live.5.name
+	desc = bgbn_ramdom_live.5.desc
+	picture = GFX_evt_star_yellow
+	location = bgbn_random_live_5_planet
+    location = bgbn_random_live_5_leader
+	is_triggered_only = yes
+
+	trigger = {
+        has_country_flag = poppinparty
+        
+	}
+
+	fire_only_once = yes
+
+    immediate = {
+        random_owned_planet = { 
+            limit = {
+                exists = leader
+            }
+            save_event_target_as = bgbn_random_live_5_planet
+        }
+    }
+
+	option = {
+		name = bgbn_ramdom_live.5.a
+        event_target:bgbn_random_live_5_planet = {
+            owner = {
+                add_resource = {
+                    energy = -10000
+                    consumer_goods = -2000 #消费品
+                }
+            }
+            add_modifier = {
+                modifier = combat_crime
+                days = 720
+            }
+        }
+	}
+}
+
+country_event = {
+	id = bgbn_ramdom_live.6
+	title = bgbn_ramdom_live.6.name
+	desc = bgbn_ramdom_live.6.desc
+	picture = GFX_evt_star_yellow
+	location = bgbn_random_live_6_planet
+	is_triggered_only = yes
+
+	trigger = {
+        has_country_flag = poppinparty
+        
+	}
+
+	fire_only_once = yes
+
+    immediate = {
+        random_owned_planet = { 
+            save_event_target_as = bgbn_random_live_6_planet
+        }
+    }
+
+	option = {
+		name = bgbn_ramdom_live.6.a
+        event_target:bgbn_random_live_6_planet = {
+            owner = {
+                add_resource = {
+                    unity = -10000 #凝聚力
+                }
+            }
+        }
+	}
+}
+
+country_event = {
+	id = bgbn_ramdom_live.7
+	title = bgbn_ramdom_live.7.name
+	desc = bgbn_ramdom_live.7.desc
+	picture = GFX_evt_star_yellow
+	location = bgbn_random_live_7_planet
+	is_triggered_only = yes
+
+	trigger = {
+        has_country_flag = poppinparty
+        
+	}
+
+	fire_only_once = yes
+
+    immediate = {
+        random_owned_planet = { 
+            save_event_target_as = bgbn_random_live_7_planet
+        }
+    }
+
+	option = {
+		name = bgbn_ramdom_live.7.a
+        event_target:bgbn_random_live_7_planet = {
+            add_resource = {
+                unity = -5000
+            }
+        }
+        owner = {
+            add_modifier = {
+                modifier = crack_in_trust
+            }
+        }
+	}
+}
+
+country_event = {
+	id = bgbn_ramdom_live.8
+	title = bgbn_ramdom_live.8.name
+	desc = bgbn_ramdom_live.8.desc
+	picture = GFX_evt_star_yellow
+	location = bgbn_random_live_8_planet
+	is_triggered_only = yes
+
+	trigger = {
+        has_country_flag = poppinparty
+        
+	}
+
+	fire_only_once = yes
+
+    immediate = {
+        random_owned_planet = { 
+            save_event_target_as = bgbn_random_live_8_planet
+        }
+    }
+
+	option = {
+		name = bgbn_ramdom_live.8.a
+        event_target:bgbn_random_live_8_planet = {
+            add_resource = {
+                unity = 22000
+            }
+        }
+        owner = {
+            add_modifier = {
+                modifier = ardent_research_enthusiasts
+                days = 3600
+            
+            }
+        }
+	}
+}
+
+    
+    

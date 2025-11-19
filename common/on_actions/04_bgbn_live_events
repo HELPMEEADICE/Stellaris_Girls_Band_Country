@@ -5,3 +5,9 @@ on_monthly_pulse_country = {
 		8 = bgbn_live.2
 	}
 }
+#行政/探索的生活事件（ramdom_live_events)
+on_monthly_pulse_country = {
+    random_events = {
+		3 = bgbn_ramdom_live.1
+	}
+}

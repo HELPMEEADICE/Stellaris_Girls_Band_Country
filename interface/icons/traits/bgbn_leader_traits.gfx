@@ -1,0 +1,8 @@
+spriteTypes = {
+	#生活事件领袖特质
+	spriteType = {
+		name = "GFX_leader_trait_bgbn_simple_resonator"
+		texturefile = "gfx/interface/icons/traits/trait_icon_kirakira.dds"
+	}
+	#其他
+}

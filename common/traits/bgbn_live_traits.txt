@@ -1,0 +1,17 @@
+#生活事件的领袖特质，不要在添加特质界面出现,代码模板和物种特质不一样
+leader_trait_bgbn_simple_resonator = {
+	inline_script = {
+		script = trait/icon
+		CLASS = leader	#所有领袖职业都可以，如果单个职业才能用就使用如official
+		ICON = "GFX_leader_trait_bgbn_simple_resonator"
+		RARITY = common
+		COUNCIL = triggered #议会
+		TIER = none
+	}
+	planet_modifier = {
+		pop_amenities_usage_mult = -0.1
+	}
+	leader_class = { commander scientist official }
+	initial = no
+	randomized = no
+}

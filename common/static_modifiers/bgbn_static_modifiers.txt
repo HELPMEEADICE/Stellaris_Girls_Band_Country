@@ -1,4 +1,4 @@
-#修正文件 通用修正图标gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds
+#生活事件修正文件 通用修正图标gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds  		icon_frame = 1(绿色) 2（黄色） 3（红色）
  #国家修正
   #生活事件修正
 nothing_wrong_with_it = {
@@ -15,4 +15,40 @@ bring_the_instruments = {
 	diplo_weight_mult = 0.05 #外交权重
 	country_trade_produces_mult = 0.03 #全国贸易额产出
 }
+crack_in_trust = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	planet_stability_add = -10
+	planet_jobs_produces_mult = -0.1
+	country_unity_produces_mult = -0.2
+}
+ardent_research_enthusiasts = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	planet_stability_add = 2
+	planet_jobs_produces_mult = 0.05
+	country_unity_produces_mult = 0.2
+}
  #行星修正
+   #生活事件
+amazing_rhythm = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	icon_frame = 1 #绿色
+	planet_jobs_produces_mult = 0.1
+}
+rectification_of_fan_groups = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	icon_frame = 3 
+	planet_stability_add = -15
+}
+hollow_plague  = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	icon_frame = 3 
+	planet_jobs_produces_mult = -0.5
+}
+combat_crime = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	icon_frame = 3 
+	planet_stability_add = -20
+	planet_jobs_produces_mult = -0.2
+}
+
+

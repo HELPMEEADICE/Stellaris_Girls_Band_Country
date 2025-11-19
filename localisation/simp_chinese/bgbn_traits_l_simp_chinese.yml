@@ -1,3 +1,7 @@
 ﻿l_simp_chinese:
-#特质
+#物种特质
+ #传统特质
  trait_first_glowing: "萤光始熠"
+#领袖特质
+ #生活事件特质
+ leader_trait_bgbn_simple_resonator: "简朴的共鸣者"

@@ -1,3 +1,4 @@
+#普通生活/风味事件
 namespace = bgbn_live
 
 country_event = {
@@ -16,12 +17,14 @@ country_event = {
         name = bgbn_live.1.a
         add_modifier = {
             modifier = nothing_wrong_with_it
+            days = -1
         }
     }
     option = {
         name = bgbn_live.1.b
         add_modifier = {
             modifier = necessary_seriousness
+            days = -1
         }
     }
 }
@@ -42,7 +45,8 @@ country_event = {
     option = {
         name = bgbn_live.2.a
         add_modifier = {
-            modifier = bring_the_instruments
+            modifier = bring_the_instruments 
+            days = -1
         }
     }
 
