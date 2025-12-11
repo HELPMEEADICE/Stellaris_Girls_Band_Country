@@ -97,7 +97,7 @@ country_event = {
 		name = bgbn_ramdom_live.3.a
         owner = {
             add_resource = {    #增加减少资源
-                energy = -10000 #能量币
+                energy = -2500 #能量币
             }
         }
         event_target:bgbn_random_live_3_planet = {
@@ -174,8 +174,8 @@ country_event = {
         event_target:bgbn_random_live_5_planet = {
             owner = {
                 add_resource = {
-                    energy = -10000
-                    consumer_goods = -2000 #消费品
+                    energy = -2500
+                    consumer_goods = -400 #消费品
                 }
             }
             add_modifier = {
@@ -212,7 +212,7 @@ country_event = {
         event_target:bgbn_random_live_6_planet = {
             owner = {
                 add_resource = {
-                    unity = -10000 #凝聚力
+                    unity = -1000 #凝聚力
                 }
             }
         }
@@ -242,14 +242,13 @@ country_event = {
 
 	option = {
 		name = bgbn_ramdom_live.7.a
-        event_target:bgbn_random_live_7_planet = {
-            add_resource = {
-                unity = -5000
-            }
-        }
         owner = {
             add_modifier = {
                 modifier = crack_in_trust
+                days = 1080
+            }
+            add_resource = {
+                unity = -5000
             }
         }
 	}
@@ -278,16 +277,14 @@ country_event = {
 
 	option = {
 		name = bgbn_ramdom_live.8.a
-        event_target:bgbn_random_live_8_planet = {
-            add_resource = {
-                unity = 22000
-            }
-        }
         owner = {
             add_modifier = {
                 modifier = ardent_research_enthusiasts
                 days = 3600
             
+            }
+            add_resource = {
+                unity = 5000
             }
         }
 	}

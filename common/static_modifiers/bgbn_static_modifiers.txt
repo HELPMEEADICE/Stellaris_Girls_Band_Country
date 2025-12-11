@@ -1,4 +1,5 @@
-#生活事件修正文件 通用修正图标gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds  		icon_frame = 1(绿色) 2（黄色） 3（红色）
+#生活事件修正文件 通用修正图标gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds  国家修正是25x25左右的图标，一般是25x25		
+#				 通用修正图标gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds 星球修正图标颜色icon_frame = 1(绿色) 2（黄色） 3（红色） 星球图标是60x60图标文件里面54直径的圆形 
  #国家修正
   #生活事件修正
 nothing_wrong_with_it = {
@@ -30,22 +31,22 @@ ardent_research_enthusiasts = {
  #行星修正
    #生活事件
 amazing_rhythm = {
-	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	icon = "gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds"
 	icon_frame = 1 #绿色
 	planet_jobs_produces_mult = 0.1
 }
 rectification_of_fan_groups = {
-	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	icon = "gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds"
 	icon_frame = 3 
 	planet_stability_add = -15
 }
 hollow_plague  = {
-	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	icon = "gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds"
 	icon_frame = 3 
 	planet_jobs_produces_mult = -0.5
 }
 combat_crime = {
-	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	icon = "gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds"
 	icon_frame = 3 
 	planet_stability_add = -20
 	planet_jobs_produces_mult = -0.2
