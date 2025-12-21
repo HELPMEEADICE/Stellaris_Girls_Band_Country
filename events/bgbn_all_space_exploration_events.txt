@@ -1,0 +1,41 @@
+namespace = bgbn_space_exploration
+
+#恒星探索开启事件
+country_event = {
+	id = bgbn_space_exploration.1
+    title = bgbn_space_exploration.1.name
+    desc = bgbn_space_exploration.1.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = poppinparty
+	}
+
+	option = {
+		name = bgbn_space_exploration.1.a
+		begin_event_chain = {
+			event_chain = bgbn_celestial_exploring
+			target = root
+		}
+	}
+}
+#恒星探索结束事件
+
+
+
+
+
+
+#恒星探索的事件
+ship_event = {
+	id = bgbn_space_exploration.3
+    title = bgbn_space_exploration.3.name
+    desc = bgbn_space_exploration.3.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = poppinparty
+	}
+}

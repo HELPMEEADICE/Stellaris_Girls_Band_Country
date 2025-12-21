@@ -1,4 +1,4 @@
-#生活事件的领袖特质，不要在添加特质界面出现,代码模板和物种特质不一样
+#生活事件的领袖特质，不要在添加特质界面出现,代码模板和物种特质不一样 通用图标GFX_leader_trait_bgbn_simple_resonator
 leader_trait_bgbn_simple_resonator = {
 	inline_script = {
 		script = trait/icon

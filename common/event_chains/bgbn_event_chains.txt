@@ -1,6 +1,17 @@
 #事件链文件
+#深红
 bgbn_deepred = {
-	icon = "gfx/interface/icons/bgbn_deepred.dds"
-	picture = GFX_evt_bgbn_deepred
+	icon = "doing"
+	picture = GFX_evt_bgbn_doing
 	
+}
+#恒星探索
+bgbn_celestial_exploring = {
+	icon = "doing"
+	picture = GFX_evt_bgbn_doing
+	counter = {
+		bgbn_celestial_exploring = {
+			max = 30
+		}
+	}
 }
