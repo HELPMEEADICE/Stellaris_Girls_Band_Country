@@ -1,0 +1,585 @@
+namespace = Reconstruction
+
+country_event = {
+    id = Reconstruction.1
+    title = "Reconstruction.1.name"
+	desc = "Reconstruction.1.desc"
+    hide_window = no
+    is_triggered_only = yes
+
+	trigger = {
+        owner = {
+            has_authority = auth_radiant_harmony
+        }
+    }
+
+    immediate = {
+        start_situation = { type = situation_Reconstruction }
+    }
+
+    option = {
+		name = "Reconstruction.1.a"
+		custom_tooltip = "Reconstruction.1.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+situation_event = {
+    id = Reconstruction.2
+    title = "Reconstruction.2.name"
+	desc = "Reconstruction.2.desc"
+    hide_window = no
+    is_triggered_only = yes
+
+    option = {
+		name = "Reconstruction.2.a"
+		custom_tooltip = "Reconstruction.2.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+situation_event = {
+	id = Reconstruction.3
+	title = "Reconstruction.3.name"
+	desc = "Reconstruction.3.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_situation_flag = Reconstruction_3_happened }
+		situation_progress >= 10
+	}
+
+	immediate = {
+		set_situation_flag = Reconstruction_3_happened
+	}
+
+	option = {
+		name = "Reconstruction.3.a"
+		custom_tooltip = "Reconstruction.3.a.tt"
+		set_situation_flag = super_computer
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "Reconstruction.3.b"
+		custom_tooltip = "Reconstruction.3.b.tt"
+		set_situation_flag = hayekededashou
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+situation_event = {
+	id = Reconstruction.4
+	title = "Reconstruction.4.name"
+	desc = "Reconstruction.4.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+
+	is_triggered_only = yes
+	trigger = {
+		NOT = { has_situation_flag = Reconstruction_4_happened }
+        has_situation_flag = super_computer
+		situation_progress >= 20
+	}
+	immediate = {
+		set_situation_flag = Reconstruction_4_happened
+		event_target:kirakira_sol_system_earth = {						
+		    add_deposit = The_East_Asian_Coastal_Megalopolis_Linking_the_Pearl_Yangtze_and_Yellow_River_Deltas
+        }
+	}
+
+	option = {
+		name = Reconstruction.4.a
+		custom_tooltip = "Reconstruction.4.a.tt"
+	}
+}
+
+situation_event = {
+	id = Reconstruction.5
+	title = "Reconstruction.5.name"
+	desc = "Reconstruction.5.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+
+	is_triggered_only = yes
+	trigger = {
+		NOT = { has_situation_flag = Reconstruction_5_happened }
+        has_situation_flag = hayekededashou
+		situation_progress >= 20
+	}
+	immediate = {
+		set_situation_flag = Reconstruction_5_happened
+		event_target:kirakira_sol_system_earth = {						
+		    add_deposit = The_East_Asian_Coastal_Megalopolis_Linking_the_Pearl_Yangtze_and_Yellow_River_Deltas
+        }
+	}
+
+	option = {
+		name = Reconstruction.5.a
+		custom_tooltip = "Reconstruction.5.a.tt"
+	}
+}
+
+situation_event = {
+	id = Reconstruction.6
+	title = "Reconstruction.6.name"
+	desc = "Reconstruction.6.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+	is_triggered_only = yes
+    option = {
+		name = "Reconstruction.6.a"
+		custom_tooltip = "Reconstruction.6.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+situation_event = {
+	id = Reconstruction.7
+	title = "Reconstruction.7.name"
+	desc = "Reconstruction.7.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+	is_triggered_only = yes
+    trigger = {
+		NOT = { has_situation_flag = Reconstruction_7_happened }
+		situation_progress >= 45
+	}
+	immediate = {
+		set_situation_flag = Reconstruction_7_happened
+		event_target:kirakira_sol_system_earth = {						
+		    add_deposit = The_North_American_Agricultural_Heartland
+        }
+	}
+    option = {
+		name = "Reconstruction.7.a"
+		custom_tooltip = "Reconstruction.7.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+situation_event = {
+	id = Reconstruction.8
+	title = "Reconstruction.8.name"
+	desc = "Reconstruction.8.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+	is_triggered_only = yes
+    option = {
+		name = "Reconstruction.8.a"
+		custom_tooltip = "Reconstruction.8.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+situation_event = {
+	id = Reconstruction.9
+	title = "Reconstruction.9.name"
+	desc = "Reconstruction.9.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+	is_triggered_only = yes
+    trigger = {
+		NOT = { has_situation_flag = Reconstruction_9_happened }
+		situation_progress >= 70
+	}
+	immediate = {
+		set_situation_flag = Reconstruction_9_happened
+		event_target:kirakira_sol_system_earth = {						
+		    add_deposit = East_African_Deep_Mantle_Exploration_Base
+        }
+	}
+    option = {
+		name = "Reconstruction.9.a"
+		custom_tooltip = "Reconstruction.9.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+situation_event = {
+	id = Reconstruction.10
+	title = "Reconstruction.10.name"
+	desc = "Reconstruction.10.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+	is_triggered_only = yes
+    option = {
+		name = "Reconstruction.10.a"
+		custom_tooltip = "Reconstruction.10.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+country_event = {
+	id = Reconstruction.11
+	title = "Reconstruction.11.name"
+	desc = "Reconstruction.11.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:kirakira_sol_system_earth = {						
+		    add_deposit = South_American_Biosphere_Conservation_and_Restoration_Zone
+        }
+	}
+    option = {
+		name = "Reconstruction.11.a"
+		custom_tooltip = "Reconstruction.11.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+	after = {
+		destroy_situation = this
+	}
+}
+
+namespace = Explore
+
+country_event = {
+    id = Explore.1
+    title = "Explore.1.name"
+	desc = "Explore.1.desc"
+    hide_window = no
+    is_triggered_only = yes
+
+	trigger = {
+        owner = {
+            has_authority = auth_radiant_harmony
+        }
+    }
+
+    immediate = {
+        start_situation = { type = situation_Explore }
+    }
+
+    option = {
+		name = "Explore.1.a"
+		custom_tooltip = "Explore.1.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+situation_event = {
+	id = Explore.2
+	title = "Explore.2.name"
+	desc = "Explore.2.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_situation_flag = Explore_2_happened }
+		situation_progress >= 10
+	}
+
+	immediate = {
+		set_situation_flag = Explore_2_happened
+	}
+
+	option = {
+		name = "Explore.2.a"
+		custom_tooltip = "Explore.2.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+situation_event = {
+	id = Explore.3
+	title = "Explore.3.name"
+	desc = "Explore.3.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+	is_triggered_only = yes
+    option = {
+		name = "Explore.3.a"
+		custom_tooltip = "Explore.4.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+situation_event = {
+	id = Explore.4
+	title = "Explore.4.name"
+	desc = "Explore.4.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_situation_flag = Explore_4_happened }
+		situation_progress >= 35
+	}
+
+	immediate = {
+		event_target:kirakira_sol_system_Venus = {						
+		    add_deposit = Floating_City_Eros_Eros_the_Floating_City
+        }
+		set_situation_flag = Explore_4_happened
+	}
+
+	option = {
+		name = "Explore.4.a"
+		custom_tooltip = "Explore.4.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+situation_event = {
+	id = Explore.5
+	title = "Explore.5.name"
+	desc = "Explore.5.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_situation_flag = Explore_5_happened }
+		situation_progress >= 45
+	}
+
+	immediate = {
+		event_target:kirakira_sol_system_Mars = {						
+		    add_deposit = Perseverance_Experimental_Base
+        }
+		set_situation_flag = Explore_5_happened
+	}
+
+	option = {
+		name = "Explore.5.a"
+		custom_tooltip = "Explore.5.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+situation_event = {
+	id = Explore.6
+	title = "Explore.6.name"
+	desc = "Explore.6.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_situation_flag = Explore_6_happened }
+		situation_progress >= 55
+	}
+
+	immediate = {
+		owner = {
+			set_country_flag = asteroid_sighted_country
+		}
+		set_global_flag = asteroid_sighted_global
+		set_planet_flag = asteroid_sighted
+		create_country = {
+			name = "NAME_Incoming_Asteroid"
+			type = faction
+			auto_delete = no
+			flag = {
+				icon = {
+					category = "zoological"
+					file = "flag_zoological_1.dds"
+				}
+				background= {
+					category = "backgrounds"
+					file = "new_dawn.dds"
+				}
+				colors={
+					"black"
+					"black"
+					"null"
+					"null"
+				}
+			}
+			effect = {
+				establish_communications_no_message = root.owner
+			}
+		}
+		last_created_country = {
+			set_country_flag = incoming_asteroid
+			create_fleet = {
+				name = "NAME_Asteroid"
+				effect = {
+					set_aggro_range = 0
+					set_fleet_stance = aggressive
+					set_aggro_range_measure_from = self
+					set_owner = PREV
+					set_fleet_flag = asteroid_fleet
+					save_event_target_as = asteroid_fleet_target
+					create_ship = {
+						name = "NAME_Asteroid"
+						design = "NAME_Asteroid"
+					}
+					set_location = {
+						target = ROOT
+						distance = 75
+						angle = random
+					}
+					queue_actions = {
+						move_to = ROOT
+						effect = {
+							id = "colony.180.effect.1"
+							ROOT = {
+								planet_event = { id = colony.183 }
+							}
+						}
+					}
+				}
+			}
+			set_relation_flag = {
+				who = root.owner
+				flag = asteroid_enemy
+			}
+		}
+		set_situation_flag = Explore_6_happened
+	}
+
+	option = {
+		name = "Explore.6.a"
+		custom_tooltip = "Explore.6.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+situation_event = {
+	id = Explore.7
+	title = "Explore.7.name"
+	desc = "Explore.7.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_situation_flag = Explore_7_happened }
+		situation_progress >= 65
+	}
+
+	immediate = {
+		set_situation_flag = Explore_7_happened
+	}
+
+	option = {
+		name = "Explore.7.a"
+		custom_tooltip = "Explore.7.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+situation_event = {
+	id = Explore.8
+	title = "Explore.8.name"
+	desc = "Explore.8.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+	is_triggered_only = yes
+    option = {
+		name = "Explore.8.a"
+		custom_tooltip = "Explore.8.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+situation_event = {
+	id = Explore.9
+	title = "Explore.9.name"
+	desc = "Explore.9.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_situation_flag = Explore_9_happened }
+		situation_progress >= 80
+	}
+
+	immediate = {
+		set_situation_flag = Explore_9_happened
+	}
+
+	option = {
+		name = "Explore.9.a"
+		custom_tooltip = "Explore.9.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+situation_event = {
+	id = Explore.10
+	title = "Explore.10.name"
+	desc = "Explore.10.desc"
+	picture = GFX_evt_gray_gooed_planet
+	show_sound = event_laboratory_sound
+	situation = this
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_situation_flag = Explore_7_happened }
+	}
+
+	immediate = {
+		set_situation_flag = Explore_10_happened
+	}
+
+	option = {
+		name = "Explore.10.a"
+		custom_tooltip = "Explore.10.a.tt"
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

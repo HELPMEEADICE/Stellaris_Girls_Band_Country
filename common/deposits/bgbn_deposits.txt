@@ -106,3 +106,21 @@ The_Planets_Cordilleran_Ecological_Backbone = {
 		}
 	}
 }
+
+Floating_City_Eros_Eros_the_Floating_City = {
+	is_for_colonizable = yes
+	icon = "d_veiny_cliffs"
+	category = deposit_cat_rare
+
+	potential = { always = no }
+
+}
+
+Perseverance_Experimental_Base = {
+	is_for_colonizable = yes
+	icon = "d_veiny_cliffs"
+	category = deposit_cat_rare
+
+	potential = { always = no }
+
+}
