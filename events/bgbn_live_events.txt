@@ -51,3 +51,60 @@ country_event = {
     }
 
 }
+
+country_event = {
+    id = bgbn_live.3
+    title = bgbn_live.3.name
+    desc = bgbn_live.3.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+    
+    fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_live.1.a
+        add_modifier = {
+            modifier = war_is_wrong
+            days = 720
+        }
+        effect = {
+            remove_monthly_resource_mult = {
+                resource = unity
+                value = -3
+                min = -60
+                max = -3000
+            }
+        }
+    }
+}
+
+country_event = {
+    id = bgbn_live.4
+    title = bgbn_live.4.name
+    desc = bgbn_live.4.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+    
+    fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_live.4.a
+        add_modifier = {
+            modifier = cold
+            days = 720
+        }
+    }
+    option = {
+        name = bgbn_live.4.b
+        add_modifier = {
+            modifier = Full_of_vitality
+            days = 720
+        }
+    }
+}

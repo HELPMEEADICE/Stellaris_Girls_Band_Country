@@ -28,6 +28,16 @@ ardent_research_enthusiasts = {
 	planet_jobs_produces_mult = 0.05
 	country_unity_produces_mult = 0.2
 }
+war_is_wrong = {
+	planet_stability_add = 20
+}
+cold = {
+	pop_bonus_workforce_mult = 0.1
+}
+Full_of_vitality = {
+	pop_bonus_workforce_mult = 0.2
+	budget_group_pops = 0.1
+}
  #行星修正
    #生活事件
 amazing_rhythm = {
