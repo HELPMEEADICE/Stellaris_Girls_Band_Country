@@ -1,10 +1,35 @@
 namespace = bgbn_space_exploration
 
 #恒星探索开启事件
-country_event = {
+fleet_event = { #fleet指舰队，独立的科研/工程船也算，ship单指一艘船
 	id = bgbn_space_exploration.1
-    title = bgbn_space_exploration.1.name
-    desc = bgbn_space_exploration.1.desc
+
+    is_triggered_only = yes
+
+	hide_window = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+		}
+		
+	}
+	immediate = {
+		owner = {
+			country_event = {
+				id = bgbn_space_exploration.2
+			}
+		}
+		
+	}
+}
+
+country_event = {
+	id = bgbn_space_exploration.2
+    title = bgbn_space_exploration.2.name
+    desc = bgbn_space_exploration.2.desc
     picture = GFX_evt_star_yellow
     is_triggered_only = yes
 
@@ -13,21 +38,15 @@ country_event = {
 	}
 
 	option = {
-		name = bgbn_space_exploration.1.a
+		name = bgbn_space_exploration.2.a
 		begin_event_chain = {
-			event_chain = bgbn_celestial_exploring
+			event_chain = bgbn_celestial_exploring #星系探索局势开始
 			target = root
 		}
 	}
 }
-#恒星探索结束事件
-
-
-
-
-
-
 #恒星探索的事件
+ #稳定小型主序星 f型
 ship_event = {
 	id = bgbn_space_exploration.3
     title = bgbn_space_exploration.3.name
@@ -35,7 +54,1418 @@ ship_event = {
     picture = GFX_evt_star_yellow
     is_triggered_only = yes
 
+	fire_only_once = yes
+
 	trigger = {
-		has_country_flag = poppinparty
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_f_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.3.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_stable_main_sequence_stars
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.6 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.4
+    title = bgbn_space_exploration.4.name
+    desc = bgbn_space_exploration.4.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_g_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.4.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_stable_main_sequence_stars
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.6 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.5
+    title = bgbn_space_exploration.5.name
+    desc = bgbn_space_exploration.5.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_k_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.5.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_stable_main_sequence_stars
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.6 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bgbn_space_exploration.6
+    title = bgbn_space_exploration.6.name
+    desc = bgbn_space_exploration.6.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		has_completed_event_chain_counter = {
+			event_chain = bgbn_celestial_exploring
+			counter = exploration_of_stable_main_sequence_stars
+		}
+	}
+	option = {
+		name = bgbn_space_exploration.6.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = bgbn_celestial_exploring_star
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.41 #探索全部完成
+				days = 1
+			}
+		}
+	}
+}
+#2
+ship_event = {
+	id = bgbn_space_exploration.7
+    title = bgbn_space_exploration.7.name
+    desc = bgbn_space_exploration.7.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_a_star
+				is_planet_class = pc_b_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.7.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_Giant_main_sequence_stars
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.10 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.8
+    title = bgbn_space_exploration.8.name
+    desc = bgbn_space_exploration.8.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_a_star
+				is_planet_class = pc_b_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.8.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_Giant_main_sequence_stars
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.10 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.9
+    title = bgbn_space_exploration.9.name
+    desc = bgbn_space_exploration.9.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_a_star
+				is_planet_class = pc_b_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.9.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_Giant_main_sequence_stars
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.10 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bgbn_space_exploration.10
+    title = bgbn_space_exploration.10.name
+    desc = bgbn_space_exploration.10.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		has_completed_event_chain_counter = {
+			event_chain = bgbn_celestial_exploring
+			counter = exploration_of_Giant_main_sequence_stars
+		}
+	}
+	option = {
+		name = bgbn_space_exploration.10.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = bgbn_celestial_exploring_star
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.41 #探索全部完成
+				days = 1
+			}
+		}
+	}
+}
+#3
+ship_event = {
+	id = bgbn_space_exploration.11
+    title = bgbn_space_exploration.11.name
+    desc = bgbn_space_exploration.11.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_m_giant_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.11.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_late_evolutionary_main_sequence_stars
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.14 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.12
+    title = bgbn_space_exploration.12.name
+    desc = bgbn_space_exploration.12.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_a_star
+				is_planet_class = pc_b_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.12.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_late_evolutionary_main_sequence_stars
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.14 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.13
+    title = bgbn_space_exploration.13.name
+    desc = bgbn_space_exploration.13.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_a_star
+				is_planet_class = pc_b_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.13.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_late_evolutionary_main_sequence_stars
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.14 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bgbn_space_exploration.14
+    title = bgbn_space_exploration.14.name
+    desc = bgbn_space_exploration.14.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		has_completed_event_chain_counter = {
+			event_chain = bgbn_celestial_exploring
+			counter = exploration_of_late_evolutionary_main_sequence_stars
+		}
+	}
+	option = {
+		name = bgbn_space_exploration.14.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = bgbn_celestial_exploring_star
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.41 #探索全部完成
+				days = 1
+			}
+		}
+	}
+}
+#4
+ship_event = {
+	id = bgbn_space_exploration.15
+    title = bgbn_space_exploration.15.name
+    desc = bgbn_space_exploration.15.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_m_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.15.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_low_luminosity_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.20 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.16
+    title = bgbn_space_exploration.16.name
+    desc = bgbn_space_exploration.16.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_a_star
+				is_planet_class = pc_b_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.16.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_low_luminosity_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.20 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.17
+    title = bgbn_space_exploration.17.name
+    desc = bgbn_space_exploration.17.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_a_star
+				is_planet_class = pc_b_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.17.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_low_luminosity_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.20 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.18
+    title = bgbn_space_exploration.18.name
+    desc = bgbn_space_exploration.18.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_m_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.18.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_low_luminosity_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.20 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.19
+    title = bgbn_space_exploration.19.name
+    desc = bgbn_space_exploration.19.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_m_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.19.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_low_luminosity_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.20 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bgbn_space_exploration.20
+    title = bgbn_space_exploration.20.name
+    desc = bgbn_space_exploration.20.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		has_completed_event_chain_counter = {
+			event_chain = bgbn_celestial_exploring
+			counter = exploration_of_low_luminosity_celestial_bodies
+		}
+	}
+	option = {
+		name = bgbn_space_exploration.20.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = bgbn_celestial_exploring_star
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.41 #探索全部完成
+				days = 1
+			}
+		}
+	}
+}
+#5
+ship_event = {
+	id = bgbn_space_exploration.21
+    title = bgbn_space_exploration.21.name
+    desc = bgbn_space_exploration.21.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_pulsar
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.21.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_high_activity_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.24 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.22
+    title = bgbn_space_exploration.22.name
+    desc = bgbn_space_exploration.22.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_neutron_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.22.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_high_activity_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.24 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.23
+    title = bgbn_space_exploration.23.name
+    desc = bgbn_space_exploration.23.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_pulsar
+				is_planet_class = pc_neutron_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.23.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_high_activity_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.24 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bgbn_space_exploration.24
+    title = bgbn_space_exploration.24.name
+    desc = bgbn_space_exploration.24.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		has_completed_event_chain_counter = {
+			event_chain = bgbn_celestial_exploring
+			counter = exploration_of_high_activity_celestial_bodies
+		}
+	}
+	option = {
+		name = bgbn_space_exploration.24.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = bgbn_celestial_exploring_star
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.41 #探索全部完成
+				days = 1
+			}
+		}
+	}
+}
+#6
+ship_event = {
+	id = bgbn_space_exploration.25
+    title = bgbn_space_exploration.25.name
+    desc = bgbn_space_exploration.25.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_a_star
+				is_planet_class = pc_b_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.25.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_neutron_degenerate_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.27 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.26
+    title = bgbn_space_exploration.26.name
+    desc = bgbn_space_exploration.26.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_g_star
+				is_planet_class = pc_f_star
+				is_planet_class = pc_k_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.26.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_neutron_degenerate_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.27 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bgbn_space_exploration.27
+    title = bgbn_space_exploration.27.name
+    desc = bgbn_space_exploration.27.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		has_completed_event_chain_counter = {
+			event_chain = bgbn_celestial_exploring
+			counter = exploration_of_neutron_degenerate_celestial_bodies
+		}
+	}
+	option = {
+		name = bgbn_space_exploration.27.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = bgbn_celestial_exploring_star
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.41 #探索全部完成
+				days = 1
+			}
+		}
+	}
+}
+#7
+ship_event = {
+	id = bgbn_space_exploration.28
+    title = bgbn_space_exploration.28.name
+    desc = bgbn_space_exploration.28.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class =  pc_black_hole
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.28.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_gravitational_singularity_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.32 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.29
+    title = bgbn_space_exploration.29.name
+    desc = bgbn_space_exploration.29.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class =  pc_black_hole
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.29.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_gravitational_singularity_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.32 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.30
+    title = bgbn_space_exploration.30.name
+    desc = bgbn_space_exploration.30.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_black_hole
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.30.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_gravitational_singularity_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.32 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.31
+    title = bgbn_space_exploration.31.name
+    desc = bgbn_space_exploration.31.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_black_hole
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.31.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_gravitational_singularity_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.32 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bgbn_space_exploration.32
+    title = bgbn_space_exploration.32.name
+    desc = bgbn_space_exploration.32.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		has_completed_event_chain_counter = {
+			event_chain = bgbn_celestial_exploring
+			counter = bgbn_celestial_exploring_star
+		}
+	}
+	option = {
+		name = bgbn_space_exploration.32.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = bgbn_celestial_exploring_star
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.41 #探索全部完成
+				days = 1
+			}
+		}
+	}
+}
+#8
+ship_event = {
+	id = bgbn_space_exploration.33
+    title = bgbn_space_exploration.33.name
+    desc = bgbn_space_exploration.33.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_black_hole
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.33.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_ultra_extreme_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.36 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.34
+    title = bgbn_space_exploration.34.name
+    desc = bgbn_space_exploration.34.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_pulsar
+				is_planet_class = pc_neutron_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.34.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_ultra_extreme_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.36 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.35
+    title = bgbn_space_exploration.35.name
+    desc = bgbn_space_exploration.35.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_m_giant_star
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.35.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploration_of_ultra_extreme_celestial_bodies
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.36 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bgbn_space_exploration.36
+    title = bgbn_space_exploration.36.name
+    desc = bgbn_space_exploration.36.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		has_completed_event_chain_counter = {
+			event_chain = bgbn_celestial_exploring
+			counter = exploration_of_ultra_extreme_celestial_bodies
+		}
+	}
+	option = {
+		name = bgbn_space_exploration.36.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = bgbn_celestial_exploring_star
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.41 #探索全部完成
+				days = 1
+			}
+		}
+	}
+}
+#9
+ship_event = {
+	id = bgbn_space_exploration.37
+    title = bgbn_space_exploration.37.name
+    desc = bgbn_space_exploration.37.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_black_hole
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.37.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploring_tomorrow_body_without_exploration
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.40 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.38
+    title = bgbn_space_exploration.38.name
+    desc = bgbn_space_exploration.38.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_black_hole
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.38.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploring_tomorrow_body_without_exploration
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.40 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = bgbn_space_exploration.39
+    title = bgbn_space_exploration.39.name
+    desc = bgbn_space_exploration.39.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		from = {
+			OR = {
+				is_planet_class = pc_black_hole
+			}
+		}
+			
+	}
+	option = {
+		name = bgbn_space_exploration.39.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = exploring_tomorrow_body_without_exploration
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.40 #加1总进度
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bgbn_space_exploration.40
+    title = bgbn_space_exploration.40.name
+    desc = bgbn_space_exploration.40.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+		has_completed_event_chain_counter = {
+			event_chain = bgbn_celestial_exploring
+			counter = exploring_tomorrow_body_without_exploration
+		}
+	}
+	option = {
+		name = bgbn_space_exploration.40.a
+		owner = {
+			add_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = bgbn_celestial_exploring_star
+				amount = 1
+			}
+			country_event = {
+				id = bgbn_space_exploration.41 #探索全部完成
+				days = 1
+			}
+		}
+	}
+}
+#最终完成事件
+country_event = {
+	id = bgbn_space_exploration.41
+    title = bgbn_space_exploration.41.name
+    desc = bgbn_space_exploration.41.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_event_chain = bgbn_celestial_exploring
+		}
+	}
+	option = {
+		name = bgbn_space_exploration.41.a
+		owner = {
+			end_event_chain = bgbn_celestial_exploring
+		}
 	}
 }

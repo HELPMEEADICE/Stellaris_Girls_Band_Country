@@ -52,7 +52,7 @@ country_event = {
 	}
 }
 	
-#阶段1	
+#阶段1	考古事件要用fleet舰队域
 fleet_event = {
 	id = bgbn_ancrel.1
 	title = "bgbn_ancrel.1.name"

@@ -10,8 +10,35 @@ bgbn_celestial_exploring = {
 	icon = "doing"
 	picture = GFX_evt_bgbn_doing
 	counter = {
-		bgbn_celestial_exploring = {
-			max = 30
+		bgbn_celestial_exploring_star = { #种类完成统计
+			max = 9
+		}
+		exploration_of_stable_main_sequence_stars = { #稳定主序星探索完成统计
+			max = 3
+		}
+		exploration_of_Giant_main_sequence_stars = { #巨型主序星探索完成统计
+			max = 3
+		}
+		exploration_of_late_evolutionary_main_sequence_stars = { #演化晚期主序星探索
+			max = 3
+		}
+		exploration_of_low_luminosity_celestial_bodies = { #低光度天体探索
+			max = 5
+		}
+		exploration_of_high_activity_celestial_bodies = { #高活跃度天体探索
+			max = 3
+		}
+		exploration_of_neutron_degenerate_celestial_bodies = { #中子简并态天体探索
+			max = 2
+		}
+		exploration_of_gravitational_singularity_celestial_bodies = { #引力奇点天体探索
+			max = 4
+		}
+		exploration_of_ultra_extreme_celestial_bodies = { #超极端天体探索
+			max = 3
+		}
+		exploring_tomorrow_body_without_exploration = { #未探明天体探索
+			max = 3
 		}
 	}
 }

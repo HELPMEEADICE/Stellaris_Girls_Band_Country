@@ -308,13 +308,12 @@ country_event = {
             modifier = war_is_wrong
             days = 720
         }
-        effect = {
-            add_monthly_resource_mult = {
-                resource = unity
-                value = -3
-                min = -60
-                max = -3000
-            }
+        add_monthly_resource_mult = {
+            resource = unity
+            value = -3
+            min = -60
+            max = -3000
+            
         }
     }
 }
