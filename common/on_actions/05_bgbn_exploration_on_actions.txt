@@ -5,35 +5,38 @@ on_entering_system_fleet = { #fleet域事件才可以在里面
 }
 
 on_survey_planet = { #ship域事件才可以在里面
-	events = { #星球探索主线的事件
-		bgbn_space_exploration.3
-		bgbn_space_exploration.4
-		bgbn_space_exploration.5
-		bgbn_space_exploration.7
-		bgbn_space_exploration.8
-		bgbn_space_exploration.9
-		bgbn_space_exploration.11
-		bgbn_space_exploration.12
-		bgbn_space_exploration.13
-		bgbn_space_exploration.15
-		bgbn_space_exploration.16
-		bgbn_space_exploration.17
-		bgbn_space_exploration.18
-		bgbn_space_exploration.19
-		bgbn_space_exploration.21
-		bgbn_space_exploration.22
-		bgbn_space_exploration.23
-		bgbn_space_exploration.25
-		bgbn_space_exploration.26
-		bgbn_space_exploration.28
-		bgbn_space_exploration.29
-		bgbn_space_exploration.30
-		bgbn_space_exploration.31
-		bgbn_space_exploration.33
-		bgbn_space_exploration.34
-		bgbn_space_exploration.35
-		bgbn_space_exploration.37
-		bgbn_space_exploration.38
-		bgbn_space_exploration.39
+	#events = { #星球探索主线的事件
+		#bgbn_space_exploration.3
+		#bgbn_space_exploration.4
+		#bgbn_space_exploration.5
+		#bgbn_space_exploration.7
+		#bgbn_space_exploration.8
+		#bgbn_space_exploration.9
+		#bgbn_space_exploration.11
+		#bgbn_space_exploration.12
+		#bgbn_space_exploration.13
+		#bgbn_space_exploration.15
+		#bgbn_space_exploration.16
+		#bgbn_space_exploration.17
+		#bgbn_space_exploration.18
+	#	bgbn_space_exploration.19
+		#bgbn_space_exploration.21
+	#	bgbn_space_exploration.22
+		#bgbn_space_exploration.23
+		#bgbn_space_exploration.25
+		#bgbn_space_exploration.26
+		#bgbn_space_exploration.28
+		#bgbn_space_exploration.29
+		#bgbn_space_exploration.30
+		#bgbn_space_exploration.31
+		#bgbn_space_exploration.33
+		#bgbn_space_exploration.34
+		#bgbn_space_exploration.35
+		#bgbn_space_exploration.37
+		#bgbn_space_exploration.38
+		#bgbn_space_exploration.39
+	#}
+	events = {
+		bgbn_space_exploration.42
 	}
 }

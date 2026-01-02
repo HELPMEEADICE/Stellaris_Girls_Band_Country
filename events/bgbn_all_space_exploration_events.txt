@@ -14,15 +14,32 @@ fleet_event = { #fleet指舰队，独立的科研/工程船也算，ship单指�
 		owner = {
 			has_country_flag = poppinparty
 		}
-		
 	}
 	immediate = {
-		owner = {
-			country_event = {
-				id = bgbn_space_exploration.2
+		if = {
+			limit = { 
+				owner = {
+					has_country_flag = bgbn_space_exploration_frist 
+				}
+			}
+			owner = {
+				country_event = {
+					id = bgbn_space_exploration.2
+				}
 			}
 		}
-		
+		if = {
+			limit = { 
+				NOT = {
+					owner = {
+						has_country_flag = bgbn_space_exploration_frist
+					}
+				}
+			}
+			owner = {
+				set_country_flag = bgbn_space_exploration_frist
+			}
+		}
 	}
 }
 
@@ -66,8 +83,8 @@ ship_event = {
 				is_planet_class = pc_f_star
 			}
 		}
-			
 	}
+	
 	option = {
 		name = bgbn_space_exploration.3.a
 		owner = {
@@ -80,6 +97,7 @@ ship_event = {
 				id = bgbn_space_exploration.6 #加1总进度
 				days = 1
 			}
+			set_country_flag = bgbn_space_exploration_f
 		}
 	}
 }
@@ -918,7 +936,12 @@ ship_event = {
 				is_planet_class = pc_k_star
 			}
 		}
+		NOT = {
+			owner = {
+				has_country_flag = bgbn_space_exploration_f
+			}
 			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.26.a
@@ -1460,6 +1483,11 @@ country_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
+			has_completed_event_chain_counter = {
+				event_chain = bgbn_celestial_exploring
+				counter = bgbn_celestial_exploring_star
+			}
+
 		}
 	}
 	option = {
@@ -1469,3 +1497,254 @@ country_event = {
 		}
 	}
 }
+
+ship_event = {
+	id = bgbn_space_exploration.42
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		owner = {
+			has_event_chain = bgbn_celestial_exploring
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				from = {
+					OR = {
+						is_planet_class = pc_f_star
+					}
+				}
+			}
+			random_list = {
+				50 = { ship_event = { id = bgbn_space_exploration.3 } }
+				50 = { ship_event = { id = bgbn_space_exploration.26 } }
+			}
+		}
+		if = {
+			limit = {
+				from = {
+					OR = {
+						is_planet_class = pc_g_star
+					}
+				}
+			}
+			random_list = {
+				50 = { ship_event = { id = bgbn_space_exploration.4 } }
+				50 = { ship_event = { id = bgbn_space_exploration.26 } }
+			}
+		}
+		if = {
+			limit = {
+				from = {
+					OR = {
+						is_planet_class = pc_k_star
+					}
+				}
+			}
+			random_list = {
+				50 = { ship_event = { id = bgbn_space_exploration.5 } }
+				50 = { ship_event = { id = bgbn_space_exploration.26 } }
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
