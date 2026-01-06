@@ -1,38 +1,19 @@
-#获得恒星基地建筑科技文件
-
-tech_astral_flare_initiative = {
+#主线事件科技
+tech_starlight_in_hand = {
 	area = physics		#是什么类型的科技（工程engineering/物理physics/社会society）
 	tier = 1			#第几个阶段的科技（线性科技可用，不是也要写个1）
 	cost = 2000			#需要多少对应研究点数
 	weight = 0			#0不出现这个科技在科研池,其他大于0的数字则是出现几率
 	category = {		#哪个子类型的科技
-		particles
-	}
+		computing 		#计算类
+    }
 	modifier = {
-		all_technology_research_speed = 0.5
-	}
-	weight_modifier = {
-		modifier = {
-			factor = 0
-		}
-	}
-	ai_weight = {
-		modifier = {
-			factor = 0
-		}
-	}
-}
-
-tech_chroma_veil_defense = {
-	area = physics		
-	tier = 1	
-	cost = 2000
-	weight = 0
-
-	
-
-	category = {		
-		field_manipulation
+		country_engineering_tech_research_speed = 0.05 #工程学科技研究速度
+		country_physics_tech_research_speed = 0.5	#物理学科技研究速度
+		country_society_tech_research_speed = 0.05	#社会学科技研究速度
+		science_ship_survey_speed = 0.25
+		ship_anomaly_generation_chance_mult = 0.75 #异常现象发现机会 
+		ship_jumpdrive_cooldown_mult = -0.1 #跃迁充能速度
 	}
 	weight_modifier = {
 		modifier = {

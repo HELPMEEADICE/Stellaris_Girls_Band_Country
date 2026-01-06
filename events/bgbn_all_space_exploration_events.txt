@@ -8,11 +8,14 @@ fleet_event = { #fleet指舰队，独立的科研/工程船也算，ship单指�
 
 	hide_window = yes
 
-	fire_only_once = yes
+	
 
 	trigger = {
 		owner = {
 			has_country_flag = poppinparty
+			NOT = {
+				has_country_flag = bgbn_space_exploration_second
+			}
 		}
 	}
 	immediate = {
@@ -25,7 +28,9 @@ fleet_event = { #fleet指舰队，独立的科研/工程船也算，ship单指�
 			owner = {
 				country_event = {
 					id = bgbn_space_exploration.2
+					days = 1
 				}
+				set_country_flag = bgbn_space_exploration_second
 			}
 		}
 		if = {
@@ -78,11 +83,6 @@ ship_event = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
 		}
-		from = {
-			OR = {
-				is_planet_class = pc_f_star
-			}
-		}
 	}
 	
 	option = {
@@ -115,13 +115,7 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class = pc_g_star
-			}
-		}
-			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.4.a
@@ -152,13 +146,7 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class = pc_k_star
-			}
-		}
-			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.5.a
@@ -207,6 +195,18 @@ country_event = {
 				id = bgbn_space_exploration.41 #探索全部完成
 				days = 1
 			}
+			give_technology = {
+				tech = tech_repeatable_improved_tile_energy_output
+			}
+			give_technology = {
+				tech = tech_power_hub_2
+			}
+			add_monthly_resource_mult = {
+				resource = energy
+				value = 12
+				min = 1000
+				max = 10000
+			}
 		}
 	}
 }
@@ -225,13 +225,6 @@ ship_event = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
 		}
-		from = {
-			OR = {
-				is_planet_class = pc_a_star
-				is_planet_class = pc_b_star
-			}
-		}
-			
 	}
 	option = {
 		name = bgbn_space_exploration.7.a
@@ -263,13 +256,6 @@ ship_event = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
 		}
-		from = {
-			OR = {
-				is_planet_class = pc_a_star
-				is_planet_class = pc_b_star
-			}
-		}
-			
 	}
 	option = {
 		name = bgbn_space_exploration.8.a
@@ -300,14 +286,7 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class = pc_a_star
-				is_planet_class = pc_b_star
-			}
-		}
-			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.9.a
@@ -356,6 +335,18 @@ country_event = {
 				id = bgbn_space_exploration.41 #探索全部完成
 				days = 1
 			}
+			give_technology = {
+				tech = tech_repeatable_improved_tile_energy_output
+			}
+			give_technology = {
+				tech = tech_power_plant_4
+			}
+			add_monthly_resource_mult = {
+				resource = energy
+				value = 12
+				min = 1000
+				max = 10000
+			}
 		}
 	}
 }
@@ -374,12 +365,6 @@ ship_event = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
 		}
-		from = {
-			OR = {
-				is_planet_class = pc_m_giant_star
-			}
-		}
-			
 	}
 	option = {
 		name = bgbn_space_exploration.11.a
@@ -410,14 +395,7 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class = pc_a_star
-				is_planet_class = pc_b_star
-			}
-		}
-			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.12.a
@@ -448,14 +426,7 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class = pc_a_star
-				is_planet_class = pc_b_star
-			}
-		}
-			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.13.a
@@ -504,6 +475,18 @@ country_event = {
 				id = bgbn_space_exploration.41 #探索全部完成
 				days = 1
 			}
+			give_technology = {
+				tech = tech_basic_science_lab_3
+			}
+			give_technology = {
+				tech = tech_shield_hardeners_2
+			}
+			add_monthly_resource_mult = {
+				resource = minerals
+				value = 12
+				min = 1000
+				max = 10000
+			}
 		}
 	}
 }
@@ -521,13 +504,7 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class = pc_m_star
-			}
-		}
-			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.15.a
@@ -559,13 +536,6 @@ ship_event = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
 		}
-		from = {
-			OR = {
-				is_planet_class = pc_a_star
-				is_planet_class = pc_b_star
-			}
-		}
-			
 	}
 	option = {
 		name = bgbn_space_exploration.16.a
@@ -597,13 +567,6 @@ ship_event = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
 		}
-		from = {
-			OR = {
-				is_planet_class = pc_a_star
-				is_planet_class = pc_b_star
-			}
-		}
-			
 	}
 	option = {
 		name = bgbn_space_exploration.17.a
@@ -635,12 +598,6 @@ ship_event = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
 		}
-		from = {
-			OR = {
-				is_planet_class = pc_m_star
-			}
-		}
-			
 	}
 	option = {
 		name = bgbn_space_exploration.18.a
@@ -671,13 +628,7 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class = pc_m_star
-			}
-		}
-			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.19.a
@@ -726,7 +677,20 @@ country_event = {
 				id = bgbn_space_exploration.41 #探索全部完成
 				days = 1
 			}
+			give_technology = {
+				tech = tech_global_research_initiative
+			}
+			give_technology = {
+				tech = tech_shield_rechargers_1
+			}
+			add_monthly_resource_mult = {
+				resource = minerals
+				value = 12
+				min = 1000
+				max = 10000
+			}
 		}
+		
 	}
 }
 #5
@@ -744,12 +708,6 @@ ship_event = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
 		}
-		from = {
-			OR = {
-				is_planet_class = pc_pulsar
-			}
-		}
-			
 	}
 	option = {
 		name = bgbn_space_exploration.21.a
@@ -780,13 +738,7 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class = pc_neutron_star
-			}
-		}
-			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.22.a
@@ -817,14 +769,7 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class = pc_pulsar
-				is_planet_class = pc_neutron_star
-			}
-		}
-			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.23.a
@@ -873,6 +818,18 @@ country_event = {
 				id = bgbn_space_exploration.41 #探索全部完成
 				days = 1
 			}
+			give_technology = {
+				tech = tech_advanced_industrial_storm_protection
+			}
+			give_technology = {
+				tech = tech_physics_3
+			}
+			add_monthly_resource_mult = {
+				resource = minerals
+				value = 12
+				min = 1000
+				max = 10000
+			}
 		}
 	}
 }
@@ -891,13 +848,6 @@ ship_event = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
 		}
-		from = {
-			OR = {
-				is_planet_class = pc_a_star
-				is_planet_class = pc_b_star
-			}
-		}
-			
 	}
 	option = {
 		name = bgbn_space_exploration.25.a
@@ -928,19 +878,6 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class = pc_g_star
-				is_planet_class = pc_f_star
-				is_planet_class = pc_k_star
-			}
-		}
-		NOT = {
-			owner = {
-				has_country_flag = bgbn_space_exploration_f
-			}
-			
 		}	
 	}
 	option = {
@@ -990,6 +927,18 @@ country_event = {
 				id = bgbn_space_exploration.41 #探索全部完成
 				days = 1
 			}
+			give_technology = {
+				tech = tech_containment_vessel
+			}
+			give_technology = {
+				tech = tech_storm_prediction_2
+			}
+			add_monthly_resource_mult = {
+				resource = energy
+				value = 12
+				min = 1000
+				max = 10000
+			}
 		}
 	}
 }
@@ -1007,13 +956,7 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class =  pc_black_hole
-			}
-		}
-			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.28.a
@@ -1044,13 +987,7 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class =  pc_black_hole
-			}
-		}
-			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.29.a
@@ -1082,12 +1019,6 @@ ship_event = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
 		}
-		from = {
-			OR = {
-				is_planet_class = pc_black_hole
-			}
-		}
-			
 	}
 	option = {
 		name = bgbn_space_exploration.30.a
@@ -1119,12 +1050,6 @@ ship_event = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
 		}
-		from = {
-			OR = {
-				is_planet_class = pc_black_hole
-			}
-		}
-			
 	}
 	option = {
 		name = bgbn_space_exploration.31.a
@@ -1173,6 +1098,18 @@ country_event = {
 				id = bgbn_space_exploration.41 #探索全部完成
 				days = 1
 			}
+			give_technology = {
+				tech = tech_repeatable_reduced_building_cost
+			}
+			give_technology = {
+				tech = tech_dark_matter_propulsion
+			}
+			add_monthly_resource_mult = {
+				resource = unity
+				value = 6
+				min = 100
+				max = 10000
+			}
 		}
 	}
 }
@@ -1190,13 +1127,7 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class = pc_black_hole
-			}
-		}
-			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.33.a
@@ -1227,14 +1158,7 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class = pc_pulsar
-				is_planet_class = pc_neutron_star
-			}
-		}
-			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.34.a
@@ -1265,13 +1189,7 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class = pc_m_giant_star
-			}
-		}
-			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.35.a
@@ -1320,6 +1238,21 @@ country_event = {
 				id = bgbn_space_exploration.41 #探索全部完成
 				days = 1
 			}
+			give_technology = {
+				tech = tech_repeatable_reduced_building_cost
+			}
+			give_technology = {
+				tech = tech_dark_matter_deflector
+			}
+			give_technology = {
+				tech = tech_cloaking_dark_matter #暗物质隐形场
+			}
+			add_monthly_resource_mult = {
+				resource = unity
+				value = 6
+				min = 100
+				max = 10000
+			}
 		}
 	}
 }
@@ -1337,13 +1270,7 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class = pc_black_hole
-			}
-		}
-			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.37.a
@@ -1375,12 +1302,6 @@ ship_event = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
 		}
-		from = {
-			OR = {
-				is_planet_class = pc_black_hole
-			}
-		}
-			
 	}
 	option = {
 		name = bgbn_space_exploration.38.a
@@ -1411,13 +1332,7 @@ ship_event = {
 		owner = {
 			has_country_flag = poppinparty
 			has_event_chain = bgbn_celestial_exploring
-		}
-		from = {
-			OR = {
-				is_planet_class = pc_black_hole
-			}
-		}
-			
+		}	
 	}
 	option = {
 		name = bgbn_space_exploration.39.a
@@ -1466,6 +1381,21 @@ country_event = {
 				id = bgbn_space_exploration.41 #探索全部完成
 				days = 1
 			}
+			give_technology = {
+				tech = tech_repeatable_reduced_building_cost #
+			}
+			give_technology = {
+				tech = tech_dark_matter_power_core	#暗物质能源
+			}
+			give_technology = {
+				tech = tech_dark_matter_detection #暗物质探测器
+			}
+			add_monthly_resource_mult = {
+				resource = unity
+				value = 6
+				min = 100
+				max = 10000
+			}
 		}
 	}
 }
@@ -1494,6 +1424,26 @@ country_event = {
 		name = bgbn_space_exploration.41.a
 		owner = {
 			end_event_chain = bgbn_celestial_exploring
+			give_technology = {		#给科技
+				tech = tech_starlight_in_hand
+
+			}
+			add_tech_progress = {	#给科技研究进度
+				tech = tech_experimental_subspace_navigation
+				progress = 0.30
+			}
+			add_monthly_resource_mult = {	#增加资源（按你的月产出算）
+				resource = unity
+				value = 12  	#多少个月的产出
+				min = 1000		#最少给多少
+				max = 100000	#最多给多少
+			}
+			add_monthly_resource_mult = {
+				resource = engineering_research
+				value = 12
+				min = 1000
+				max = 100000
+			}
 		}
 	}
 }
@@ -1507,6 +1457,7 @@ ship_event = {
 	trigger = {
 		owner = {
 			has_event_chain = bgbn_celestial_exploring
+			has_country_flag = poppinparty
 		}
 	}
 
@@ -1519,7 +1470,7 @@ ship_event = {
 					}
 				}
 			}
-			random_list = {
+			random_list = { #random_list的数字不是百分比，而是权重 例如一个40 一个50 则第一个事件的触发概率为40/(40+50)  第二个为50/(40+50)
 				50 = { ship_event = { id = bgbn_space_exploration.3 } }
 				50 = { ship_event = { id = bgbn_space_exploration.26 } }
 			}
@@ -1548,6 +1499,118 @@ ship_event = {
 			random_list = {
 				50 = { ship_event = { id = bgbn_space_exploration.5 } }
 				50 = { ship_event = { id = bgbn_space_exploration.26 } }
+			}
+		}
+		if = {
+			limit = {
+				from = {
+					OR = {
+						is_planet_class = pc_a_star
+					}
+				}
+			}
+			random_list = {
+				50 = { ship_event = { id = bgbn_space_exploration.7 } }
+				50 = { ship_event = { id = bgbn_space_exploration.8 } }
+				50 = { ship_event = { id = bgbn_space_exploration.9 } }
+				50 = { ship_event = { id = bgbn_space_exploration.12 } }
+				50 = { ship_event = { id = bgbn_space_exploration.13 } }
+				50 = { ship_event = { id = bgbn_space_exploration.16 } }
+				50 = { ship_event = { id = bgbn_space_exploration.17 } }
+				50 = { ship_event = { id = bgbn_space_exploration.25 } }
+			}
+		}
+		if = {
+			limit = {
+				from = {
+					OR = {
+						is_planet_class = pc_b_star
+					}
+				}
+			}
+			random_list = {
+				50 = { ship_event = { id = bgbn_space_exploration.7 } }
+				50 = { ship_event = { id = bgbn_space_exploration.8 } }
+				50 = { ship_event = { id = bgbn_space_exploration.9 } }
+				50 = { ship_event = { id = bgbn_space_exploration.12 } }
+				50 = { ship_event = { id = bgbn_space_exploration.13 } }
+				50 = { ship_event = { id = bgbn_space_exploration.16 } }
+				50 = { ship_event = { id = bgbn_space_exploration.17 } }
+				50 = { ship_event = { id = bgbn_space_exploration.25 } }
+			}
+		}
+		if = {
+			limit = {
+				from = {
+					OR = {
+						is_planet_class = pc_m_giant_star
+					}
+				}
+			}
+			random_list = {
+				50 = { ship_event = { id = bgbn_space_exploration.11 } }
+				50 = { ship_event = { id = bgbn_space_exploration.35 } }
+			}
+		}
+		if = {
+			limit = {
+				from = {
+					OR = {
+						is_planet_class = pc_m_star
+					}
+				}
+			}
+			random_list = {
+				50 = { ship_event = { id = bgbn_space_exploration.15 } }
+				50 = { ship_event = { id = bgbn_space_exploration.18 } }
+				50 = { ship_event = { id = bgbn_space_exploration.19 } }
+			}
+		}
+		if = {
+			limit = {
+				from = {
+					OR = {
+						is_planet_class = pc_pulsar
+					}
+				}
+			}
+			random_list = {
+				50 = { ship_event = { id = bgbn_space_exploration.21 } }
+				50 = { ship_event = { id = bgbn_space_exploration.23 } }
+				50 = { ship_event = { id = bgbn_space_exploration.34 } }
+			}
+		}
+		if = {
+			limit = {
+				from = {
+					OR = {
+						is_planet_class = pc_neutron_star
+					}
+				}
+			}
+			random_list = {
+				50 = { ship_event = { id = bgbn_space_exploration.22 } }
+				50 = { ship_event = { id = bgbn_space_exploration.23 } }
+				50 = { ship_event = { id = bgbn_space_exploration.34 } }
+			}
+		}
+		if = {
+			limit = {
+				from = {
+					OR = {
+						is_planet_class = pc_black_hole
+					}
+				}
+			}
+			random_list = {
+				50 = { ship_event = { id = bgbn_space_exploration.28 } }
+				50 = { ship_event = { id = bgbn_space_exploration.29 } }
+				50 = { ship_event = { id = bgbn_space_exploration.30 } }
+				50 = { ship_event = { id = bgbn_space_exploration.31 } }
+				50 = { ship_event = { id = bgbn_space_exploration.33 } }
+				50 = { ship_event = { id = bgbn_space_exploration.37 } }
+				50 = { ship_event = { id = bgbn_space_exploration.38 } }
+				50 = { ship_event = { id = bgbn_space_exploration.39 } }
 			}
 		}
 	}
