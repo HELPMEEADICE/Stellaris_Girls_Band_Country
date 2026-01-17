@@ -99,12 +99,10 @@ The_Planets_Cordilleran_Ecological_Backbone = {
 
 	potential = { always = no }
 
-	resources = {
-		category = planet_deposits
-		produces = {
-			planet_stability_add = 20
-		}
+	planet_modifier = {
+		planet_stability_add = 20
 	}
+
 }
 
 Floating_City_Eros_Eros_the_Floating_City = {

@@ -1,0 +1,754 @@
+namespace = bgbn_voyage
+
+country_event = {
+    id = bgbn_voyage.1
+    title = bgbn_voyage.1.name
+    desc = bgbn_voyage.1.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.1.a
+		owner = {
+			country_event = { id = bgbn_voyage.2 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.2
+    title = bgbn_voyage.2.name
+    desc = bgbn_voyage.2.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.2.a
+		owner = {
+			country_event = { id = bgbn_voyage.3 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.3
+    title = bgbn_voyage.3.name
+    desc = bgbn_voyage.3.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.3.a
+		owner = {
+			country_event = { id = bgbn_voyage.4 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.4
+    title = bgbn_voyage.4.name
+    desc = bgbn_voyage.4.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.4.a
+		owner = {
+			country_event = { id = bgbn_voyage.5 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.5
+    title = bgbn_voyage.5.name
+    desc = bgbn_voyage.5.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.5.a
+		owner = {
+			country_event = { id = bgbn_voyage.6 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.6
+    title = bgbn_voyage.6.name
+    desc = bgbn_voyage.6.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.6.a
+		owner = {
+			country_event = { id = bgbn_voyage.7 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.7
+    title = bgbn_voyage.7.name
+    desc = bgbn_voyage.7.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.7.a
+		owner = {
+			country_event = { id = bgbn_voyage.8 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.8
+    title = bgbn_voyage.8.name
+    desc = bgbn_voyage.8.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.8.a
+		owner = {
+			country_event = { id = bgbn_voyage.9 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.9
+    title = bgbn_voyage.9.name
+    desc = bgbn_voyage.9.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.9.a
+		owner = {
+			country_event = { id = bgbn_voyage.10 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.10
+    title = bgbn_voyage.10.name
+    desc = bgbn_voyage.10.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.10.a
+		owner = {
+			country_event = { id = bgbn_voyage.11 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.11
+    title = bgbn_voyage.11.name
+    desc = bgbn_voyage.11.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.11.a
+		owner = {
+			country_event = { id = bgbn_voyage.12 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.12
+    title = bgbn_voyage.12.name
+    desc = bgbn_voyage.12.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.12.a
+		owner = {
+			country_event = { id = bgbn_voyage.13 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.13
+    title = bgbn_voyage.13.name
+    desc = bgbn_voyage.13.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.13.a
+		owner = {
+			country_event = { id = bgbn_voyage.14 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.14
+    title = bgbn_voyage.14.name
+    desc = bgbn_voyage.14.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.14.a
+		owner = {
+			country_event = { id = bgbn_voyage.15 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.15
+    title = bgbn_voyage.15.name
+    desc = bgbn_voyage.15.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.15.a
+		owner = {
+			country_event = { id = bgbn_voyage.16 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.16
+    title = bgbn_voyage.16.name
+    desc = bgbn_voyage.16.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.16.a
+		owner = {
+			country_event = { id = bgbn_voyage.17 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.17
+    title = bgbn_voyage.17.name
+    desc = bgbn_voyage.17.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.17.a
+		owner = {
+			country_event = { id = bgbn_voyage.18 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.18
+    title = bgbn_voyage.18.name
+    desc = bgbn_voyage.18.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.18.a
+		owner = {
+			country_event = { id = bgbn_voyage.19 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.19
+    title = bgbn_voyage.19.name
+    desc = bgbn_voyage.19.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.19.a
+		owner = {
+			country_event = { id = bgbn_voyage.20 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.20
+    title = bgbn_voyage.20.name
+    desc = bgbn_voyage.20.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.20.a
+		owner = {
+			country_event = { id = bgbn_voyage.21 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.21
+    title = bgbn_voyage.21.name
+    desc = bgbn_voyage.21.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.21.a
+		owner = {
+			country_event = { id = bgbn_voyage.22 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.22
+    title = bgbn_voyage.22.name
+    desc = bgbn_voyage.22.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.22.a
+		owner = {
+			country_event = { id = bgbn_voyage.23 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.23
+    title = bgbn_voyage.23.name
+    desc = bgbn_voyage.23.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.23.a
+		owner = {
+			country_event = { id = bgbn_voyage.24 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.24
+    title = bgbn_voyage.24.name
+    desc = bgbn_voyage.24.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.24.a
+		owner = {
+			country_event = { id = bgbn_voyage.25 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.25
+    title = bgbn_voyage.25.name
+    desc = bgbn_voyage.25.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.25.a
+		owner = {
+			country_event = { id = bgbn_voyage.26 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.26
+    title = bgbn_voyage.26.name
+    desc = bgbn_voyage.26.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.26.a
+		owner = {
+			country_event = { id = bgbn_voyage.27 days = 30}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_voyage.27
+    title = bgbn_voyage.27.name
+    desc = bgbn_voyage.27.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+		if = {
+			limit = {
+				OR = {
+					has_technology = tech_jump_drive_1
+					has_technology = tech_psi_jump_drive_1
+		        }
+            }
+	    }
+	}
+    
+	fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_voyage.27.a
+    }
+}

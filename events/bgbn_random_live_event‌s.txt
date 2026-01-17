@@ -305,16 +305,17 @@ country_event = {
 
     option = {
         name = bgbn_ramdom_live.9.a
-        add_modifier = {
-            modifier = war_is_wrong
+        owner = {
+            add_modifier = {
+            modifier = bgbn_ramdom_live_9
             days = 720
-        }
-        add_monthly_resource_mult = {
+            }
+            add_monthly_resource_mult = {
             resource = unity
             value = -3
             min = -60
             max = -3000
-            
+            }
         }
     }
 }
@@ -333,17 +334,236 @@ country_event = {
 
     option = {
         name = bgbn_ramdom_live.10.a
+        owner = {
         add_modifier = {
-            modifier = cold
+            modifier = bgbn_ramdom_live_10_a
             days = 720
         }
+    }
     }
     option = {
         name = bgbn_ramdom_live.10.b
         add_modifier = {
-            modifier = Full_of_vitality
+            modifier = bgbn_ramdom_live_10_b
             days = 720
         }
     }
-}   
+}
+
+planet_event = {
+    id = bgbn_ramdom_live.11
+    title = bgbn_ramdom_live.11.name
+    desc = bgbn_ramdom_live.11.desc
+    is_triggered_only = yes
+
+    location = event_target:bgbn_random_live_11_planet
+    
+    trigger = {
+        has_country_flag = poppinparty
+    }
+    
+    fire_only_once = yes #只触发一次
+    
+    immediate = {
+		while = {
+            count = 1
+            random_owned_planet = {
+                save_global_event_target_as = bgbn_random_live_11_planet
+            }
+        }
+	}
+    
+    option = {
+        name = bgbn_ramdom_live.11.a
+        owner = {
+			country_event = { id = bgbn_ramdom_live.11 days = 90}
+		}	
+        resource = {
+            alloys = -50
+            energy = -200
+            consumer_goods = -50
+        }
+    }
+}
+
+planet_event = {
+    id = bgbn_ramdom_live.12
+    title = bgbn_ramdom_live.12.name
+    desc = bgbn_ramdom_live.12.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+    
+    fire_only_once = yes #只触发一次
+    
+    immediate = {
+		while = {
+            count = 1
+            random_owned_planet = {
+                save_global_event_target_as = bgbn_random_live_11_planet
+            }
+        }
+	}
+    option = {
+        name = bgbn_ramdom_live.12.a
+        owner = {
+        add_modifier = {
+            modifier = bgbn_ramdom_live_12
+            days = 1080
+        }
+    }
+    }
+}
+
+country_event = {
+    id = bgbn_ramdom_live.13
+    title = bgbn_ramdom_live.13.name
+    desc = bgbn_ramdom_live.13.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+    
+    fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_ramdom_live.13.a
+        owner = {
+			country_event = { id = bgbn_ramdom_live.14 days = 90}
+		}	
+    }
+}
+
+country_event = {
+    id = bgbn_ramdom_live.14
+    title = bgbn_ramdom_live.14.name
+    desc = bgbn_ramdom_live.14.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+    
+    fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_ramdom_live.14.a
+    }
+}
+
+planet_event = {
+    id = bgbn_ramdom_live.15
+    title = bgbn_ramdom_live.15.name
+    desc = bgbn_ramdom_live.15.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+    
+    fire_only_once = yes #只触发一次
+    
+    immediate = {
+        random_owned_planet = { 
+            save_event_target_as = bgbn_random_live_15_planet
+        }
+    }
+
+    option = {
+        name = bgbn_ramdom_live.15.a
+        owner = {
+        add_modifier = {
+            modifier = bgbn_ramdom_live_15
+            days = 1080
+        }
+    }
+    }
+}
+
+country_event = {
+    id = bgbn_ramdom_live.16
+    title = bgbn_ramdom_live.16.name
+    desc = bgbn_ramdom_live.16.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+    
+    fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_ramdom_live.16.a
+        owner = {
+        add_modifier = {
+            modifier = bgbn_ramdom_live_16
+            days = -1
+        }
+    }
+    }
+    option = {
+        name = bgbn_ramdom_live.16.b
+        owner = {
+			country_event = { id = bgbn_ramdom_live.17 days = 90}
+		}
+    }
+}
+
+country_event = {
+    id = bgbn_ramdom_live.17
+    title = bgbn_ramdom_live.17.name
+    desc = bgbn_ramdom_live.17.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+    
+    fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_ramdom_live.17.a
+        resource = {
+            energy = -1000
+            influence = -100
+            unity = -1000
+        }
+    }
+    option = {
+        name = bgbn_ramdom_live.17.b
+        owner = {
+            add_modifier = {
+            modifier = bgbn_ramdom_live_17
+            days = 1800
+        }
+			country_event = { id = bgbn_ramdom_live.18 days = 1800}
+		}
+    }
+}
+
+country_event = {
+    id = bgbn_ramdom_live.18
+    title = bgbn_ramdom_live.18.name
+    desc = bgbn_ramdom_live.18.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+    
+    fire_only_once = yes #只触发一次
+
+    option = {
+        name = bgbn_ramdom_live.18.a
+        owner = {
+            add_modifier = {
+            modifier = bgbn_ramdom_live_18
+            days = 1800
+        }
+    }
+    }
+}
     

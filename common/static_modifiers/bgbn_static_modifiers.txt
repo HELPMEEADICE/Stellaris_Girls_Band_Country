@@ -28,17 +28,29 @@ ardent_research_enthusiasts = {
 	planet_jobs_produces_mult = 0.05
 	country_unity_produces_mult = 0.2
 }
-war_is_wrong = {
-	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+bgbn_ramdom_live_9 = {
 	planet_stability_add = 20
 }
-cold = {
-	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+bgbn_ramdom_live_10_a = {
 	pop_bonus_workforce_mult = 0.1
 }
-Full_of_vitality = {
-	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+bgbn_ramdom_live_10_b = {
 	pop_bonus_workforce_mult = 0.2
+	budget_group_pops = 0.1
+}
+bgbn_ramdom_live_16 = {
+	logistic_growth_mult = 0.3
+}
+bgbn_ramdom_live_17 = {
+	planet_stability_add = -15
+	researcher_jobs_bonus_workforce_mult = 0.15
+	bureaucrat_jobs_bonus_workforce_mult = -0.20
+}
+bgbn_ramdom_live_18 = {
+	planet_stability_add = -10
+	happiness = -10
+	pop_bonus_workforce_mult = -20
+	all_technology_research_speed = -0.20
 }
   #其他事件修正
 abyssal_acumen = {
@@ -76,4 +88,15 @@ combat_crime = {
 	planet_jobs_produces_mult = -0.2
 }
 
+bgbn_ramdom_live_12 = {
+    icon = "gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds"
+	icon_frame = 3 
+	pop_bonus_workforce_mult = 0.2
+}
 
+bgbn_ramdom_live_15 = {
+	icon = "gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds"
+	icon_frame = 3 
+	planet_stability_add = -10
+	researcher_jobs_bonus_workforce_mult = -0.1
+}

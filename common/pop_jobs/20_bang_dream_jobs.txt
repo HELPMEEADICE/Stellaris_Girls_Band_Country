@@ -76,6 +76,6 @@ band_girl = {
 
 	# 权重为0，确保不会被自动分配
 	weight = {
-		weight = 0
+		weight = 1000
 	}
 }
