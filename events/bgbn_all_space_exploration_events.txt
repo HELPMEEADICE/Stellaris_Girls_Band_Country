@@ -1632,22 +1632,25 @@ ship_event = {
 #星球探索里的额外的星系
 fleet_event = {
 	id = bgbn_space_exploration.43
+	title = bgbn_space_exploration.43.name
+	desc = bgbn_space_exploration.43.desc
     picture = GFX_evt_star_yellow
     is_triggered_only = yes
 
 	trigger = {
 		owner = {
 			has_country_flag = poppinparty
+			has_country_flag = bgbn_space_exploration_1
 		}
 	}
 
 	option = {
-		name = bgbn_space_exploration.43
+		name = bgbn_space_exploration.43.a
 		if = {
 			limit = {
 				owner = {
 					has_country_flag = poppinparty
-					has_country_flag = bgbn_space_exploration_1bgbn
+					has_country_flag = bgbn_space_exploration_1
 					NOT = {
 						has_event_chain = bgbn_celestial_exploring
 						has_completed_event_chain_counter = {
@@ -1684,7 +1687,7 @@ fleet_event = {
 			limit = {
 				owner = {
 					has_country_flag = poppinparty
-					has_country_flag = bgbn_space_exploration_1bgbn
+					has_country_flag = bgbn_space_exploration_1
 					has_event_chain = bgbn_celestial_exploring
 					has_completed_event_chain_counter = {
 						event_chain = bgbn_celestial_exploring
@@ -1742,7 +1745,7 @@ country_event = {
 	}
 
 	option = {
-		name = bgbn_space_exploration.45.
+		name = bgbn_space_exploration.45.a
 		country_event = {
 			id = bgbn_space_exploration.46
 			days = 720
@@ -1753,8 +1756,8 @@ country_event = {
 
 country_event = {
 	id = bgbn_space_exploration.46
-	title = bgbn_space_exploration.45.name
-	desc = bgbn_space_exploration.45.desc
+	title = bgbn_space_exploration.46.name
+	desc = bgbn_space_exploration.46.desc
 	is_triggered_only = yes
 
 	trigger = {
