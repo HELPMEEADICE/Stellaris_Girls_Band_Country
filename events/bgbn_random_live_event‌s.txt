@@ -24,7 +24,8 @@ country_event = {
             count = 1
             random_owned_planet = {
                 add_modifier = {
-                    modifier = amazing_rhythm days = -1
+                    modifier = amazing_rhythm 
+                    days = -1
                 }
             }
         }

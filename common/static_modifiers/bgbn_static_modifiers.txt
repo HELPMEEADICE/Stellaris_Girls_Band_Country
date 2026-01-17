@@ -1,4 +1,4 @@
-#生活事件修正文件 通用国家修正图标gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds  国家修正是25x25左右的图标，一般是25x25		
+#各种普通事件修正文件 通用国家修正图标gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds  国家修正是25x25左右的图标，一般是25x25		
 #				 通用星球修正图标gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds 星球修正图标颜色icon_frame = 1(绿色) 2（黄色） 3（红色） 星球图标是60x60图标文件里面54直径的圆形 
  #国家修正
   #生活事件修正
@@ -29,15 +29,29 @@ ardent_research_enthusiasts = {
 	country_unity_produces_mult = 0.2
 }
 war_is_wrong = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
 	planet_stability_add = 20
 }
 cold = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
 	pop_bonus_workforce_mult = 0.1
 }
 Full_of_vitality = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
 	pop_bonus_workforce_mult = 0.2
-	budget_group_pops = 0.1
 }
+  #其他事件修正
+abyssal_acumen = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	country_physics_tech_research_speed = 0.15	#物理学科技研究速度
+	country_unity_produces_mult = 0.05
+}
+
+
+
+
+
+
  #行星修正
    #生活事件
 amazing_rhythm = {

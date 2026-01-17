@@ -13,7 +13,7 @@ glowstrike_system = {
 		init_effect = {
 		    prevent_anomaly = yes
 		    clear_deposits = yes
-		    add_deposit = d_physics_30
+		    add_deposit = d_physics_25
 			set_planet_flag = glowstrike_star
 			save_global_event_target_as = glowstrike_star
 		}	

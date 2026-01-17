@@ -1,6 +1,7 @@
 on_entering_system_fleet = { #fleet域事件才可以在里面
 	events = {
 		bgbn_space_exploration.1 #开启星系探索事件
+		bgbn_space_exploration.43 #星系探索额外的星系
 	}
 }
 
