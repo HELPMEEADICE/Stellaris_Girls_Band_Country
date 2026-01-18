@@ -1646,74 +1646,28 @@ fleet_event = {
 
 	option = {
 		name = bgbn_space_exploration.43.a
-		if = {
-			limit = {
-				owner = {
-					has_country_flag = poppinparty
-					has_country_flag = bgbn_space_exploration_1
-					NOT = {
-						has_event_chain = bgbn_celestial_exploring
-						has_completed_event_chain_counter = {
-							event_chain = bgbn_celestial_exploring
-							counter = exploring_tomorrow_body_without_exploration
-						}
-					}
-				}
-			}
-			owner = {
-				set_spawn_system_batch = begin
-				capital_scope = {
-					spawn_system = {
-						min_distance = 25
-						max_distance = 30
-						max_jumps = 3
-						hyperlane = yes
-						is_discovered = no
-						initializer = chorus_of_the_abyss_system 
-						effect = {
-							save_global_event_target_as = chorus_of_the_abyss_system
-						}
-					}	
-				}
-				set_spawn_system_batch = end
-				country_event = {
-					id = bgbn_space_exploration.45
-					days = 480
-				}
+		owner = {
+			set_spawn_system_batch = begin
 
-			}
-		}
-		if = {
-			limit = {
-				owner = {
-					has_country_flag = poppinparty
-					has_country_flag = bgbn_space_exploration_1
-					has_event_chain = bgbn_celestial_exploring
-					has_completed_event_chain_counter = {
-						event_chain = bgbn_celestial_exploring
-						counter = exploring_tomorrow_body_without_exploration
+			capital_scope = {
+				spawn_system = {
+					min_distance = 25
+					max_distance = 30
+					max_jumps = 3
+					hyperlane = yes
+					is_discovered = no
+					initializer = chorus_of_the_abyss_system
+					effect = {
+						save_global_event_target_as = chorus_of_the_abyss_system
 					}
 				}
-			}
-			owner = {
-				set_spawn_system_batch = begin
-				capital_scope = {
-					spawn_system = {
-						min_distance = 25
-						max_distance = 30
-						max_jumps = 3
-						hyperlane = yes
-						is_discovered = no
-						initializer = chorus_of_the_abyss_system
-						effect = {
-							save_global_event_target_as = chorus_of_the_abyss_system
-						}
-					}	
-				}
+				
 				set_spawn_system_batch = end
-				country_event = {
-					id = bgbn_space_exploration.45
-					days = 480
+				fromfrom = {
+					country_event = {
+						id = bgbn_space_exploration.45
+						days = 480
+					}
 				}
 			}
 		}
@@ -1730,7 +1684,9 @@ country_event = {
 	}
 
 	immediate = {
-		set_country_flag = bgbn_space_exploration_1
+		owner = {
+			set_country_flag = bgbn_space_exploration_1
+		}
 	}
 }
 
@@ -1773,6 +1729,7 @@ country_event = {
 			}
 		}
 		event_target:chorus_of_the_abyss_star = {
+			add_deposit = d_dark_matter_deposit_10
 			add_deposit = d_dark_matter_deposit_10
 		}
 	}
