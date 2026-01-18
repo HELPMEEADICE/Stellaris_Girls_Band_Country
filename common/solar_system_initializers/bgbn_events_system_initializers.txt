@@ -30,7 +30,7 @@ chorus_of_the_abyss_system = {	#探索天体局势的额外星系/roselia
 		class = pc_black_hole
 		name = "chorus_of_the_abyss_system.2.name"
 		orbit_distance = 0
-		orbit_angle = 1
+		orbit_angle = 10
 		size = 20
 		has_ring = no
 
