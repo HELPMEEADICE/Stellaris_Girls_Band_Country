@@ -3,22 +3,6 @@ chorus_of_the_abyss_system = {	#探索天体局势的额外星系/roselia
 	name = "chorus_of_the_abyss.name"
 	class = sc_black_hole
 	flags = { chorus_of_the_abyss_system_flag }
-	
-	planet = {#星系中心（主星球不需要写
-		class = pc_black_hole
-		orbit_distance = 0
-		orbit_angle = 1
-		size = 0
-		has_ring = no
-
-		init_effect = {
-			prevent_anomaly = yes
-			create_ambient_object = {
-				type = "space_storm_1"
-				location = this
-			}	
-		}
-	}
 
 	planet = {
 		name = "chorus_of_the_abyss_system.1.name"
@@ -32,6 +16,11 @@ chorus_of_the_abyss_system = {	#探索天体局势的额外星系/roselia
 		    clear_deposits = yes
 			set_planet_flag = chorus_of_the_abyss_star
 			save_global_event_target_as = chorus_of_the_abyss_star
+			prevent_anomaly = yes
+			create_ambient_object = {
+				type = "space_storm_1"
+				location = this
+			}
 		}	
 	}
 	
