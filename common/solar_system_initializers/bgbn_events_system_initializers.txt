@@ -25,7 +25,7 @@ chorus_of_the_abyss_system = {	#探索天体局势的额外星系/roselia
 		class = pc_black_hole	
 		orbit_distance = 0
 		orbit_distance = 1								
-		size = 100
+		size = 75
 
 		init_effect = {
 		    prevent_anomaly = yes
@@ -42,7 +42,7 @@ chorus_of_the_abyss_system = {	#探索天体局势的额外星系/roselia
 		name = "chorus_of_the_abyss_system.2.name"
 		orbit_distance = 0
 		orbit_angle = 1
-		size = 70
+		size = 20
 		has_ring = no
 
 		init_effect = {

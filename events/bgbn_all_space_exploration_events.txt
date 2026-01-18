@@ -1637,6 +1637,8 @@ fleet_event = {
     picture = GFX_evt_star_yellow
     is_triggered_only = yes
 
+	fire_only_once = yes
+
 	trigger = {
 		owner = {
 			has_country_flag = poppinparty
@@ -1663,12 +1665,10 @@ fleet_event = {
 				}
 				
 				set_spawn_system_batch = end
-				fromfrom = {
-					country_event = {
-						id = bgbn_space_exploration.45
-						days = 480
-					}
-				}
+			}
+			country_event = {
+				id = bgbn_space_exploration.45
+				days = 480
 			}
 		}
 	}
