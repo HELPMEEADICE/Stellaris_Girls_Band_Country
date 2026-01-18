@@ -20,6 +20,7 @@ creat_popy_scientist = {
 		effect = {
 			change_leader_portrait = popy_leader_popipa_portrait
 			set_leader_flag = popy
+			save_global_event_target_as = popy
 		}
 	}
 }
@@ -45,6 +46,7 @@ creat_popy_official = {
 		effect = {
 			change_leader_portrait = popy_leader_popipa_portrait
 			set_leader_flag = popy
+			save_global_event_target_as = popy
 		}
 	}
 }
@@ -70,6 +72,7 @@ creat_popy_commander = {
 		effect = {
 			change_leader_portrait = popy_leader_popipa_portrait
 			set_leader_flag = popy
+			save_global_event_target_as = popy
 		}
 	}
 }

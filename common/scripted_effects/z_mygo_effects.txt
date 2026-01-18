@@ -23,6 +23,7 @@ create_tomori = { #高松灯
 			set_leader_flag = mygo
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_vocal
+			save_global_event_target_as = tomori
 		}
 	}
 }
@@ -51,6 +52,7 @@ create_anon = { #千早爱音
 			set_leader_flag = mygo
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_guitarist
+			save_global_event_target_as = anon
 		}
 	}
 }
@@ -79,6 +81,7 @@ create_rana = { #要乐奈
 			set_leader_flag = mygo
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_guitarist
+			save_global_event_target_as = rana
 		}
 	}
 }
@@ -107,6 +110,7 @@ create_soyo = { #长崎素世
 			set_leader_flag = mygo
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_bassist
+			save_global_event_target_as = soyo
 		}
 	}
 }
@@ -135,6 +139,7 @@ create_taki = { #锥名立希
 			set_leader_flag = mygo
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_drummer
+			save_global_event_target_as = taki
 		}
 	}
 }

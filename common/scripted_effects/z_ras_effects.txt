@@ -23,6 +23,7 @@ create_chuchu = {
 			set_leader_flag = ras
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_dj
+			save_global_event_target_as = chuchu
 		}
 	}
 }
@@ -52,6 +53,7 @@ create_lock = {
 			set_leader_flag = ras
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_guitarist
+			save_global_event_target_as = lock
 		}
 	}
 }
@@ -81,6 +83,7 @@ create_layer = {
 			set_leader_flag = ras
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_vocal
+			save_global_event_target_as = layer
 		}
 	}
 }
@@ -110,6 +113,7 @@ create_masking = {
 			set_leader_flag = ras
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_drummer
+			save_global_event_target_as = masking
 		}
 	}
 }
@@ -139,6 +143,7 @@ create_pareo = {
 			set_leader_flag = ras
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_keyboardist
+			save_global_event_target_as = pareo
 		}
 	}
 }

@@ -23,7 +23,7 @@ create_ykn = {
 			set_leader_flag = roselia
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_vocal
-			save_global_event_target_as = ykn
+			save_global_event_target_as = ykn #方便在事件中锁定领袖
 		}
 	}
 }
@@ -52,6 +52,7 @@ create_sayo = {
 			set_leader_flag = roselia
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_guitarist
+			save_global_event_target_as = sayo
 		}
 	}
 }
@@ -80,6 +81,7 @@ create_rinko = {
 			set_leader_flag = roselia
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_keyboardist
+			save_global_event_target_as = rinko
 		}
 	}
 }
@@ -108,6 +110,7 @@ create_lisa = {
 			set_leader_flag = roselia
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_bassist
+			save_global_event_target_as = lisa
 		}
 	}
 }
@@ -136,6 +139,7 @@ create_ako = {
 			set_leader_flag = roselia
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_drummer
+			save_global_event_target_as = ako
 		}
 	}
 }

@@ -23,6 +23,7 @@ create_aya = {
 			set_leader_flag = paspal
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_vocal					#设定领袖此前岗位
+			save_global_event_target_as = aya
 		}
 	}
 }
@@ -52,6 +53,7 @@ create_cst = {
 			set_leader_flag = paspal
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_bassist
+			save_global_event_target_as = cst
 		}
 	}
 }
@@ -81,6 +83,7 @@ create_eve = {
 			set_leader_flag = paspal
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_keyboardist
+			save_global_event_target_as = eve
 		}
 	}
 }
@@ -110,6 +113,7 @@ create_hina = {
 			set_leader_flag = paspal
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_guitarist
+			save_global_event_target_as = hina
 		}
 	}
 }
@@ -139,6 +143,7 @@ create_maya = {
 			set_leader_flag = paspal
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_drummer
+			save_global_event_target_as = maya
 		}
 	}
 }

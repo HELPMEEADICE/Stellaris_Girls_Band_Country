@@ -23,6 +23,7 @@ create_arale = {	#仲町阿拉蕾
 			set_leader_flag = mugendai
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_vocal
+			save_global_event_target_as = arale
 		}
 	}
 }
@@ -51,6 +52,7 @@ create_nonoka = { #宫永野乃花
 			set_leader_flag = mugendai
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_guitarist
+			save_global_event_target_as = nonoka
 		}
 	}
 }
@@ -79,6 +81,7 @@ create_ritsu = { #峰月律
 			set_leader_flag = mugendai
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_guitarist
+			save_global_event_target_as = ritsu
 		}
 	}
 }
@@ -107,6 +110,7 @@ create_miyako = { #藤都子
 			set_leader_flag = mugendai
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_keyboardist
+			save_global_event_target_as = miyako
 		}
 	}
 }
@@ -135,6 +139,7 @@ create_yuno = { #千石由乃
 			set_leader_flag = mugendai
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_dj
+			save_global_event_target_as = yuno
 		}
 	}
 }

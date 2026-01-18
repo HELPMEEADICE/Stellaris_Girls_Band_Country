@@ -23,6 +23,7 @@ create_sakiko = { #丰川祥子
 			set_leader_flag = mujica
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_keyboardist
+			save_global_event_target_as = sakiko
 		}
 	}
 }
@@ -51,6 +52,7 @@ create_mutsumi = { #若叶睦
 			set_leader_flag = mujica
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_guitarist
+			save_global_event_target_as = mutsumi
 		}
 	}
 }
@@ -79,6 +81,7 @@ create_uika = { #三角初华
 			set_leader_flag = mujica
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_vocal
+			save_global_event_target_as = uika
 		}
 	}
 }
@@ -107,6 +110,7 @@ create_umiri = { #八幡海玲
 			set_leader_flag = mujica
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_bassist
+			save_global_event_target_as = umiri
 		}
 	}
 }
@@ -135,6 +139,7 @@ create_nyamu = { #祐天寺若麦
 			set_leader_flag = mujica
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_drummer
+			save_global_event_target_as = nyamu
 		}
 	}
 }

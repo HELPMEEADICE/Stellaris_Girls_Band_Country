@@ -22,6 +22,7 @@ create_ksm = {
 			set_leader_flag = ruler_ksm
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_vocal
+			save_global_event_target_as = ksm
 		}
 	}
 	last_created_leader = {
@@ -55,6 +56,7 @@ create_ars = {
 			set_leader_flag = arisa
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_keyboardist
+			save_global_event_target_as = ars
 		}
 	}
 }
@@ -83,6 +85,7 @@ create_saaya = {
 			set_leader_flag = saaya
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_drummer
+			save_global_event_target_as = saaya
 		}
 	}
 }
@@ -111,6 +114,7 @@ create_tae = {
 			set_leader_flag = tae
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_guitarist
+			save_global_event_target_as = tae
 		}
 	}
 }
@@ -139,6 +143,7 @@ create_rimi = {
 			set_leader_flag = rimi
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_bassist
+			save_global_event_target_as = rimi
 		}
 	}
 }
@@ -164,6 +169,7 @@ create_asuka = {
 			change_leader_portrait = asuka_leader_popipa_portrait
 			set_leader_flag = asuka
 			set_leader_flag = legendary_leader
+			save_global_event_target_as = asuka
 			
 		}
 	}
