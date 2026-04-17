@@ -28,7 +28,7 @@ building_114514 = {
 			unity = 300
 		}
         produces = {
-			sr_stars = 5
+			sr_stars = 0.5
 		}
 		upkeep = {
 			unity = 30
@@ -57,9 +57,9 @@ building_1919810 = {
 	}
 
 	planet_modifier = {
-		pop_bonus_workforce_mult = 0.50
-		specialist_bonus_workforce_mult = 0.75
-		planet_decision_enact_speed_mult = 2.5
+		pop_bonus_workforce_mult = 0.05
+		specialist_bonus_workforce_mult = 0.05
+		planet_decision_enact_speed_mult = 0.2
 	}
 
     
@@ -96,9 +96,9 @@ building_350234 = {
 	}
 
 	planet_modifier = {
-		planet_stability_add = 100
-		pop_happiness = 1.25
-		logistic_growth_mult = 0.3
+		planet_stability_add = 10
+		pop_happiness = 0.05
+		logistic_growth_mult = 0.03
 	}
 
     

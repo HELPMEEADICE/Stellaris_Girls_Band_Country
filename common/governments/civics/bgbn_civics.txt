@@ -11,14 +11,14 @@ civic_harmonic_symphony = {
 	}
 	modification = no
 	modifier = {
-		planet_stability_add = 10
-		planet_crime_mult = -0.3
-		empire_size_mult = -0.1
+		planet_stability_add = 1
+		planet_crime_mult = -0.03
+		#empire_size_mult = -0.1
 		edict_length_mult = 0.2
 		planet_decision_enact_speed_mult = 0.2
 		country_government_civic_points_add = 2
-		planet_jobs_specialist_produces_mult = 0.5
-		council_agenda_finishing_effect_duration_mult = 0.5
+		#planet_jobs_specialist_produces_mult = 0.5
+		#council_agenda_finishing_effect_duration_mult = 0.5
 
 	}
 }
@@ -35,16 +35,16 @@ civic_resonating_the_starry_sea = {
 		base = 0
 	}
 	modifier = {
-		pop_happiness = 0.20
-		country_unity_produces_mult = 0.2
+		pop_happiness = 0.02
+		#country_unity_produces_mult = 0.2
 		country_trust_growth = 0.5
 		country_trust_cap_add = 40
 		diplo_action_acceptance_add = 100
-		pop_amenities_usage_mult = -0.20
+		#pop_amenities_usage_mult = -0.20
 		envoy_improve_relations_mult = 1
 		country_border_friction_mult = -0.5
 		first_contact_speed_mult = 0.5
-		country_influence_produces_mult = 0.5
+		#country_influence_produces_mult = 0.5
 	}
 }
 
@@ -60,17 +60,17 @@ civic_luminous_starry_array = {
 		base = 0
 	}
 	modifier = {
-		all_technology_research_speed = 0.2
-		ship_anomaly_research_speed_mult = 0.5
+		all_technology_research_speed = 0.02
+		ship_anomaly_research_speed_mult = 0.05
 		ship_sensor_range_add = 2
 		ship_hyperlane_range_add = 5
-		science_ship_survey_speed = 0.5
-		ship_anomaly_generation_chance_mult = 0.5
-		ship_anomaly_research_speed_mult = 0.25
-		ship_archaeological_site_excavation_speed_mult = 0.5
+		science_ship_survey_speed = 0.05
+		ship_anomaly_generation_chance_mult = 0.05
+		ship_anomaly_research_speed_mult = 0.05
+		ship_archaeological_site_excavation_speed_mult = 0.05
 		ship_archaeological_site_clues_add = 3
 		planet_hyperlane_range_add = 2
-		planet_jobs_specialist_produces_mult = 0.2
+		planet_jobs_specialist_produces_mult = 0.02
 
 	}
 }
@@ -87,11 +87,11 @@ civic_bang_dream_explosion = {
 		base = 0
 	}
 	modifier = {
-		planet_pops_upkeep_mult = -0.25
-		planet_jobs_produces_mult = 0.25
-		planet_pops_consumer_goods_upkeep_mult = 0.25
-		planet_building_capacity_add = 1
-		logistic_growth_mult = 0.15
+		planet_pops_upkeep_mult = -0.05
+		planet_jobs_produces_mult = 0.05
+		planet_pops_consumer_goods_upkeep_mult = -0.05
+		#planet_building_capacity_add = 1
+		logistic_growth_mult = 0.05
 
 	}
 }

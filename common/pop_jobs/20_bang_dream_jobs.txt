@@ -65,9 +65,9 @@ band_girl = {
 	# 无资源产出
 	resources = {
 		produces = {
-			minerals = 100
-			alloys = 50 
-			consumer_goods = 50
+			minerals = 4
+			alloys = 2 
+			consumer_goods = 4
 		}
 		upkeep = {
 			food = 3
