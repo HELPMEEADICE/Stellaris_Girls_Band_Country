@@ -25,11 +25,11 @@ auth_radiant_harmony = {
 	}
 	#国家修正
 	country_modifier = {
-		country_unity_produces_mult = 0.50      # 凝聚力产出 +50%
+		country_unity_produces_mult = 0.05      # 凝聚力产出 +50%
 
         # 经济与科研
-        all_technology_research_speed = 0.25    # 所有科技研究速度 +25%
-        planet_stability_add = 20               # 行星稳定度 +20
+        all_technology_research_speed = 0.05    # 所有科技研究速度 +25%
+        planet_stability_add = 2               # 行星稳定度 +20
         
         # 领袖与内阁
         country_leader_cap_add = 3              # 领袖上限 +3
@@ -41,7 +41,7 @@ auth_radiant_harmony = {
         ship_fire_rate_mult = 0.15            # 舰船开火速率 +15%
 
         # 幸福度与吸引力
-        pop_happiness = 0.20                    # 全国人口幸福度 +20%
+        pop_happiness = 0.02                    # 全国人口幸福度 +20%
         pop_government_ethic_attraction = 0.50  # 对主流思潮的吸引力 +50%
         
         # 其他特殊效果

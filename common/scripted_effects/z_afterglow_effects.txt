@@ -23,6 +23,7 @@ create_ran = {
 			set_leader_flag = ag
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_vocal
+			save_global_event_target_as = ran
 		}
 	}
 }
@@ -52,6 +53,7 @@ create_moca = {
 			set_leader_flag = ag
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_guitarist
+			save_global_event_target_as = moca
 		}
 	}
 }
@@ -80,6 +82,7 @@ create_tsugu = {
 			set_leader_flag = ag
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_keyboardist
+			save_global_event_target_as = tsugu
 		}
 	}
 }
@@ -108,6 +111,7 @@ create_tme = {
 			set_leader_flag = ag
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_drummer
+			save_global_event_target_as = tme
 		}
 	}
 }
@@ -136,6 +140,7 @@ create_hmr = {
 			set_leader_flag = ag
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_bassist
+			save_global_event_target_as = hmr
 		}
 	}
 }

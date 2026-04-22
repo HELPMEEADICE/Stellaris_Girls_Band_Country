@@ -66,6 +66,14 @@ country_event = {
 			target = root
 		}
 	}
+	after = {
+		owner = {
+			country_event = {
+				id = bgbn_space_exploration.44
+				days = 180
+			}
+		}
+	}
 }
 #恒星探索的事件
  #稳定小型主序星 f型
@@ -1486,6 +1494,7 @@ ship_event = {
 			random_list = {
 				50 = { ship_event = { id = bgbn_space_exploration.4 } }
 				50 = { ship_event = { id = bgbn_space_exploration.26 } }
+				40 = { ship_event = { id = bgbn_space_exploration.33 } }
 			}
 		}
 		if = {
@@ -1499,6 +1508,7 @@ ship_event = {
 			random_list = {
 				50 = { ship_event = { id = bgbn_space_exploration.5 } }
 				50 = { ship_event = { id = bgbn_space_exploration.26 } }
+				40 = { ship_event = { id = bgbn_space_exploration.33 } }
 			}
 		}
 		if = {
@@ -1578,6 +1588,8 @@ ship_event = {
 				50 = { ship_event = { id = bgbn_space_exploration.21 } }
 				50 = { ship_event = { id = bgbn_space_exploration.23 } }
 				50 = { ship_event = { id = bgbn_space_exploration.34 } }
+				25 = { ship_event = { id = bgbn_space_exploration.37 } }
+				25 = { ship_event = { id = bgbn_space_exploration.38 } }
 			}
 		}
 		if = {
@@ -1592,6 +1604,8 @@ ship_event = {
 				50 = { ship_event = { id = bgbn_space_exploration.22 } }
 				50 = { ship_event = { id = bgbn_space_exploration.23 } }
 				50 = { ship_event = { id = bgbn_space_exploration.34 } }
+				25 = { ship_event = { id = bgbn_space_exploration.37 } }
+				25 = { ship_event = { id = bgbn_space_exploration.38 } }
 			}
 		}
 		if = {
@@ -1615,6 +1629,114 @@ ship_event = {
 		}
 	}
 }
+#星球探索里的额外的星系
+fleet_event = {
+	id = bgbn_space_exploration.43
+	title = bgbn_space_exploration.43.name
+	desc = bgbn_space_exploration.43.desc
+    picture = GFX_evt_star_yellow
+    is_triggered_only = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		owner = {
+			has_country_flag = poppinparty
+			has_country_flag = bgbn_space_exploration_1
+		}
+	}
+
+	option = {
+		name = bgbn_space_exploration.43.a
+		owner = {
+			set_spawn_system_batch = begin
+
+			capital_scope = {
+				spawn_system = {
+					min_distance = 25
+					max_distance = 30
+					max_jumps = 3
+					hyperlane = yes
+					is_discovered = no
+					initializer = chorus_of_the_abyss_system
+					effect = {
+						save_global_event_target_as = chorus_of_the_abyss_system
+					}
+				}
+				
+				set_spawn_system_batch = end
+			}
+			country_event = {
+				id = bgbn_space_exploration.45
+				days = 480
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bgbn_space_exploration.44
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		has_country_flag = poppinparty
+	}
+
+	immediate = {
+		owner = {
+			set_country_flag = bgbn_space_exploration_1
+		}
+	}
+}
+
+country_event = {
+	id = bgbn_space_exploration.45
+	title = bgbn_space_exploration.45.name
+	desc = bgbn_space_exploration.45.desc
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = poppinparty
+	}
+
+	option = {
+		name = bgbn_space_exploration.45.a
+		country_event = {
+			id = bgbn_space_exploration.46
+			days = 720
+		}
+	}
+
+}
+
+country_event = {
+	id = bgbn_space_exploration.46
+	title = bgbn_space_exploration.46.name
+	desc = bgbn_space_exploration.46.desc
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = poppinparty
+	}
+
+	option = {
+		name = bgbn_space_exploration.46.a
+		owner = {
+			add_modifier = {
+				modifier = abyssal_acumen
+				days = -1
+			}
+		}
+		event_target:chorus_of_the_abyss_star = {
+			add_deposit = d_dark_matter_deposit_10
+			add_deposit = d_dark_matter_deposit_10
+		}
+	}
+
+}
+
+
 
 
 

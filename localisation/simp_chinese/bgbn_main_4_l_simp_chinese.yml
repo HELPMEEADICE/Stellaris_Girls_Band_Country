@@ -26,6 +26,7 @@
  sol_ksm_system_initializer_NAME: "绽梦星泽"
  sol_ksm_system_initializer_DESC: "当光华散尽，星辰不复存在，那份极致的、燃烧生命的“キラキラドキドキ”，却如同不灭的音符，融入了周遭的星云，在这片被“瞬闪星华”祝福过的星云之中，最原始的生命，沐浴着那残留的星光余晖而生。\n\nps:本星系为大少女乐团国专用星系"
 
+#深红星系
  glowstrike.name: "曦击"
  glowstrike_system.1.name: "曦击"
 
@@ -55,5 +56,17 @@
  residual_extinction_system.6.name: "筹极"
  residual_extinction_system.7.name: "策源"
  residual_extinction_system.8.name: "御垣"
-
+#
+ chorus_of_the_abyss.name: "圣咏御座"
+ chorus_of_the_abyss_system.1.name: "圣咏御座"
+ chorus_of_the_abyss_system.2.name: "狂炎之鸟"
+ chorus_of_the_abyss_system.3.name: "新纪元"
+ chorus_of_the_abyss_system.4.name: "圣殿"
+ chorus_of_the_abyss_system.5.name: "骄傲的狂热"
+ chorus_of_the_abyss_system.6.name: "漆黑的咆哮"
+ chorus_of_the_abyss_system.7.name: "共鸣的绽放"
+ chorus_of_the_abyss_system.8.name: "激情颂歌"
+ chorus_of_the_abyss_system.9.name: "先锋历史"
+ chorus_of_the_abyss_system.10.name: "蔷薇的誓言"
+ chorus_of_the_abyss_system.11.name: "存在的证明"
 

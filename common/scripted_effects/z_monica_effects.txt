@@ -23,6 +23,7 @@ create_mashiro = {	#仓田真白
 			set_leader_flag = monica
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_vocal
+			save_global_event_target_as = mashiro
 		}
 	}
 }
@@ -51,6 +52,7 @@ create_rui = {	#八潮瑠唯
 			set_leader_flag = monica
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_violinist
+			save_global_event_target_as = rui
 		}
 	}
 }
@@ -79,6 +81,7 @@ create_tsukushi = {	#二叶筑紫
 			set_leader_flag = monica
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_drummer
+			save_global_event_target_as = tsukushi
 		}
 	}
 }
@@ -107,6 +110,7 @@ create_nanami = {	#广町七深
 			set_leader_flag = monica
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_bassist
+			save_global_event_target_as = nanami
 		}
 	}
 }
@@ -135,6 +139,7 @@ create_toko = { #桐谷透子
 			set_leader_flag = monica
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_guitarist
+			save_global_event_target_as = toko
 		}
 	}
 }

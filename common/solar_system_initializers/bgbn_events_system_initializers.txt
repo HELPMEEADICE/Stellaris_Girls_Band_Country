@@ -1,0 +1,176 @@
+#各种事件星系
+chorus_of_the_abyss_system = {	#探索天体局势的额外星系/roselia
+	name = "chorus_of_the_abyss.name"
+	class = sc_black_hole
+	flags = { chorus_of_the_abyss_system_flag }
+
+	planet = {
+		name = "chorus_of_the_abyss_system.1.name"
+		class = pc_black_hole	
+		orbit_distance = 0
+		orbit_distance = 1								
+		size = 75
+
+		init_effect = {
+		    prevent_anomaly = yes
+		    clear_deposits = yes
+			set_planet_flag = chorus_of_the_abyss_star
+			save_global_event_target_as = chorus_of_the_abyss_star
+			prevent_anomaly = yes
+			create_ambient_object = {
+				type = "space_storm_1"
+				location = this
+			}
+		}	
+	}
+	
+	change_orbit = 60
+
+	planet = {
+		class = pc_black_hole
+		name = "chorus_of_the_abyss_system.2.name"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	change_orbit = 60
+
+	planet = {
+		class = pc_black_hole
+		name = "chorus_of_the_abyss_system.3.name"
+		orbit_distance = 0
+		orbit_angle = 210
+		size = 70
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
+	}
+
+	change_orbit = 60
+
+	planet = {
+		class = pc_black_hole
+		name = "chorus_of_the_abyss_system.4.name"
+		orbit_distance = 0
+		orbit_angle = 75
+		size = 50
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	change_orbit = 10
+
+	planet = {
+		class = pc_black_hole
+		name = "chorus_of_the_abyss_system.5.name"
+		orbit_distance = 0
+		orbit_angle = 120
+		size = 45
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
+	}
+
+	planet = {
+		class = pc_black_hole
+		name = "chorus_of_the_abyss_system.6.name"
+		orbit_distance = 0
+		orbit_angle = 200
+		size = 40
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	change_orbit = 5
+
+	planet = {
+		class = pc_black_hole
+		name = "chorus_of_the_abyss_system.7.name"
+		orbit_distance = 0
+		orbit_angle = 90
+		size = 35
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		class = pc_black_hole
+		name = "chorus_of_the_abyss_system.8.name"
+		orbit_distance = 0
+		orbit_angle = 130
+		size = 30
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
+	}
+
+	change_orbit = 30
+
+	planet = {
+		class = pc_black_hole
+		name = "chorus_of_the_abyss_system.9.name"
+		orbit_distance = 0
+		orbit_angle = 245
+		size = 25
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	change_orbit = 10
+
+	planet = {
+		class = pc_black_hole
+		name = "chorus_of_the_abyss_system.10.name"
+		orbit_distance = 0
+		orbit_angle = 110
+		size = 20
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
+	}
+
+	change_orbit = 10
+
+	planet = {
+		class = pc_black_hole
+		name = "chorus_of_the_abyss_system.11.name"
+		orbit_distance = 0
+		orbit_angle = 170
+		size = 15
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+}

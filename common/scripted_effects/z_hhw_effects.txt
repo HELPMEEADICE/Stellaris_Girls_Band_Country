@@ -23,6 +23,7 @@ create_kkr = {
 			set_leader_flag = hhw
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_vocal
+			save_global_event_target_as = kkr
 		}
 	}
 }
@@ -51,6 +52,7 @@ create_hgm = {	#北泽育美
 			set_leader_flag = hhw
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_bassist
+			save_global_event_target_as = hgm
 		}
 	}
 }
@@ -79,6 +81,7 @@ create_msk = {	#奥泽美咲
 			set_leader_flag = hhw
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_dj
+			save_global_event_target_as = msk
 		}
 	}
 }
@@ -107,6 +110,7 @@ create_kaoru = {	#濑田薰
 			set_leader_flag = hhw
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_guitarist
+			save_global_event_target_as = kaoru
 		}
 	}
 }
@@ -135,6 +139,7 @@ create_kanon = {	#松原花音
 			set_leader_flag = hhw
 			set_leader_flag = legendary_leader
 			change_background_job = bgbn_drummer
+			save_global_event_target_as = kanon
 		}
 	}
 }

@@ -7,21 +7,20 @@ trait_paspal = {
 
     councilor_modifier = {
 
-        planet_jobs_produces_mult = 1.0                         # +100% 所有岗位产出
-        planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
-        planet_amenities_mult = 0.3                             # +300% 舒适度
-        planet_housing_add = 50                                 # +50 房屋
+        planet_jobs_produces_mult = 0.02                        # +100% 所有岗位产出
+        #planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
+        #planet_amenities_mult = 0.3                             # +300% 舒适度
+        #planet_housing_add = 50                                 # +50 房屋
         country_resource_max_add = 50000                        # +5W 储存上限
-        country_trade_produces_mult = 0.4
 
         ### 幸福与人口
-        pop_happiness = 0.5                                     # +50% 幸福度
-        planet_crime_add = -100                                 # -100 犯罪（清零）
-        pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
-        planet_stability_add = 5                               # +5 稳定度
+        pop_happiness = 0.05                                     # +50% 幸福度
+        planet_crime_add = -10                                 # -100 犯罪（清零）
+        #pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
+        #planet_stability_add = 50                               # +50 稳定度
 
         ### 帝国运营&法令
-        empire_size_mult = -0.1                                 # -10% 帝国规模（降低科技惩罚）
+        empire_size_mult = -0.02                                 # -10% 帝国规模（降低科技惩罚）
         country_trust_growth = 1.0                   # +1.0 外交信任增长
         envoys_add = 10                                          # +5 特使
     }
@@ -36,30 +35,30 @@ trait_roselia = {
 
     councilor_modifier = {
         ### 经济与资源全面增强
-        planet_jobs_produces_mult = 1.0                         # +100% 所有岗位产出
-        planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
-        planet_amenities_mult = 3.0                             # +300% 舒适度
-        planet_housing_add = 50                                 # +50 房屋
+        planet_jobs_produces_mult = 0.02                         # +100% 所有岗位产出
+        #planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
+        #planet_amenities_mult = 3.0                             # +300% 舒适度
+        #planet_housing_add = 50                                 # +50 房屋
         country_resource_max_add = 50000                        # +5W 储存上限
 
 
         ### 幸福与人口
-        pop_happiness = 0.5                                     # +50% 幸福度
-        planet_crime_add = -100                                 # -100 犯罪（清零）
-        pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
-        planet_stability_add = 5                               # +5 稳定度
+        pop_happiness = 0.05                                     # +50% 幸福度
+        #planet_crime_add = -100                                 # -100 犯罪（清零）
+        #pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
+        #planet_stability_add = 5                               # +5 稳定度
 
         ### 军事逆天强化
-        country_naval_cap_mult = 3.0                            # +300% 海军容量
-        ship_fire_rate_mult = 1.0                               # +100% 射速
-        ship_weapon_damage = 1.0                                # +100% 武器伤害
-        ship_speed_mult = 1.0                                   # +100% 舰船速度
-        army_damage_mult = 2.0                                  # +200% 陆军伤害
-        army_health = 2.0                                       # +200% 陆军生命值
+        country_naval_cap_mult = 0.05                            # +300% 海军容量
+        ship_fire_rate_mult = 0.1                              # +100% 射速
+        ship_weapon_damage = 0.1                                # +100% 武器伤害
+        ship_speed_mult = 0.1                                   # +100% 舰船速度
+        army_damage_mult = 0.2                                  # +200% 陆军伤害
+        army_health = 0.2                                       # +200% 陆军生命值
         country_war_exhaustion_mult = -0.75                     # -75% 战争疲劳增速
 
         ### 帝国运营&法令
-        empire_size_mult = -0.1                                 # -10% 帝国规模（降低科技惩罚）
+        empire_size_mult = -0.02                                 # -10% 帝国规模（降低科技惩罚）
     }
 }
 
@@ -72,25 +71,25 @@ trait_ras = {
 
     councilor_modifier = {
         ### 经济与资源全面增强
-        planet_jobs_produces_mult = 1.0                         # +100% 所有岗位产出
-        planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
-        planet_amenities_mult = 3.0                             # +300% 舒适度
-        planet_housing_add = 50                                 # +50 房屋
+        planet_jobs_produces_mult = 0.02                        # +100% 所有岗位产出
+        #planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
+        #planet_amenities_mult = 3.0                             # +300% 舒适度
+        #planet_housing_add = 50                                 # +50 房屋
         country_resource_max_add = 50000                        # +5W 储存上限
 
         ### 科研与凝聚力
-        all_technology_research_speed = 0.40                    #+30%研究速度
+        all_technology_research_speed = 0.03                    #+30%研究速度
 
         ### 幸福与人口
         pop_happiness = 0.5                                     # +50% 幸福度
-        planet_crime_add = -100                                 # -100 犯罪（清零）
-        pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
-        planet_stability_add = 5                               # +5 稳定度
+        #planet_crime_add = -100                                 # -100 犯罪（清零）
+        #pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
+        #planet_stability_add = 5                               # +5 稳定度
 
         ### 军事逆天强化
 
         ### 帝国运营&法令
-        empire_size_mult = -0.1                                 # -10% 帝国规模（降低科技惩罚）
+        empire_size_mult = -0.02                                 # -10% 帝国规模（降低科技惩罚）
     }
 }
 
@@ -103,26 +102,26 @@ trait_ag = {
 
     councilor_modifier = {
         ### 经济与资源全面增强
-        planet_jobs_produces_mult = 1.0                         # +100% 所有岗位产出
-        planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
-        planet_amenities_mult = 3.0                             # +300% 舒适度
-        planet_housing_add = 50                                 # +50 房屋
+        planet_jobs_produces_mult = 0.02                         # +100% 所有岗位产出
+        #planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
+        #planet_amenities_mult = 3.0                             # +300% 舒适度
+        #planet_housing_add = 50                                 # +50 房屋
         country_resource_max_add = 50000                        # +5W 储存上限
 
         ### 科研与凝聚力
         pop_government_ethic_attraction = 1.0                   # +100% 主流思潮吸引力（没什么用的东西，意义不明）
 
         ### 幸福与人口
-        pop_happiness = 0.5                                     # +50% 幸福度
-        pop_growth_speed = 1.0                                  # +100% 增长速度
-        planet_crime_add = -100                                 # -100 犯罪（清零）
-        pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
-        planet_stability_add = 5                               # +5 稳定度
+        pop_happiness = 0.05                                     # +50% 幸福度
+        pop_growth_speed = 0.05                                  # +100% 增长速度
+        #planet_crime_add = -100                                 # -100 犯罪（清零）
+        #pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
+        #planet_stability_add = 5                               # +5 稳定度
 
         ### 军事逆天强化
 
         ### 帝国运营&法令
-        empire_size_mult = -0.1                                 # -10% 帝国规模（降低科技惩罚）
+        empire_size_mult = -0.02                                 # -10% 帝国规模（降低科技惩罚）
     }
 }
 
@@ -135,25 +134,25 @@ trait_monica = {
 
     councilor_modifier = {
         ### 经济与资源全面增强
-        planet_jobs_produces_mult = 1.0                         # +100% 所有岗位产出
-        planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
-        planet_amenities_mult = 3.0                             # +300% 舒适度
-        planet_housing_add = 50                                 # +50 房屋
+        planet_jobs_produces_mult = 0.02                        # +100% 所有岗位产出
+        #planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
+        #planet_amenities_mult = 3.0                             # +300% 舒适度
+        #planet_housing_add = 50                                 # +50 房屋
         country_resource_max_add = 50000                        # +5W 储存上限
 
         ### 科研与凝聚力
-        country_unity_produces_mult = 0.4                       # +40% 凝聚力
+        country_unity_produces_mult = 0.03                       # +40% 凝聚力
 
         ### 幸福与人口
-        pop_happiness = 0.5                                     # +50% 幸福度
-        planet_crime_add = -100                                 # -100 犯罪（清零）
-        pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
-        planet_stability_add = 50                               # +50 稳定度
+        pop_happiness = 0.05                                     # +50% 幸福度
+        #planet_crime_add = -100                                 # -100 犯罪（清零）
+        #pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
+        #planet_stability_add = 50                               # +50 稳定度
 
         ### 军事逆天强化
 
         ### 帝国运营&法令
-        empire_size_mult = -0.1                                 # -10% 帝国规模（降低科技惩罚）
+        empire_size_mult = -0.02                                 # -10% 帝国规模（降低科技惩罚）
         envoys_add = 5                                          # +5 特使
     }
 }
@@ -167,27 +166,27 @@ trait_mygo = {
 
     councilor_modifier = {
         ### 经济与资源全面增强
-        planet_jobs_produces_mult = 1.0                         # +100% 所有岗位产出
-        planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
-        planet_amenities_mult = 3.0                             # +300% 舒适度
-        planet_housing_add = 50                                 # +50 房屋
+        planet_jobs_produces_mult = 0.02                         # +100% 所有岗位产出
+        #planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
+        #planet_amenities_mult = 3.0                             # +300% 舒适度
+        #planet_housing_add = 50                                 # +50 房屋
         country_resource_max_add = 50000                        # +5W 储存上限
 
         ### 科研与凝聚力
-        country_influence_gain_add = 10
-        intel_encryption_add = 10
-        intel_decryption_add = 10
+        country_influence_gain_add = 1
+        intel_encryption_add = 1
+        intel_decryption_add = 1
 
         ### 幸福与人口
-        pop_happiness = 0.5                                     # +50% 幸福度
-        planet_crime_add = -100                                 # -100 犯罪（清零）
-        pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
-        planet_stability_add = 5                               # +5 稳定度
+        pop_happiness = 0.05                                     # +50% 幸福度
+        #planet_crime_add = -100                                 # -100 犯罪（清零）
+        #pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
+        #planet_stability_add = 5                               # +5 稳定度
 
         ### 军事逆天强化
 
         ### 帝国运营&法令
-        empire_size_mult = -0.1                                 # -10% 帝国规模（降低科技惩罚）
+        empire_size_mult = -0.02                                 # -10% 帝国规模（降低科技惩罚）
         envoys_add = 5                                          # +5 特使
     }
 }
@@ -201,27 +200,27 @@ trait_mujica = {
 
     councilor_modifier = {
         ### 经济与资源全面增强
-        planet_jobs_produces_mult = 1.0                         # +100% 所有岗位产出
-        planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
-        planet_amenities_mult = 3.0                             # +300% 舒适度
-        planet_housing_add = 50                                 # +50 房屋
+        planet_jobs_produces_mult = 0.02                         # +100% 所有岗位产出
+        #planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
+        #planet_amenities_mult = 3.0                             # +300% 舒适度
+        #planet_housing_add = 50                                 # +50 房屋
         country_resource_max_add = 50000                        # +5W 储存上限
 
         ### 科研与凝聚力
-        country_food_produces_mult = 0.4
-        country_energy_produces_mult = 0.4
-        country_minerals_produces_mult = 0.4
+        country_food_produces_mult = 0.04
+        country_energy_produces_mult = 0.04
+        country_minerals_produces_mult = 0.04
 
         ### 幸福与人口
-        pop_happiness = 0.5                                     # +50% 幸福度
-        planet_crime_add = -100                                 # -100 犯罪（清零）
-        pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
-        planet_stability_add = 5                               # +5 稳定度
+        pop_happiness = 0.05                                     # +50% 幸福度
+        #planet_crime_add = -100                                 # -100 犯罪（清零）
+        #pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
+        #planet_stability_add = 5                               # +5 稳定度
 
         ### 军事逆天强化
 
         ### 帝国运营&法令
-        empire_size_mult = -0.1                                 # -10% 帝国规模（降低科技惩罚）
+        empire_size_mult = -0.02                                 # -10% 帝国规模（降低科技惩罚）
     }
 }
 
@@ -234,23 +233,52 @@ trait_mugendai = {
 
     councilor_modifier = {
         ### 经济与资源全面增强
-        planet_jobs_produces_mult = 1.0                         # +500% 所有岗位产出
-        planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
-        planet_amenities_mult = 3.0                             # +300% 舒适度
-        planet_housing_add = 50                                 # +50 房屋
+        planet_jobs_produces_mult = 0.02                         # +500% 所有岗位产出
+        #planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
+        #planet_amenities_mult = 3.0                             # +300% 舒适度
+        #planet_housing_add = 50                                 # +50 房屋
         country_resource_max_add = 50000                        # +5W 储存上限
 
         ### 科研与凝聚力
-        country_all_technology_research_speed = 2.0             # +200% 科研速度
+        country_all_technology_research_speed = 0.02             # +200% 科研速度
         pop_government_ethic_attraction = 0.1                   # +100% 主流思潮吸引力（没什么用的东西，意义不明）
 
         ### 幸福与人口
-        pop_happiness = 0.5                                     # +50% 幸福度
-        planet_crime_add = -100                                 # -100 犯罪（清零）
-        pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
-        planet_stability_add = 5                               # +5稳定度
+        pop_happiness = 0.05                                     # +50% 幸福度
+        #planet_crime_add = -100                                 # -100 犯罪（清零）
+        #pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
+        #planet_stability_add = 5                               # +5稳定度
 
         ### 帝国运营&法令
-        empire_size_mult = -0.1                                 # -10% 帝国规模（降低科技惩罚）
+        empire_size_mult = -0.02                                 # -10% 帝国规模（降低科技惩罚）
+    }
+}
+
+trait_hhw = {
+    cost = 0
+    icon = "gfx/interface/icons/traits/hhw.dds"
+    initial = no	#能否在初始界面被选择
+	randomized = no	#是否可以随机生成该特质
+	leader_class = { commander scientist official }
+
+    councilor_modifier = {
+
+        planet_jobs_produces_mult = 0.02                        # +100% 所有岗位产出
+        #planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
+        #planet_amenities_mult = 0.3                             # +300% 舒适度
+        #planet_housing_add = 50                                 # +50 房屋
+        #country_resource_max_add = 50000                        # +5W 储存上限
+        #country_trade_produces_mult = 0.4
+
+        ### 幸福与人口
+        pop_happiness = 0.05                                     # +50% 幸福度
+        #planet_crime_add = -100                                 # -100 犯罪（清零）
+        #pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
+        #planet_stability_add = 5                               # +5 稳定度
+
+        ### 帝国运营&法令
+        empire_size_mult = -0.02                                 # -10% 帝国规模（降低科技惩罚）
+        country_trust_growth = 1.0                   # +1.0 外交信任增长
+        envoys_add = 10                                          # +5 特使
     }
 }

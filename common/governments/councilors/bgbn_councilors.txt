@@ -10,7 +10,7 @@ councilor_harmonic_symphony = {
 
 	civic = civic_harmonic_symphony
 	modifier = {
-		empire_size_mult = -0.02
+		#empire_size_mult = -0.02
 		country_unity_produces_mult = 0.01
 		species_leader_exp_gain = 0.03
 		planet_jobs_specialist_produces_mult = 0.02
@@ -28,7 +28,7 @@ councilor_resonating_the_starry_sea = {
 	civic = civic_resonating_the_starry_sea
 	modifier = {
 		pop_happiness = 0.02
-		country_unity_produces_mult = 0.03
+		country_unity_produces_mult = 0.01
 
 	}
 	icon = "GFX_icon_resonating_the_starry_sea"
@@ -43,8 +43,8 @@ councilor_luminous_starry_array = {
 
 	civic = civic_luminous_starry_array
 	modifier = {
-		planet_jobs_specialist_produces_mult = 0.03
-		country_physics_research_produces_mult = 0.02
+		planet_jobs_specialist_produces_mult = 0.01
+		country_physics_research_produces_mult = 0.01
 	}
 	icon = "GFX_icon_luminous_starry_array"
 }
@@ -57,7 +57,7 @@ councilor_bang_dream_explosion = {
 	civic = civic_bang_dream_explosion
 	modifier = {
 		planet_building_build_speed_mult = 0.02
-		megastructure_build_speed_mult = 0.03
+		megastructure_build_speed_mult = 0.02
 		planet_jobs_produces_mult = 0.01
 		planet_pops_upkeep_mult = -0.01
 	}

@@ -5,32 +5,38 @@ leader_trait_star_beat = {
 	randomized = no	#是否可以随机生成该特质
 	leader_class = { commander scientist official }
     modifier = {
-        empire_unity_produces_mult = 0.02                # +2% 凝聚力
-		planet_stability_add = 5                       # 所有星球稳定度 +5
-		country_naval_cap_mult = 0.1                    # 海军容量 +10%
+        #empire_unity_produces_mult = 0.02                # +2% 凝聚力
+		#planet_stability_add = 5                       # 所有星球稳定度 +5
+		#country_naval_cap_mult = 0.1                    # 海军容量 +10%
         happiness = 0.05                                # +5% 幸福度
-        planet_jobs_produces_mult = 0.1                 # +10% 岗位产出
-        planet_amenities_mult = 1.0                     # +100% 舒适度
+        planet_jobs_produces_mult = 0.01                 # +10% 岗位产出
+        #planet_amenities_mult = 1.0                     # +100% 舒适度
     }
 
 	self_modifier = {	#对领袖自身生效的修正。（注意！领袖类型不同可用的修正也不同，比如这里的指挥官就无法添加科研点数+3、凝聚力+3等，可选效果请查阅特质文件。）
-		species_leader_exp_gain = 5.0	#领袖经验值获取+500%
-		leader_trait_selection_options_add = 10	#额外领袖特质选项+10
-        leader_skill_levels_add = 5                     # +5 领袖技能等级
-        leader_age_mult = -0.5                          # -50% 领袖年龄增长速度
+		#species_leader_exp_gain = 5.0	#领袖经验值获取+500%
+		#leader_trait_selection_options_add = 10	#额外领袖特质选项+10
+        #leader_skill_levels_add = 5                     # +5 领袖技能等级
+        #leader_age_mult = -0.5                          # -50% 领袖年龄增长速度
 	}
 
+    #triggered_self_modifier = {
+		#leader_scientists_physics_research_produces_add = 40
+		#leader_scientists_society_research_produces_add = 40
+		#leader_scientists_engineering_research_produces_add = 40
+    #}
+
 	councilor_modifier = {	#内阁特质修正，注意和modifier不要写在同一个特质里，不能同时生效，和self_modifier不冲突
-		country_produces_mult = 0.2				#每月全部资源+20%（包括：常规资源、凝聚力、科研点数）
-		empire_unity_produces_mult = 0.02            # +2% 凝聚力
-		planet_stability_add = 5                     # 所有星球稳定度 +5
+		#country_produces_mult = 0.02				#每月全部资源+20%（包括：常规资源、凝聚力、科研点数）
+		#empire_unity_produces_mult = 0.02            # +2% 凝聚力
+		#planet_stability_add = 5                     # 所有星球稳定度 +5
 		
-		
-		country_naval_cap_mult = 1.0                # 海军容量 +100%
-        happiness = 0.5                             # +50% 幸福度
-        planet_jobs_produces_mult = 0.1             # +10% 岗位产出
-        planet_amenities_mult = 0.1                 # +10% 舒适度
-        edict_fund_add = 100                        # +100 法令资金
+		leaders_upkeep_mult = -1.0
+		#country_naval_cap_mult = 1.0                # 海军容量 +100%
+        happiness = 0.05                             # +50% 幸福度
+        planet_jobs_produces_mult = 0.01             # +10% 岗位产出
+        #planet_amenities_mult = 0.1                 # +10% 舒适度
+        edict_fund_add = 25                        # +100 法令资金
         monthly_loyalty_gain = 5                    # +5 每月忠诚度（对附庸制帝国有效）
 	}
 
@@ -44,11 +50,11 @@ trait_kasumi_sparkling_heartbeat = {
 	leader_class = { commander scientist official }
 
     councilor_modifier = {
-        country_edict_fund_add = 25            # +25 法令资金
-        planet_jobs_produces_mult = 0.25       # +25% 所有岗位产出
-        planet_amenities_mult = 0.5            # +50% 舒适度
-        empire_size_mult = -0.25               # -25% 帝国规模（科研惩罚减少）
-        pop_bonus_workforce_mult = 0.25
+        #country_edict_fund_add = 25            # +25 法令资金
+        planet_jobs_produces_mult = 0.05       # +25% 所有岗位产出
+        #planet_amenities_mult = 0.5            # +50% 舒适度
+        empire_size_mult = -0.02               # -25% 帝国规模（科研惩罚减少）
+        #pop_bonus_workforce_mult = 0.25
     }
 }
 
@@ -61,10 +67,10 @@ trait_arisa_sparkling_heartbeat = {
 
     councilor_modifier = {
         country_edict_fund_add = 25            # +25 法令资金
-        planet_jobs_produces_mult = 0.25       # +25% 所有岗位产出
-        country_alloys_produces_mult = 0.3                      # +30% 合金产出
-        country_consumer_goods_produces_mult = 0.3              # +30% 消费品产出
-        pop_bonus_workforce_mult = 0.25
+        planet_jobs_produces_mult = 0.05       # +25% 所有岗位产出
+        #country_alloys_produces_mult = 0.3                      # +30% 合金产出
+        #country_consumer_goods_produces_mult = 0.3              # +30% 消费品产出
+        #pop_bonus_workforce_mult = 0.25
     }
 }
 
@@ -76,14 +82,14 @@ trait_saaya_sparkling_heartbeat = {
 	leader_class = { commander scientist official }
 
     councilor_modifier = {
-        country_alloys_produces_mult = 0.3                      # +30% 合金产出
-        country_consumer_goods_produces_mult = 0.3              # +30% 消费品产出
-        planet_amenities_mult = 1.0                  # +100% 舒适度
-        planet_housing_add = 5                       # +5 房屋
-        planet_jobs_produces_mult = 0.3              # +30% 所有岗位产出
-        pop_amenities_usage_mult = -0.3              # -30% 舒适度消耗
-        planet_crime_add = -50                       # -50 犯罪（几乎清零）
-        pop_bonus_workforce_mult = 0.30
+        #country_alloys_produces_mult = 0.3                      # +30% 合金产出
+        #country_consumer_goods_produces_mult = 0.3              # +30% 消费品产出
+        #planet_amenities_mult = 1.0                  # +100% 舒适度
+        #planet_housing_add = 5                       # +5 房屋
+        planet_jobs_produces_mult = 0.05              # +30% 所有岗位产出
+        pop_amenities_usage_mult = -0.03             # -30% 舒适度消耗
+        #planet_crime_add = -50                       # -50 犯罪（几乎清零）
+        #pop_bonus_workforce_mult = 0.30
     }
 }
 
@@ -95,9 +101,9 @@ trait_tae_sparkling_heartbeat = {
 	leader_class = { commander scientist official }
 
     councilor_modifier = {
-        pop_happiness = 0.25                         # +25% 人口幸福度
-        planet_jobs_produces_mult = 0.25             # +25% 所有岗位产出
-        pop_bonus_workforce_mult = 0.25
+        pop_happiness = 0.05                         # +25% 人口幸福度
+        planet_jobs_produces_mult = 0.05             # +25% 所有岗位产出
+        #pop_bonus_workforce_mult = 0.25
     }
 }
 
@@ -109,11 +115,11 @@ trait_rimi_sparkling_heartbeat = {
 	leader_class = { commander scientist official }
 
     councilor_modifier = {
-        planet_jobs_produces_mult = 0.3              # +30% 岗位产出
-        pop_happiness = 0.35                         # +35% 人口幸福度
-        planet_amenities_mult = 0.5                  # +50% 舒适度
-        planet_crime_add = -40                       # -40 犯罪（大幅稳定）
-        pop_bonus_workforce_mult = 0.3
+        planet_jobs_produces_mult = 0.05              # +30% 岗位产出
+        pop_happiness = 0.05                         # +35% 人口幸福度
+        #planet_amenities_mult = 0.5                  # +50% 舒适度
+        #planet_crime_add = -40                       # -40 犯罪（大幅稳定）
+        #pop_bonus_workforce_mult = 0.3
     }
 }
 
@@ -126,24 +132,24 @@ trait_poppin_party = {
 
     councilor_modifier = {
         ### 经济与资源全面增强
-        planet_jobs_produces_mult = 1.0                         # +100% 所有岗位产出
-        planet_jobs_upkeep_mult = -0.5                          # -50% 岗位维护
-        planet_amenities_mult = 0.3                             # +300% 舒适度
-        planet_housing_add = 50                                 # +50 房屋
+        planet_jobs_produces_mult = 0.05                         # +100% 所有岗位产出
+        planet_jobs_upkeep_mult = -0.05                          # -50% 岗位维护
+        #planet_amenities_mult = 0.3                             # +300% 舒适度
+        #planet_housing_add = 50                                 # +50 房屋
         country_resource_max_add = 50000                        # +5W 储存上限
-        country_alloy_produces_mult = 0.4                       # +30% 合金产出
-        country_consumer_goods_produces_mult = 0.4              # +30% 消费品产出
-        pop_bonus_workforce_mult = 1.0
-        country_trade_produces_mult = 0.4
+        #country_alloy_produces_mult = 0.4                       # +30% 合金产出
+        #country_consumer_goods_produces_mult = 0.4              # +30% 消费品产出
+        #pop_bonus_workforce_mult = 1.0
+        #country_trade_produces_mult = 0.4
 
         ### 幸福与人口
-        pop_happiness = 0.5                                     # +50% 幸福度
-        planet_crime_add = -100                                 # -100 犯罪（清零）
-        pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
-        planet_stability_add = 5                               # +5 稳定度
+        pop_happiness = 0.05                                     # +50% 幸福度
+        planet_crime_add = -10                                 # -100 犯罪（清零）
+        pop_amenities_usage_mult = -0.05                        # -75% 舒适度消耗
+        #planet_stability_add = 5                               # +5 稳定度
 
         ### 帝国运营&法令
-        empire_size_mult = -0.1                                 # -10% 帝国规模（降低科技惩罚）
+        empire_size_mult = -0.02                                 # -10% 帝国规模（降低科技惩罚）
         envoys_add = 5                                          # +5 特使
     }
 }
@@ -156,19 +162,19 @@ trait_popy_commander = {
 	leader_class = { commander }
 
     modifier = {
-        ship_fire_rate_mult = 1.00              # +100% 开火速率（倍伤）
-        ship_weapon_damage = 1.00               # +100% 武器伤害（翻倍伤害）
-        ship_speed_mult = 0.75                  # +75% 舰队航速（打完跑）
+        ship_fire_rate_mult = 0.1              # +100% 开火速率（倍伤）
+        ship_weapon_damage = 0.1               # +100% 武器伤害（翻倍伤害）
+        ship_speed_mult = 0.15                  # +75% 舰队航速（打完跑）
         ship_disengage_chance_mult = 0.50       # +50% 撤退成功率
-        ship_evasion_mult = 0.50                # +50% 回避
+        ship_evasion_mult = 0.05                # +50% 回避
     }
 
     councilor_modifier = {
-        ship_fire_rate_mult = 1.00              # +100% 开火速率（倍伤）
-        ship_weapon_damage = 1.00               # +100% 武器伤害（翻倍伤害）
-        ship_speed_mult = 0.75                  # +75% 舰队航速（打完跑）
+        ship_fire_rate_mult = 0.1             # +100% 开火速率（倍伤）
+        ship_weapon_damage = 0.1               # +100% 武器伤害（翻倍伤害）
+        ship_speed_mult = 0.15                  # +75% 舰队航速（打完跑）
         ship_disengage_chance_mult = 0.50       # +50% 撤退成功率
-        ship_evasion_mult = 0.50                # +50% 回避
+        ship_evasion_mult = 0.05                # +50% 回避
     }
 }
 
@@ -181,21 +187,21 @@ trait_popy_scientist = {
 
     modifier = {
         scientist_skill_levels = 3
-        pop_happiness = 0.5                                     # +50% 幸福度
-        pop_growth_speed = 1.0                                  # +100% 增长速度
-        planet_crime_add = -100                                 # -100 犯罪（清零）
-        pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
-        planet_stability_add = 50   
+        pop_happiness = 0.05                                     # +50% 幸福度
+        #pop_growth_speed = 1.0                                  # +100% 增长速度
+        #planet_crime_add = -100                                 # -100 犯罪（清零）
+        #pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
+        #planet_stability_add = 50   
         edicts_upkeep_mult = -0.25                      # 法令维护 -25%
     }
 
     councilor_modifier = {
         scientist_skill_levels = 3
-        pop_happiness = 0.5                                     # +50% 幸福度
-        pop_growth_speed = 1.0                                  # +100% 增长速度
-        planet_crime_add = -100                                 # -100 犯罪（清零）
-        pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
-        planet_stability_add = 50   
+        pop_happiness = 0.05                                     # +50% 幸福度
+        #pop_growth_speed = 1.0                                  # +100% 增长速度
+        #planet_crime_add = -100                                 # -100 犯罪（清零）
+        #pop_amenities_usage_mult = -0.75                        # -75% 舒适度消耗
+        #planet_stability_add = 50   
         edicts_upkeep_mult = -0.25                      # 法令维护 -25%
     }
 }
@@ -208,19 +214,19 @@ trait_popy_official = {
 	leader_class = { official }
 
     modifier = {
-        planet_jobs_produces_mult = 0.50                # 所有岗位产出 +50%
-        planet_amenities_mult = 0.50                    # 舒适度 +50%
-        planet_stability_add = 20                       # 稳定度 +20
-        planet_crime_add = -40                          # 犯罪 -40
-        empire_size_mult = -0.25                        # 帝国规模降低 25%（科技膨胀控制）
+        planet_jobs_produces_mult = 0.05                # 所有岗位产出 +50%
+        #planet_amenities_mult = 0.50                    # 舒适度 +50%
+        #planet_stability_add = 20                       # 稳定度 +20
+        #planet_crime_add = -40                          # 犯罪 -40
+        empire_size_mult = -0.02                        # 帝国规模降低 25%（科技膨胀控制）
     }
 
 
     councilor_modifier = {
-        planet_jobs_produces_mult = 0.50                # 所有岗位产出 +50%
-        planet_amenities_mult = 0.50                    # 舒适度 +50%
-        planet_stability_add = 20                       # 稳定度 +20
-        planet_crime_add = -40                          # 犯罪 -40
-        empire_size_mult = -0.25                        # 帝国规模降低 25%（科技膨胀控制）
+        planet_jobs_produces_mult = 0.05                # 所有岗位产出 +50%
+        #planet_amenities_mult = 0.50                    # 舒适度 +50%
+        #planet_stability_add = 20                       # 稳定度 +20
+        #planet_crime_add = -40                          # 犯罪 -40
+        empire_size_mult = -0.02                        # 帝国规模降低 25%（科技膨胀控制）
     }
 }
