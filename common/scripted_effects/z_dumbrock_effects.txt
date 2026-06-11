@@ -1,0 +1,188 @@
+create_raika = { #须贺蕾叶
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_raika1
+		custom_description = PRESCRIPTED_ruler_name_raika1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_militarist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_dumbrock
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = raika_leader_dumbrock_portrait
+			set_leader_flag = raika
+			set_leader_flag = dumbrock
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_vocal
+			save_global_event_target_as = raika #方便在事件中锁定领袖
+		}
+	}
+}
+create_miku = { #马桥心玖
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_miku1
+		custom_description = PRESCRIPTED_ruler_name_miku1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_authoritarian
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_dumbrock
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = miku_leader_dumbrock_portrait
+			set_leader_flag = miku
+			set_leader_flag = dumbrock
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_vocal
+			save_global_event_target_as = miku
+		}
+	}
+}
+create_chieri = { #梅里千樱梨
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_chieri1
+		custom_description = PRESCRIPTED_ruler_name_chieri1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_pacifist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_dumbrock
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = chieri_leader_dumbrock_portrait
+			set_leader_flag = chieri
+			set_leader_flag = dumbrock
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_drummer
+			save_global_event_target_as = chieri
+		}
+	}
+}
+create_yomogi = { #矢仓蓬咲
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_yomogi1
+		custom_description = PRESCRIPTED_ruler_name_yomogi1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_egalitarian
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_dumbrock
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = yomogi_leader_dumbrock_portrait
+			set_leader_flag = yomogi
+			set_leader_flag = dumbrock
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_bassist
+			save_global_event_target_as = yomogi
+		}
+	}
+}
+create_shizuku = { #四宫宁月
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_shizuku1
+		custom_description = PRESCRIPTED_ruler_name_shizuku1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_materialist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_dumbrock
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = shizuku_leader_dumbrock_portrait
+			set_leader_flag = shizuku
+			set_leader_flag = dumbrock
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_keyboardist
+			save_global_event_target_as = shizuku
+		}
+	}
+}
+
+fix_dumbrock = {
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = raika
+		}
+		change_leader_portrait = "raika_leader_dumbrock_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = miku
+		}
+		change_leader_portrait = "miku_leader_dumbrock_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = yomogi
+		}
+		change_leader_portrait = "yomogi_leader_dumbrock_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = chieri
+		}
+		change_leader_portrait = "chieri_leader_dumbrock_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = shizuku
+		}
+		change_leader_portrait = "shizuku_leader_dumbrock_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+}

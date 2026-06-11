@@ -1,0 +1,151 @@
+create_rose = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_rose1
+		custom_description = PRESCRIPTED_ruler_name_rose1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_militarist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_yumenokessho
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = rose_leader_yumenokessho_portrait
+			set_leader_flag = rose
+			set_leader_flag = yumenokessho
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_yumenokessho
+			save_global_event_target_as = rose #方便在事件中锁定领袖
+		}
+	}
+}
+create_pastel = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_pastel1
+		custom_description = PRESCRIPTED_ruler_name_pastel1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_authoritarian
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_yumenokessho
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = pastel_leader_yumenokessho_portrait
+			set_leader_flag = pastel
+			set_leader_flag = yumenokessho
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_yumenokessho
+			save_global_event_target_as = pastel
+		}
+	}
+}
+create_halo = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_halo1
+		custom_description = PRESCRIPTED_ruler_name_halo1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_pacifist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_yumenokessho
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = halo_leader_yumenokessho_portrait
+			set_leader_flag = halo
+			set_leader_flag = yumenokessho
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_yumenokessho
+			save_global_event_target_as = halo
+		}
+	}
+}
+create_aver = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_aver1
+		custom_description = PRESCRIPTED_ruler_name_aver1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_egalitarian
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_yumenokessho
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = aver_leader_yumenokessho_portrait
+			set_leader_flag = aver
+			set_leader_flag = yumenokessho
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_yumenokessho
+			save_global_event_target_as = aver
+		}
+	}
+}
+
+fix_yumenokessho = {
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = rose
+		}
+		change_leader_portrait = "rose_leader_yumenokessho_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = pastel
+		}
+		change_leader_portrait = "pastel_leader_yumenokessho_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = aver
+		}
+		change_leader_portrait = "aver_leader_yumenokessho_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = halo
+		}
+		change_leader_portrait = "halo_leader_yumenokessho_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+}

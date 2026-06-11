@@ -407,3 +407,59 @@ bgbn_dj = {
 	}
 }
 
+bgbn_yumenokessho = {
+	category = worker
+	
+	swappable_data = {
+		default = {
+			building_icon = building_food_processing_facility
+			icon = miner
+		}
+	}
+	possible_pre_triggers = {
+		has_owner = yes
+	}
+
+	possible = {
+		owner = { has_authority = auth_radiant_harmony }
+	}
+
+	planet_modifier = {
+		planet_amenities_add = 100
+	}
+
+	resources = {
+		category = planet_jobs
+		produces = {
+			food = 5
+			energy = 5
+			minerals = 5
+		}
+	}	
+	
+	weight = {
+		weight = 1000
+
+		# crisis purge
+		modifier = {
+			factor = 0.01
+			exists = planet
+			exists = planet.controller
+			planet.controller = {
+				OR = {
+					is_country_type = swarm
+					is_country_type = ai_empire
+				}
+			}
+		}
+	}
+	promotion = {
+		time = @standard_promotion_time
+		effect = {
+			pop_amount_change_category = {
+				CATEGORY = precursor
+				AMOUNT = local_pop_amount
+			}
+		}
+	}
+}

@@ -1,0 +1,188 @@
+create_hotaru = { #汐见萤
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_hotaru1
+		custom_description = PRESCRIPTED_ruler_name_hotaru1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_militarist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_millsage
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = hotaru_leader_millsage_portrait
+			set_leader_flag = hotaru
+			set_leader_flag = millsage
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_vocal
+			save_global_event_target_as = hotaru #方便在事件中锁定领袖
+		}
+	}
+}
+create_natsume = { #伊泽枣
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_natsume1
+		custom_description = PRESCRIPTED_ruler_name_natsume1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_authoritarian
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_millsage
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = natsume_leader_millsage_portrait
+			set_leader_flag = natsume
+			set_leader_flag = millsage
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_guitarist
+			save_global_event_target_as = natsume
+		}
+	}
+}
+create_nagi = { #琴平凪
+	create_leader = {
+		species = event_target:bangdream_species
+		class = scientist
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_nagi1
+		custom_description = PRESCRIPTED_ruler_name_nagi1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_pacifist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_millsage
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = nagi_leader_millsage_portrait
+			set_leader_flag = nagi
+			set_leader_flag = millsage
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_guitarist
+			save_global_event_target_as = nagi
+		}
+	}
+}
+create_mahoro = { #滨崎茉幌
+	create_leader = {
+		species = event_target:bangdream_species
+		class = official
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_mahoro1
+		custom_description = PRESCRIPTED_ruler_name_mahoro1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_egalitarian
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_millsage
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = mahoro_leader_millsage_portrait
+			set_leader_flag = mahoro
+			set_leader_flag = millsage
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_bassist
+			save_global_event_target_as = mahoro
+		}
+	}
+}
+create_houka = { #和泉朋花
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_houka1
+		custom_description = PRESCRIPTED_ruler_name_houka1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_materialist
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_millsage
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = houka_leader_millsage_portrait
+			set_leader_flag = houka
+			set_leader_flag = millsage
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_drummer
+			save_global_event_target_as = houka
+		}
+	}
+}
+
+fix_millsage = {
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = hotaru
+		}
+		change_leader_portrait = "hotaru_leader_millsage_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = natsume
+		}
+		change_leader_portrait = "natsume_leader_millsage_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = mahoro
+		}
+		change_leader_portrait = "mahoro_leader_millsage_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = nagi
+		}
+		change_leader_portrait = "nagi_leader_millsage_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = houka
+		}
+		change_leader_portrait = "houka_leader_millsage_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+}
