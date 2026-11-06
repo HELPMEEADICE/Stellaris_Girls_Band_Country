@@ -257,26 +257,23 @@ trait_mugendai = {
 trait_millsage = {
     cost = 0
     icon = "gfx/interface/icons/traits/millsage.dds"
-    initial = no
-    randomized = no
-    leader_class = { commander scientist official }
+    initial = no	#能否在初始界面被选择
+	randomized = no	#是否可以随机生成该特质
+	leader_class = { commander scientist official }
 
     councilor_modifier = {
-        ### 文化与经济
+        ### 经济与资源
         planet_jobs_produces_mult = 0.02
         country_resource_max_add = 50000
+
+        ### 科研与凝聚力
+        country_all_technology_research_speed = 0.02
+        pop_government_ethic_attraction = 0.1
+
+        ### 幸福与人口
         pop_happiness = 0.05
 
-        ### 军事（比 roselia 略收敛）
-        country_naval_cap_mult = 0.03
-        ship_fire_rate_mult = 0.05
-        ship_weapon_damage = 0.05
-        ship_speed_mult = 0.05
-        army_damage_mult = 0.1
-        army_health = 0.1
-        country_war_exhaustion_mult = -0.5
-
-        ### 帝国运营
+        ### 帝国运营&法令
         empire_size_mult = -0.02
     }
 }
