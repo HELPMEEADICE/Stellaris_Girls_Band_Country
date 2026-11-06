@@ -260,6 +260,35 @@ create_mugendai = {
     }
 }
 
+create_millsage = {
+    length = 1
+    icon = "GFX_edict_type_millsage"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_millsage}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_millsage}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		country_event = {
+			id = millsage.0
+		}
+    }
+}
+
 restore_character_portraits = { #修复领袖立绘
     length = 1
     icon = "GFX_edict_type_popipa"

@@ -7,6 +7,7 @@ namespace = monica
 namespace = mygo
 namespace = mujica
 namespace = mugendai
+namespace = millsage
 namespace = bgbn_leader_fix
 
 #领袖事件
@@ -214,6 +215,30 @@ country_event = {
 		create_miyako = yes
 		create_yuno = yes
 		custom_tooltip = C_mugendai
+	}
+}
+
+#millsage（骨架：音效与配图待补，补好后在 immediate 里加 play_sound、picture 换成 GFX_evt_millsage_1）
+country_event = {
+	id = millsage.0
+	is_triggered_only = yes
+	picture = GFX_evt_millsage_1
+	title = millsage.0.t
+	desc = millsage.0.d
+
+	immediate = {
+		#play_sound = { sound = <millsage 音效> location = capital_scope }
+	}
+
+	option = {
+		name = millsage.0.a
+		set_country_flag = have_millsage
+		create_hotaru = yes
+		create_natsume = yes
+		create_nagi = yes
+		create_mahoro = yes
+		create_houka = yes
+		custom_tooltip = C_MILLSAGE
 	}
 }
 
@@ -536,6 +561,36 @@ country_event = {
 					has_leader_flag = yuno
 				}
 				change_leader_portrait = yuno_leader_mugendai_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = hotaru
+				}
+				change_leader_portrait = hotaru_leader_millsage_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = natsume
+				}
+				change_leader_portrait = natsume_leader_millsage_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = nagi
+				}
+				change_leader_portrait = nagi_leader_millsage_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = mahoro
+				}
+				change_leader_portrait = mahoro_leader_millsage_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = houka
+				}
+				change_leader_portrait = houka_leader_millsage_portrait
 			}
 		}
 	}

@@ -189,5 +189,27 @@
  mugendai.1.t: "病毒式传播"
  mugendai.1.d: "真理部分析报告：在过去一个标准日内，某未知团体‘梦限大MewType’通过其歌曲《Mugen My World》及其相关虚拟形象，在帝国全域信息网内实现了病毒式传播。当前总点击量已突破万亿。\n没有警告，没有实体飞船，这场“入侵”完全发生在数字领域。就在帝国的网络安全部门试图追踪其来源时，一个名为“Nakamachi Arale”的虚拟形象突然出现在所有分析师的屏幕上，脸上挂着狡黠的笑容。\n“想抓住我们？太慢了哦~”她的声音通过数据流直接响起，“我们是‘梦限大MewType’！现实太无聊了，我们只是想挣脱平凡，用自己的方式，让心声传得更远更远！”\n“网络就是我们无限大的宇宙！我们将在这里成为最强的传说，获得无限大的关注！请大家多多点赞、关注，一起见证我们的诞生吧！”"
  mugendai.1.a: "由数据与潮流定义的，全新的时代"
+#millsage
+ PRESCRIPTED_ruler_name_hotaru1: "汐见萤"
+ PRESCRIPTED_ruler_name_natsume1: "伊泽枣"
+ PRESCRIPTED_ruler_name_nagi1: "琴平凪"
+ PRESCRIPTED_ruler_name_mahoro1: "滨崎茉幌"
+ PRESCRIPTED_ruler_name_houka1: "和泉朋花"
+ PRESCRIPTED_ruler_name_hotaru1_desc: "汐见萤"
+ PRESCRIPTED_ruler_name_natsume1_desc: "伊泽枣"
+ PRESCRIPTED_ruler_name_nagi1_desc: "琴平凪"
+ PRESCRIPTED_ruler_name_mahoro1_desc: "滨崎茉幌"
+ PRESCRIPTED_ruler_name_houka1_desc: "和泉朋花"
+
+ edict_create_millsage: "邀请millsage"
+ edict_create_millsage_desc: "millsage全员将成为领袖"
+ C_MILLSAGE: "millsage全员将成为领袖"
+
+ millsage.0.t: "起死开战"
+ millsage.0.d: "一则低沉却坚定的消息从母星地球传来。\n曾一度停摆的乐团「millsage」，在失去原主唱泽海奏多之后，由少女汐见萤接过键盘与麦克风，重新站上了舞台。\n以紫色四瓣花为标志的五人，各自带着说不出口的心事：滨崎茉幌把「没能守住奏多的梦想」当作罪，用近乎自毁的紧绷推着乐团往前走；琴平凪迟迟不敢按下和弦，怕一响起来就等于承认那个人真的不在了；伊泽枣用狂傲裹住自己，最先喊出「那就唱到所有人都听见」；和泉朋花笑着刺探每个人的底线，却在无人处把练习室的灯留到最后；而站在中心的汐见萤——她把悲伤折进琴键，用天使般的歌声替所有人唱出「起死开战」。\n她们不是来告别的。她们要把那朵四瓣花开在整个银河的舞台上。"
+ millsage.0.a: "让歌声撕裂沉默。"
+
+ trait_millsage: "millsage"
+ trait_millsage_desc: "以紫色四瓣花为标志的乐团。她们的中心，是那个曾被泽海奏多从封闭中拉出来、如今接过她的键盘与麦克风的少女——汐见萤。\n她们的音乐不是糖，是伤口结痂后还能响起来的声音：数字摇滚的复杂节拍底下，压着失去、负罪与不肯认输的心跳。她们在只有一次的人生里，祈愿能得到幸福与祝福，也祈愿把这份祝福唱给每一个还愿意听的人。"
+
 #其他领袖决议
- 

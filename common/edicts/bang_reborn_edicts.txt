@@ -1798,3 +1798,183 @@ reborn_yuno_edict = {
 		create_yuno = yes
     }
 }
+
+reborn_hotaru_edict = {
+	length = 1
+    icon = "GFX_edict_type_millsage"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = hotaru
+			}
+		}
+		has_country_flag = have_millsage
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = hotaru
+			}
+		}
+		has_country_flag = have_millsage
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_hotaru = yes
+    }
+}
+
+reborn_natsume_edict = {
+	length = 1
+    icon = "GFX_edict_type_millsage"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = natsume
+			}
+		}
+		has_country_flag = have_millsage
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = natsume
+			}
+		}
+		has_country_flag = have_millsage
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_natsume = yes
+    }
+}
+
+reborn_nagi_edict = {
+	length = 1
+    icon = "GFX_edict_type_millsage"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = nagi
+			}
+		}
+		has_country_flag = have_millsage
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = nagi
+			}
+		}
+		has_country_flag = have_millsage
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_nagi = yes
+    }
+}
+
+reborn_mahoro_edict = {
+	length = 1
+    icon = "GFX_edict_type_millsage"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = mahoro
+			}
+		}
+		has_country_flag = have_millsage
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = mahoro
+			}
+		}
+		has_country_flag = have_millsage
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_mahoro = yes
+    }
+}
+
+reborn_houka_edict = {
+	length = 1
+    icon = "GFX_edict_type_millsage"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = houka
+			}
+		}
+		has_country_flag = have_millsage
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = houka
+			}
+		}
+		has_country_flag = have_millsage
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_houka = yes
+    }
+}

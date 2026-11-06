@@ -167,4 +167,19 @@ portraits = {
 	yuno_leader_mugendai_portrait ={
 		texturefile = "gfx/models/portraits/mugendai/yuno.png"
 	}
+	hotaru_leader_millsage_portrait ={
+		texturefile = "gfx/models/portraits/millsage/hotaru.png"
+	}
+	natsume_leader_millsage_portrait ={
+		texturefile = "gfx/models/portraits/millsage/natsume.png"
+	}
+	nagi_leader_millsage_portrait ={
+		texturefile = "gfx/models/portraits/millsage/nagi.png"
+	}
+	mahoro_leader_millsage_portrait ={
+		texturefile = "gfx/models/portraits/millsage/mahoro.png"
+	}
+	houka_leader_millsage_portrait ={
+		texturefile = "gfx/models/portraits/millsage/houka.png"
+	}
 }
