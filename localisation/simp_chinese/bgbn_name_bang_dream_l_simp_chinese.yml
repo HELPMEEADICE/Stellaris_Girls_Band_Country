@@ -212,4 +212,26 @@
  trait_millsage: "millsage"
  trait_millsage_desc: "以紫色四瓣花为标志的乐团。她们的中心，是那个曾被泽海奏多从封闭中拉出来、如今接过她的键盘与麦克风的少女——汐见萤。\n她们的音乐不是糖，是伤口结痂后还能响起来的声音：数字摇滚的复杂节拍底下，压着失去、负罪与不肯认输的心跳。她们在只有一次的人生里，祈愿能得到幸福与祝福，也祈愿把这份祝福唱给每一个还愿意听的人。"
 
+#dumbrock
+ PRESCRIPTED_ruler_name_raika1: "须贺蕾叶"
+ PRESCRIPTED_ruler_name_miku1: "马桥心玖"
+ PRESCRIPTED_ruler_name_chieri1: "梅里千樱梨"
+ PRESCRIPTED_ruler_name_yomogi1: "矢仓 蓬咲"
+ PRESCRIPTED_ruler_name_shizuku1: "四宫宁月"
+ PRESCRIPTED_ruler_name_raika1_desc: "须贺蕾叶"
+ PRESCRIPTED_ruler_name_miku1_desc: "马桥心玖"
+ PRESCRIPTED_ruler_name_chieri1_desc: "梅里千樱梨"
+ PRESCRIPTED_ruler_name_yomogi1_desc: "矢仓 蓬咲"
+ PRESCRIPTED_ruler_name_shizuku1_desc: "四宫宁月"
+
+ edict_create_dumbrock: "邀请Dumb Rock"
+ edict_create_dumbrock_desc: "Dumb Rock全员将成为领袖"
+ C_DUMBROCK: "Dumb Rock全员将成为领袖"
+
+ dumbrock.0.t: "一家 Dumb Rock!"
+ dumbrock.0.d: "一则带着烟火气的消息从母星地球传来。\n在花咲川一间叫「皮斯米卡（Peace Mika）」的古旧合宿公寓里，五个来路各异的女孩决定把「家」写成乐队名。\n热血到不讲理的须贺蕾叶高举「全员都是我的Family」，把只想安静租房、极度务实的马桥心玖硬拉进了排练室；大嗓门叛逆的鼓手梅里千樱梨、自闭又胆怯的贝斯手矢仓 蓬咲、从月之森离家出走的键盘手四宫宁月，一个个被这股笨蛋式热情卷了进来。当地产中介要把公寓收走改建时，她们选择用商业街 Live 大赛的奖金和名气守住这个唯一的避风港——双主唱的马桥心玖与须贺蕾叶把放克摇滚的律动砸向全场，从初赛一路打到决赛，拿下了总冠军。\n她们不叫 Family，她们就是 Family。"
+ dumbrock.0.a: "这个家，不让。"
+
+ trait_dumbrock: "Dumb Rock"
+ trait_dumbrock_desc: "Dumb Rock（一家团圆）——以 Peace Mika 合宿公寓为家的五人乐队。\n「Family」不是口号，是抢浴室、抢零食、抢洗衣机之后还会一起吃饭的那群人。她们的音乐是放克与律动：双主唱的冲劲、鼓与贝斯咬合出的 Groove，把「守住这个家」的执念唱成能跳舞的声音。哪怕屋顶漏雨、哪怕全世界说她们在过家家，她们也会亮出乐器，说一句——我们的家，不让。"
 #其他领袖决议

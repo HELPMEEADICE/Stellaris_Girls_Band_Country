@@ -182,4 +182,19 @@ portraits = {
 	houka_leader_millsage_portrait ={
 		texturefile = "gfx/models/portraits/millsage/houka.png"
 	}
+	raika_leader_dumbrock_portrait ={
+		texturefile = "gfx/models/portraits/dumbrock/raika.png"
+	}
+	miku_leader_dumbrock_portrait ={
+		texturefile = "gfx/models/portraits/dumbrock/miku.png"
+	}
+	chieri_leader_dumbrock_portrait ={
+		texturefile = "gfx/models/portraits/dumbrock/chieri.png"
+	}
+	yomogi_leader_dumbrock_portrait ={
+		texturefile = "gfx/models/portraits/dumbrock/yomogi.png"
+	}
+	shizuku_leader_dumbrock_portrait ={
+		texturefile = "gfx/models/portraits/dumbrock/shizuku.png"
+	}
 }

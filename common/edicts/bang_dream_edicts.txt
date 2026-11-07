@@ -289,6 +289,35 @@ create_millsage = {
     }
 }
 
+
+create_dumbrock = {
+    length = 1
+    icon = "GFX_edict_type_dumbrock"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_dumbrock}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {has_country_flag = have_dumbrock}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		country_event = {
+			id = dumbrock.0
+		}
+    }
+}
 restore_character_portraits = { #修复领袖立绘
     length = 1
     icon = "GFX_edict_type_popipa"

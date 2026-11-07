@@ -1978,3 +1978,183 @@ reborn_houka_edict = {
 		create_houka = yes
     }
 }
+
+reborn_raika_edict = {
+	length = 1
+    icon = "GFX_edict_type_dumbrock"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = raika
+			}
+		}
+		has_country_flag = have_dumbrock
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = raika
+			}
+		}
+		has_country_flag = have_dumbrock
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_raika = yes
+    }
+}
+
+reborn_miku_edict = {
+	length = 1
+    icon = "GFX_edict_type_dumbrock"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = miku
+			}
+		}
+		has_country_flag = have_dumbrock
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = miku
+			}
+		}
+		has_country_flag = have_dumbrock
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_miku = yes
+    }
+}
+
+reborn_chieri_edict = {
+	length = 1
+    icon = "GFX_edict_type_dumbrock"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = chieri
+			}
+		}
+		has_country_flag = have_dumbrock
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = chieri
+			}
+		}
+		has_country_flag = have_dumbrock
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_chieri = yes
+    }
+}
+
+reborn_yomogi_edict = {
+	length = 1
+    icon = "GFX_edict_type_dumbrock"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = yomogi
+			}
+		}
+		has_country_flag = have_dumbrock
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = yomogi
+			}
+		}
+		has_country_flag = have_dumbrock
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_yomogi = yes
+    }
+}
+
+reborn_shizuku_edict = {
+	length = 1
+    icon = "GFX_edict_type_dumbrock"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = shizuku
+			}
+		}
+		has_country_flag = have_dumbrock
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = shizuku
+			}
+		}
+		has_country_flag = have_dumbrock
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_shizuku = yes
+    }
+}

@@ -51,5 +51,9 @@ spriteTypes = {
 		name = "GFX_edict_type_millsage"
 		textureFile = "gfx/interface/icons/millsage_edict_icon.dds"
 	}
+	spriteType = {
+		name = "GFX_edict_type_dumbrock"
+		textureFile = "gfx/interface/icons/dumbrock_edict_icon.dds"
+	}
 }
 

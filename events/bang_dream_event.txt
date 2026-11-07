@@ -8,6 +8,7 @@ namespace = mygo
 namespace = mujica
 namespace = mugendai
 namespace = millsage
+namespace = dumbrock
 namespace = bgbn_leader_fix
 
 #领袖事件
@@ -242,6 +243,30 @@ country_event = {
 	}
 }
 
+
+#dumbrock（骨架：音效与配图待补，补好后在 immediate 加 play_sound）
+country_event = {
+	id = dumbrock.0
+	is_triggered_only = yes
+	picture = GFX_evt_dumbrock_1
+	title = dumbrock.0.t
+	desc = dumbrock.0.d
+
+	immediate = {
+		#play_sound = { sound = <dumbrock 音效> location = capital_scope }
+	}
+
+	option = {
+		name = dumbrock.0.a
+		set_country_flag = have_dumbrock
+		create_raika = yes
+		create_miku = yes
+		create_chieri = yes
+		create_yomogi = yes
+		create_shizuku = yes
+		custom_tooltip = C_DUMBROCK
+	}
+}
 #修复事件
 country_event = {
 	id = bgbn_leader_fix.1	#修复所有角色立绘，之后每添加一个新领袖都需要在这里加上代码
@@ -591,6 +616,36 @@ country_event = {
 					has_leader_flag = houka
 				}
 				change_leader_portrait = houka_leader_millsage_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = raika
+				}
+				change_leader_portrait = raika_leader_dumbrock_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = miku
+				}
+				change_leader_portrait = miku_leader_dumbrock_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = chieri
+				}
+				change_leader_portrait = chieri_leader_dumbrock_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = yomogi
+				}
+				change_leader_portrait = yomogi_leader_dumbrock_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = shizuku
+				}
+				change_leader_portrait = shizuku_leader_dumbrock_portrait
 			}
 		}
 	}

@@ -43,4 +43,8 @@ spriteTypes = {
 		name = "GFX_evt_millsage_1"
 		texturefile = "gfx/event_pictures/millsage_1.dds"
 	}
+	spriteType = {
+		name = "GFX_evt_dumbrock_1"
+		texturefile = "gfx/event_pictures/dumbrock_1.dds"
+	}
 }
