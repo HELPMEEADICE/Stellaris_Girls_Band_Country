@@ -197,4 +197,19 @@ portraits = {
 	shizuku_leader_dumbrock_portrait ={
 		texturefile = "gfx/models/portraits/dumbrock/shizuku.png"
 	}
+	rose_leader_yumenokessho_portrait ={
+		texturefile = "gfx/models/portraits/yumenokessho/rose.png"
+	}
+	pastel_leader_yumenokessho_portrait ={
+		texturefile = "gfx/models/portraits/yumenokessho/pastel.png"
+	}
+	halo_leader_yumenokessho_portrait ={
+		texturefile = "gfx/models/portraits/yumenokessho/halo.png"
+	}
+	aver_leader_yumenokessho_portrait ={
+		texturefile = "gfx/models/portraits/yumenokessho/aver.png"
+	}
+	mew_leader_yumenokessho_portrait ={
+		texturefile = "gfx/models/portraits/yumenokessho/mew.png"
+	}
 }

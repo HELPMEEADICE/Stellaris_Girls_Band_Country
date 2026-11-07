@@ -2158,3 +2158,183 @@ reborn_shizuku_edict = {
 		create_shizuku = yes
     }
 }
+
+reborn_rose_edict = {
+	length = 1
+    icon = "GFX_edict_type_yumenokessho"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = rose
+			}
+		}
+		has_country_flag = poppinparty
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = rose
+			}
+		}
+		has_country_flag = poppinparty
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_rose = yes
+    }
+}
+
+reborn_pastel_edict = {
+	length = 1
+    icon = "GFX_edict_type_yumenokessho"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = pastel
+			}
+		}
+		has_country_flag = poppinparty
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = pastel
+			}
+		}
+		has_country_flag = poppinparty
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_pastel = yes
+    }
+}
+
+reborn_halo_edict = {
+	length = 1
+    icon = "GFX_edict_type_yumenokessho"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = halo
+			}
+		}
+		has_country_flag = poppinparty
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = halo
+			}
+		}
+		has_country_flag = poppinparty
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_halo = yes
+    }
+}
+
+reborn_aver_edict = {
+	length = 1
+    icon = "GFX_edict_type_yumenokessho"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = aver
+			}
+		}
+		has_country_flag = poppinparty
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = aver
+			}
+		}
+		has_country_flag = poppinparty
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_aver = yes
+    }
+}
+
+reborn_mew_edict = {
+	length = 1
+    icon = "GFX_edict_type_yumenokessho"
+    resources = {
+        category = edicts
+        cost = {
+            energy=1000
+			unity=1000
+        }
+    }
+    allow = {
+        is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = mew
+			}
+		}
+		has_country_flag = poppinparty
+    }
+	potential = {
+		is_ai = no
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = mew
+			}
+		}
+		has_country_flag = poppinparty
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		create_mew = yes
+    }
+}

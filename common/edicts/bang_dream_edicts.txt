@@ -318,6 +318,191 @@ create_dumbrock = {
 		}
     }
 }
+
+recruit_rose = {
+    length = 1
+    icon = "GFX_edict_type_yumenokessho"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = rose
+			}
+		}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = rose
+			}
+		}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		country_event = {
+			id = yumenokessho.0
+		}
+    }
+}
+
+recruit_pastel = {
+    length = 1
+    icon = "GFX_edict_type_yumenokessho"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = pastel
+			}
+		}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = pastel
+			}
+		}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		country_event = {
+			id = yumenokessho.1
+		}
+    }
+}
+
+recruit_halo = {
+    length = 1
+    icon = "GFX_edict_type_yumenokessho"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = halo
+			}
+		}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = halo
+			}
+		}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		country_event = {
+			id = yumenokessho.2
+		}
+    }
+}
+
+recruit_aver = {
+    length = 1
+    icon = "GFX_edict_type_yumenokessho"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = aver
+			}
+		}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = aver
+			}
+		}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		country_event = {
+			id = yumenokessho.3
+		}
+    }
+}
+
+recruit_mew = {
+    length = 1
+    icon = "GFX_edict_type_yumenokessho"
+    resources = {
+        category = edicts
+        cost = {
+            energy=10
+        }
+    }
+    allow = {
+        is_ai = no
+		has_country_flag = poppinparty
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = mew
+			}
+		}
+    }
+	potential = {
+		is_ai = no
+		has_country_flag = poppinparty
+		NOT = {
+			any_owned_leader = {
+				has_leader_flag = mew
+			}
+		}
+	}
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+		country_event = {
+			id = yumenokessho.4
+		}
+    }
+}
 restore_character_portraits = { #修复领袖立绘
     length = 1
     icon = "GFX_edict_type_popipa"

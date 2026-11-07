@@ -51,3 +51,30 @@ country_event = {
     }
 
 }
+
+#冰川双子日常（纱夜×日菜）
+country_event = {
+    id = bgbn_live.3
+    title = bgbn_live.3.name
+    desc = bgbn_live.3.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = bgbn_live.3.a
+        add_resource = {
+            energy = 300
+        }
+    }
+    option = {
+        name = bgbn_live.3.b
+        add_resource = {
+            unity = 300
+        }
+    }
+}

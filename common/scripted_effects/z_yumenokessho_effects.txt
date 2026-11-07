@@ -115,6 +115,35 @@ create_aver = {
 	}
 }
 
+create_mew = {
+	create_leader = {
+		species = event_target:bangdream_species
+		class = commander
+		skip_background_generation = no
+		name = PRESCRIPTED_ruler_name_mew1
+		custom_description = PRESCRIPTED_ruler_name_mew1_desc
+		immortal = yes
+		set_age = 18
+		hide_age = yes
+		gender = female
+		skill = 10
+		randomize_traits = no
+		background_ethic = ethic_xenophile
+		traits = {
+			trait = leader_trait_star_beat
+			trait = trait_yumenokessho
+		}
+		event_leader = yes
+		effect = {
+			change_leader_portrait = mew_leader_yumenokessho_portrait
+			set_leader_flag = mew
+			set_leader_flag = yumenokessho
+			set_leader_flag = legendary_leader
+			change_background_job = bgbn_yumenokessho
+			save_global_event_target_as = mew
+		}
+	}
+}
 fix_yumenokessho = {
 	every_owned_leader = {
 		limit = {
@@ -145,6 +174,14 @@ fix_yumenokessho = {
 			has_leader_flag = halo
 		}
 		change_leader_portrait = "halo_leader_yumenokessho_portrait"
+		set_age = 18
+		remove_all_negative_traits = yes
+	}
+	every_owned_leader = {
+		limit = {
+			has_leader_flag = mew
+		}
+		change_leader_portrait = "mew_leader_yumenokessho_portrait"
 		set_age = 18
 		remove_all_negative_traits = yes
 	}

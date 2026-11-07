@@ -55,5 +55,9 @@ spriteTypes = {
 		name = "GFX_edict_type_dumbrock"
 		textureFile = "gfx/interface/icons/dumbrock_edict_icon.dds"
 	}
+	spriteType = {
+		name = "GFX_edict_type_yumenokessho"
+		textureFile = "gfx/interface/icons/yumenokessho_edict_icon.dds"
+	}
 }
 

@@ -9,6 +9,7 @@ namespace = mujica
 namespace = mugendai
 namespace = millsage
 namespace = dumbrock
+namespace = yumenokessho
 namespace = bgbn_leader_fix
 
 #领袖事件
@@ -265,6 +266,95 @@ country_event = {
 		create_yomogi = yes
 		create_shizuku = yes
 		custom_tooltip = C_DUMBROCK
+	}
+}
+#yumenokessho.0（ROSE）——单人招募，骨架：配图待补
+country_event = {
+	id = yumenokessho.0
+	is_triggered_only = yes
+	picture = GFX_evt_yumenokessho_1
+	title = yumenokessho.0.t
+	desc = yumenokessho.0.d
+
+	immediate = {
+	}
+
+	option = {
+		name = yumenokessho.0.a
+		create_rose = yes
+		custom_tooltip = C_ROSE
+	}
+}
+
+#yumenokessho.1（PASTEL）——单人招募，骨架：配图待补
+country_event = {
+	id = yumenokessho.1
+	is_triggered_only = yes
+	picture = GFX_evt_yumenokessho_1
+	title = yumenokessho.1.t
+	desc = yumenokessho.1.d
+
+	immediate = {
+	}
+
+	option = {
+		name = yumenokessho.1.a
+		create_pastel = yes
+		custom_tooltip = C_PASTEL
+	}
+}
+
+#yumenokessho.2（HALO）——单人招募，骨架：配图待补
+country_event = {
+	id = yumenokessho.2
+	is_triggered_only = yes
+	picture = GFX_evt_yumenokessho_1
+	title = yumenokessho.2.t
+	desc = yumenokessho.2.d
+
+	immediate = {
+	}
+
+	option = {
+		name = yumenokessho.2.a
+		create_halo = yes
+		custom_tooltip = C_HALO
+	}
+}
+
+#yumenokessho.3（AVER）——单人招募，骨架：配图待补
+country_event = {
+	id = yumenokessho.3
+	is_triggered_only = yes
+	picture = GFX_evt_yumenokessho_1
+	title = yumenokessho.3.t
+	desc = yumenokessho.3.d
+
+	immediate = {
+	}
+
+	option = {
+		name = yumenokessho.3.a
+		create_aver = yes
+		custom_tooltip = C_AVER
+	}
+}
+
+#yumenokessho.4（MEW）——单人招募，骨架：配图待补
+country_event = {
+	id = yumenokessho.4
+	is_triggered_only = yes
+	picture = GFX_evt_yumenokessho_1
+	title = yumenokessho.4.t
+	desc = yumenokessho.4.d
+
+	immediate = {
+	}
+
+	option = {
+		name = yumenokessho.4.a
+		create_mew = yes
+		custom_tooltip = C_MEW
 	}
 }
 #修复事件
@@ -646,6 +736,36 @@ country_event = {
 					has_leader_flag = shizuku
 				}
 				change_leader_portrait = shizuku_leader_dumbrock_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = rose
+				}
+				change_leader_portrait = rose_leader_yumenokessho_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = pastel
+				}
+				change_leader_portrait = pastel_leader_yumenokessho_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = halo
+				}
+				change_leader_portrait = halo_leader_yumenokessho_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = aver
+				}
+				change_leader_portrait = aver_leader_yumenokessho_portrait
+			}
+			if = {
+				limit = { 
+					has_leader_flag = mew
+				}
+				change_leader_portrait = mew_leader_yumenokessho_portrait
 			}
 		}
 	}
