@@ -1,0 +1,75 @@
+#本局设置项的效果（effectButtonType 的 effect 指向这里）
+
+#额外日常事件开关
+bgbn_setting_extra_events_effect = {
+	potential = { always = yes }
+	allow = { always = yes }
+	effect = {
+		if = {
+			limit = { has_global_flag = bgbn_extra_events_on }
+			remove_global_flag = bgbn_extra_events_on
+		}
+		else = {
+			set_global_flag = bgbn_extra_events_on
+		}
+	}
+}
+bgbn_setting_extra_events_box_effect = {
+	potential = { has_global_flag = bgbn_extra_events_on }
+	allow = { always = yes }
+	effect = { custom_tooltip = bgbn_setting_enabled }
+}
+
+#开局赠礼（一次性）
+bgbn_setting_gift_effect = {
+	potential = { NOT = { has_global_flag = bgbn_gift_given } }
+	allow = { always = yes }
+	effect = {
+		set_global_flag = bgbn_gift_given
+		add_resource = { energy = 500 unity = 300 }
+	}
+}
+bgbn_setting_gift_box_effect = {
+	potential = { has_global_flag = bgbn_gift_given }
+	allow = { always = yes }
+	effect = { custom_tooltip = bgbn_setting_given }
+}
+
+#随机风味事件开关
+bgbn_setting_flavor_effect = {
+	potential = { always = yes }
+	allow = { always = yes }
+	effect = {
+		if = {
+			limit = { has_global_flag = bgbn_flavor_off }
+			remove_global_flag = bgbn_flavor_off
+		}
+		else = {
+			set_global_flag = bgbn_flavor_off
+		}
+	}
+}
+bgbn_setting_flavor_box_effect = {
+	potential = { NOT = { has_global_flag = bgbn_flavor_off } }
+	allow = { always = yes }
+	effect = { custom_tooltip = bgbn_setting_enabled }
+}
+
+#导航页（预留，点了只提示）
+bgbn_nav_home_effect = {
+	potential = { always = yes }
+	allow = { always = yes }
+	effect = { custom_tooltip = bgbn_nav_home_tip }
+}
+bgbn_nav_empty_effect = {
+	potential = { always = yes }
+	allow = { always = yes }
+	effect = { custom_tooltip = bgbn_nav_empty_tip }
+}
+
+#全局设置占位（真正的开关效果见上方 bgbn_setting_extra_events_effect 等，已预留）
+bgbn_setting_placeholder_effect = {
+	potential = { always = yes }
+	allow = { always = yes }
+	effect = { custom_tooltip = bgbn_setting_placeholder_tip }
+}

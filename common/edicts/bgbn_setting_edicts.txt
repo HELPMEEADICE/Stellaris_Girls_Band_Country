@@ -1,0 +1,28 @@
+#重新打开本局设置界面（决议）
+
+bgbn_open_setting = {
+    length = 1
+    icon = "GFX_edict_type_popipa"
+    resources = {
+        category = edicts
+        cost = {
+            energy = 0
+        }
+    }
+    allow = {
+        is_ai = no
+        has_country_flag = poppinparty
+    }
+    potential = {
+        is_ai = no
+        has_country_flag = poppinparty
+    }
+    ai_weight = {
+        weight = 0
+    }
+    effect = {
+        country_event = {
+            id = bgbn_start.2
+        }
+    }
+}

@@ -1,0 +1,127 @@
+guiTypes = {
+
+	#设置项的选项按钮容器（custom_gui_option 指向这里）
+	containerWindowType = {
+		name = "bgbn_setting_option"
+		position = { x=0 y=0 }
+		size = { width = 400 height = 57 }
+		moveable = no
+		buttonType = {
+			name = "option_button"
+			quadTextureSprite = "GFX_button_animated_265_34"
+			position = { x=0 y=0 }
+			font = "cg_16b"
+			text = "bgbn_tap_to_start"
+			clicksound = "confirm_click"
+		}
+
+		OverlappingElementsBoxType = {
+			name = "trigger_icons"
+			position = { x = 0  y = 10 }
+			size = { x=65 y= 28 }
+		}
+	}
+
+	#本局设置窗口
+	containerWindowType = {
+		name = "bgbn_setting_window"
+		orientation = center
+		origo = center
+		moveable = yes
+		size = { width = 1200 height = 800 }
+
+		background = {
+			name = "background"
+			quadTextureSprite = "gfx_message_bg"
+		}
+
+		#标题
+
+
+		#事件描述
+
+
+		#============ 左侧导航列 ============
+		#导航 1：主页（当前页）
+		effectButtonType = {
+			name = "bgbn_nav_home"
+			quadTextureSprite = "GFX_button_animated_265_34"
+			position = { x = 20 y = 100 }
+			clicksound = select_click
+			font = "cg_16b"
+			text = "bgbn_nav_home"
+			effect = "bgbn_nav_home_effect"
+		}
+		#导航 2 / 3 / 4：预留页（以后放内容）
+		effectButtonType = {
+			name = "bgbn_nav_2"
+			quadTextureSprite = "GFX_button_animated_265_34"
+			position = { x = 20 y = 170 }
+			clicksound = select_click
+			font = "cg_16b"
+			text = "bgbn_nav_2"
+			effect = "bgbn_nav_empty_effect"
+		}
+		effectButtonType = {
+			name = "bgbn_nav_3"
+			quadTextureSprite = "GFX_button_animated_265_34"
+			position = { x = 20 y = 240 }
+			clicksound = select_click
+			font = "cg_16b"
+			text = "bgbn_nav_3"
+			effect = "bgbn_nav_empty_effect"
+		}
+		effectButtonType = {
+			name = "bgbn_nav_4"
+			quadTextureSprite = "GFX_button_animated_265_34"
+			position = { x = 20 y = 310 }
+			clicksound = select_click
+			font = "cg_16b"
+			text = "bgbn_nav_4"
+			effect = "bgbn_nav_empty_effect"
+		}
+
+		#============ 主页：左上宣传图 ============
+		iconType = {
+			name = "bgbn_qq_group_picture"
+			spriteType = "GFX_evt_kirakira"  # TODO 换成 GFX_bgbn_qq_group（等 QQ 群宣传图）
+			position = { x = 250 y = 100 }
+		}
+
+		#============ 主页：右上变量条 ============
+		instantTextBoxType = {
+			name = "bgbn_var_text"
+			font = "cg_16b"
+			position = { x = 910 y = 120 }
+			maxWidth = 270
+			maxHeight = 40
+			format = left
+		}
+
+		#============ 主页：下方全局设置 ============
+		instantTextBoxType = {
+			name = "bgbn_global_header"
+			font = "cg_16b"
+			position = { x = 250 y = 470 }
+			maxWidth = 300
+			maxHeight = 30
+			format = left
+		}
+
+		#============ 全局设置：暂时只有一个可见占位 ============
+		#预留说明：三个开关的 effect 仍保留在 common/button_effects/bgbn_settings_button_effects.txt 里，
+		#以后要做「可随时改」的设置，直接在这里加 effectButtonType + effect 即可；
+		#要做「开局定了就不能改」的设置，在 effect 的 allow 里用条件锁住（如 has_global_flag 一旦设置就 NOT = {}）。
+		effectButtonType = {
+			name = "bgbn_setting_placeholder"
+			quadTextureSprite = "GFX_button_animated_265_34"
+			position = { x = 250 y = 510 }
+			clicksound = select_click
+			font = "cg_16b"
+			text = "bgbn_setting_placeholder"
+			effect = "bgbn_setting_placeholder_effect"
+		}
+
+	}
+
+}
