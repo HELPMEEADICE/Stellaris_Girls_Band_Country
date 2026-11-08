@@ -16,14 +16,14 @@ country_event = {
     option = {
         name = bgbn_live.1.a
         add_modifier = {
-            modifier = nothing_wrong_with_it
+            modifier = bgbn_live_1_a
             days = -1
         }
     }
     option = {
         name = bgbn_live.1.b
         add_modifier = {
-            modifier = necessary_seriousness
+            modifier = bgbn_live_1_b
             days = -1
         }
     }
@@ -45,7 +45,7 @@ country_event = {
     option = {
         name = bgbn_live.2.a
         add_modifier = {
-            modifier = bring_the_instruments 
+            modifier = bgbn_live_2 
             days = -1
         }
     }
@@ -75,6 +75,63 @@ country_event = {
         name = bgbn_live.3.b
         add_resource = {
             unity = 300
+        }
+    }
+}
+
+#轨道船坞的工程胡闹（RAS 三人组）
+country_event = {
+    id = bgbn_live.4
+    title = bgbn_live.4.name
+    desc = bgbn_live.4.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = bgbn_live.4.a
+        add_modifier = {
+            modifier = bgbn_live_4
+            days = -1
+        }
+    }
+    option = {
+        name = bgbn_live.4.b
+        add_resource = {
+            energy = 300
+            alloys = 100
+        }
+    }
+}
+
+#星尘标本盒（高松灯的收集癖）
+country_event = {
+    id = bgbn_live.5
+    title = bgbn_live.5.name
+    desc = bgbn_live.5.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = bgbn_live.5.a
+        add_modifier = {
+            modifier = bgbn_live_5
+            days = -1
+        }
+    }
+    option = {
+        name = bgbn_live.5.b
+        add_resource = {
+            alloys = 250
         }
     }
 }

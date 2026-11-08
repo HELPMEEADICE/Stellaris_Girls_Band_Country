@@ -24,7 +24,7 @@ country_event = {
             count = 1
             random_owned_planet = {
                 add_modifier = {
-                    modifier = amazing_rhythm 
+                    modifier = bgbn_ramdom_live_1 
                     days = -1
                 }
             }
@@ -103,7 +103,7 @@ country_event = {
         }
         event_target:bgbn_random_live_3_planet = {
             add_modifier = {
-                modifier = rectification_of_fan_groups
+                modifier = bgbn_ramdom_live_3
                 days = 1080
             }
         }
@@ -137,7 +137,7 @@ country_event = {
 		name = bgbn_ramdom_live.4.a
         event_target:bgbn_random_live_4_planet = {
             add_modifier = {
-                modifier = hollow_plague
+                modifier = bgbn_ramdom_live_4
                 days = 720
             }
         }
@@ -180,7 +180,7 @@ country_event = {
                 }
             }
             add_modifier = {
-                modifier = combat_crime
+                modifier = bgbn_ramdom_live_5
                 days = 720
             }
         }
@@ -245,7 +245,7 @@ country_event = {
 		name = bgbn_ramdom_live.7.a
         owner = {
             add_modifier = {
-                modifier = crack_in_trust
+                modifier = bgbn_ramdom_live_7
                 days = 1080
             }
             add_resource = {
@@ -280,7 +280,7 @@ country_event = {
 		name = bgbn_ramdom_live.8.a
         owner = {
             add_modifier = {
-                modifier = ardent_research_enthusiasts
+                modifier = bgbn_ramdom_live_8
                 days = 3600
             
             }

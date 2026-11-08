@@ -1,32 +1,46 @@
 #各种普通事件修正文件 通用国家修正图标gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds  国家修正是25x25左右的图标，一般是25x25		
 #				 通用星球修正图标gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds 星球修正图标颜色icon_frame = 1(绿色) 2（黄色） 3（红色） 星球图标是60x60图标文件里面54直径的圆形 
  #国家修正
-  #生活事件修正
-nothing_wrong_with_it = {
+  #生活事件修正（一般是一个修正只用一次）
+bgbn_live_1_a = {
 	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
 	logistic_growth_mult = 0.1
 }
-necessary_seriousness = {
+bgbn_live_1_b = {
 	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
 	planet_stability_add = 2
 }
-bring_the_instruments = {
+bgbn_live_2 = {
 	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
 	pop_happiness = 0.02
 	diplo_weight_mult = 0.05 #外交权重
 	country_trade_produces_mult = 0.03 #全国贸易额产出
 }
-crack_in_trust = {
+
+bgbn_live_4 = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	ship_fire_rate_mult = 0.05
+	country_energy_produces_mult = 0.05
+}
+
+bgbn_live_5 = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	science_ship_survey_speed = 0.10
+	pop_government_ethic_attraction = 0.10
+	country_unity_produces_mult = 0.05
+}
+bgbn_ramdom_live_7 = {
 	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
 	planet_stability_add = -10
 	planet_jobs_produces_mult = -0.1
 	country_unity_produces_mult = -0.2
 }
-ardent_research_enthusiasts = {
+bgbn_ramdom_live_8 = {
 	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
 	planet_stability_add = 2
 	planet_jobs_produces_mult = 0.05
 	country_unity_produces_mult = 0.2
+
 }
 bgbn_ramdom_live_9 = {
 	planet_stability_add = 20
@@ -66,22 +80,22 @@ abyssal_acumen = {
 
  #行星修正
    #生活事件
-amazing_rhythm = {
+bgbn_ramdom_live_1 = {
 	icon = "gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds"
 	icon_frame = 1 #绿色
 	planet_jobs_produces_mult = 0.1
 }
-rectification_of_fan_groups = {
+bgbn_ramdom_live_3 = {
 	icon = "gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds"
 	icon_frame = 3 
 	planet_stability_add = -15
 }
-hollow_plague  = {
+bgbn_ramdom_live_4  = {
 	icon = "gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds"
 	icon_frame = 3 
 	planet_jobs_produces_mult = -0.5
 }
-combat_crime = {
+bgbn_ramdom_live_5 = {
 	icon = "gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds"
 	icon_frame = 3 
 	planet_stability_add = -20
@@ -100,3 +114,5 @@ bgbn_ramdom_live_15 = {
 	planet_stability_add = -10
 	researcher_jobs_bonus_workforce_mult = -0.1
 }
+
+

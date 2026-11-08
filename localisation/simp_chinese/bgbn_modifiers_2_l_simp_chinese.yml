@@ -1,19 +1,21 @@
 ﻿l_simp_chinese:
  #国家修正
   #生活事件修正
- nothing_wrong_with_it: "“这没什么不好”"
- necessary_seriousness: "必要的严肃"
- bring_the_instruments: "带上乐器吧"
+ bgbn_live_1_a: "“这没什么不好”"
+ bgbn_live_1_b: "必要的严肃"
+ bgbn_live_2: "带上乐器吧"
  abyssal_acumen: "深渊洞察"
+ bgbn_live_4: "超低音导流腔"
+ bgbn_live_5: "星尘拾遗录"
  
  #行星修正
   #生活事件修正
- amazing_rhythm: "节奏达人"
- rectification_of_fan_groups: "整改粉丝团"
- hollow_plague: "空洞瘟疫"
- combat_crime: "打击犯罪"
- crack_in_trust: "信任危机"
- ardent_research_enthusiasts: "狂热的考据党"
+ bgbn_ramdom_live_1: "节奏达人"
+ bgbn_ramdom_live_3: "整改粉丝团"
+ bgbn_ramdom_live_4: "空洞瘟疫"
+ bgbn_ramdom_live_5: "打击犯罪"
+ bgbn_ramdom_live_7: "信任危机"
+ bgbn_ramdom_live_8: "狂热的考据党"
  bgbn_ramdom_live_9: "不要留在这草地上"
  bgbn_ramdom_live_10_a: "降温"
  bgbn_ramdom_live_10_b: "万物竟发"
