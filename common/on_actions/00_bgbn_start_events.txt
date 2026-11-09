@@ -5,6 +5,7 @@ on_game_start_country = {	#开局触发的事件
 		ksm.1				
 		bgbn_deposits.2		#给D球加我们的自制地块
 		bgbn_start.2		#开局欢迎界面
+		bgbn_violavirus.1		#开局满10年引出薇欧拉病毒危机
 	}
 }
 on_monthly_pulse_country = {	#每月触发一次的事件

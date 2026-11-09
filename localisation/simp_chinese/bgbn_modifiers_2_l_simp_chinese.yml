@@ -1,15 +1,15 @@
 ﻿l_simp_chinese:
- #国家修正
-  #生活事件修正
+ # ==================== 日常事件修正（bgbn_live）====================
  bgbn_live_1_a: "“这没什么不好”"
  bgbn_live_1_b: "必要的严肃"
  bgbn_live_2: "带上乐器吧"
- abyssal_acumen: "深渊洞察"
  bgbn_live_4: "超低音导流腔"
  bgbn_live_5: "星尘拾遗录"
- 
- #行星修正
-  #生活事件修正
+ bgbn_live_6: "红豆放学令"
+ bgbn_live_7: "狂想侧滑机动"
+ bgbn_live_8: "脉冲星对位谐波"
+
+ # ==================== 随机生活事件修正（bgbn_ramdom_live）====================
  bgbn_ramdom_live_1: "节奏达人"
  bgbn_ramdom_live_3: "整改粉丝团"
  bgbn_ramdom_live_4: "空洞瘟疫"
@@ -24,4 +24,20 @@
  bgbn_ramdom_live_16: "自然的闪耀"
  bgbn_ramdom_live_17: "人生五年"
  bgbn_ramdom_live_18: "如梦似幻"
- 
+
+ # ==================== 其他修正 ====================
+l_simp_chinese:
+ abyssal_acumen: "深渊洞察"
+
+ # ==================== 薇欧拉病毒（violavirus）事件修正 ====================
+ bgbn_violavirus_1_a: "全网深度溯源"
+ bgbn_violavirus_10: "声学防火墙"
+ bgbn_violavirus_11: "真音自白"
+ bgbn_violavirus_12: "探析假面"
+ bgbn_violavirus_13: "守护之盾"
+ bgbn_violavirus_14: "领袖之怒"
+ bgbn_violavirus_15: "解构伪物"
+ bgbn_violavirus_16: "收拢残片"
+ bgbn_violavirus_90: "初晓之律"
+ bgbn_violavirus_91: "绝缘假面"
+

@@ -1,15 +1,19 @@
-#各种普通事件修正文件 通用国家修正图标gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds  国家修正是25x25左右的图标，一般是25x25		
-#				 通用星球修正图标gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds 星球修正图标颜色icon_frame = 1(绿色) 2（黄色） 3（红色） 星球图标是60x60图标文件里面54直径的圆形 
- #国家修正
-  #生活事件修正（一般是一个修正只用一次）
+#各种普通事件修正文件 通用国家修正图标gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds  国家修正是25x25左右的图标，一般是25x25
+#通用星球修正图标gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds 星球修正图标颜色icon_frame = 1(绿色) 2（黄色） 3（红色） 星球图标是60x60图标文件里面54直径的圆形
+#国家修正
+
+# ==================== 日常事件修正（bgbn_live）====================
+
 bgbn_live_1_a = {
 	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
 	logistic_growth_mult = 0.1
 }
+
 bgbn_live_1_b = {
 	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
 	planet_stability_add = 2
 }
+
 bgbn_live_2 = {
 	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
 	pop_happiness = 0.02
@@ -29,12 +33,36 @@ bgbn_live_5 = {
 	pop_government_ethic_attraction = 0.10
 	country_unity_produces_mult = 0.05
 }
+
+bgbn_live_6 = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	pop_happiness = 0.03
+	empire_size_mult = 0.05
+	country_unity_produces_mult = 0.05
+}
+
+bgbn_live_7 = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	ship_evasion_mult = 0.10
+	ship_speed_mult = 0.10
+	ships_upkeep_mult = 0.05
+}
+
+bgbn_live_8 = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	country_physics_tech_research_speed = 0.10
+	country_unity_produces_mult = 0.05
+}
+
+# ==================== 随机生活事件修正（bgbn_ramdom_live）====================
+
 bgbn_ramdom_live_7 = {
 	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
 	planet_stability_add = -10
 	planet_jobs_produces_mult = -0.1
 	country_unity_produces_mult = -0.2
 }
+
 bgbn_ramdom_live_8 = {
 	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
 	planet_stability_add = 2
@@ -42,59 +70,55 @@ bgbn_ramdom_live_8 = {
 	country_unity_produces_mult = 0.2
 
 }
+
 bgbn_ramdom_live_9 = {
 	planet_stability_add = 20
 }
+
 bgbn_ramdom_live_10_a = {
 	pop_bonus_workforce_mult = 0.1
 }
+
 bgbn_ramdom_live_10_b = {
 	pop_bonus_workforce_mult = 0.2
 	budget_group_pops = 0.1
 }
+
 bgbn_ramdom_live_16 = {
 	logistic_growth_mult = 0.3
 }
+
 bgbn_ramdom_live_17 = {
 	planet_stability_add = -15
 	researcher_jobs_bonus_workforce_mult = 0.15
 	bureaucrat_jobs_bonus_workforce_mult = -0.20
 }
+
 bgbn_ramdom_live_18 = {
 	planet_stability_add = -10
 	happiness = -10
 	pop_bonus_workforce_mult = -20
 	all_technology_research_speed = -0.20
 }
-  #其他事件修正
-abyssal_acumen = {
-	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
-	country_physics_tech_research_speed = 0.15	#物理学科技研究速度
-	country_unity_produces_mult = 0.05
-}
 
-
-
-
-
-
- #行星修正
-   #生活事件
 bgbn_ramdom_live_1 = {
 	icon = "gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds"
 	icon_frame = 1 #绿色
 	planet_jobs_produces_mult = 0.1
 }
+
 bgbn_ramdom_live_3 = {
 	icon = "gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds"
 	icon_frame = 3 
 	planet_stability_add = -15
 }
+
 bgbn_ramdom_live_4  = {
 	icon = "gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds"
 	icon_frame = 3 
 	planet_jobs_produces_mult = -0.5
 }
+
 bgbn_ramdom_live_5 = {
 	icon = "gfx/interface/icons/planet_modifiers/bgbn_planets_modifiers_general_icon_kirakira.dds"
 	icon_frame = 3 
@@ -115,4 +139,66 @@ bgbn_ramdom_live_15 = {
 	researcher_jobs_bonus_workforce_mult = -0.1
 }
 
+# ==================== 其他修正 ====================
 
+abyssal_acumen = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	country_physics_tech_research_speed = 0.15	#物理学科技研究速度
+	country_unity_produces_mult = 0.05
+}
+
+# ==================== 薇欧拉病毒（violavirus）事件修正 ====================
+
+bgbn_violavirus_1_a = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	country_unity_produces_mult = 0.05
+}
+
+bgbn_violavirus_10 = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	planet_stability_add = 5
+}
+
+bgbn_violavirus_11 = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	country_unity_produces_mult = 0.10
+}
+
+bgbn_violavirus_12 = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	science_ship_survey_speed = 0.15
+}
+
+bgbn_violavirus_13 = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	pop_government_ethic_attraction = 0.10
+}
+
+bgbn_violavirus_14 = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	ship_speed_mult = 0.15
+	ship_weapon_damage = 0.10
+}
+
+bgbn_violavirus_15 = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	all_technology_research_speed = 0.10
+}
+
+bgbn_violavirus_16 = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	science_ship_survey_speed = 0.25
+}
+
+bgbn_violavirus_90 = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	pop_happiness = 0.10
+	country_unity_produces_mult = 0.15
+	country_trust_growth = 0.20
+}
+
+bgbn_violavirus_91 = {
+	icon = "gfx/interface/icons/modifiers/bgbn_modifiers_general_icon_kirakira.dds"
+	pop_government_ethic_attraction = 0.25
+	planet_stability_add = 10
+}

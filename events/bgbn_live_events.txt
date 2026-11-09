@@ -135,3 +135,87 @@ country_event = {
         }
     }
 }
+
+# 夕阳公文与红豆面包印鉴
+country_event = {
+    id = bgbn_live.6
+    title = bgbn_live.6.name
+    desc = bgbn_live.6.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = bgbn_live.6.a
+        add_modifier = {
+            modifier = bgbn_live_6
+            days = -1
+        }
+    }
+    option = {
+        name = bgbn_live.6.b
+        add_resource = {
+            unity = 250
+        }
+    }
+}
+
+# 米歇尔紧急脱离规程
+country_event = {
+    id = bgbn_live.7
+    title = bgbn_live.7.name
+    desc = bgbn_live.7.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = bgbn_live.7.a
+        add_modifier = {
+            modifier = bgbn_live_7
+            days = -1
+        }
+    }
+    option = {
+        name = bgbn_live.7.b
+        add_resource = {
+            energy = 350
+        }
+    }
+}
+
+# 脉冲星的小提琴对位法
+country_event = {
+    id = bgbn_live.8
+    title = bgbn_live.8.name
+    desc = bgbn_live.8.desc
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = bgbn_live.8.a
+        add_modifier = {
+            modifier = bgbn_live_8
+            days = -1
+        }
+    }
+    option = {
+        name = bgbn_live.8.b
+        add_resource = {
+            alloys = 200
+        }
+    }
+}

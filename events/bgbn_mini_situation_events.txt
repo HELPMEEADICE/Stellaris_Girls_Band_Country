@@ -1,0 +1,280 @@
+# ============================================================
+# 小型事件链 / 小型局势（所有小局势集中在这个文件，别再一个局势一个文件）
+# 现有分区：
+#   [薇欧拉病毒 violavirus] —— 「完美假面网络协议」危机局势
+# ============================================================
+
+# ==================== 薇欧拉病毒（violavirus）：完美假面网络协议 ====================
+namespace = bgbn_violavirus
+
+
+# 开局满 10 年后引出危机（引导事件，hide_window 不显示）
+country_event = {
+    id = bgbn_violavirus.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+
+    immediate = {
+        country_event = {
+            id = bgbn_violavirus.2
+            days = 3600
+        }
+    }
+}
+
+# 触发事件：开启局势
+country_event = {
+    id = bgbn_violavirus.2
+    title = bgbn_violavirus.2.name
+    desc = bgbn_violavirus.2.desc
+    picture = GFX_evt_board_meeting
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = poppinparty
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = bgbn_violavirus.2.a
+        add_modifier = {
+            modifier = bgbn_violavirus_1_a
+            days = -1
+        }
+        if = {
+            limit = { NOT = { country_has_situation = { SITUATION = situation_violavirus } } }
+            start_situation = { type = situation_violavirus }
+        }
+    }
+    option = {
+        name = bgbn_violavirus.2.b
+        add_resource = {
+			energy = 250
+			unity = 150
+        }
+        if = {
+            limit = { NOT = { country_has_situation = { SITUATION = situation_violavirus } } }
+            start_situation = { type = situation_violavirus }
+        }
+    }
+}
+
+# 阶段事件 10
+country_event = {
+    id = bgbn_violavirus.10
+    title = bgbn_violavirus.10.name
+    desc = bgbn_violavirus.10.desc
+    picture = GFX_evt_board_meeting
+    is_triggered_only = yes
+
+    option = {
+        name = bgbn_violavirus.10.a
+        add_modifier = {
+            modifier = bgbn_violavirus_10
+            days = -1
+        }
+    }
+    option = {
+        name = bgbn_violavirus.10.b
+        add_resource = {
+			energy = 200
+        }
+    }
+}
+
+# 阶段事件 11
+country_event = {
+    id = bgbn_violavirus.11
+    title = bgbn_violavirus.11.name
+    desc = bgbn_violavirus.11.desc
+    picture = GFX_evt_board_meeting
+    is_triggered_only = yes
+
+    option = {
+        name = bgbn_violavirus.11.a
+        add_modifier = {
+            modifier = bgbn_violavirus_11
+            days = -1
+        }
+    }
+    option = {
+        name = bgbn_violavirus.11.b
+        add_resource = {
+			alloys = 300
+        }
+    }
+}
+
+# 阶段事件 12
+country_event = {
+    id = bgbn_violavirus.12
+    title = bgbn_violavirus.12.name
+    desc = bgbn_violavirus.12.desc
+    picture = GFX_evt_board_meeting
+    is_triggered_only = yes
+
+    option = {
+        name = bgbn_violavirus.12.a
+        add_modifier = {
+            modifier = bgbn_violavirus_12
+            days = -1
+        }
+    }
+    option = {
+        name = bgbn_violavirus.12.b
+        add_resource = {
+			influence = 200
+        }
+    }
+}
+
+# 阶段事件 13
+country_event = {
+    id = bgbn_violavirus.13
+    title = bgbn_violavirus.13.name
+    desc = bgbn_violavirus.13.desc
+    picture = GFX_evt_board_meeting
+    is_triggered_only = yes
+
+    option = {
+        name = bgbn_violavirus.13.a
+        add_modifier = {
+            modifier = bgbn_violavirus_13
+            days = -1
+        }
+    }
+    option = {
+        name = bgbn_violavirus.13.b
+        add_resource = {
+			unity = 300
+        }
+    }
+}
+
+# 阶段事件 14
+country_event = {
+    id = bgbn_violavirus.14
+    title = bgbn_violavirus.14.name
+    desc = bgbn_violavirus.14.desc
+    picture = GFX_evt_board_meeting
+    is_triggered_only = yes
+
+    option = {
+        name = bgbn_violavirus.14.a
+        add_modifier = {
+            modifier = bgbn_violavirus_14
+            days = -1
+        }
+    }
+    option = {
+        name = bgbn_violavirus.14.b
+        add_resource = {
+			alloys = 250
+			influence = 150
+        }
+    }
+}
+
+# 阶段事件 15
+country_event = {
+    id = bgbn_violavirus.15
+    title = bgbn_violavirus.15.name
+    desc = bgbn_violavirus.15.desc
+    picture = GFX_evt_board_meeting
+    is_triggered_only = yes
+
+    option = {
+        name = bgbn_violavirus.15.a
+        add_modifier = {
+            modifier = bgbn_violavirus_15
+            days = -1
+        }
+    }
+    option = {
+        name = bgbn_violavirus.15.b
+        add_resource = {
+			energy = 350
+			unity = 100
+        }
+    }
+}
+
+# 阶段事件 16
+country_event = {
+    id = bgbn_violavirus.16
+    title = bgbn_violavirus.16.name
+    desc = bgbn_violavirus.16.desc
+    picture = GFX_evt_board_meeting
+    is_triggered_only = yes
+
+    option = {
+        name = bgbn_violavirus.16.a
+        add_modifier = {
+            modifier = bgbn_violavirus_16
+            days = -1
+        }
+    }
+    option = {
+        name = bgbn_violavirus.16.b
+        add_resource = {
+			alloys = 300
+        }
+    }
+}
+
+# 终局抉择（设旗标，等进度完成触发结局）
+country_event = {
+    id = bgbn_violavirus.17
+    title = bgbn_violavirus.17.name
+    desc = bgbn_violavirus.17.desc
+    picture = GFX_evt_board_meeting
+    is_triggered_only = yes
+
+    option = {
+        name = bgbn_violavirus.17.a
+        set_country_flag = bgbn_violavirus_purify
+    }
+    option = {
+        name = bgbn_violavirus.17.b
+        set_country_flag = bgbn_violavirus_reprogram
+    }
+}
+
+# 结局 90：破茧新声
+country_event = {
+    id = bgbn_violavirus.90
+    title = bgbn_violavirus.90.name
+    desc = bgbn_violavirus.90.desc
+    picture = GFX_evt_kirakira
+    is_triggered_only = yes
+
+    option = {
+        name = bgbn_violavirus.90.a
+        add_modifier = {
+            modifier = bgbn_violavirus_90
+            days = -1
+        }
+    }
+}
+
+# 结局 91：镜面止水
+country_event = {
+    id = bgbn_violavirus.91
+    title = bgbn_violavirus.91.name
+    desc = bgbn_violavirus.91.desc
+    picture = GFX_evt_kirakira
+    is_triggered_only = yes
+
+    option = {
+        name = bgbn_violavirus.91.a
+        add_modifier = {
+            modifier = bgbn_violavirus_91
+            days = -1
+        }
+    }
+}
